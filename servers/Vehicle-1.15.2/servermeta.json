@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "参加勢格付けチェック (Minecraft 1.15.2)",
+    "description": "参加勢格付けチェック企画",
+    "address": "",
+    "discord": {
+      "shortId": "参加勢格付けチェック",
+      "largeImageText": "参加勢格付けチェック",
+      "largeImageKey": "pack_kaku"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "31.2.31"
+  },
+  "untrackedFiles": []
+}

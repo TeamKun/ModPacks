@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "GTAクラフト(Minecraft 1.15.2)",
+    "description": "GTAクラフト(単発)",
+    "address": "",
+    "discord": {
+      "shortId": "GTAクラフト",
+      "largeImageText": "GTAクラフト",
+      "largeImageKey": "pack_7"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "31.2.9"
+  },
+  "untrackedFiles": []
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "無重力クラフト (Minecraft 1.16.5)",
+    "description": "無重力クラフト",
+    "address": "",
+    "discord": {
+      "shortId": "無重力クラフト",
+      "largeImageText": "無重力クラフト",
+      "largeImageKey": "pack_2"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "36.0.44"
+  },
+  "untrackedFiles": []
+}

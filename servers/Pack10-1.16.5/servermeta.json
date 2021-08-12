@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "ニコニコクラフト (Minecraft 1.16.5)",
+    "description": "ニコニコ動画風チャットMod",
+    "address": "",
+    "discord": {
+      "shortId": "ニコニコクラフト",
+      "largeImageText": "ニコニコクラフト",
+      "largeImageKey": "pack_2"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "36.1.0"
+  },
+  "untrackedFiles": []
+}

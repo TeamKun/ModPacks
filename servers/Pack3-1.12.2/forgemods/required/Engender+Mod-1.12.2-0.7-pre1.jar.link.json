@@ -1,0 +1,10 @@
+{
+  "id": "net.minecraft.ageofminecraft:ageofminecraft:Pre Release 1@jar",
+  "name": "Engender - The Age of Minecraft",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 176200002,
+    "url": "https://media.forgecdn.net/files/2849/572/Engender+Mod-1.12.2-0.7-pre1.jar", 
+    "MD5": "c70cdd27681f9094bce7a0c63d79ab9e"
+  }
+}

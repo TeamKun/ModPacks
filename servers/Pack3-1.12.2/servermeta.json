@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Modクラフト (Minecraft 1.12.2)",
+    "description": "毎回1個ずつModを追加します",
+    "address": "",
+    "discord": {
+      "shortId": "Modクラフト",
+      "largeImageText": "Modクラフト",
+      "largeImageKey": "pack_modcraft"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "14.23.5.2855"
+  },
+  "untrackedFiles": []
+}

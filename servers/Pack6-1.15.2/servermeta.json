@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "ミュージッククラフト(Minecraft 1.15.2)",
+    "description": "ミュージッククラフト(単発)",
+    "address": "",
+    "discord": {
+      "shortId": "ミュージッククラフトクラフト",
+      "largeImageText": "ミュージッククラフトクラフト",
+      "largeImageKey": "pack_6"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "31.2.9"
+  },
+  "untrackedFiles": []
+}

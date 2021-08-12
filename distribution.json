@@ -1,0 +1,2959 @@
+{
+  "version": "1.0.0",
+  "rss": "https://raw.githubusercontent.com/TeamKun/NumaPacks/news/news.rss",
+  "discord": {
+    "clientId": "784714976329596938",
+    "smallImageText": "沼ランチャー",
+    "smallImageKey": "pack_numa"
+  },
+  "servers": [
+    {
+      "id": "Minecraft-1.12.2",
+      "name": "バニラ1.12.2 (Minecraft 1.12.2)",
+      "description": "1.12.2 + 便利なModが導入されたおすすめのパックです。",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Minecraft-1.12.2/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "バニラ1.12.2",
+        "largeImageText": "バニラ1.12.2",
+        "largeImageKey": "pack_12"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4464068,
+            "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2854",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10873,
+                "MD5": "814f52398b6ebf70d22571307d2298eb",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.kunmc.lab:aspectguide:1.0-SNAPSHOT@jar",
+          "name": "AspectGuide",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5520,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Minecraft-1.12.2/forgemods/optionaloff/aspectguide-1.12.2-1.0-SNAPSHOT.jar",
+            "MD5": "81ddc3da02e4feaa30b22d60d55696ff"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.6.0@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30446,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Minecraft-1.12.2/forgemods/optionalon/reauth-3.6.0.jar",
+            "MD5": "6024686e40df10b8739042ea2dce7f1a"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Minecraft-1.15.2",
+      "name": "バニラ1.15.2 (Minecraft 1.15.2)",
+      "description": "1.15.2 + 便利なModが導入されたおすすめのパックです。",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Minecraft-1.15.2/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.15.2",
+      "discord": {
+        "shortId": "バニラ1.15.2",
+        "largeImageText": "バニラ1.15.2",
+        "largeImageKey": "pack_15"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.15.2-31.2.9:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 6509304,
+            "MD5": "b10eaa5a305ce6af6d08bf74a1fcbbe0",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.15.2-31.2.9/forge-1.15.2-31.2.9-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.8.1@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35214,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Minecraft-1.15.2/forgemods/optionalon/ReAuth-1.14-1.15-3.8.1.jar",
+            "MD5": "7a2655c439bb612f744afbe1bb3e56f7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.kunmc.lab:vplayer:1.1-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37609339,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Minecraft-1.15.2/forgemods/optionalon/vplayer-1.1-SNAPSHOT-all.jar",
+            "MD5": "5de63bef9b389fa04882fa00e92d54da"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Minecraft-1.16.5",
+      "name": "バニラ1.16.5 (Minecraft 1.16.5)",
+      "description": "1.16.5 + 便利なModが導入されたおすすめのパックです。",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Minecraft-1.16.5/pack.png",
+      "version": "1.0.1",
+      "address": "",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "バニラ1.16.5",
+        "largeImageText": "バニラ1.16.5",
+        "largeImageKey": "pack_16"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.1.0:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 7225119,
+            "MD5": "ace24a5bfc910af72de81a51dbbf7897",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "net.kunmc.lab:aspectguide:1.0-SNAPSHOT@jar",
+          "name": "AspectGuide",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7502,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Minecraft-1.16.5/forgemods/optionaloff/aspectguide-1.0-SNAPSHOT.jar",
+            "MD5": "ba3585b7b419920f9271f1feead5b748"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "kotx.customgui:customgui:0.1@jar",
+          "name": "CustomGUI Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13802416,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Minecraft-1.16.5/forgemods/optionalon/CustomGUI-mod-2.0.4.jar",
+            "MD5": "1bf94c049deda95f0be77358663fb695"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.9.3@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38126,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Minecraft-1.16.5/forgemods/optionalon/ReAuth-1.16-Forge-3.9.3.jar",
+            "MD5": "3b3095744e922d89ab6443529865df43"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.kunmc.lab:vplayer:1.2-1.16.5-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37610980,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Minecraft-1.16.5/forgemods/optionalon/vplayer-1.2-1.16.5-SNAPSHOT-all.jar",
+            "MD5": "c606ac343b1893d8d30e686f96e4d7f7"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pack1-1.12.2",
+      "name": "エベレストクラフト (Minecraft 1.12.2)",
+      "description": "エベレストクラフト (単発)",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack1-1.12.2/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "エベレストクラフト",
+        "largeImageText": "エベレストクラフト",
+        "largeImageKey": "pack_1"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4464068,
+            "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2854",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10873,
+                "MD5": "814f52398b6ebf70d22571307d2298eb",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
+          "name": "BetterFps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 155196,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack1-1.12.2/forgemods/optionaloff/BetterFps-1.4.8.jar",
+            "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.teamfruit:emojicord:1.1.1.39@jar",
+          "name": "Emojicord",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 407314,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack1-1.12.2/forgemods/optionaloff/Emojicord-1.12.2-1.1.1.39-universal.jar",
+            "MD5": "0688ab2c92a1b0fb41b4291164afecf1"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "pl.asie:foamfix:0.10.5-1.12.2@jar",
+          "name": "FoamFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 211210,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack1-1.12.2/forgemods/optionaloff/foamfix-0.10.5-1.12.2.jar",
+            "MD5": "ec2829750206833af9ee098c5ddb8e32"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "invtweaks:inventorytweaks:1.63+release.109.220f184@jar",
+          "name": "Inventory Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 263258,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack1-1.12.2/forgemods/optionaloff/InventoryTweaks-1.63.jar",
+            "MD5": "1e2e33e5710394252abc4b014bc3dcbd"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.6.0@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30446,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack1-1.12.2/forgemods/optionalon/reauth-3.6.0.jar",
+            "MD5": "6024686e40df10b8739042ea2dce7f1a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "CubicChunks-1.12.2-0.0.1185.0-SNAPSHOT-all.jar",
+          "name": "CubicChunks-1.12.2-0.0.1185.0-SNAPSHOT-all.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2061117,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack1-1.12.2/files/mods/CubicChunks-1.12.2-0.0.1185.0-SNAPSHOT-all.jar",
+            "MD5": "435239e1f61c0266cc8ca3ff5aab28fc",
+            "path": "mods/CubicChunks-1.12.2-0.0.1185.0-SNAPSHOT-all.jar"
+          }
+        },
+        {
+          "id": "CubicWorldGen-1.12.2-0.0.145.0-SNAPSHOT-all.jar",
+          "name": "CubicWorldGen-1.12.2-0.0.145.0-SNAPSHOT-all.jar",
+          "type": "File",
+          "artifact": {
+            "size": 703730,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack1-1.12.2/files/mods/CubicWorldGen-1.12.2-0.0.145.0-SNAPSHOT-all.jar",
+            "MD5": "769690364fae9adb8c2d5e6c655f8cf5",
+            "path": "mods/CubicWorldGen-1.12.2-0.0.145.0-SNAPSHOT-all.jar"
+          }
+        },
+        {
+          "id": "letsencryptcraft-1.10.2-1.2.0.jar",
+          "name": "letsencryptcraft-1.10.2-1.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7091,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack1-1.12.2/files/mods/letsencryptcraft-1.10.2-1.2.0.jar",
+            "MD5": "5d9c83f6d734ce5c8b11a7184dc3507e",
+            "path": "mods/letsencryptcraft-1.10.2-1.2.0.jar"
+          }
+        },
+        {
+          "id": "malisiscore-1.12.2-6.5.1.jar",
+          "name": "malisiscore-1.12.2-6.5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1939783,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack1-1.12.2/files/mods/malisiscore-1.12.2-6.5.1.jar",
+            "MD5": "ccc183a97d7b9688a49bf29b61343f49",
+            "path": "mods/malisiscore-1.12.2-6.5.1.jar"
+          }
+        },
+        {
+          "id": "terra121-0.1.5.1.jar",
+          "name": "terra121-0.1.5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6643686,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack1-1.12.2/files/mods/terra121-0.1.5.1.jar",
+            "MD5": "0f38311d8c08d60d0852ddea4c16d276",
+            "path": "mods/terra121-0.1.5.1.jar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pack10-1.16.5",
+      "name": "ニコニコクラフト (Minecraft 1.16.5)",
+      "description": "ニコニコ動画風チャットMod",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack10-1.16.5/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "ニコニコクラフト",
+        "largeImageText": "ニコニコクラフト",
+        "largeImageKey": "pack_2"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.1.0:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 7225119,
+            "MD5": "ace24a5bfc910af72de81a51dbbf7897",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "net.kunmc.lab:nicochat:1.2.1@jar",
+          "name": "NicoChat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30740,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack10-1.16.5/forgemods/required/nicochat-1.2.1.jar",
+            "MD5": "d6052a80e3a933b5d10cbfd3241ed930"
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.9.3@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38126,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack10-1.16.5/forgemods/optionalon/ReAuth-1.16-Forge-3.9.3.jar",
+            "MD5": "3b3095744e922d89ab6443529865df43"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.kunmc.lab:vplayer:1.2-1.16.5-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37610980,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack10-1.16.5/forgemods/required/vplayer-1.2-1.16.5-SNAPSHOT-all.jar",
+            "MD5": "c606ac343b1893d8d30e686f96e4d7f7"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pack11-1.16.5",
+      "name": "ラッキーブロック (Minecraft 1.16.5)",
+      "description": "ラッキーブロックの単発企画",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack11-1.16.5/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "ラッキーブロック",
+        "largeImageText": "ラッキーブロック",
+        "largeImageKey": "pack_morph"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.1.0:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 7225119,
+            "MD5": "ace24a5bfc910af72de81a51dbbf7897",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "mod.lucky:lucky:1.16.5-1@jar",
+          "name": "Lucky Block",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 215887,
+            "MD5": "939f47eb83223a51abdea3c03842cd9b",
+            "url": "",
+            "manual": {
+              "url": "https://www.luckyblockmod.com/",
+              "name": "luckyblock-1.16.5-1-forge.jar",
+              "video": "https://www.youtube.com/watch?v=pltT0vqiKS8",
+              "hints": [
+                {
+                  "css": "a[href='/download?platform=forge']"
+                },
+                {
+                  "css": "a[href='/download/1.16.5-1-forge/']"
+                },
+                {
+                  "css": "a[href='./download']"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.9.3@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38126,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack11-1.16.5/forgemods/optionalon/ReAuth-1.16-Forge-3.9.3.jar",
+            "MD5": "3b3095744e922d89ab6443529865df43"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pack12-1.8.9",
+      "name": "エメラルドラッキーブロック (Minecraft 1.8.9)",
+      "description": "エメラルドラッキーブロック(1.8.9)の単発企画",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack12-1.8.9/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.8.9",
+      "discord": {
+        "shortId": "エメラルドラッキーブロック",
+        "largeImageText": "エメラルドラッキーブロック",
+        "largeImageKey": "pack_morph"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 3805686,
+            "MD5": "b97a4c5bc653c957663e7b0de17a3c09",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-all:5.0.3@jar",
+              "name": "Minecraft Forge (asm-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 241639,
+                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+              }
+            },
+            {
+              "id": "jline:jline:2.13@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 248566,
+                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/jline/jline/2.13/jline-2.13.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:4.6@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 62477,
+                "MD5": "13560a58a79b46b82057686543e8d727",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "mod.lucky:lucky:7.0.0@jar",
+          "name": "Lucky Block",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 215888,
+            "MD5": "b816714ecec6ff1cdbca405eeb9105b5",
+            "url": "",
+            "manual": {
+              "url": "https://www.luckyblockmod.com/",
+              "name": "luckyblock-1.8.9-1-forge.jar",
+              "video": "https://www.youtube.com/watch?v=pltT0vqiKS8",
+              "hints": [
+                {
+                  "css": "a[href='/download?platform=forge']"
+                },
+                {
+                  "css": "a[href='/download/1.8.9-1-forge/']"
+                },
+                {
+                  "css": "a[href='./download']"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "[MC+1.8-1.8.9]+Emerald+Lucky+Block+v1.10.zip",
+          "name": "[MC+1.8-1.8.9]+Emerald+Lucky+Block+v1.10.zip",
+          "type": "File",
+          "artifact": {
+            "size": 8316467,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack12-1.8.9/files/addons/lucky_block/[MC+1.8-1.8.9]+Emerald+Lucky+Block+v1.10.zip",
+            "MD5": "f7cbb99224e8505850cc02275af2ea0a",
+            "path": "addons/lucky_block/[MC+1.8-1.8.9]+Emerald+Lucky+Block+v1.10.zip"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pack13-1.16.5",
+      "name": "テスト用 (Minecraft 1.16.5)",
+      "description": "沼ランのテスト用",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack13-1.16.5/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "テスト用",
+        "largeImageText": "テスト用",
+        "largeImageKey": "pack_morph"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.1.0:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 7225119,
+            "MD5": "ace24a5bfc910af72de81a51dbbf7897",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "BambooDownloadSample.jar",
+          "name": "BambooDownloadSample.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1270992,
+            "MD5": "3334e92e3874a323e9ba4784b3d16bb7",
+            "path": "downloadsample/BambooDownloadSample.jar",
+            "manual": {
+              "url": "https://forum.civa.jp/viewtopic.php?f=3&t=279(%E6%96%B0%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A9%E3%83%A0",
+              "name": "Bamboo-3.0.0.12.2.jar",
+              "video": "https://www.youtube.com/watch?v=pltT0vqiKS8",
+              "hints": [
+                {
+                  "css": "div.spoiler-header:has(div.spoiler-title:contains('古いやつ、整理して旧verリンク修正')) div.spoiler-status"
+                },
+                {
+                  "css": "a:contains('竹mod(minecraft1.10.2)(3.0.0.12.2)')"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "GitHubDownloadSample.jar",
+          "name": "GitHubDownloadSample.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2061117,
+            "MD5": "435239e1f61c0266cc8ca3ff5aab28fc",
+            "path": "downloadsample/GitHubDownloadSample.jar",
+            "manual": {
+              "url": "https://github.com/TeamKun/NumaPacks/tree/deploy/servers/Pack1-1.12.2/files/",
+              "name": "CubicChunks-1.12.2-0.0.1185.0-SNAPSHOT-all.jar",
+              "video": "https://www.youtube.com/watch?v=pltT0vqiKS8",
+              "hints": [
+                {
+                  "css": "div[role=rowheader]:has(a[href='/TeamKun/NumaPacks/tree/deploy/servers/Pack1-1.12.2/files/mods'])"
+                },
+                {
+                  "css": "div[role=rowheader]:has(a[href='/TeamKun/NumaPacks/blob/deploy/servers/Pack1-1.12.2/files/mods/CubicChunks-1.12.2-0.0.1185.0-SNAPSHOT-all.jar'])"
+                },
+                {
+                  "css": "a[href='/TeamKun/NumaPacks/raw/deploy/servers/Pack1-1.12.2/files/mods/CubicChunks-1.12.2-0.0.1185.0-SNAPSHOT-all.jar']"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "OptiFineSample.jar",
+          "name": "OptiFineSample.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6046996,
+            "MD5": "e0717ba6d1674af83036ebc479fc77b4",
+            "path": "downloadsample/OptiFineSample.jar",
+            "manual": {
+              "url": "https://optifine.net/downloads",
+              "name": "OptiFine_1.16.5_HD_U_G8.jar",
+              "video": "https://www.youtube.com/watch?v=pltT0vqiKS8",
+              "hints": [
+                {
+                  "css": ".downloadTable .colMirror:has(> a[href='http://optifine.net/adloadx?f=OptiFine_1.16.5_HD_U_G8.jar'])"
+                },
+                {
+                  "css": ".downloadButton>a"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pack2-1.16.5",
+      "name": "無重力クラフト (Minecraft 1.16.5)",
+      "description": "無重力クラフト",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack2-1.16.5/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "無重力クラフト",
+        "largeImageText": "無重力クラフト",
+        "largeImageKey": "pack_2"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.0.44:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 7170645,
+            "MD5": "92ba08dd40ec821a369489696084b967",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.0.44/forge-1.16.5-36.0.44-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "net.kunmc.lab.nogravitymod:no-gravity-mod:1.0@jar",
+          "name": "No Gravity Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9124,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack2-1.16.5/forgemods/required/no-gravity-mod-1.0.jar",
+            "MD5": "ce142ca9a49e4a660c4b08a10e3410e9"
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.9.3@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38126,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack2-1.16.5/forgemods/optionalon/ReAuth-1.16-Forge-3.9.3.jar",
+            "MD5": "3b3095744e922d89ab6443529865df43"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pack3-1.12.2",
+      "name": "Modクラフト (Minecraft 1.12.2)",
+      "description": "毎回1個ずつModを追加します",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "Modクラフト",
+        "largeImageText": "Modクラフト",
+        "largeImageKey": "pack_modcraft"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4464387,
+            "MD5": "02fcc447bb8938e5214292e4d36ec949",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2855",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10873,
+                "MD5": "5d114618e561d76e0f692c2d69dcb784",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
+          "name": "BetterFps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 155196,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionaloff/BetterFps-1.4.8.jar",
+            "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.direwolf20:buildinggadgets:2.8.4@jar",
+          "name": "Building Gadgets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 719492,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/required/BuildingGadgets-2.8.4.jar",
+            "MD5": "d1688618cf1df0e0aaab526fb4922b39"
+          }
+        },
+        {
+          "id": "chancecubes:chancecubes:1.12.2-5.0.2.385@jar",
+          "name": "Chance Cubes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 927880,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/required/ChanceCubes-1.12.2-5.0.2.385.jar",
+            "MD5": "69222f5df18306a07c3ba224d168f5ff"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:9.2.8@jar",
+          "name": "Default Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15056,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionalon/DefaultOptions_1.12.2-9.2.8.jar",
+            "MD5": "5510673c0fad1e3b6617b3d97d54b3d5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.teamfruit:emojicord:1.1.1.39@jar",
+          "name": "Emojicord",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 407314,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionaloff/Emojicord-1.12.2-1.1.1.39-universal.jar",
+            "MD5": "0688ab2c92a1b0fb41b4291164afecf1"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "mchorse.emoticons:emoticons:0.7-1.12.2@jar",
+          "name": "Emoticons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1973211,
+            "url": "https://media.forgecdn.net/files/3406/677/emoticons-1.0.1-1.12.2-dist.jar",
+            "MD5": "1a59abc0789a74c6de7a3ba7b4a32303"
+          }
+        },
+        {
+          "id": "net.minecraft.ageofminecraft:ageofminecraft:Pre Release 1@jar",
+          "name": "Engender - The Age of Minecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 176200002,
+            "url": "https://media.forgecdn.net/files/2849/572/Engender+Mod-1.12.2-0.7-pre1.jar",
+            "MD5": "c70cdd27681f9094bce7a0c63d79ab9e"
+          }
+        },
+        {
+          "id": "pl.asie:foamfix:0.10.5-1.12.2@jar",
+          "name": "FoamFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 211210,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionaloff/foamfix-0.10.5-1.12.2.jar",
+            "MD5": "ec2829750206833af9ee098c5ddb8e32"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "invtweaks:inventorytweaks:1.63+release.109.220f184@jar",
+          "name": "Inventory Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 263258,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionaloff/InventoryTweaks-1.63.jar",
+            "MD5": "1e2e33e5710394252abc4b014bc3dcbd"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.301@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 653211,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionalon/jei_1.12.2-4.16.1.301.jar",
+            "MD5": "1dee4be93d666e2228039c551e927b35"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.snowshock35:jeiintegration:1.5.1.36@jar",
+          "name": "JEI Integration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54046,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionalon/jeiintegration_1.12.2-1.5.1.36.jar",
+            "MD5": "de73cdc5de95a2685e50d90f01c03a50"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "jeresources:jeresources:0.9.2@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 222270,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionalon/JustEnoughResources-1.12.2-0.9.2.60.jar",
+            "MD5": "87a4666549a60d8fb423883dd4ee6232"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.github.terminatornl:laggoggles:1.12.2-5.8-132@jar",
+          "name": "LagGoggles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 182688,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionaloff/LagGoggles-1.12.2-5.8-132.jar",
+            "MD5": "02d6e4135058e41d65af8a3b4710a581"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "slimeknights.mantle:mantle:1.3.3.55@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 843486,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/required/Mantle-1.12-1.3.3.55.jar",
+            "MD5": "1026f5f8d3c4997831decd9023ca65a6"
+          }
+        },
+        {
+          "id": "mchorse.mclib:mclib:2.2.2-1.12.2@jar",
+          "name": "McLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 492045,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/required/mclib-2.2.2-1.12.2.jar",
+            "MD5": "f7e7ee41ad99b77915b673b8c791d188"
+          }
+        },
+        {
+          "id": "me.ferdz:placeableitems:3.3@jar",
+          "name": "Placeable Items Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 610245,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/required/placeableitems-3.3.jar",
+            "MD5": "16521efbb0024592c1f0577f284a223d"
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.6.0@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30446,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionalon/reauth-3.6.0.jar",
+            "MD5": "6024686e40df10b8739042ea2dce7f1a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "li.cil:scannable:1.6.3.26@jar",
+          "name": "Scannable",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 252718,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/required/Scannable-MC1.12.2-1.6.3.26.jar",
+            "MD5": "47f919498bd29961f62b6655b8d76f2e"
+          }
+        },
+        {
+          "id": "com.kamesuta.mc:signpic:2.8.1@jar",
+          "name": "SignPicture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1086045,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionaloff/SignPicture-1.12.1-2.8.1-universal.jar",
+            "MD5": "194694802feeec670f11f40b36b2ec8a"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "slimeknights.tconstruct:tconstruct:1.12.2-2.13.0.183@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4023372,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/required/TConstruct-1.12.2-2.13.0.183.jar",
+            "MD5": "710d64342d41042b7d6ced891448e727"
+          }
+        },
+        {
+          "id": "com.github.terminatornl.tickcentral:TickCentral:3.2@jar",
+          "name": "TickCentral",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 53554,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionaloff/TickCentral-3.2.jar",
+            "MD5": "3d92957c560795cf2107c491dc1eb2ed"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.darkhax:wawla:2.6.275@jar",
+          "name": "What Are We Looking At",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 94115,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/forgemods/optionaloff/Wawla-1.12.2-2.6.275.jar",
+            "MD5": "3762f87395a87af86e9552c6d7ca7e06"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "keybindings.txt",
+          "name": "keybindings.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2034,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/defaultoptions/keybindings.txt",
+            "MD5": "b11601d2238de835393bdf0fe4898fde",
+            "path": "config/defaultoptions/keybindings.txt"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 244,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/config.json",
+            "MD5": "f5f3284d75c2c6339559c04e076437ab",
+            "path": "config/emoticons/config.json"
+          }
+        },
+        {
+          "id": "Banzai.bobj",
+          "name": "Banzai.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 7326,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/Banzai.bobj",
+            "MD5": "2c526ed3faee0eed00270f260fb8adaf",
+            "path": "config/emoticons/emotes/Banzai.bobj"
+          }
+        },
+        {
+          "id": "Banzai.json",
+          "name": "Banzai.json",
+          "type": "File",
+          "artifact": {
+            "size": 91,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/Banzai.json",
+            "MD5": "8b46f4a735cde5b10ea8b06bc9868db7",
+            "path": "config/emoticons/emotes/Banzai.json"
+          }
+        },
+        {
+          "id": "Gibraltar1.bobj",
+          "name": "Gibraltar1.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 28701,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/Gibraltar1.bobj",
+            "MD5": "9226522dfcea6430b01527cc5a3ec8de",
+            "path": "config/emoticons/emotes/Gibraltar1.bobj"
+          }
+        },
+        {
+          "id": "Gibraltar1.json",
+          "name": "Gibraltar1.json",
+          "type": "File",
+          "artifact": {
+            "size": 108,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/Gibraltar1.json",
+            "MD5": "d4014e44ca91f07c53fe44496cb3a77e",
+            "path": "config/emoticons/emotes/Gibraltar1.json"
+          }
+        },
+        {
+          "id": "KAIKING.bobj",
+          "name": "KAIKING.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 5256,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/KAIKING.bobj",
+            "MD5": "dd093f732cb1854847fa215baaba1a83",
+            "path": "config/emoticons/emotes/KAIKING.bobj"
+          }
+        },
+        {
+          "id": "KAIKING.json",
+          "name": "KAIKING.json",
+          "type": "File",
+          "artifact": {
+            "size": 89,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/KAIKING.json",
+            "MD5": "c748070f331837b701d550c36eb49bac",
+            "path": "config/emoticons/emotes/KAIKING.json"
+          }
+        },
+        {
+          "id": "Pathfinder1.bobj",
+          "name": "Pathfinder1.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 29591,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/Pathfinder1.bobj",
+            "MD5": "4ebf9c0d020cefe0fe240881c780da10",
+            "path": "config/emoticons/emotes/Pathfinder1.bobj"
+          }
+        },
+        {
+          "id": "Pathfinder1.json",
+          "name": "Pathfinder1.json",
+          "type": "File",
+          "artifact": {
+            "size": 101,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/Pathfinder1.json",
+            "MD5": "3390348ffc54b6eb12555763465a935e",
+            "path": "config/emoticons/emotes/Pathfinder1.json"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 914,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/README.txt",
+            "MD5": "76b0a5b3473463f791c498c68d659681",
+            "path": "config/emoticons/emotes/README.txt"
+          }
+        },
+        {
+          "id": "Thomas flare.bobj",
+          "name": "Thomas flare.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 117924,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/Thomas%20flare.bobj",
+            "MD5": "a172c937b12840f9aaf5270a72bfb5c8",
+            "path": "config/emoticons/emotes/Thomas flare.bobj"
+          }
+        },
+        {
+          "id": "Thomas flare.json",
+          "name": "Thomas flare.json",
+          "type": "File",
+          "artifact": {
+            "size": 97,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/Thomas%20flare.json",
+            "MD5": "7648e059a93731f4fa1238d1bf4fb114",
+            "path": "config/emoticons/emotes/Thomas flare.json"
+          }
+        },
+        {
+          "id": "Tobikomi.bobj",
+          "name": "Tobikomi.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 12388,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/Tobikomi.bobj",
+            "MD5": "b32f3796eb51d93d35380f1c17c0cabb",
+            "path": "config/emoticons/emotes/Tobikomi.bobj"
+          }
+        },
+        {
+          "id": "Tobikomi.json",
+          "name": "Tobikomi.json",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/Tobikomi.json",
+            "MD5": "9722f0d3e02ea800d3f48738c3d8a166",
+            "path": "config/emoticons/emotes/Tobikomi.json"
+          }
+        },
+        {
+          "id": "black.bobj",
+          "name": "black.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 6504,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/black.bobj",
+            "MD5": "d5de55f91b68a62047ce76d95429021e",
+            "path": "config/emoticons/emotes/black.bobj"
+          }
+        },
+        {
+          "id": "black.json",
+          "name": "black.json",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/black.json",
+            "MD5": "dd30428d5f75f24c078bbdce711d0900",
+            "path": "config/emoticons/emotes/black.json"
+          }
+        },
+        {
+          "id": "bodybuilder1.bobj",
+          "name": "bodybuilder1.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 3813,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/bodybuilder1.bobj",
+            "MD5": "b5a506e493451ff2909b5aa380bcab59",
+            "path": "config/emoticons/emotes/bodybuilder1.bobj"
+          }
+        },
+        {
+          "id": "bodybuilder1.json",
+          "name": "bodybuilder1.json",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/bodybuilder1.json",
+            "MD5": "98781e9a17eb316322748021b3da7969",
+            "path": "config/emoticons/emotes/bodybuilder1.json"
+          }
+        },
+        {
+          "id": "bodybuilder2.bobj",
+          "name": "bodybuilder2.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 3447,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/bodybuilder2.bobj",
+            "MD5": "315b6986bbd5acfda1b30ac2a49fdcd1",
+            "path": "config/emoticons/emotes/bodybuilder2.bobj"
+          }
+        },
+        {
+          "id": "bodybuilder2.json",
+          "name": "bodybuilder2.json",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/bodybuilder2.json",
+            "MD5": "953509921f957fc429b86bab954bace0",
+            "path": "config/emoticons/emotes/bodybuilder2.json"
+          }
+        },
+        {
+          "id": "bodybuilder3.bobj",
+          "name": "bodybuilder3.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 3831,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/bodybuilder3.bobj",
+            "MD5": "61b533847c93c3203972548b963fb325",
+            "path": "config/emoticons/emotes/bodybuilder3.bobj"
+          }
+        },
+        {
+          "id": "bodybuilder3.json",
+          "name": "bodybuilder3.json",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/bodybuilder3.json",
+            "MD5": "81a29d35336df07ab2cb4fe8a1647e2a",
+            "path": "config/emoticons/emotes/bodybuilder3.json"
+          }
+        },
+        {
+          "id": "bodybuilder4.bobj",
+          "name": "bodybuilder4.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 3051,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/bodybuilder4.bobj",
+            "MD5": "fa26db4c3210e433435b40b22a48d297",
+            "path": "config/emoticons/emotes/bodybuilder4.bobj"
+          }
+        },
+        {
+          "id": "bodybuilder4.json",
+          "name": "bodybuilder4.json",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/bodybuilder4.json",
+            "MD5": "ba01f3e656095da044fa9080d8dc7760",
+            "path": "config/emoticons/emotes/bodybuilder4.json"
+          }
+        },
+        {
+          "id": "flag.bobj",
+          "name": "flag.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 69307,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/flag.bobj",
+            "MD5": "6fa878da8b81583be8941f446fc016fd",
+            "path": "config/emoticons/emotes/flag.bobj"
+          }
+        },
+        {
+          "id": "flag.json",
+          "name": "flag.json",
+          "type": "File",
+          "artifact": {
+            "size": 87,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/flag.json",
+            "MD5": "7cdd705bfdc65e9fb83ada0a1fb966b1",
+            "path": "config/emoticons/emotes/flag.json"
+          }
+        },
+        {
+          "id": "flag2.bobj",
+          "name": "flag2.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 52004,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/flag2.bobj",
+            "MD5": "b25a5b35fff6f4d37045e0705800af73",
+            "path": "config/emoticons/emotes/flag2.bobj"
+          }
+        },
+        {
+          "id": "flag2.json",
+          "name": "flag2.json",
+          "type": "File",
+          "artifact": {
+            "size": 89,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/flag2.json",
+            "MD5": "8e7677061af4e2e3985b07ac3915805e",
+            "path": "config/emoticons/emotes/flag2.json"
+          }
+        },
+        {
+          "id": "humu.bobj",
+          "name": "humu.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 49010,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/humu.bobj",
+            "MD5": "1836941f51d1b2a9802ce6b73296e3ae",
+            "path": "config/emoticons/emotes/humu.bobj"
+          }
+        },
+        {
+          "id": "humu.json",
+          "name": "humu.json",
+          "type": "File",
+          "artifact": {
+            "size": 83,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/humu.json",
+            "MD5": "cc11cd3583ac23ccbbe737a7d567b9cf",
+            "path": "config/emoticons/emotes/humu.json"
+          }
+        },
+        {
+          "id": "kinnikun.bobj",
+          "name": "kinnikun.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 7861,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/kinnikun.bobj",
+            "MD5": "df7c11fb2669848ebd2a8aeefd7582d9",
+            "path": "config/emoticons/emotes/kinnikun.bobj"
+          }
+        },
+        {
+          "id": "kinnikun.json",
+          "name": "kinnikun.json",
+          "type": "File",
+          "artifact": {
+            "size": 91,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/kinnikun.json",
+            "MD5": "d880b3636b7c3caea515a32a10809d7e",
+            "path": "config/emoticons/emotes/kinnikun.json"
+          }
+        },
+        {
+          "id": "kuzureotiru.bobj",
+          "name": "kuzureotiru.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 18883,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/kuzureotiru.bobj",
+            "MD5": "9afe08323ecfc49ecbc73ad093fb3c91",
+            "path": "config/emoticons/emotes/kuzureotiru.bobj"
+          }
+        },
+        {
+          "id": "kuzureotiru.json",
+          "name": "kuzureotiru.json",
+          "type": "File",
+          "artifact": {
+            "size": 98,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/kuzureotiru.json",
+            "MD5": "2e546bf8c4d96e7774677e686cd91db8",
+            "path": "config/emoticons/emotes/kuzureotiru.json"
+          }
+        },
+        {
+          "id": "mamori.bobj",
+          "name": "mamori.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 2367,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/mamori.bobj",
+            "MD5": "c6a1d59cab250f8bc9f17a5825000fd3",
+            "path": "config/emoticons/emotes/mamori.bobj"
+          }
+        },
+        {
+          "id": "mamori.json",
+          "name": "mamori.json",
+          "type": "File",
+          "artifact": {
+            "size": 87,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/mamori.json",
+            "MD5": "b20a64bb435ada5009c315c3089c2ec5",
+            "path": "config/emoticons/emotes/mamori.json"
+          }
+        },
+        {
+          "id": "nagatuki.bobj",
+          "name": "nagatuki.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 10180,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/nagatuki.bobj",
+            "MD5": "0f3612f86d8e0c42ad816c3be5ec518e",
+            "path": "config/emoticons/emotes/nagatuki.bobj"
+          }
+        },
+        {
+          "id": "nagatuki.json",
+          "name": "nagatuki.json",
+          "type": "File",
+          "artifact": {
+            "size": 89,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/nagatuki.json",
+            "MD5": "453112cab85aaaf61bd5f5e4f5e264df",
+            "path": "config/emoticons/emotes/nagatuki.json"
+          }
+        },
+        {
+          "id": "otikomu.bobj",
+          "name": "otikomu.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 9389,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/otikomu.bobj",
+            "MD5": "13cd5de2de54bd40f71aaa6733f53bf2",
+            "path": "config/emoticons/emotes/otikomu.bobj"
+          }
+        },
+        {
+          "id": "otikomu.json",
+          "name": "otikomu.json",
+          "type": "File",
+          "artifact": {
+            "size": 89,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/otikomu.json",
+            "MD5": "d10000773a26070b8cf3b6b10cd45ee8",
+            "path": "config/emoticons/emotes/otikomu.json"
+          }
+        },
+        {
+          "id": "sleep.bobj",
+          "name": "sleep.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 6405,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/sleep.bobj",
+            "MD5": "f0c4a88cc2ee83e6e9fd18cbde274a66",
+            "path": "config/emoticons/emotes/sleep.bobj"
+          }
+        },
+        {
+          "id": "sleep.json",
+          "name": "sleep.json",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/sleep.json",
+            "MD5": "a12d0144139a1ed41d4fa127f0b06909",
+            "path": "config/emoticons/emotes/sleep.json"
+          }
+        },
+        {
+          "id": "sonsi.bobj",
+          "name": "sonsi.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 10785,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/sonsi.bobj",
+            "MD5": "2232b410015119b07f025f5b5c249a6c",
+            "path": "config/emoticons/emotes/sonsi.bobj"
+          }
+        },
+        {
+          "id": "sonsi.json",
+          "name": "sonsi.json",
+          "type": "File",
+          "artifact": {
+            "size": 85,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/sonsi.json",
+            "MD5": "4dab6f4f4915cbe649b742b2c6ece355",
+            "path": "config/emoticons/emotes/sonsi.json"
+          }
+        },
+        {
+          "id": "wdrd_DOGEZA.bobj",
+          "name": "wdrd_DOGEZA.bobj",
+          "type": "File",
+          "artifact": {
+            "size": 5853,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/wdrd_DOGEZA.bobj",
+            "MD5": "783399b8e3e387d7bd6113307ef601b4",
+            "path": "config/emoticons/emotes/wdrd_DOGEZA.bobj"
+          }
+        },
+        {
+          "id": "wdrd_DOGEZA.json",
+          "name": "wdrd_DOGEZA.json",
+          "type": "File",
+          "artifact": {
+            "size": 87,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/emoticons/emotes/wdrd_DOGEZA.json",
+            "MD5": "2423cf41f6e1696a0825a64e57dbedf4",
+            "path": "config/emoticons/emotes/wdrd_DOGEZA.json"
+          }
+        },
+        {
+          "id": "forge.cfg",
+          "name": "forge.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3956,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/forge.cfg",
+            "MD5": "7886f3b97e583c8cf32d0c2e958f6d15",
+            "path": "config/forge.cfg"
+          }
+        },
+        {
+          "id": "signpic.cfg",
+          "name": "signpic.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3873,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/config/signpic.cfg",
+            "MD5": "6e2015dbe413e38b5f7d52c02585292c",
+            "path": "config/signpic.cfg"
+          }
+        },
+        {
+          "id": "BSL_v8.0.01.zip",
+          "name": "BSL_v8.0.01.zip",
+          "type": "File",
+          "artifact": {
+            "size": 913228,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/shaderpacks/BSL_v8.0.01.zip",
+            "MD5": "f148da27853e4ebe51504a9d1dc1d8bd",
+            "path": "shaderpacks/BSL_v8.0.01.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.0.01.zip.txt",
+          "name": "BSL_v8.0.01.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 49,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack3-1.12.2/files/shaderpacks/BSL_v8.0.01.zip.txt",
+            "MD5": "b60a73b6ceba32a9eed45fe4596158f0",
+            "path": "shaderpacks/BSL_v8.0.01.zip.txt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pack4-1.12.2",
+      "name": "重力クラフト (Minecraft 1.12.2)",
+      "description": "重力の方向が変化クラフト",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack4-1.12.2/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "重力クラフト",
+        "largeImageText": "重力クラフト",
+        "largeImageKey": "pack_4"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4464387,
+            "MD5": "02fcc447bb8938e5214292e4d36ec949",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2855",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10873,
+                "MD5": "5d114618e561d76e0f692c2d69dcb784",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.kunmc.lab:gravitysurvival:1.0@jar",
+          "name": "Gravity Survival",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18181,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack4-1.12.2/forgemods/required/GravitySurvival-1.12.2-1.0.jar",
+            "MD5": "1d09bb1ce0c6dad090ebcc5c725d088d"
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.6.0@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30446,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack4-1.12.2/forgemods/optionalon/reauth-3.6.0.jar",
+            "MD5": "6024686e40df10b8739042ea2dce7f1a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "uk.co.mysterymayhem.gravitymod:mysttmtgravitymod:2.9.1@jar",
+          "name": "Up And Down And All Around",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 732489,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack4-1.12.2/forgemods/required/UpAndDownAndAllAround-1.12.2-2.9.1.jar",
+            "MD5": "b4555e3d365c7f90de2ea4f474081492"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pack5-1.15.2",
+      "name": "音叉クラフト(Minecraft 1.15.2)",
+      "description": "音叉を使って真っ暗な世界を生き抜く(単発)",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack5-1.15.2/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.15.2",
+      "discord": {
+        "shortId": "音叉クラフト",
+        "largeImageText": "音叉クラフト",
+        "largeImageKey": "pack_5"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.15.2-31.2.46:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 6577355,
+            "MD5": "5a1bbdae5ae3fa465ea358e30f249afc",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.15.2-31.2.46/forge-1.15.2-31.2.46-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "net.kunmc.lab.dtf:devilstunefork:1.7@jar",
+          "name": "Devil's Tune Fork Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 223662,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack5-1.15.2/forgemods/required/DevilsTuneFork-1.7.jar",
+            "MD5": "be7f768bda1822ef83a85353a991ee5f"
+          }
+        },
+        {
+          "id": "net.kunmc.lab:gtawanteddisplaymod:2.1@jar",
+          "name": "Gtawanteddisplaymod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31814,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack5-1.15.2/forgemods/optionaloff/GTAWantedDisplayMod-2.1.jar",
+            "MD5": "b4a15362556a1ecb717ab825ac11db2f"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.8.1@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35214,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack5-1.15.2/forgemods/optionalon/ReAuth-1.14-1.15-3.8.1.jar",
+            "MD5": "7a2655c439bb612f744afbe1bb3e56f7"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pack6-1.15.2",
+      "name": "ミュージッククラフト(Minecraft 1.15.2)",
+      "description": "ミュージッククラフト(単発)",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack6-1.15.2/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.15.2",
+      "discord": {
+        "shortId": "ミュージッククラフトクラフト",
+        "largeImageText": "ミュージッククラフトクラフト",
+        "largeImageKey": "pack_6"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.15.2-31.2.9:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 6509304,
+            "MD5": "b10eaa5a305ce6af6d08bf74a1fcbbe0",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.15.2-31.2.9/forge-1.15.2-31.2.9-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "net.kunmc.lab:gtawanteddisplaymod:2.1@jar",
+          "name": "Gtawanteddisplaymod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31814,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack6-1.15.2/forgemods/optionaloff/GTAWantedDisplayMod-2.1.jar",
+            "MD5": "b4a15362556a1ecb717ab825ac11db2f"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.kunmc.lab.kmp:katyoumovableplayer:1.2@jar",
+          "name": "Katyou Movable Player",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 288495,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack6-1.15.2/forgemods/required/KatyouMovablePlayer-1.2.jar",
+            "MD5": "9ac549171b9999a665d79a068fe08430"
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.8.1@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35214,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack6-1.15.2/forgemods/optionalon/ReAuth-1.14-1.15-3.8.1.jar",
+            "MD5": "7a2655c439bb612f744afbe1bb3e56f7"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pack7-1.15.2",
+      "name": "GTAクラフト(Minecraft 1.15.2)",
+      "description": "GTAクラフト(単発)",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack7-1.15.2/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.15.2",
+      "discord": {
+        "shortId": "GTAクラフト",
+        "largeImageText": "GTAクラフト",
+        "largeImageKey": "pack_7"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.15.2-31.2.9:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 6509304,
+            "MD5": "b10eaa5a305ce6af6d08bf74a1fcbbe0",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.15.2-31.2.9/forge-1.15.2-31.2.9-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "net.kunmc.lab:gtawanteddisplaymod:2.1@jar",
+          "name": "Gtawanteddisplaymod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31814,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack7-1.15.2/forgemods/required/GTAWantedDisplayMod-2.1.jar",
+            "MD5": "b4a15362556a1ecb717ab825ac11db2f"
+          }
+        },
+        {
+          "id": "net.kunmc.lab:gtawanteddisplaymod:2.1@jar",
+          "name": "Gtawanteddisplaymod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31814,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack7-1.15.2/forgemods/optionaloff/GTAWantedDisplayMod-2.1.jar",
+            "MD5": "b4a15362556a1ecb717ab825ac11db2f"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.8.1@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35214,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack7-1.15.2/forgemods/optionalon/ReAuth-1.14-1.15-3.8.1.jar",
+            "MD5": "7a2655c439bb612f744afbe1bb3e56f7"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pack9-1.16.5",
+      "name": "ポータルクラフト (Minecraft Fabric 1.16.5)",
+      "description": "ポータルMod",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack9-1.16.5/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "ポータルクラフト",
+        "largeImageText": "ポータルクラフト",
+        "largeImageKey": "pack_morph"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.1.0:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 7225119,
+            "MD5": "ace24a5bfc910af72de81a51dbbf7897",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.9.3@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38126,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack9-1.16.5/forgemods/optionalon/ReAuth-1.16-Forge-3.9.3.jar",
+            "MD5": "3b3095744e922d89ab6443529865df43"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "Pehkui-2.0.0+21w14a.jar",
+          "name": "Pehkui-2.0.0+21w14a.jar",
+          "type": "File",
+          "artifact": {
+            "size": 225364,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack9-1.16.5/files/mods/Pehkui-2.0.0+21w14a.jar",
+            "MD5": "456b4596252593fea53ce517f9b758fe",
+            "path": "mods/Pehkui-2.0.0+21w14a.jar"
+          }
+        },
+        {
+          "id": "fabric-api-0.33.1+1.16.jar",
+          "name": "fabric-api-0.33.1+1.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 938503,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack9-1.16.5/files/mods/fabric-api-0.33.1+1.16.jar",
+            "MD5": "813d9f92bb01793b129c70b16f6a5104",
+            "path": "mods/fabric-api-0.33.1+1.16.jar"
+          }
+        },
+        {
+          "id": "immersive-portals-0.90-mc1.16.5-fabric.jar",
+          "name": "immersive-portals-0.90-mc1.16.5-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6099337,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack9-1.16.5/files/mods/immersive-portals-0.90-mc1.16.5-fabric.jar",
+            "MD5": "66c8507152bf3294cd1a70c04366768d",
+            "path": "mods/immersive-portals-0.90-mc1.16.5-fabric.jar"
+          }
+        },
+        {
+          "id": "jumploader-2.1.3.jar",
+          "name": "jumploader-2.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 193754,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Pack9-1.16.5/files/mods/jumploader-2.1.3.jar",
+            "MD5": "e5b0443cdf409b8cba7f0a20b006911b",
+            "path": "mods/jumploader-2.1.3.jar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Vehicle-1.15.2",
+      "name": "参加勢格付けチェック (Minecraft 1.15.2)",
+      "description": "参加勢格付けチェック企画",
+      "icon": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/pack.png",
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.15.2",
+      "discord": {
+        "shortId": "参加勢格付けチェック",
+        "largeImageText": "参加勢格付けチェック",
+        "largeImageKey": "pack_kaku"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.15.2-31.2.31:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 6552692,
+            "MD5": "abcb44808a2f1cd1f3e19b48c03a5aee",
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/repo/lib/net/minecraftforge/forge/1.15.2-31.2.31/forge-1.15.2-31.2.31-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "net.teamfruit:emojicord:1.1.1.39@jar",
+          "name": "Emojicord",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 311605,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionalon/Emojicord-1.15.2-1.1.1.39-universal.jar",
+            "MD5": "94f8da4a013d24746a9f9bac2aeed404"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.teamfruit:photobomb:1.0-SNAPSHOT@jar",
+          "name": "Photobomb",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 85624,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/required/photobomb-1.0-SNAPSHOT.jar",
+            "MD5": "54fbae97c2c5a35040a6276dfbeb6c78"
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.8.1@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35214,
+            "url": "https://raw.githubusercontent.com/TeamKun/NumaPacks/deploy/servers/Vehicle-1.15.2/forgemods/optionalon/ReAuth-1.14-1.15-3.8.1.jar",
+            "MD5": "7a2655c439bb612f744afbe1bb3e56f7"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    }
+  ]
+}

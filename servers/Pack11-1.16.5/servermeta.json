@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "ラッキーブロック (Minecraft 1.16.5)",
+    "description": "ラッキーブロックの単発企画",
+    "address": "",
+    "discord": {
+      "shortId": "ラッキーブロック",
+      "largeImageText": "ラッキーブロック",
+      "largeImageKey": "pack_morph"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "36.1.0"
+  },
+  "untrackedFiles": []
+}

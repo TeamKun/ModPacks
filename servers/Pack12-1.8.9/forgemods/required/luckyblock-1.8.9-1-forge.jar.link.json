@@ -1,0 +1,26 @@
+{
+  "id": "mod.lucky:lucky:7.0.0@jar",
+  "name": "Lucky Block",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 215888,
+    "MD5": "b816714ecec6ff1cdbca405eeb9105b5",
+    "url": "",
+    "manual": {
+      "url": "https://www.luckyblockmod.com/",
+      "name": "luckyblock-1.8.9-1-forge.jar",
+      "video": "https://www.youtube.com/watch?v=pltT0vqiKS8",
+      "hints": [
+        {
+          "css": "a[href='/download?platform=forge']"
+        },
+        {
+          "css": "a[href='/download/1.8.9-1-forge/']"
+        },
+        {
+          "css": "a[href='./download']"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "GitHubDownloadSample.jar",
+  "name": "GitHubDownloadSample.jar",
+  "type": "File",
+  "artifact": {
+    "size": 2061117,
+    "MD5": "435239e1f61c0266cc8ca3ff5aab28fc",
+    "path": "downloadsample/GitHubDownloadSample.jar",
+    "manual": {
+      "url": "https://github.com/TeamKun/NumaPacks/tree/deploy/servers/Pack1-1.12.2/files/",
+      "name": "CubicChunks-1.12.2-0.0.1185.0-SNAPSHOT-all.jar",
+      "video": "https://www.youtube.com/watch?v=pltT0vqiKS8",
+      "hints": [
+        {
+          "css": "div[role=rowheader]:has(a[href='/TeamKun/NumaPacks/tree/deploy/servers/Pack1-1.12.2/files/mods'])"
+        },
+        {
+          "css": "div[role=rowheader]:has(a[href='/TeamKun/NumaPacks/blob/deploy/servers/Pack1-1.12.2/files/mods/CubicChunks-1.12.2-0.0.1185.0-SNAPSHOT-all.jar'])"
+        },
+        {
+          "css": "a[href='/TeamKun/NumaPacks/raw/deploy/servers/Pack1-1.12.2/files/mods/CubicChunks-1.12.2-0.0.1185.0-SNAPSHOT-all.jar']"
+        }
+      ]
+    }
+  }
+}
