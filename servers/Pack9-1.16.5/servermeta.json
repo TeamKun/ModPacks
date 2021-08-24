@@ -6,9 +6,9 @@
     "description": "ポータルMod",
     "address": "",
     "discord": {
-      "shortId": "ポータルクラフト",
-      "largeImageText": "ポータルクラフト",
-      "largeImageKey": "pack_morph"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false

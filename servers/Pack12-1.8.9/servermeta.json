@@ -6,9 +6,9 @@
     "description": "エメラルドラッキーブロック(1.8.9)の単発企画",
     "address": "",
     "discord": {
-      "shortId": "エメラルドラッキーブロック",
-      "largeImageText": "エメラルドラッキーブロック",
-      "largeImageKey": "pack_morph"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false

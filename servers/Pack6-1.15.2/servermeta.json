@@ -6,9 +6,9 @@
     "description": "ミュージッククラフト(単発)",
     "address": "",
     "discord": {
-      "shortId": "ミュージッククラフトクラフト",
-      "largeImageText": "ミュージッククラフトクラフト",
-      "largeImageKey": "pack_6"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false

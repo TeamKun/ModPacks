@@ -6,9 +6,9 @@
     "description": "エベレストクラフト (単発)",
     "address": "",
     "discord": {
-      "shortId": "エベレストクラフト",
-      "largeImageText": "エベレストクラフト",
-      "largeImageKey": "pack_1"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false

@@ -6,9 +6,9 @@
     "description": "重力の方向が変化クラフト",
     "address": "",
     "discord": {
-      "shortId": "重力クラフト",
-      "largeImageText": "重力クラフト",
-      "largeImageKey": "pack_4"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": true,
     "autoconnect": false

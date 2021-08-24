@@ -6,9 +6,9 @@
     "description": "音叉を使って真っ暗な世界を生き抜く(単発)",
     "address": "",
     "discord": {
-      "shortId": "音叉クラフト",
-      "largeImageText": "音叉クラフト",
-      "largeImageKey": "pack_5"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false

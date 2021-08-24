@@ -6,9 +6,9 @@
     "description": "ラッキーブロックの単発企画",
     "address": "",
     "discord": {
-      "shortId": "ラッキーブロック",
-      "largeImageText": "ラッキーブロック",
-      "largeImageKey": "pack_morph"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false

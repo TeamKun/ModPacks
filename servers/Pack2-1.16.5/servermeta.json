@@ -6,9 +6,9 @@
     "description": "無重力クラフト",
     "address": "",
     "discord": {
-      "shortId": "無重力クラフト",
-      "largeImageText": "無重力クラフト",
-      "largeImageKey": "pack_2"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false

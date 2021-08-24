@@ -6,9 +6,9 @@
     "description": "GTAクラフト(単発)",
     "address": "",
     "discord": {
-      "shortId": "GTAクラフト",
-      "largeImageText": "GTAクラフト",
-      "largeImageKey": "pack_7"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false

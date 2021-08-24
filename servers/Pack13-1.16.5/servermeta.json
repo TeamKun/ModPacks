@@ -6,9 +6,9 @@
     "description": "沼ランのテスト用",
     "address": "",
     "discord": {
-      "shortId": "テスト用",
-      "largeImageText": "テスト用",
-      "largeImageKey": "pack_morph"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false

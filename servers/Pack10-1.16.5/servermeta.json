@@ -6,9 +6,9 @@
     "description": "ニコニコ動画風チャットMod",
     "address": "",
     "discord": {
-      "shortId": "ニコニコクラフト",
-      "largeImageText": "ニコニコクラフト",
-      "largeImageKey": "pack_2"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false

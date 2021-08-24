@@ -6,9 +6,9 @@
     "description": "参加勢格付けチェック企画",
     "address": "",
     "discord": {
-      "shortId": "参加勢格付けチェック",
-      "largeImageText": "参加勢格付けチェック",
-      "largeImageKey": "pack_kaku"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false

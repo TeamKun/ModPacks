@@ -6,9 +6,9 @@
     "description": "1.15.2 + 便利なModが導入されたおすすめのパックです。",
     "address": "",
     "discord": {
-      "shortId": "バニラ1.15.2",
-      "largeImageText": "バニラ1.15.2",
-      "largeImageKey": "pack_15"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": false,
     "autoconnect": false

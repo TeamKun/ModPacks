@@ -6,9 +6,9 @@
     "description": "毎回1個ずつModを追加します",
     "address": "",
     "discord": {
-      "shortId": "Modクラフト",
-      "largeImageText": "Modクラフト",
-      "largeImageKey": "pack_modcraft"
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
     },
     "mainServer": true,
     "autoconnect": false
