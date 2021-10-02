@@ -2,8 +2,8 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "ブロック透明Mod (Minecraft 1.16.5)",
-    "description": "ブロック透明Mod",
+    "name": "イキスギ感度Mod (Minecraft 1.16.5)",
+    "description": "イキスギ感度Mod",
     "address": "",
     "discord": {
       "shortId": "Minecraft",
