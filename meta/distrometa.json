@@ -1,10 +1,10 @@
 {
   "meta": {
-    "rss": "https://raw.githubusercontent.com/TeamKun/ModPacks/news/news.rss",
+    "rss": "https://raw.githubusercontent.com/TeamKun/NumaPacks/news/news.rss",
     "discord": {
       "clientId": "784714976329596938",
-      "smallImageText": "Modランチャー",
-      "smallImageKey": "pack_mod"
+      "smallImageText": "沼ランチャー",
+      "smallImageKey": "pack_numa"
     }
   }
 }
