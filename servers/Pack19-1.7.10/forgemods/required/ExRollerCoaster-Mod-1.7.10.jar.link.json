@@ -1,0 +1,10 @@
+{
+    "id": "erc.rewriteclass:exrollercoaster:Mod-1.7.10@jar",
+    "name": "ExRollerCoaster",
+    "type": "ForgeMod",
+    "artifact": {
+        "size": 817900,
+        "url": "https://files.9minecraft.net/index.php?act=download&id=1523441083&hash=617783e0cfa8a",
+        "MD5": "9990461c062b3f2e4fba4e148444cb91"
+    }
+}
