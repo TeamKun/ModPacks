@@ -2,8 +2,8 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "GTAクラフト(Minecraft 1.15.2)",
-    "description": "GTAクラフト(単発)",
+    "name": "おえかきイカゲーム(Minecraft 1.15.2)",
+    "description": "おえかきイカゲーム",
     "address": "",
     "discord": {
       "shortId": "Minecraft",
@@ -14,7 +14,7 @@
     "autoconnect": false
   },
   "forge": {
-    "version": "31.2.9"
+    "version": "31.2.55"
   },
   "untrackedFiles": []
 }
