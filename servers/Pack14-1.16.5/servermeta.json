@@ -2,8 +2,8 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "イキスギ感度Mod (Minecraft 1.16.5)",
-    "description": "イキスギ感度Mod",
+    "name": "Wyrmroost Mod (Minecraft 1.16.5)",
+    "description": "Wyrmroost Mod",
     "address": "",
     "discord": {
       "shortId": "Minecraft",
@@ -14,7 +14,7 @@
     "autoconnect": false
   },
   "forge": {
-    "version": "36.1.0"
+    "version": "36.2.5"
   },
   "untrackedFiles": []
 }
