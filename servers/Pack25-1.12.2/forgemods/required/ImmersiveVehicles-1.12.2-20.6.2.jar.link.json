@@ -1,0 +1,20 @@
+{
+    "id": "mts",
+    "name": "Minecraft Transport Simulator",
+    "type": "ForgeMod",
+    "artifact": {
+      "size": 8943195,
+      "MD5": "4ec3e1914e9408dba8afff61983cb260",
+      "url": "",
+      "manual": {
+        "url": "https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator/files",
+        "name": "ImmersiveVehicles-1.12.2-20.6.2.jar",
+        "video": "",
+        "hints": [
+          {
+            "css": "a[href='/minecraft/mc-mods/minecraft-transport-simulator/download/3648636']"
+          }
+        ]
+      }
+    }
+  }
