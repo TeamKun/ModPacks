@@ -7,11 +7,11 @@
         "MD5": "8484249c938ce0363ca7c62d92985380",
         "url": "",
         "manual": {
-            "url": "https://www.curseforge.com/minecraft/mc-mods/the-ocean-expansion/download",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/the-ocean-expansion/",
             "name": "ocean_expansion_1.16.5_Release_3.1.0.jar",
             "video": "https://www.youtube.com/watch?v=pltT0vqiKS8",
             "hints": [{
-                "css": "a[href='/minecraft/mc-mods/the-ocean-expansion/download/3390128/file']"
+                "css": "a[href='/minecraft/mc-mods/the-ocean-expansion/download']"
             }]
         }
     }
