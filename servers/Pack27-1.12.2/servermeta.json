@@ -2,8 +2,8 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "飛行船Mod (Minecraft 1.12.2)",
-    "description": "飛行船Mod(Davincis Vessels) MCver:1.12.2 ",
+    "name": "ゲリラMod (Minecraft 1.12.2)",
+    "description": "GVCMod(Davincis Vessels) MCver:1.12.2 ",
     "address": "",
     "discord": {
       "shortId": "Minecraft",
