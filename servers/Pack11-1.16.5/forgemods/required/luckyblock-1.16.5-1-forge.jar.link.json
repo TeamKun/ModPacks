@@ -8,7 +8,7 @@
         "url": "",
         "manual": {
             "url": "https://www.luckyblockmod.com/",
-            "name": "luckyblock-1.16.5-6.0-forge.jar",
+            "name": "lucky-block-forge-1.16.5-6.0.jar",
             "hints": [{
                     "css": "a[href='/download?platform=forge']"
                 },
