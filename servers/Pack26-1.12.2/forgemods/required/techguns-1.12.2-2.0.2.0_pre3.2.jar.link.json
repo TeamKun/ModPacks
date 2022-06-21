@@ -1,19 +1,19 @@
 {
-  "id": "techguns:techguns:@jar", // ← 後述する方法でIDを取得する
-  "name": "Techguns", // ← mcmod.infoやmod.tomlから取得
-  "type": "ForgeMod", // ← 変える必要なし
+  "id": "techguns:techguns:@jar",
+  "name": "Techguns",
+  "type": "ForgeMod",
   "artifact": {
-    "size": 28126750, // ← ファイルのサイズ(バイト数)、HashMyFilesなどを使用して取得する
-    "MD5": "dbae09102aedeca925d4b3546685e5b5", // ← MD5ハッシュ、HashMyFilesなどを使用して取得する
-    "url": "", // ← 変える必要なし
+    "size": 28126750,
+    "MD5": "dbae09102aedeca925d4b3546685e5b5",
+    "url": "",
     "manual": {
-      "url": "https://www.curseforge.com/minecraft/mc-mods/techguns/download", // ← ブラウザで開くサイトのURL
-      "name": "techguns-1.12.2-2.0.2.0_pre3.2.jar", // ← もとのjarファイルの名前
-      "hints": [ // ← ステップごとに順番にセレクタを指定していく
+      "url": "https://www.curseforge.com/minecraft/mc-mods/techguns/download",
+      "name": "techguns-1.12.2-2.0.2.0_pre3.2.jar",
+      "hints": [
         {
-          "css": "" // ← jQueryのセレクタを使用して要素を選択する
+          "css": ""
         }
       ]
     }
-  } 
+  }
 }
