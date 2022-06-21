@@ -1,9 +1,9 @@
 {
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.0",
-    "name": "Erebusクラフト (Minecraft 1.12.2)",
-    "description": "The Erebus",
+    "version": "1.0.1",
+    "name": "Techguns (Minecraft 1.12.2)",
+    "description": "Techguns",
     "address": "",
     "discord": {
       "shortId": "Minecraft",
