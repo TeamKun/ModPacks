@@ -2,7 +2,7 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "ブラックホールクラフト (Minecraft Fabric 1.16.5)",
+    "name": "BlackHall (Minecraft Fabric 1.16.5)",
     "description": "ブラックホールMod",
     "address": "",
     "discord": {
