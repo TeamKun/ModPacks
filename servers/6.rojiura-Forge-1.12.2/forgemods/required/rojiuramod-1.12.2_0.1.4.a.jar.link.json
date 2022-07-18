@@ -1,0 +1,31 @@
+{
+  "id": "com.bear.rojiura:rojiuramod:0.1@jar", 
+  "name": "RojiuraMod",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 4072608, 
+    "MD5": "5a2c5da4645273d8677ccd5109796d81",
+    "url": "",
+    "manual": {
+      "url": "http://rojiuramod.php.xdomain.jp/",
+      "name": "rojiuramod-1.12.2_0.1.4.a.jar",
+      "hints": [
+        {
+          "css": "a[href='download']" 
+        },
+        {
+          "css": "label[for='demo3']"
+        },
+        {
+          "css": "a[href='download_inframe']" 
+        },
+        {
+          "css": "img[src='img\roji_mod_dl_button.png']" 
+        },
+        {
+          "css": "a[href='https://docs.google.com/uc?export=download&id=1Ln_xQ9xFS5LDaQnva10awLMt3_RcHXnS']" 
+        }
+      ]
+    }
+  }
+}

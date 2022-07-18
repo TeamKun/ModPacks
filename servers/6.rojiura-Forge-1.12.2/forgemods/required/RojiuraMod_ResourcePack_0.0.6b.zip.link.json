@@ -1,0 +1,31 @@
+{
+  "id": "RojiuraMod_ResourcePack_0.0.6b.zip",
+  "name": "RojiuraMod_ResourcePack_0.0.6b.zip",
+  "type": "File",
+  "artifact": {
+    "size": 5879775,
+    "MD5": "8c3cdd235267f0f34a224ebfda5ee419",
+    "path": "resourcepacks/RojiuraMod_ResourcePack_0.0.6b.zip",
+    "manual": {
+      "url": "http://rojiuramod.php.xdomain.jp/",
+      "name": "RojiuraMod_ResourcePack_0.0.6b.zip", 
+      "hints": [
+        {
+          "css": "a[href='download']" 
+        },
+        {
+          "css": "label[for='demo3']"
+        },
+        {
+          "css": "a[href='download_inframe']" 
+        },
+        {
+          "css": "img[src='img\roji_modresoce_dl_button.png']" 
+        },
+        {
+          "css": "a[href='https://docs.google.com/uc?export=download&id=1FPxeiblxu8amV4xS4mNFVQNOULMZKwaH']" 
+        }
+      ]
+    }
+  }
+}
