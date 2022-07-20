@@ -2,8 +2,8 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.1",
-    "name": "cocricot (Minecraft 1.12.2)",
-    "description": "※手動での導入が必要",
+    "name": "路地裏/cocricot (Minecraft 1.12.2)",
+    "description": "※手順書に沿って導入してください",
     "address": "",
     "discord": {
       "shortId": "Minecraft",
