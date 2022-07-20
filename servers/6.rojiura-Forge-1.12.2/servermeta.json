@@ -1,9 +1,9 @@
 {
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.1",
-    "name": "準備中 ※路地裏mod (Minecraft 1.12.2)",
-    "description": "※リソパ+OptiFineの手動導入が必要",
+    "version": "1.0.2",
+    "name": "※路地裏mod (Minecraft 1.12.2)",
+    "description": "※導入手順を必ず見てください",
     "address": "",
     "discord": {
       "shortId": "Minecraft",
