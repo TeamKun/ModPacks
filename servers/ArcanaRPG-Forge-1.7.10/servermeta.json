@@ -2,8 +2,8 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "レインボーラッキーブロック (Minecraft 1.7.10)",
-    "description": "レインボーラッキーブロックの単発企画",
+    "name": "Arcana RPG (Minecraft 1.7.10)",
+    "description": "Arcana RPG 企画",
     "address": "",
     "discord": {
       "shortId": "Minecraft",
