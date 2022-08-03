@@ -2,8 +2,8 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.1",
-    "name": "MODƒNƒ‰ƒtƒg2 (Minecraft 1.12.2)",
-    "description": "",
+    "name": "MODCraft2 (Minecraft 1.12.2)",
+    "description": "MODCraft2",
     "address": "",
     "discord": {
       "shortId": "Minecraft",
