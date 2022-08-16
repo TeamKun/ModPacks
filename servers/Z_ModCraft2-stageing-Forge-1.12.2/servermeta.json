@@ -1,20 +1,20 @@
 {
-  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
-  "meta": {
-    "version": "1.0.1",
-    "name": "ModCraftŒŸØ—p (Minecraft 1.12.2)",
-    "description": "ModCraftŒŸØ—p",
-    "address": "",
-    "discord": {
-      "shortId": "Minecraft",
-      "largeImageText": "Minecraft",
-      "largeImageKey": "pack_numa"
+    "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+    "meta": {
+        "version": "1.0.1",
+        "name": "ModCraft2æ¤œè¨¼ç”¨ (Minecraft 1.12.2)",
+        "description": "ModCraft2æ¤œè¨¼ç”¨",
+        "address": "",
+        "discord": {
+            "shortId": "Minecraft",
+            "largeImageText": "Minecraft",
+            "largeImageKey": "pack_numa"
+        },
+        "mainServer": true,
+        "autoconnect": false
     },
-    "mainServer": true,
-    "autoconnect": false
-  },
-  "forge": {
-    "version": "14.23.5.2860"
-  },
-  "untrackedFiles": []
+    "forge": {
+        "version": "14.23.5.2860"
+    },
+    "untrackedFiles": []
 }
