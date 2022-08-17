@@ -1,0 +1,17 @@
+{
+    "id": "com.kotori316:fluidtank:12.5.3@jar",
+    "name": "FluidTank",
+    "type": "ForgeMod",
+    "artifact": {
+        "size": 368328,
+        "MD5": "e3f4630100c42ff0a3b68e4b363b57bd",
+        "url": "",
+        "manual": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/largefluidtank/download/3366145",
+            "name": "LargeFluidTank-12.5.3.jar",
+            "hints": [{
+                "css": ""
+            }]
+        }
+    }
+}
