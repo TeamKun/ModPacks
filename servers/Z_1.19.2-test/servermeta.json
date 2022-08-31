@@ -1,7 +1,7 @@
 {
     "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
     "meta": {
-        "version": "1.0.1",
+        "version": "1.0.0",
         "name": "1.19.2テスト (Minecraft 1.19.2)",
         "description": "1.19.2起動検証用",
         "address": "",
