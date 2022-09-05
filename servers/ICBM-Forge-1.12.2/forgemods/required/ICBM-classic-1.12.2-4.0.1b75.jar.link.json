@@ -1,0 +1,16 @@
+{
+  "id": "icbm.classic:icbmclassic:4.0.1.75@jar",
+  "name": "ICBM-Classic",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 6698184,
+    "MD5": "6d365eedbc15dbd32da4efa121e47d83",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/icbm-classic/download",
+      "name": "ICBM-classic-1.12.2-4.0.1b75.jar",
+      "video": "",
+      "hints": []
+    }
+  }
+}
