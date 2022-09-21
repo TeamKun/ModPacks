@@ -2,7 +2,7 @@
     "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
     "meta": {
         "version": "1.0.0",
-        "name": "1.19.2 TEST",
+        "name": "%a%1.19.2 TEST",
         "description": "1.19.2 TEST",
         "address": "",
         "discord": {
