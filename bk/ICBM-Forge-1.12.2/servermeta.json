@@ -3,14 +3,14 @@
   "meta": {
     "version": "1.0.0",
     "name": "ICBMクラフト (Minecraft 1.12.2)",
-    "description": "ICBM企画",
+    "description": "ICBM",
     "address": "",
     "discord": {
       "shortId": "Minecraft",
       "largeImageText": "Minecraft",
       "largeImageKey": "pack_numa"
     },
-    "mainServer": true,
+    "mainServer": false,
     "autoconnect": false
   },
   "forge": {
