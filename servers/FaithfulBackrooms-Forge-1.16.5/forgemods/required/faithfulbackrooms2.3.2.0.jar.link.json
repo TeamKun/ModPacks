@@ -1,0 +1,18 @@
+{
+    "id": "net.forameus.faithful:faithfulbackrooms:2.1.1.0@jar",
+    "name": "Faithful Backrooms",
+    "type": "ForgeMod",
+    "artifact": {
+        "size": 70351613,
+        "MD5": "c6c3d1df10d76524e2aff5de0bbc6029",
+        "url": "",
+        "manual": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/faithfulbackrooms",
+            "name": "faithfulbackrooms2.3.2.0.jar",
+            "hints": [{
+                    "css": ""
+                }
+            ]
+        }
+    }
+}
