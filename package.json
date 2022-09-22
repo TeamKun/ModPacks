@@ -1,0 +1,13 @@
+{
+    "name": "scripts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "/scripts/index.js",
+    "scripts": {
+        "order:set": "node ./scripts/order.js",
+        "order:reload": "node ./scripts/reloadorder.js",
+        "order:reset": "node ./scripts/resetorder.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
