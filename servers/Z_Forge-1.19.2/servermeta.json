@@ -1,20 +1,20 @@
 {
-    "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
-    "meta": {
-        "version": "1.0.0",
-        "name": "1.19.2 TEST",
-        "description": "1.19.2 TEST",
-        "address": "",
-        "discord": {
-            "shortId": "Minecraft",
-            "largeImageText": "Minecraft",
-            "largeImageKey": "pack_numa"
-        },
-        "mainServer": false,
-        "autoconnect": false
-    },
-    "forge": {
-        "version": "43.1.16"
-    },
-    "untrackedFiles": []
+	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+	"meta": {
+		"version": "1.0.0",
+		"name": "%16%1.19.2 TEST",
+		"description": "1.19.2 TEST",
+		"address": "",
+		"discord": {
+			"shortId": "Minecraft",
+			"largeImageText": "Minecraft",
+			"largeImageKey": "pack_numa"
+		},
+		"mainServer": false,
+		"autoconnect": false
+	},
+	"forge": {
+		"version": "43.1.16"
+	},
+	"untrackedFiles": []
 }
