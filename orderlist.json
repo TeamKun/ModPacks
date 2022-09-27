@@ -1,22 +1,17 @@
 {
-	"orderList": [
-		"1.Vanilla-1.16.5",
-		"2.ModCraft2-Forge-1.12.2",
-		"cocricot-techguns-Forge-1.12.2",
-		"Guns-Forge-1.16.5",
-		"Kyoshujo-Forge-1.12.2",
-		"MiniaTuria-Forge-1.12.2",
-		"Gravity-1.12.2",
-		"ChibiCra-Forge-1.16.5",
-		"Devil-sTuneForkーForge-1.15.2",
-		"gullivern-Forge-1.16.5",
-		"NikoNiko-Forge-1.16.5",
-		"LuckyBlock-Forge-1.16.5",
-		"FaithfulBackrooms-Forge-1.16.5",
-		"Z_Forge-1.16.5",
-		"Z_Forge-1.17.1",
-		"Z_Forge-1.18.2",
-		"Z_Forge-1.19.2",
-		"Z_ModCraft2-stageing-Forge-1.12.2"
-	]
+    "orderList": [
+        "1.Vanilla-1.16.5",
+        "cocricot-techguns-Forge-1.12.2",
+        "MiniaTuria-Forge-1.12.2",
+        "Guns-Forge-1.16.5",
+        "ChibiCra-Forge-1.16.5",
+        "FaithfulBackrooms-Forge-1.16.5",
+        "Gravity-1.12.2",
+        "Kyoshujo-Forge-1.12.2",
+        "LuckyBlock-Forge-1.16.5",
+        "gullivern-Forge-1.16.5",
+        "NikoNiko-Forge-1.16.5",
+        "2.ModCraft2-Forge-1.12.2",
+        "Devil-sTuneForkーForge-1.15.2"
+    ]
 }

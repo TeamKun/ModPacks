@@ -2,7 +2,7 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.1",
-		"name": "%2%Cocricot/路地裏 (Minecraft 1.12.2)",
+		"name": "%1%Cocricot/路地裏 (Minecraft 1.12.2)",
 		"description": "導入MOD: 路地裏/Techguns/cocricot/Flan`s Mods\n※手順書に沿って導入してください",
 		"address": "",
 		"discord": {
