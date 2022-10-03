@@ -2,7 +2,7 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.0",
-		"name": "%12%音叉クラフト(Minecraft 1.15.2)",
+		"name": "%13%音叉クラフト(Minecraft 1.15.2)",
 		"description": "音叉を使って真っ暗な世界を生き抜く(単発)",
 		"address": "",
 		"discord": {
