@@ -1,0 +1,19 @@
+{
+  "id": "net.dries007:tfc:1.7.23.181@jar",
+  "name": "TerraFirmaCraft",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 28094769,
+    "MD5": "c72d3a7b8b8ffd2bc2352861927db907",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/terrafirmacraft/download/",
+      "name": "TerraFirmaCraft-MC1.12.2-1.7.23.181.jar",
+      "hints": [
+        {
+          "css": ""
+        }
+      ]
+    }
+  }
+}
