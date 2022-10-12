@@ -2,8 +2,8 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0",
-		"name": "%15%TerraFirmaCraft日本語用 (Minecraft 1.12.2)",
-		"description": "TerraFirmaCraft日本語化用",
+		"name": "%15%TerraFirmaCraft日本語化 (Minecraft 1.12.2)",
+		"description": "TerraFirmaCraft日本語化",
 		"address": "",
 		"discord": {
 			"shortId": "Minecraft",
