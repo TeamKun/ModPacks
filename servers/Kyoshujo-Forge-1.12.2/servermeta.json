@@ -2,8 +2,8 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.0",
-		"name": "%7%教習所クラフト (Minecraft 1.12.2)",
-		"description": "教習所企画やるよ",
+		"name": "%7%自動車クラフト (Minecraft 1.12.2)",
+		"description": "しもむー",
 		"address": "",
 		"discord": {
 			"shortId": "Minecraft",
