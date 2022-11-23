@@ -1,0 +1,19 @@
+{
+  "id": "com.modularwarfare:modularwarfare:2.2.0f@jar",
+  "name": "ModularWarfare",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 86909933,
+    "MD5": "902f11a0d21db70df2f818dba5678ae2",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/modularwarfare/download/4102988",
+      "name": "modularwarfare-2.2.0f.jar",
+      "hints": [
+        {
+          "css": ""
+        }
+      ]
+    }
+  }
+}
