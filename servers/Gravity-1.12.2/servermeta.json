@@ -2,7 +2,7 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.0",
-		"name": "%6%重力クラフト (Minecraft 1.12.2)",
+		"name": "%5%重力クラフト (Minecraft 1.12.2)",
 		"description": "重力の方向が変化クラフト",
 		"address": "",
 		"discord": {

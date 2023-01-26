@@ -1,0 +1,14 @@
+{
+    "id": "de.maxhenkel:voicechat:1.16.5-2.3.27@jar",
+    "name": "voicechat",
+    "type": "ForgeMod",
+    "artifact": {
+        "size": 7841613,
+        "MD5": "2e3a134a9e436a35a77f56da4bb7a715",
+        "url": "",
+        "manual": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/download/4332093",
+            "name": "voicechat-forge-1.16.5-2.3.27.jar"
+        }
+    }
+}
