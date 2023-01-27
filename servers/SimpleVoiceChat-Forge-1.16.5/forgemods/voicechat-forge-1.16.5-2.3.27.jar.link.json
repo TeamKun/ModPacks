@@ -1,6 +1,6 @@
 {
     "id": "de.maxhenkel:voicechat:1.16.5-2.3.27@jar",
-    "name": "voicechat",
+    "name": "Simple Voice Chat",
     "type": "ForgeMod",
     "artifact": {
         "size": 7841613,
