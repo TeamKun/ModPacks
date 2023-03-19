@@ -1,0 +1,19 @@
+{
+  "id": "net.optifine:optifine:1.12.2_HD_U_F5@jar",
+  "name": "OptiFine 1.12.2_HD_U_F5",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 2598821,
+    "url": "",
+    "MD5": "043ac1db6f7441ea4cf31bcb621aff0b",
+    "manual": {
+      "url": "https://optifine.net/adloadx?f=OptiFine_1.12_HD_U_G5.jar",
+      "name": "OptiFine_1.12.2_HD_U_F5.jar",
+      "hints": [
+        {
+          "css": "a[href*=\"OptiFine_1.12.2_HD_U_F5.jar\"]:contains(\"Download\")"
+        }
+      ]
+    }
+  }
+}
