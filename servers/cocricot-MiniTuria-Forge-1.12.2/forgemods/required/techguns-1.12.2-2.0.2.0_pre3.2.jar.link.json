@@ -9,11 +9,7 @@
     "manual": {
       "url": "https://www.curseforge.com/minecraft/mc-mods/techguns/download",
       "name": "techguns-1.12.2-2.0.2.0_pre3.2.jar",
-      "hints": [
-        {
-          "css": ""
-        }
-      ]
+      "hints": []
     }
   }
 }
