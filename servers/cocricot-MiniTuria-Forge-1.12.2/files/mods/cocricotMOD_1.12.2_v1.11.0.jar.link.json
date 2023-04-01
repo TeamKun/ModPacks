@@ -1,0 +1,16 @@
+{
+  "id": "cocricotMOD_1.12.2_v1.11.0.jar",
+  "name": "cocricotMOD_1.12.2_v1.11.0.jar",
+  "type": "File",
+  "artifact": {
+    "size": 2945950,
+    "url": "",
+    "MD5": "1517f8e2bd7ab68207e7dc524d5bb24c",
+    "path": "mods/cocricotMOD_1.12.2_v1.11.0.jar",
+    "manual": {
+      "url": "https://github.com/TeamKun/ModPacks/blob/deploy/servers/cocricot-MiniTuria-Forge-1.12.2/cocricot.md",
+      "name": "cocricotMOD_1.12.2_v1.11.0.jar",
+      "hints": []
+    }
+  }
+}
