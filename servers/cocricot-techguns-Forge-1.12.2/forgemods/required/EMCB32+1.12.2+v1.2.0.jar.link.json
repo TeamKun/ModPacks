@@ -1,0 +1,19 @@
+{
+  "id": "net.mcreator:essensialmodernconstructionblock:1.2.0@jar",
+  "name": "Essential Modern Construction Block XXXIIpx",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 20431889,
+    "MD5": "9935035f41e68508e0e9b35a24e6e59d",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/essential-modern-construction-block-32px-edition/download/3455540",
+      "name": "EMCB32+1.12.2+v1.2.0.jar",
+      "hints": [
+        {
+          "css": ""
+        }
+      ]
+    }
+  }
+}

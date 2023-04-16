@@ -2,7 +2,7 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.0",
-		"name": "%11%ニコニコクラフト (Minecraft 1.16.5)",
+		"name": "%14%ニコニコクラフト (Minecraft 1.16.5)",
 		"description": "ニコニコ動画風チャットMod",
 		"address": "",
 		"discord": {
