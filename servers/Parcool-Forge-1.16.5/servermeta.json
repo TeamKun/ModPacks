@@ -2,8 +2,8 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.0",
-		"name": "%15%ニコニコクラフト (Minecraft 1.16.5)",
-		"description": "ニコニコ動画風チャットMod",
+		"name": "%3%Parcool！ (Minecraft 1.16.5)",
+		"description": "Parcool",
 		"address": "",
 		"discord": {
 			"shortId": "Minecraft",
