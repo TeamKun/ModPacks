@@ -3,6 +3,7 @@
     "1.vanilla-1.16.5",
     "cocricot-techguns-Forge-1.12.2",
     "SimpleVoiceChat-Forge-1.16.5",
+    "Parcool-Forge-1.16.5",
     "AncientWarfare2-Forge-1.12.2",
     "MiniaTuria-Forge-1.12.2",
     "Guns-Forge-1.16.5",
@@ -23,6 +24,10 @@
     "JointBlock-Forge-1.12.2",
     "ModularWarfare-Forge-1.12.2",
     "Devil-sTuneFork-Forge-1.15.2",
-    "vanilla-1.19.2"
+    "vanilla-1.19.2",
+    "Scorched-Guns-Forge-1.19.3",
+    "SimplePlane-Forge-1.19.2",
+    "VehicleRace-Forge-1.12.2",
+    "WitherStorm-Forge-1.19.4"
   ]
 }
