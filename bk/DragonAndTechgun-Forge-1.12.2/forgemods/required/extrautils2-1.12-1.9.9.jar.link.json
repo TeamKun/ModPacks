@@ -1,0 +1,17 @@
+{
+    "id": "com.rwtema:extrautils2:1.0@jar",
+    "name": "Extra Utilities 2",
+    "type": "ForgeMod",
+    "artifact": {
+        "size": 3226408,
+        "MD5": "1ea591619e6d5204bf077214868772ef",
+        "url": "",
+        "manual": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities/download/2678374",
+            "name": "extrautils2-1.12-1.9.9.jar",
+            "hints": [{
+                "css": ""
+            }]
+        }
+    }
+}
