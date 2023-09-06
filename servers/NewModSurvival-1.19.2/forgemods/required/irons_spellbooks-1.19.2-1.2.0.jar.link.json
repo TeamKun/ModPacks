@@ -1,0 +1,17 @@
+{
+    "id": "io.redspace.ironsspellbooks:irons_spellbooks:1.2.0@jar",
+    "name": "slashblade",
+    "type": "ForgeMod",
+    "artifact": {
+        "size": 127914158,
+        "MD5": "3fa9f2c4f1db0180fdfbee9b03ac2509",
+        "url": "",
+        "manual": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks/download/4671831",
+            "name": "irons_spellbooks-1.19.2-1.2.0.jar",
+            "hints": [{
+                "css": ""
+            }]
+        }
+    }
+}

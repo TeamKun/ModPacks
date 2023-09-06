@@ -1,0 +1,17 @@
+{
+    "id": "mods.flammpfeil:slashblade:0.0.8@jar",
+    "name": "slashblade",
+    "type": "ForgeMod",
+    "artifact": {
+        "size": 5663005,
+        "MD5": "6c62e42f48b63c03f80addfe017c0e11",
+        "url": "",
+        "manual": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/slashblade/download/4346941",
+            "name": "SlashBlade-1.19.2-0.0.8.jar",
+            "hints": [{
+                "css": ""
+            }]
+        }
+    }
+}
