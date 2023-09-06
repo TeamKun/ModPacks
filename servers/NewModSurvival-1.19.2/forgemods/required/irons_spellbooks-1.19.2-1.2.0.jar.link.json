@@ -1,6 +1,6 @@
 {
     "id": "io.redspace.ironsspellbooks:irons_spellbooks:1.2.0@jar",
-    "name": "slashblade",
+    "name": "irons_spellbooks",
     "type": "ForgeMod",
     "artifact": {
         "size": 5663005,
