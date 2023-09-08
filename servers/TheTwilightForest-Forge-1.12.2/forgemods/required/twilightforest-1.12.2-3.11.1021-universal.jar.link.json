@@ -1,0 +1,19 @@
+{
+  "id": "twilightforest:twilightforest:3.11.1021@jar",
+  "name": "The Twilight Forest",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 28721862,
+    "MD5": "0933760943721154f3208782306f04d6",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/download/3051450",
+      "name": "twilightforest-1.12.2-3.11.1021-universal.jar",
+      "hints": [
+        {
+          "css": ""
+        }
+      ]
+    }
+  }
+}
