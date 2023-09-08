@@ -1,20 +1,20 @@
 {
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
-		"version": "1.0",
-		"name": "%35%【メンバーシップ】黄昏の森 (Minecraft 1.12.2)",
-		"description": "メンバーシップMod鯖用",
+		"version": "1.0.0",
+		"name": "%1%バニラ1.19.2 (Minecraft 1.19.2)",
+		"description": "1.19.2",
 		"address": "",
 		"discord": {
 			"shortId": "Minecraft",
 			"largeImageText": "Minecraft",
 			"largeImageKey": "pack_numa"
 		},
-		"mainServer": true,
+		"mainServer": false,
 		"autoconnect": false
 	},
 	"forge": {
-		"version": "14.23.5.2860"
+		"version": "43.2.4"
 	},
 	"untrackedFiles": []
 }

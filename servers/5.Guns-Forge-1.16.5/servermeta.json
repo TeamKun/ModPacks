@@ -2,8 +2,8 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.0",
-		"name": "%2%マイクラ人狼用(Minecraft 1.16.5)",
-		"description": "SimpleVoiceChat",
+		"name": "%4%銃Mod (Minecraft 1.16.5)",
+		"description": "銃Mod",
 		"address": "",
 		"discord": {
 			"shortId": "Minecraft",
