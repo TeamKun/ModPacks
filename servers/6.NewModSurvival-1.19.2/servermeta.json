@@ -2,8 +2,8 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.0",
-		"name": "%5%ScorchedGuns (Minecraft 1.19.3)",
-		"description": "",
+		"name": "%6%新Modサバイバル1.19.2 (Minecraft 1.19.2)",
+		"description": "1.19.2",
 		"address": "",
 		"discord": {
 			"shortId": "Minecraft",
@@ -14,7 +14,7 @@
 		"autoconnect": false
 	},
 	"forge": {
-		"version": "44.1.0"
+		"version": "43.2.4"
 	},
 	"untrackedFiles": []
 }

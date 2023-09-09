@@ -2,8 +2,8 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.0",
-		"name": "%6%アッシー最強銃モッド (Minecraft 1.16.5)",
-		"description": "Parcool",
+		"name": "%9%ScorchedGuns (Minecraft 1.19.3)",
+		"description": "",
 		"address": "",
 		"discord": {
 			"shortId": "Minecraft",
@@ -14,7 +14,7 @@
 		"autoconnect": false
 	},
 	"forge": {
-		"version": "36.2.20"
+		"version": "44.1.0"
 	},
 	"untrackedFiles": []
 }
