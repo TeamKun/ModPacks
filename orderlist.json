@@ -1,33 +1,17 @@
 {
-  "orderList": [
-    "1.vanilla-1.16.5",
-    "cocricot-techguns-Forge-1.12.2",
-    "SimpleVoiceChat-Forge-1.16.5",
-    "Parcool-Forge-1.16.5",
-    "AncientWarfare2-Forge-1.12.2",
-    "MiniaTuria-Forge-1.12.2",
-    "Guns-Forge-1.16.5",
-    "DragonAndTechgun-Forge-1.12.2",
-    "ChibiCra-Forge-1.16.5",
-    "FaithfulBackrooms-Forge-1.16.5",
-    "Gravity-1.12.2",
-    "Kyoshujo-Forge-1.12.2",
-    "Photobomb-Forge-1.15.2",
-    "LuckyBlock-Forge-1.16.5",
-    "gullivern-Forge-1.16.5",
-    "NikoNiko-Forge-1.16.5",
-    "2.ModCraft2-Forge-1.12.2",
-    "Asahi-Vehicle-Forge-1.16.5",
-    "Asshi-Forge-1.12.2",
-    "cocricot-MiniTuria-Forge-1.12.2",
-    "Create-otherMods-Forge-1.18.2",
-    "JointBlock-Forge-1.12.2",
-    "ModularWarfare-Forge-1.12.2",
-    "Devil-sTuneFork-Forge-1.15.2",
-    "vanilla-1.19.2",
-    "Scorched-Guns-Forge-1.19.3",
-    "SimplePlane-Forge-1.19.2",
-    "VehicleRace-Forge-1.12.2",
-    "WitherStorm-Forge-1.19.4"
-  ]
+	"orderList": [
+		"1.vanilla-1.16.5",
+		"cocricot-MiniTuria-Forge-1.12.2",
+		"10.Asshi-Gun-Forge-1.16.5",
+		"11.SimpleVoiceChat-Forge-1.16.5",
+		"12.TheTwilightForest-Forge-1.12.2",
+		"13.Mutant-Forge-1.19.2",
+		"2.vanilla-1.19.2",
+		"3.vanilla-1.19.4",
+		"5.Combat-1.19.2",
+		"6.NewModSurvival-1.19.2",
+		"7.CarMod-Forge-1.16.5",
+		"8.Guns-Forge-1.16.5",
+		"9.Scorched-Guns-Forge-1.19.3"
+	]
 }

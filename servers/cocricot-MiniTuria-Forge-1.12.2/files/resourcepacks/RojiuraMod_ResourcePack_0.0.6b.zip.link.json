@@ -1,0 +1,32 @@
+{
+  "id": "RojiuraMod_ResourcePack_0.0.6b.zip",
+  "name": "RojiuraMod_ResourcePack_0.0.6b.zip",
+  "type": "File",
+  "artifact": {
+    "size": 5879775,
+    "url": "",
+    "MD5": "8c3cdd235267f0f34a224ebfda5ee419",
+    "path": "resourcepacks/RojiuraMod_ResourcePack_0.0.6b.zip",
+    "manual": {
+      "url": "http://rojiuramod.php.xdomain.jp/",
+      "name": "RojiuraMod_ResourcePack_0.0.6b.zip",
+      "hints": [
+        {
+          "css": "a.btn[href=download]"
+        },
+        {
+          "css": "p:has(label.checkbox03)"
+        },
+        {
+          "css": "#link3"
+        },
+        {
+          "script": "this.jQuery(\"iframe[src=download_inframe]\").contents().find(\"label[for=acd-check2]\")"
+        },
+        {
+          "script": "(function($){let n=$(\"iframe[src=download_inframe]\").contents();if(0==n.find(\".manual-inframe-style\").length){let e=$(\"style:contains(.manual-info-button)\");n.find(\"head\").append(e.clone().addClass(\"manual-inframe-style\"))}return n.find(\"#acd_content02 a\")})(this.jQuery)"
+        }
+      ]
+    }
+  }
+}
