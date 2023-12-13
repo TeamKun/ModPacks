@@ -1,0 +1,20 @@
+{
+	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+	"meta": {
+		"version": "1.0.0",
+		"name": "%3%ブレイキングダウン1.19.2 (Minecraft 1.19.2)",
+		"description": "undead-boxers created by s_mb07 https://www.curseforge.com/minecraft/mc-mods/undead-boxers",
+		"address": "",
+		"discord": {
+			"shortId": "Minecraft",
+			"largeImageText": "Minecraft",
+			"largeImageKey": "pack_numa"
+		},
+		"mainServer": false,
+		"autoconnect": false
+	},
+	"forge": {
+		"version": "43.2.4"
+	},
+	"untrackedFiles": []
+}

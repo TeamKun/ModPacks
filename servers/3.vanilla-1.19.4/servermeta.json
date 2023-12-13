@@ -2,7 +2,7 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.0",
-		"name": "%1%バニラ1.19.4 (Minecraft 1.19.4)",
+		"name": "%2%バニラ1.19.4 (Minecraft 1.19.4)",
 		"description": "1.19.4",
 		"address": "",
 		"discord": {

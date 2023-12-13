@@ -1,17 +1,18 @@
 {
-	"orderList": [
-		"1.vanilla-1.16.5",
-		"cocricot-MiniTuria-Forge-1.12.2",
-		"10.Asshi-Gun-Forge-1.16.5",
-		"11.SimpleVoiceChat-Forge-1.16.5",
-		"12.TheTwilightForest-Forge-1.12.2",
-		"13.Mutant-Forge-1.19.2",
-		"2.vanilla-1.19.2",
-		"3.vanilla-1.19.4",
-		"5.Combat-1.19.2",
-		"6.NewModSurvival-1.19.2",
-		"7.CarMod-Forge-1.16.5",
-		"8.Guns-Forge-1.16.5",
-		"9.Scorched-Guns-Forge-1.19.3"
-	]
+  "orderList": [
+    "1.vanilla-1.16.5",
+    "2.vanilla-1.19.2",
+    "3.vanilla-1.19.4",
+    "undead_boxers-1.19.2",
+    "10.Asshi-Gun-Forge-1.16.5",
+    "11.SimpleVoiceChat-Forge-1.16.5",
+    "12.TheTwilightForest-Forge-1.12.2",
+    "13.Mutant-Forge-1.19.2",
+    "5.Combat-1.19.2",
+    "6.NewModSurvival-1.19.2",
+    "7.CarMod-Forge-1.16.5",
+    "8.Guns-Forge-1.16.5",
+    "9.Scorched-Guns-Forge-1.19.3",
+    "cocricot-MiniTuria-roji-Forge-1.12.2"
+  ]
 }
