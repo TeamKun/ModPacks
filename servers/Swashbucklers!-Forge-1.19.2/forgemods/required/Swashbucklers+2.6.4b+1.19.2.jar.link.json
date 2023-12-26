@@ -3,12 +3,12 @@
   "name": "HalsPirateMod",
   "type": "ForgeMod",
   "artifact": {
-    "size": 1158932,
-    "MD5": "bd36f307fbbc7b2add87630eb506be77",
+    "size": 1146174,
+    "MD5": "fa345f79452d3247d4298356833d6e97",
     "url": "",
     "manual": {
       "url": "https://www.curseforge.com/minecraft/mc-mods/swashbucklers/download/4967246",
-      "name": "Swashbucklers+2.6.4b+1.20.1.jar",
+      "name": "Swashbucklers+2.6.4b+1.19.2.jar",
       "hints": [
         {
           "css": ""
