@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "%2%身長Mod1.16.1 (Minecraft 1.16.1)",
+    "description": "1.16.1",
+    "address": "",
+    "discord": {
+      "shortId": "Minecraft",
+      "largeImageText": "Minecrafst",
+      "largeImageKey": "pack_numa"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "32.0.108"
+  },
+  "untrackedFiles": []
+}
