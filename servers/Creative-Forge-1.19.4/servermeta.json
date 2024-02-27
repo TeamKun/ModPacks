@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0",
+    "name": "%6%【メンバーシップ】クリエ企画用 (Minecraft 1.19.4)",
+    "description": "メンバーシップクリエ企画用",
+    "address": "",
+    "discord": {
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "45.0.43"
+  },
+  "untrackedFiles": []
+}
