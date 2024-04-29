@@ -1,0 +1,20 @@
+{
+	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+	"meta": {
+		"version": "1.0.1",
+		"name": "%0%ゲリラ1.12.2 (Minecraft 1.12.2)",
+		"description": "1.12.2 + ゲリラサーバーに入るためのmodが含まれたパックです",
+		"address": "",
+		"discord": {
+			"shortId": "Minecraft",
+			"largeImageText": "Minecraft",
+			"largeImageKey": "pack_numa"
+		},
+		"mainServer": false,
+		"autoconnect": false
+	},
+	"forge": {
+		"version": "36.2.20"
+	},
+	"untrackedFiles": []
+}
