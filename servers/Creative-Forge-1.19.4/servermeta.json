@@ -2,8 +2,8 @@
   "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0",
-    "name": "【メンバーシップ】クリエ企画用 (Minecraft 1.19.4)",
-    "description": "メンバーシップクリエ企画用",
+    "name": "【メンバーシップ】PvP企画用 (Minecraft 1.19.4)",
+    "description": "メンバーシップPvP企画用",
     "address": "",
     "discord": {
       "shortId": "Minecraft",
