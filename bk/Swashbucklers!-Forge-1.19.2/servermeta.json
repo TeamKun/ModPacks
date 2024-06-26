@@ -2,8 +2,8 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.0",
-		"name": "%1%バニラ1.19.4 (Minecraft 1.19.4)",
-		"description": "1.19.4",
+		"name": "%13%海戦MOD1.19.2 (Minecraft 1.19.2)",
+		"description": "海戦MOD1.19.2",
 		"address": "",
 		"discord": {
 			"shortId": "Minecraft",
@@ -14,7 +14,7 @@
 		"autoconnect": false
 	},
 	"forge": {
-		"version": "45.0.43"
+		"version": "43.2.4"
 	},
 	"untrackedFiles": []
 }

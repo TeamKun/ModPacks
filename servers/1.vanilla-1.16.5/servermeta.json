@@ -2,7 +2,7 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.1",
-		"name": "%2%バニラ1.16.5 (Minecraft 1.16.5)",
+		"name": "%1%バニラ1.16.5 (Minecraft 1.16.5)",
 		"description": "1.16.5 + 便利なModが導入されたおすすめのパックです。",
 		"address": "",
 		"discord": {
