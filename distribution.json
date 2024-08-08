@@ -659,6 +659,17 @@
             "MD5": "597dd027ad0cd51edce0b6806a744242",
             "path": "config/tac-client.toml"
           }
+        },
+        {
+          "id": "3.zip",
+          "name": "3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3138104,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/14.ShimoGun-Mod-Forge-1.16.5/files/mcheli_addons/3.zip",
+            "MD5": "c0fbde0348fdb11cc312a791cc644a05",
+            "path": "mcheli_addons/3.zip"
+          }
         }
       ]
     },
@@ -1741,6 +1752,119 @@
       ]
     },
     {
+      "id": "bushi_vs_knight-1.20.1",
+      "name": "武士vs騎士(Minecraft 1.20.1)",
+      "description": "1.20.1",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "Minecraft",
+        "largeImageText": "Minecrafst",
+        "largeImageKey": "pack_numa"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.3.0:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 6021040,
+            "MD5": "ee3ca303001d1e856558b75b2a5854f1",
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "com.magistuarmory:magistuarmory:9.8@jar",
+          "name": "Epic Knights Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2462634,
+            "MD5": "1c204f93afad3307e511f4e86f8ec6af",
+            "url": "",
+            "manual": {
+              "url": "https://www.curseforge.com/minecraft/mc-mods/epic-knights-armor-and-weapons/download/5254836",
+              "name": "[1.20.1-forge]-Epic-Knights-9.8.jar"
+            }
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/bushi_vs_knight-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "mod.azure:azurelib:2.0.31@jar",
+          "name": "AzureLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 731253,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/bushi_vs_knight-1.20.1/forgemods/required/azurelib-neo-1.20.1-2.0.30.jar",
+            "MD5": "3b768b54f88dda8fb155b91140fde64e"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.118@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1168391,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/bushi_vs_knight-1.20.1/forgemods/required/cloth-config-11.1.118-forge.jar",
+            "MD5": "728bdaa093e07f3567640d36c55656ae"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.9.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 382970,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/bushi_vs_knight-1.20.1/forgemods/required/curios-forge-5.9.1+1.20.1.jar",
+            "MD5": "c4bef497fe84a0140652e43b267bd6ee"
+          }
+        },
+        {
+          "id": "yesman.epicfight.main:epicfight:20.7.4@jar",
+          "name": "Epic Fight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5949420,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/bushi_vs_knight-1.20.1/forgemods/required/EpicFight-20.7.4.jar",
+            "MD5": "45bcf0c6b3abcc7346c2dab312f37ee3"
+          }
+        },
+        {
+          "id": "net.veroxuniverse:epicsamurai:0.0.46-1.20.1-neo@jar",
+          "name": "Epic Samurai",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2318497,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/bushi_vs_knight-1.20.1/forgemods/required/epicsamurai-0.0.46-1.20.1-neo.jar",
+            "MD5": "326c957ee3eaeffaca65495b2acfa35d"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.4.7@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 991111,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/bushi_vs_knight-1.20.1/forgemods/required/geckolib-neoforge-1.20.1-4.4.7.jar",
+            "MD5": "7765af5e2a53f237ffcb6ed088b1092d"
+          }
+        }
+      ]
+    },
+    {
       "id": "cocricot-MiniTuria-roji-Forge-1.12.2",
       "name": "%17%コクリ&ミニチュリア (Minecraft 1.12.2)",
       "description": "導入MOD: cocricot/MiniTuria Mods<br>※手順書に沿って導入してください",
@@ -2477,6 +2601,33 @@
           }
         },
         {
+          "id": "virtuoel.pehkui:pehkui:3.8.2+1.20.1-forge@jar",
+          "name": "Pehkui",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 671605,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/Pehkui-3.8.2+1.20.1-forge.jar",
+            "MD5": "95bdd5558d34044f54aab0ce292e679b"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionalon/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "xyz.przemyk:simpleplanes:1.20.1-5.2.7@jar",
           "name": "Simple Planes",
           "type": "ForgeMod",
@@ -2498,6 +2649,20 @@
             "size": 271656,
             "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/SimpleRadio-forge-1.20.1-2.3.6.jar",
             "MD5": "1af311fa45811821ea5acddcff1cf15e"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "me.edoren:skin_changer:0.6.0@jar",
+          "name": "Skin Changer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 56266,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/skin_changer-0.6.0.jar",
+            "MD5": "21ceebe9ce53368fb2568c132c54906a"
           },
           "required": {
             "value": false,
@@ -2758,6 +2923,523 @@
             "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.20.4-49.0.50/forge-1.20.4-49.0.50-installer.jar"
           },
           "subModules": []
+        }
+      ]
+    },
+    {
+      "id": "shimosawaTank-Forge-1.12.2",
+      "name": "%16%戦車で前進攻城戦 (Minecraft 1.12.2)",
+      "description": "ICBM Mod",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "Minecraft",
+        "largeImageText": "Minecraft",
+        "largeImageKey": "pack_numa"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466148,
+            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2860",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 11799,
+                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_F5@jar",
+          "name": "OptiFine 1.12.2_HD_U_F5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2598821,
+            "url": "",
+            "MD5": "043ac1db6f7441ea4cf31bcb621aff0b",
+            "manual": {
+              "url": "https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_F5.jar",
+              "name": "OptiFine_1.12.2_HD_U_F5.jar",
+              "hints": [
+                {
+                  "css": "a[href*=\"OptiFine_1.12.2_HD_U_F5.jar\"]:contains(\"Download\")"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.12.2-5.7.1p2@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6536118,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/forgemods/required/journeymap-1.12.2-5.7.1p2.jar",
+            "MD5": "df46c93c0800a552c3d8fc7c9ddfad54"
+          }
+        },
+        {
+          "id": "games.alejandrocoria:mapfrontiers:1.12.2-1.5.1@jar",
+          "name": "MapFrontiers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 318282,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/forgemods/required/MapFrontiers-1.12.2-1.5.1.jar",
+            "MD5": "2a7de717d3434896eb6c165bd1905f2d"
+          }
+        },
+        {
+          "id": "mcheli:mcheli:1.1.4@jar",
+          "name": "MC Helicopter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76972773,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/forgemods/required/mcheli-1.1.4.jar",
+            "MD5": "0eb9f5b13b04c0626a2d3bd2293d1132"
+          }
+        },
+        {
+          "id": "com.vicmatskiv:mw:0.4.4.6@jar",
+          "name": "Modern Warfare 2.0 Contagion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27545802,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/forgemods/required/mw_2.0-0.4.4.6_mc1.12.2.jar",
+            "MD5": "69cbe3bd707a5284b1af20ebf0a9b0b9"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.12.2-2.5.19@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8677662,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/forgemods/required/voicechat-forge-1.12.2-2.5.19.jar",
+            "MD5": "5a760e6ef683bc54b53402d93ee5389a"
+          }
+        },
+        {
+          "id": "a34.mqo",
+          "name": "a34.mqo",
+          "type": "File",
+          "artifact": {
+            "size": 514501,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/models/tanks/a34.mqo",
+            "MD5": "930c2703fc594f0eb64edf783ccefecd",
+            "path": "mcheli_addons/testpack/assets/mcheli/models/tanks/a34.mqo"
+          }
+        },
+        {
+          "id": "pz2.mqo",
+          "name": "pz2.mqo",
+          "type": "File",
+          "artifact": {
+            "size": 469304,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/models/tanks/pz2.mqo",
+            "MD5": "1d0e30a746818a3061b92e1494e5873f",
+            "path": "mcheli_addons/testpack/assets/mcheli/models/tanks/pz2.mqo"
+          }
+        },
+        {
+          "id": "bofors40mml602.obj",
+          "name": "bofors40mml602.obj",
+          "type": "File",
+          "artifact": {
+            "size": 167836,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/models/vehicles/bofors40mml602.obj",
+            "MD5": "56065c7cfeeee960a5dee10950db4348",
+            "path": "mcheli_addons/testpack/assets/mcheli/models/vehicles/bofors40mml602.obj"
+          }
+        },
+        {
+          "id": "a34.txt",
+          "name": "a34.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2914,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/tanks/a34.txt",
+            "MD5": "785fb433c8c1fac237a1dc901ba0d0a2",
+            "path": "mcheli_addons/testpack/assets/mcheli/tanks/a34.txt"
+          }
+        },
+        {
+          "id": "pz2.txt",
+          "name": "pz2.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2720,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/tanks/pz2.txt",
+            "MD5": "9ce08bb5649ebeda75794f76cbd5b064",
+            "path": "mcheli_addons/testpack/assets/mcheli/tanks/pz2.txt"
+          }
+        },
+        {
+          "id": "Thumbs.db",
+          "name": "Thumbs.db",
+          "type": "File",
+          "artifact": {
+            "size": 173056,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/textures/items/Thumbs.db",
+            "MD5": "114dc571aea73b1dc9651532b1e9ddb6",
+            "path": "mcheli_addons/testpack/assets/mcheli/textures/items/Thumbs.db"
+          }
+        },
+        {
+          "id": "a34.png",
+          "name": "a34.png",
+          "type": "File",
+          "artifact": {
+            "size": 251910,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/textures/items/a34.png",
+            "MD5": "993bbd0641f9ca91dd3a3bc27f242c63",
+            "path": "mcheli_addons/testpack/assets/mcheli/textures/items/a34.png"
+          }
+        },
+        {
+          "id": "bofors40mml602.png",
+          "name": "bofors40mml602.png",
+          "type": "File",
+          "artifact": {
+            "size": 712,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/textures/items/bofors40mml602.png",
+            "MD5": "557bece3657b7b16cf29fcfa3f5adbfa",
+            "path": "mcheli_addons/testpack/assets/mcheli/textures/items/bofors40mml602.png"
+          }
+        },
+        {
+          "id": "pz2.png",
+          "name": "pz2.png",
+          "type": "File",
+          "artifact": {
+            "size": 12756,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/textures/items/pz2.png",
+            "MD5": "8a009ab58bb6b0e2bd81d3da9f65f216",
+            "path": "mcheli_addons/testpack/assets/mcheli/textures/items/pz2.png"
+          }
+        },
+        {
+          "id": "Thumbs.db",
+          "name": "Thumbs.db",
+          "type": "File",
+          "artifact": {
+            "size": 1239040,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/textures/tanks/Thumbs.db",
+            "MD5": "12a5521c5be20215fc90e116ed7ae7cd",
+            "path": "mcheli_addons/testpack/assets/mcheli/textures/tanks/Thumbs.db"
+          }
+        },
+        {
+          "id": "a34.png",
+          "name": "a34.png",
+          "type": "File",
+          "artifact": {
+            "size": 425079,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/textures/tanks/a34.png",
+            "MD5": "774cdf9829911d6c86697ccc57ea95ee",
+            "path": "mcheli_addons/testpack/assets/mcheli/textures/tanks/a34.png"
+          }
+        },
+        {
+          "id": "pz2.png",
+          "name": "pz2.png",
+          "type": "File",
+          "artifact": {
+            "size": 646829,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/textures/tanks/pz2.png",
+            "MD5": "e7bcc7663c51be78a06d9463ad5c46a3",
+            "path": "mcheli_addons/testpack/assets/mcheli/textures/tanks/pz2.png"
+          }
+        },
+        {
+          "id": "bofors40mml602.png",
+          "name": "bofors40mml602.png",
+          "type": "File",
+          "artifact": {
+            "size": 242163,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/textures/vehicles/bofors40mml602.png",
+            "MD5": "0de8c19576eeb9b9f28ae72223b5b05c",
+            "path": "mcheli_addons/testpack/assets/mcheli/textures/vehicles/bofors40mml602.png"
+          }
+        },
+        {
+          "id": "bofors40mml602.txt",
+          "name": "bofors40mml602.txt",
+          "type": "File",
+          "artifact": {
+            "size": 776,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/vehicles/bofors40mml602.txt",
+            "MD5": "49b72ee7b52ce7f639338edd28400b04",
+            "path": "mcheli_addons/testpack/assets/mcheli/vehicles/bofors40mml602.txt"
+          }
+        },
+        {
+          "id": "KwK_L40_PzGr39.txt",
+          "name": "KwK_L40_PzGr39.txt",
+          "type": "File",
+          "artifact": {
+            "size": 689,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/weapons/KwK_L40_PzGr39.txt",
+            "MD5": "7a5eefe5b7ec06e6fdfa80c4d9d848ed",
+            "path": "mcheli_addons/testpack/assets/mcheli/weapons/KwK_L40_PzGr39.txt"
+          }
+        },
+        {
+          "id": "KwK_L40_SprGr34.txt",
+          "name": "KwK_L40_SprGr34.txt",
+          "type": "File",
+          "artifact": {
+            "size": 692,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/weapons/KwK_L40_SprGr34.txt",
+            "MD5": "2bf903216037ce3d1dd9de64288196d0",
+            "path": "mcheli_addons/testpack/assets/mcheli/weapons/KwK_L40_SprGr34.txt"
+          }
+        },
+        {
+          "id": "bofors40mm_l2.txt",
+          "name": "bofors40mm_l2.txt",
+          "type": "File",
+          "artifact": {
+            "size": 364,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/weapons/bofors40mm_l2.txt",
+            "MD5": "071531ed3bcf7818d1ad20229310c73f",
+            "path": "mcheli_addons/testpack/assets/mcheli/weapons/bofors40mm_l2.txt"
+          }
+        },
+        {
+          "id": "mg7_62mm_mbt.txt",
+          "name": "mg7_62mm_mbt.txt",
+          "type": "File",
+          "artifact": {
+            "size": 317,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/shimosawaTank-Forge-1.12.2/files/mcheli_addons/testpack/assets/mcheli/weapons/mg7_62mm_mbt.txt",
+            "MD5": "f765d94a142c345597896b4b1ebd5dfb",
+            "path": "mcheli_addons/testpack/assets/mcheli/weapons/mg7_62mm_mbt.txt"
+          }
         }
       ]
     },
