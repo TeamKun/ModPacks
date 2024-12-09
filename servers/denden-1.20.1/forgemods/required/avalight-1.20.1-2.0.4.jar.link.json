@@ -1,0 +1,14 @@
+{
+  "id": "pellucid.avalight:avalight:1.20.1-2.0.4@jar",
+  "name": "A.V.A - Alliance of Valiant Arms (Light)",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 244310,
+    "MD5": "46779c77c83adf305237e489d46e566f",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/api/v1/mods/943866/files/5084047/download",
+      "name": "avalight-1.20.1-2.0.4.jar"
+    }
+  }
+}
