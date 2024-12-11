@@ -1,0 +1,14 @@
+{
+  "id": "Patrix_1.20_32x_basic.zip",
+  "name": "Patrix_1.20_32x_basic.zip",
+  "type": "File",
+  "artifact": {
+    "size": 53321921,
+    "MD5": "3d81842857549a885ffceeb2114eed74",
+    "path": "resourcepacks/Patrix_1.20_32x_basic.zip",
+    "manual": {
+      "url": "https://www.curseforge.com/api/v1/mods/785390/files/4833616/download",
+      "name": "Bamboo-3.0.0.12.2.jar"
+    }
+  }
+}
