@@ -1,6 +1,6 @@
 ﻿DisplayName = Pz2
 ItemID = 50003
-MaxHp = 600
+MaxHp = 800
 Speed = 0.15
 Sound = mbt_run
 SoundVolume = 1
