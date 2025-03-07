@@ -1,0 +1,15 @@
+{
+  "id": "net.fexcraft.mod:fvtm:3.x.x@jar",
+  "name": "Fex's Vehicle and Transportation Mod",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 2071115,
+    "url": "",
+    "MD5": "1df7d5007dcd332ad836fe38d126e1a1",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fexs-vehicle-mod/download/4284166",
+      "name": "FVTM-3.8.71-3112222223.jar",
+      "hints": []
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ic2.core:ic2:2.8.170-ex112@jar",
+  "name": "IndustrialCraft 2",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 8356436,
+    "MD5": "d4f952c94cacdd280abbb73f072b2424",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/industrial-craft/download/2746892",
+      "name": "industrialcraft-2-2.8.170-ex112.jar",
+      "hints": []
+    }
+  }
+}

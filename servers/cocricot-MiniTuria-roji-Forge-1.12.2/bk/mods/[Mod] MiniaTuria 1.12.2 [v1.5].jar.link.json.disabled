@@ -1,0 +1,16 @@
+{
+  "id": "[Mod] MiniaTuria 1.12.2 [v1.5].jar",
+  "name": "[Mod] MiniaTuria 1.12.2 [v1.5].jar",
+  "type": "File",
+  "artifact": {
+    "size": 10896754,
+    "url": "",
+    "MD5": "99f7af77c7d0e010cb7a7986611568df",
+    "path": "mods/[Mod] MiniaTuria 1.12.2 [v1.5].jar",
+    "manual": {
+      "url": "https://github.com/TeamKun/ModPacks/blob/deploy/servers/cocricot-MiniTuria-Forge-1.12.2/MiniTuria.md",
+      "name": "[Mod] MiniaTuria 1.12.2 [v1.5].jar",
+      "hints": []
+    }
+  }
+}

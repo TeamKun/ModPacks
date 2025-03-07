@@ -1,0 +1,20 @@
+{
+	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+	"meta": {
+		"version": "1.0.1",
+		"name": "%1%バニラ1.16.5 (Minecraft 1.16.5)",
+		"description": "1.16.5 + 便利なModが導入されたおすすめのパックです。",
+		"address": "",
+		"discord": {
+			"shortId": "Minecraft",
+			"largeImageText": "Minecraft",
+			"largeImageKey": "pack_numa"
+		},
+		"mainServer": false,
+		"autoconnect": false
+	},
+	"forge": {
+		"version": "36.2.20"
+	},
+	"untrackedFiles": []
+}
