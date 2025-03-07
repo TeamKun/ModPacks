@@ -1,0 +1,15 @@
+{
+  "id": "com.silvaniastudios.roads:furenikusroads:1.1.10@jar",
+  "name": "Fureniku's Roads",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 3316649,
+    "url": "",
+    "MD5": "ccde4687f588147a04293d84fe5e6f08",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/furenikusroads/download/3182168",
+      "name": "Fureniku's+Roads-1.1.10.jar",
+      "hints": []
+    }
+  }
+}

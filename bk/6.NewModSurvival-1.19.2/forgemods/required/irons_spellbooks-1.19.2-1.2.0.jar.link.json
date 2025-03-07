@@ -1,0 +1,17 @@
+{
+    "id": "io.redspace.ironsspellbooks:irons_spellbooks:1.2.0@jar",
+    "name": "irons_spellbooks",
+    "type": "ForgeMod",
+    "artifact": {
+        "size": 5663005,
+        "MD5": "6c62e42f48b63c03f80addfe017c0e11",
+        "url": "",
+        "manual": {
+            "url": "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks/download/4671831",
+            "name": "irons_spellbooks-1.19.2-1.2.0.jar",
+            "hints": [{
+                "css": ""
+            }]
+        }
+    }
+}

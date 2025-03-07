@@ -1,0 +1,78 @@
+﻿DisplayName = Pz2
+ItemID = 50003
+MaxHp = 800
+Speed = 0.15
+Sound = mbt_run
+SoundVolume = 1
+ThrottleUpDown = 20.0
+MobilityYawOnGround = 3.0
+MinRotationPitch = -14
+MaxRotationPitch = 5
+HideEntity = false
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 5
+CameraPosition = 0.15,  3.2, 0.61, true
+CameraRotationSpeed = 30
+MaxFuel         = 5000
+FuelConsumption = 2.7
+DefaultFreelook = true
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+ThirdPersonDist = 8
+StepHeight = 2
+
+SubmergedDamageHeight = 4
+
+HUD = ww2tank_hud, ww2tank_hud
+
+MotionFactor = 0.925
+ArmorMinDamage = 14
+ArmorMaxDamage = 200
+ArmorDamageFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.0
+
+WeightType = Tank
+
+SetWheelPos =  1.25,  -0.24,  0
+
+AddGunnerSeat = 0.344,  1.5, 0.0939,   0.344,  1.5, 0.0939, false, -90, 90, true
+
+AddCrawlerTrack = true, 0.18, 1.45, -0.3112/1.5816, -0.3112/-1.1779, 0.0394/-1.9965, 0.2627/-2.0622, 0.486/-1.9658, 0.5692/-1.7207, 0.5062/-1.0481, 0.5062/0.7443, 0.7574/2.1672, 0.6524/2.4431, 0.359/2.5482, 0.1076/2.4299,
+AddCrawlerTrack = true, 0.18, -1.45, -0.3112/1.5816, -0.3112/-1.1779, 0.0394/-1.9965, 0.2627/-2.0622, 0.486/-1.9658, 0.5692/-1.7207, 0.5062/-1.0481, 0.5062/0.7443, 0.7574/2.1672, 0.6524/2.4431, 0.359/2.5482, 0.1076/2.4299,
+
+AddTrackRoller = -1.0354,  0.3931,  2.1667
+AddTrackRoller = -1.1435,  0.0976,  1.4812
+AddTrackRoller = -1.0151,  0.0976,  0.8439
+AddTrackRoller = -1.1435,  0.0976,  0.1917
+AddTrackRoller = -1.0151,  0.0976, -0.4339
+AddTrackRoller = -1.1435,  0.0976, -1.0643
+AddTrackRoller = -1.0439,  0.2724, -1.7322
+
+AddTrackRoller =  1.0354,  0.3931,  2.1667
+AddTrackRoller =  1.1435,  0.0976,  1.4812
+AddTrackRoller =  1.0151,  0.0976,  0.8439
+AddTrackRoller =  1.1435,  0.0976,  0.1917
+AddTrackRoller =  1.0151,  0.0976, -0.4339
+AddTrackRoller =  1.1435,  0.0976, -1.0643
+AddTrackRoller =  1.0439,  0.2724, -1.7322
+
+
+AddPartWeapon = KwK_L40_PzGr39 / KwK_L40_SprGr34, false, true, false,   0.0, 0.0, -0.1, 0
+AddPartWeaponChild = false, true, -0.12, 2.0, 0.7, 0.0
+AddPartWeaponChild = false, true, -0.12, 2.0, 0.7, 0.5
+AddTurretWeapon = KwK_L40_PzGr39, 0.00, 1.74, 1.06,  0.0, 0.0, true,1, 0,-360,360, -17, 5
+AddTurretWeapon = KwK_L40_SprGr34, 0.00, 1.74, 1.06, 0.0, 0.0, true,1, 0,-360,360, -17, 5
+AddTurretWeapon = mg7_62mm_mbt, -0.3049, 1.74, 1.06,  0.0, 0.0, true,1, 0,-360,360, -17, 5
+
+BoundingBox =  0.0, 1.0, 0.0,  3.5, 2.0
+BoundingBox =  0.0, 1.2, -1.8,  2.0, 2.0
+BoundingBox =  0.0, 2.4, -0.0,  2.0, 1.0
+BoundingBox =  0.0, 1.0,  2.4,  3.5, 2.0
+BoundingBox =  0.0, 3.0, -0.74, 1.0, 1.0
+
+
+AddRecipe = " R ",  "I I",  "XXX",  X, iron_block,  I, iron_ingot, R, redstone

@@ -1,0 +1,83 @@
+DisplayName = A-34Comet
+ItemID = 50002
+MaxHp = 1000
+Speed = 0.15
+Sound = mbt_run
+SoundVolume = 1
+ThrottleUpDown = 20.0
+MobilityYawOnGround = 3.0
+MinRotationPitch = -14
+MaxRotationPitch = 5
+HideEntity = false
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 5
+CameraPosition = 0.15,  3.2, 0.61, true
+CameraRotationSpeed = 30
+MaxFuel         = 5000
+FuelConsumption = 2.7
+DefaultFreelook = true
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.9
+ThirdPersonDist = 8
+StepHeight = 2
+
+SubmergedDamageHeight = 4
+
+HUD = ww2tank_hud, ww2tank_hud
+
+MotionFactor = 0.925
+ArmorMinDamage = 14
+ArmorMaxDamage = 200
+ArmorDamageFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.0
+
+WeightType = Tank
+
+SetWheelPos =  1.56,  -0.24,  0
+
+AddGunnerSeat = 0.805, 2.15, -0.454, 0.805, 2.15, -0.454,  false, -90, 90, true
+
+AddCrawlerTrack = true, 0.18, 1.45, -0.2278/1.8651, -0.2278/-3.6642, 0.3222/-4.7597, 0.6445/-4.9638, 0.9807/-4.8897, 1.1208/-4.5744, 1.0648/-2.8581, 1.0648/1.2219, 1.1208/2.8161, 0.9807/3.1384, 0.6445/3.22, 0.3782/3.0584,
+AddCrawlerTrack = true, 0.18, -1.45,  -0.2278/1.8651, -0.2278/-3.6642, 0.3222/-4.7597, 0.6445/-4.9638, 0.9807/-4.8897, 1.1208/-4.5744, 1.0648/-2.8581, 1.0648/1.2219, 1.1208/2.8161, 0.9807/3.1384, 0.6445/3.22, 0.3782/3.0584,
+
+AddTrackRoller = 1.565,  0.759,  2.81
+AddTrackRoller = 1.565,  0.275,  1.81
+AddTrackRoller = 1.565,  0.275,  0.558
+AddTrackRoller = 1.565,  0.275,  -0.87
+AddTrackRoller = 1.565,  0.275,  -2.30
+AddTrackRoller = 1.565,  0.275,  -3.58
+AddTrackRoller = 1.565,  0.759,  -4.58
+AddTrackRoller = 1.565,  0.99,  1.21
+AddTrackRoller = 1.565,  0.99,  -0.112
+AddTrackRoller = 1.565,  0.99,  -1.5
+AddTrackRoller = 1.565,  0.99,  -2.87
+
+AddTrackRoller = -1.565,  0.759,  2.81
+AddTrackRoller = -1.565,  0.275,  1.81
+AddTrackRoller = -1.565,  0.275,  0.558
+AddTrackRoller = -1.565,  0.275,  -0.87
+AddTrackRoller = -1.565,  0.275,  -2.30
+AddTrackRoller = -1.565,  0.275,  -3.58
+AddTrackRoller = -1.565,  0.759,  -4.58
+AddTrackRoller = -1.565,  0.99,  1.21
+AddTrackRoller = -1.565,  0.99,  -0.112
+AddTrackRoller = -1.565,  0.99,  -1.5
+AddTrackRoller = -1.565,  0.99,  -2.87
+
+AddPartWeapon = KwK_L40_PzGr39 / KwK_L40_SprGr34, false, true, false,   0.0, 0.0, -0.1, 0
+AddPartWeaponChild = false, true, -0.12, 2.0, 0.7, 0.0
+AddPartWeaponChild = false, true, -0.12, 2.0, 0.7, 0.5
+AddTurretWeapon = KwK_L40_PzGr39, 0.00, 2.01, 5.4,  0.0, 0.0, true,1, 0,-360,360, -17, 5
+AddTurretWeapon = KwK_L40_SprGr34, 0.00, 2.01, 5.4,  0.0, 0.0, true,1, 0,-360,360, -17, 5
+AddTurretWeapon = mg7_62mm_mbt, -0.339, 2.0, 1.97,  0.0, 0.0, true,1, 0,-360,360, -17, 5
+
+BoundingBox =  0, 0, 1.51, 4, 3.4
+BoundingBox =  0, 0, -0.75, 4, 3.4
+BoundingBox =  0, 0, -3.25, 4, 3.4
+BoundingBox =  0, 1.4, -0.53, 3, 3.4
+
+AddRecipe = " R ",  "I I",  "XXX",  X, iron_block,  I, iron_ingot, R, redstone
