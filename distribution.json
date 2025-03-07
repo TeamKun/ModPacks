@@ -8,2315 +8,6 @@
   },
   "servers": [
     {
-      "id": "1.vanilla-1.16.5",
-      "name": "%1%バニラ1.16.5 (Minecraft 1.16.5)",
-      "description": "1.16.5 + 便利なModが導入されたおすすめのパックです。",
-      "icon": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/1.vanilla-1.16.5/pack.png",
-      "version": "1.0.1",
-      "address": "",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.20:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 7390346,
-            "MD5": "6298276cc9396bb1b2d8526b1ee0e8c5",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "net.kunmc.lab:aspectguide:1.0-SNAPSHOT@jar",
-          "name": "AspectGuide",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7502,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/1.vanilla-1.16.5/forgemods/optionaloff/aspectguide-1.0-SNAPSHOT.jar",
-            "MD5": "ba3585b7b419920f9271f1feead5b748"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "jp.axer.cocoainput.loader:cocoainput:4.0.4@jar",
-          "name": "CocoaInput",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 188469,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/1.vanilla-1.16.5/forgemods/optionalon/CocoaInput-1.16.5-forge-4.0.4.jar",
-            "MD5": "ed7d070d481b0270a3c42e59548ba0ca"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "kotx.customgui:customgui:0.1@jar",
-          "name": "CustomGUI Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 13802416,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/1.vanilla-1.16.5/forgemods/optionalon/CustomGUI-mod-2.0.4.jar",
-            "MD5": "1bf94c049deda95f0be77358663fb695"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.sintinium:oauth:1.0@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 51399,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/1.vanilla-1.16.5/forgemods/optionalon/oauth-1.06.1-1.16.jar",
-            "MD5": "07a30e616c9f2abff94e1212645f3565"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.kunmc.lab:vplayer:1.4-1.16.5-SNAPSHOT@jar",
-          "name": "VideoPlayer",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 42301810,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/1.vanilla-1.16.5/forgemods/optionalon/vplayer-1.4-1.16.5-SNAPSHOT-all.jar",
-            "MD5": "460acac7f6e85482ff607136cc352fb2"
-          },
-          "required": {
-            "value": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "10.Asshi-Gun-Forge-1.16.5",
-      "name": "%14%アッシー最強銃モッド (Minecraft 1.16.5)",
-      "description": "Parcool",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.20:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 7390346,
-            "MD5": "6298276cc9396bb1b2d8526b1ee0e8c5",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "top.theillusivec4:curios:1.16.5-4.0.8.1@jar",
-          "name": "Curios API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 277649,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/10.Asshi-Gun-Forge-1.16.5/forgemods/required/curios-forge-1.16.5-4.0.8.1.jar",
-            "MD5": "51bf5cf2dabe53a61c68e8ff85f98688"
-          }
-        },
-        {
-          "id": "mezz.jei:jei:7.7.1.153@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 828671,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/10.Asshi-Gun-Forge-1.16.5/forgemods/optionalon/jei-1.16.5-7.7.1.153.jar",
-            "MD5": "c632d0ad38292ad77d1624aa6c97fdac"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.sintinium:oauth:1.0@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 51399,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/10.Asshi-Gun-Forge-1.16.5/forgemods/optionalon/oauth-1.06.1-1.16.jar",
-            "MD5": "07a30e616c9f2abff94e1212645f3565"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
-          "name": "Obfuscate",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 142536,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/10.Asshi-Gun-Forge-1.16.5/forgemods/required/obfuscate-0.6.3-1.16.5%20(1).jar",
-            "MD5": "514fe4c6c39bc1b7e474d813daab593e"
-          }
-        },
-        {
-          "id": "com.tac.guns:tac:0.3.11.2@jar",
-          "name": "Timeless and Classics Guns",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 48081358,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/10.Asshi-Gun-Forge-1.16.5/forgemods/required/tac-release-0.3.11.2-1.16.5.jar",
-            "MD5": "005e71ed4bbc3250dffa994ca7a0a2d4"
-          }
-        },
-        {
-          "id": "com.sk89q:worldedit:7.2.5+57d5ac9@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5312767,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/10.Asshi-Gun-Forge-1.16.5/forgemods/required/worldedit-mod-7.2.5-dist.jar",
-            "MD5": "96ff53c70d4a3ff9df5592462b0f0685"
-          }
-        },
-        {
-          "id": "tac-client.toml",
-          "name": "tac-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 7761,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/10.Asshi-Gun-Forge-1.16.5/files/config/tac-client.toml",
-            "MD5": "597dd027ad0cd51edce0b6806a744242",
-            "path": "config/tac-client.toml"
-          }
-        }
-      ]
-    },
-    {
-      "id": "11.SimpleVoiceChat-Forge-1.16.5",
-      "name": "%6%マイクラ人狼用(Minecraft 1.16.5)",
-      "description": "SimpleVoiceChat",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.20:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 7390346,
-            "MD5": "6298276cc9396bb1b2d8526b1ee0e8c5",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "de.maxhenkel:voicechat:1.16.5-2.3.27@jar",
-          "name": "Simple Voice Chat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7841613,
-            "MD5": "2e3a134a9e436a35a77f56da4bb7a715",
-            "url": "",
-            "manual": {
-              "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/download/4332093",
-              "name": "voicechat-forge-1.16.5-2.3.27.jar"
-            }
-          }
-        },
-        {
-          "id": "com.kreezcraft:localizedchat:4.1.6@jar",
-          "name": "Localized Chat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 13178,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/11.SimpleVoiceChat-Forge-1.16.5/forgemods/required/localizedchat-1.16.5-4.1.6.jar",
-            "MD5": "77799c7e4d1338afe2d6a622b8261dbd"
-          }
-        }
-      ]
-    },
-    {
-      "id": "12.TheTwilightForest-Forge-1.12.2",
-      "name": "%18%【メンバーシップ】黄昏の森 (Minecraft 1.12.2)",
-      "description": "メンバーシップMod鯖用",
-      "icon": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/12.TheTwilightForest-Forge-1.12.2/pack.png",
-      "version": "1.0",
-      "address": "",
-      "minecraftVersion": "1.12.2",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": true,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
-          "name": "Minecraft Forge",
-          "type": "ForgeHosted",
-          "artifact": {
-            "size": 4466148,
-            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.12.2-14.23.5.2860",
-              "name": "Minecraft Forge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 11799,
-                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
-              "name": "Minecraft Forge (asm-debug-all)",
-              "type": "Library",
-              "artifact": {
-                "size": 387903,
-                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraft:launchwrapper:1.12@jar",
-              "name": "Minecraft Forge (launchwrapper)",
-              "type": "Library",
-              "artifact": {
-                "size": 32999,
-                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline:3.5.1@jar",
-              "name": "Minecraft Forge (jline)",
-              "type": "Library",
-              "artifact": {
-                "size": 614590,
-                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
-              }
-            },
-            {
-              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
-              "name": "Minecraft Forge (akka-actor_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 2514991,
-                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
-              }
-            },
-            {
-              "id": "com.typesafe:config:1.2.1@jar",
-              "name": "Minecraft Forge (config)",
-              "type": "Library",
-              "artifact": {
-                "size": 219554,
-                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
-              "name": "Minecraft Forge (scala-actors-migration_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 58018,
-                "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
-              "name": "Minecraft Forge (scala-compiler)",
-              "type": "Library",
-              "artifact": {
-                "size": 13449765,
-                "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-library_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 25365,
-                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
-              "type": "Library",
-              "artifact": {
-                "size": 206575,
-                "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-library:2.11.1@jar",
-              "name": "Minecraft Forge (scala-library)",
-              "type": "Library",
-              "artifact": {
-                "size": 5538130,
-                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 419701,
-                "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
-              "name": "Minecraft Forge (scala-reflect)",
-              "type": "Library",
-              "artifact": {
-                "size": 4372892,
-                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-swing_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 726500,
-                "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
-              "name": "Minecraft Forge (scala-xml_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 648679,
-                "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
-              }
-            },
-            {
-              "id": "lzma:lzma:0.0.1@jar",
-              "name": "Minecraft Forge (lzma)",
-              "type": "Library",
-              "artifact": {
-                "size": 5762,
-                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
-              }
-            },
-            {
-              "id": "java3d:vecmath:1.5.2@jar",
-              "name": "Minecraft Forge (vecmath)",
-              "type": "Library",
-              "artifact": {
-                "size": 318956,
-                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-              }
-            },
-            {
-              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
-              "name": "Minecraft Forge (trove4j)",
-              "type": "Library",
-              "artifact": {
-                "size": 2523218,
-                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 54961,
-                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
-              "name": "Minecraft Forge (jopt-simple)",
-              "type": "Library",
-              "artifact": {
-                "size": 78175,
-                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
-              "name": "Minecraft Forge (log4j-api)",
-              "type": "Library",
-              "artifact": {
-                "size": 301804,
-                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
-              "name": "Minecraft Forge (log4j-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 1789769,
-                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "twilightforest:twilightforest:3.11.1021@jar",
-          "name": "The Twilight Forest",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 28721862,
-            "MD5": "0933760943721154f3208782306f04d6",
-            "url": "",
-            "manual": {
-              "url": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/download/3051450",
-              "name": "twilightforest-1.12.2-3.11.1021-universal.jar",
-              "hints": [
-                {
-                  "css": ""
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "mezz.jei:jei:4.16.1.301@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 653211,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/12.TheTwilightForest-Forge-1.12.2/forgemods/optionalon/jei_1.12.2-4.16.1.301.jar",
-            "MD5": "1dee4be93d666e2228039c551e927b35"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.sintinium:oauth:1.06.1-1.12@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 46420,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/12.TheTwilightForest-Forge-1.12.2/forgemods/optionalon/oauth-1.06.1-1.12.jar",
-            "MD5": "dc090e808568920a924433c90af5c361"
-          },
-          "required": {
-            "value": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "14.ShimoGun-Mod-Forge-1.16.5",
-      "name": "%7%しもむ銃MOD (Minecraft 1.16.5)",
-      "description": "しもむ銃MOD",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.39:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 7410854,
-            "MD5": "050117b0afdfaa494eb66ba8c81c8e0d",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "top.theillusivec4:curios:1.16.5-4.0.8.1@jar",
-          "name": "Curios API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 277649,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/14.ShimoGun-Mod-Forge-1.16.5/forgemods/required/curios-forge-1.16.5-4.0.8.1.jar",
-            "MD5": "51bf5cf2dabe53a61c68e8ff85f98688"
-          }
-        },
-        {
-          "id": "mezz.jei:jei:7.7.1.153@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 828671,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/14.ShimoGun-Mod-Forge-1.16.5/forgemods/optionalon/jei-1.16.5-7.7.1.153.jar",
-            "MD5": "c632d0ad38292ad77d1624aa6c97fdac"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.sintinium:oauth:1.0@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 51399,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/14.ShimoGun-Mod-Forge-1.16.5/forgemods/optionalon/oauth-1.06.1-1.16.jar",
-            "MD5": "07a30e616c9f2abff94e1212645f3565"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
-          "name": "Obfuscate",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 142536,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/14.ShimoGun-Mod-Forge-1.16.5/forgemods/required/obfuscate-0.6.3-1.16.5%20(1).jar",
-            "MD5": "514fe4c6c39bc1b7e474d813daab593e"
-          }
-        },
-        {
-          "id": "com.tac.guns:tac:0.3.11.2@jar",
-          "name": "Timeless and Classics Guns",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 48081358,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/14.ShimoGun-Mod-Forge-1.16.5/forgemods/required/tac-release-0.3.11.2-1.16.5.jar",
-            "MD5": "005e71ed4bbc3250dffa994ca7a0a2d4"
-          }
-        },
-        {
-          "id": "com.sk89q:worldedit:7.2.5+57d5ac9@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5312767,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/14.ShimoGun-Mod-Forge-1.16.5/forgemods/required/worldedit-mod-7.2.5-dist.jar",
-            "MD5": "96ff53c70d4a3ff9df5592462b0f0685"
-          }
-        },
-        {
-          "id": "tac-client.toml",
-          "name": "tac-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 7761,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/14.ShimoGun-Mod-Forge-1.16.5/files/config/tac-client.toml",
-            "MD5": "597dd027ad0cd51edce0b6806a744242",
-            "path": "config/tac-client.toml"
-          }
-        }
-      ]
-    },
-    {
-      "id": "8.Guns-Forge-1.16.5",
-      "name": "%15%銃Mod (Minecraft 1.16.5)",
-      "description": "銃Mod",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.20:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 7390346,
-            "MD5": "6298276cc9396bb1b2d8526b1ee0e8c5",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "com.mrcrayfish.guns:cgm:1.0.1@jar",
-          "name": "MrCrayfish's Gun Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1206292,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/8.Guns-Forge-1.16.5/forgemods/required/cgm-1.0.1-1.16.3.jar",
-            "MD5": "fd94e8be762613993c09224576e270c0"
-          }
-        },
-        {
-          "id": "de.maxhenkel:gravestone:1.16.5-1.0.6@jar",
-          "name": "Gravestone Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 234677,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/8.Guns-Forge-1.16.5/forgemods/required/gravestone-1.16.5-1.0.6.jar",
-            "MD5": "045b52a5d3f9fb01b799930fce8d2e4e"
-          }
-        },
-        {
-          "id": "com.sintinium:oauth:1.0@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 51399,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/8.Guns-Forge-1.16.5/forgemods/optionalon/oauth-1.06.1-1.16.jar",
-            "MD5": "07a30e616c9f2abff94e1212645f3565"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.mrcrayfish:obfuscate:0.6.2@jar",
-          "name": "Obfuscate",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 151170,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/8.Guns-Forge-1.16.5/forgemods/required/obfuscate-0.6.2-1.16.3.jar",
-            "MD5": "83dcfe0612a4784611da0cc096f92da2"
-          }
-        }
-      ]
-    },
-    {
-      "id": "Asshi-Gun-Forge-1.16.5",
-      "name": "%4%あっしー銃&ドラゴンMod1.16.5 (Minecraft 1.16.5)",
-      "description": "1.16.5",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.20:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 7390346,
-            "MD5": "6298276cc9396bb1b2d8526b1ee0e8c5",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "com.github.alexthe666:citadel:1.8.1@jar",
-          "name": "Citadel",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 482439,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Asshi-Gun-Forge-1.16.5/forgemods/required/citadel-1.8.1-1.16.5.jar",
-            "MD5": "9ee0682eec5d343c6238e30c21c98e69"
-          }
-        },
-        {
-          "id": "com.github.alexthe666:iceandfire:2.1.12-1.16.5-patch-1@jar",
-          "name": "Ice and Fire",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 21463531,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Asshi-Gun-Forge-1.16.5/forgemods/required/iceandfire-2.1.12-1.16.5-patch-1.jar",
-            "MD5": "c9de9b4b6e91353fb37ecdb6660fda84"
-          }
-        },
-        {
-          "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
-          "name": "Obfuscate",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 142536,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Asshi-Gun-Forge-1.16.5/forgemods/required/obfuscate-0.6.3-1.16.5.jar",
-            "MD5": "514fe4c6c39bc1b7e474d813daab593e"
-          }
-        },
-        {
-          "id": "com.tac.guns:tac:0.3.14.2@jar",
-          "name": "Timeless and Classics Guns",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 43320575,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Asshi-Gun-Forge-1.16.5/forgemods/required/tac-release-0.3.14.2-1.16.5.jar",
-            "MD5": "ad52fa4804a4600028c0b0b675ceca39"
-          }
-        },
-        {
-          "id": "com.sk89q:worldedit:7.2.5+57d5ac9@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5312767,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Asshi-Gun-Forge-1.16.5/forgemods/required/worldedit-mod-7.2.5-dist.jar",
-            "MD5": "96ff53c70d4a3ff9df5592462b0f0685"
-          }
-        }
-      ]
-    },
-    {
-      "id": "Asshi-Magic-1.20.1",
-      "name": "%5%あっしー魔法MOD(Minecraft 1.20.1)",
-      "description": "1.20.1",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "",
-      "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecrafst",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.20.1-47.2.19:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 5908822,
-            "MD5": "83c1d893638484d6d89ff3eed2255673",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.20.1-47.2.19/forge-1.20.1-47.2.19-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "top.theillusivec4:caelus:3.2.0+1.20.1@jar",
-          "name": "Caelus API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 40125,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Asshi-Magic-1.20.1/forgemods/required/caelus-forge-3.2.0+1.20.1.jar",
-            "MD5": "e37854c44b1849b753afc4a205f31b46"
-          }
-        },
-        {
-          "id": "dzwdz.chat_heads:chat_heads:0.10.31@jar",
-          "name": "Chat Heads",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 207152,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Asshi-Magic-1.20.1/forgemods/optionalon/chat_heads-0.10.31-forge-1.20.jar",
-            "MD5": "85ed31913d400f2752a456c4282c8647"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "jp.axer.cocoainput.loader:cocoainput:4.0.9@jar",
-          "name": "CocoaInput",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 192190,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Asshi-Magic-1.20.1/forgemods/optionalon/CocoaInput-1.20-forge-4.0.9-PREVIEW2.jar",
-            "MD5": "fd82f660a461ce246df0b434ad479f11"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "top.theillusivec4:curios:5.9.1+1.20.1@jar",
-          "name": "Curios API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 382970,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Asshi-Magic-1.20.1/forgemods/required/curios-forge-5.9.1+1.20.1.jar",
-            "MD5": "c4bef497fe84a0140652e43b267bd6ee"
-          }
-        },
-        {
-          "id": "software.bernie.example:geckolib:4.4.7@jar",
-          "name": "GeckoLib 4",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 991110,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Asshi-Magic-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.4.7.jar",
-            "MD5": "84bc00493b180b13fa3bab48dff9d2d8"
-          }
-        },
-        {
-          "id": "io.redspace.ironsspellbooks:irons_spellbooks:1.20.1-3.2.1@jar",
-          "name": "Iron's Spells 'n Spellbooks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 8648633,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Asshi-Magic-1.20.1/forgemods/required/irons_spellbooks-1.20.1-3.2.1.jar",
-            "MD5": "2d5aa47bc7b8860d8d925be2472d34c8"
-          }
-        },
-        {
-          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
-          "name": "Player Animator",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 181437,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Asshi-Magic-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
-            "MD5": "46f8554181d4d240075ea4919d01fd01"
-          }
-        }
-      ]
-    },
-    {
-      "id": "DD-Gun-Forge-1.16.5",
-      "name": "%8%壁ジャン銃Mod1.16.5 (Minecraft 1.16.5)",
-      "description": "",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.20:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 7390346,
-            "MD5": "6298276cc9396bb1b2d8526b1ee0e8c5",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "com.mrcrayfish:catalogue:1.6.1@jar",
-          "name": "Catalogue",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 97637,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/DD-Gun-Forge-1.16.5/forgemods/optionalon/catalogue-1.6.1-1.16.5%20(1).jar",
-            "MD5": "a54e53cbfb8c8b87b79b3dc4a7f59305"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.mrcrayfish.guns:cgm:1.2.6@jar",
-          "name": "MrCrayfish's Gun Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1607217,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/DD-Gun-Forge-1.16.5/forgemods/optionalon/cgm-1.2.6-1.16.5.jar",
-            "MD5": "3d15af75addf26471e870654a0c6df87"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.mrcrayfish:configured:1.5.4@jar",
-          "name": "Configured",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 131868,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/DD-Gun-Forge-1.16.5/forgemods/optionalon/configured-1.5.4-1.16.5.jar",
-            "MD5": "e1c1b16dad2abee5c49eccf804b003cd"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.sintinium:oauth:1.0@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 51399,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/DD-Gun-Forge-1.16.5/forgemods/optionalon/oauth-1.06.1-1.16.jar",
-            "MD5": "07a30e616c9f2abff94e1212645f3565"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
-          "name": "Obfuscate",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 142536,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/DD-Gun-Forge-1.16.5/forgemods/optionalon/obfuscate-0.6.3-1.16.5%20(1).jar",
-            "MD5": "514fe4c6c39bc1b7e474d813daab593e"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.alrex:parcool:1.16.5-3.1.0.6-R@jar",
-          "name": "ParCool!",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 612198,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/DD-Gun-Forge-1.16.5/forgemods/optionalon/ParCool-1.16.5-3.1.0.6-R%20(1).jar",
-            "MD5": "cb78582fb1607bf1f4cbd62019686a84"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.tac.guns:tac:0.3.12.2@jar",
-          "name": "Timeless and Classics Guns",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 39367039,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/DD-Gun-Forge-1.16.5/forgemods/optionalon/tac-release-0.3.12.2-1.16.5.jar",
-            "MD5": "1fe73af6c2fd209b9d6cd86636b4d305"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.sk89q:worldedit:7.2.5+57d5ac9@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5312767,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/DD-Gun-Forge-1.16.5/forgemods/optionalon/worldedit-mod-7.2.5-dist%20(2).jar",
-            "MD5": "96ff53c70d4a3ff9df5592462b0f0685"
-          },
-          "required": {
-            "value": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "DendenICBM-Forge-1.12.2",
-      "name": "%16%DendenICBMMod (Minecraft 1.12.2)",
-      "description": "ICBM Mod",
-      "icon": null,
-      "version": "1.0.1",
-      "address": "",
-      "minecraftVersion": "1.12.2",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": true,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
-          "name": "Minecraft Forge",
-          "type": "ForgeHosted",
-          "artifact": {
-            "size": 4466148,
-            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.12.2-14.23.5.2860",
-              "name": "Minecraft Forge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 11799,
-                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
-              "name": "Minecraft Forge (asm-debug-all)",
-              "type": "Library",
-              "artifact": {
-                "size": 387903,
-                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraft:launchwrapper:1.12@jar",
-              "name": "Minecraft Forge (launchwrapper)",
-              "type": "Library",
-              "artifact": {
-                "size": 32999,
-                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline:3.5.1@jar",
-              "name": "Minecraft Forge (jline)",
-              "type": "Library",
-              "artifact": {
-                "size": 614590,
-                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
-              }
-            },
-            {
-              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
-              "name": "Minecraft Forge (akka-actor_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 2514991,
-                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
-              }
-            },
-            {
-              "id": "com.typesafe:config:1.2.1@jar",
-              "name": "Minecraft Forge (config)",
-              "type": "Library",
-              "artifact": {
-                "size": 219554,
-                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
-              "name": "Minecraft Forge (scala-actors-migration_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 58018,
-                "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
-              "name": "Minecraft Forge (scala-compiler)",
-              "type": "Library",
-              "artifact": {
-                "size": 13449765,
-                "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-library_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 25365,
-                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
-              "type": "Library",
-              "artifact": {
-                "size": 206575,
-                "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-library:2.11.1@jar",
-              "name": "Minecraft Forge (scala-library)",
-              "type": "Library",
-              "artifact": {
-                "size": 5538130,
-                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 419701,
-                "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
-              "name": "Minecraft Forge (scala-reflect)",
-              "type": "Library",
-              "artifact": {
-                "size": 4372892,
-                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-swing_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 726500,
-                "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
-              "name": "Minecraft Forge (scala-xml_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 648679,
-                "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
-              }
-            },
-            {
-              "id": "lzma:lzma:0.0.1@jar",
-              "name": "Minecraft Forge (lzma)",
-              "type": "Library",
-              "artifact": {
-                "size": 5762,
-                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
-              }
-            },
-            {
-              "id": "java3d:vecmath:1.5.2@jar",
-              "name": "Minecraft Forge (vecmath)",
-              "type": "Library",
-              "artifact": {
-                "size": 318956,
-                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-              }
-            },
-            {
-              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
-              "name": "Minecraft Forge (trove4j)",
-              "type": "Library",
-              "artifact": {
-                "size": 2523218,
-                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 54961,
-                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
-              "name": "Minecraft Forge (jopt-simple)",
-              "type": "Library",
-              "artifact": {
-                "size": 78175,
-                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
-              "name": "Minecraft Forge (log4j-api)",
-              "type": "Library",
-              "artifact": {
-                "size": 301804,
-                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
-              "name": "Minecraft Forge (log4j-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 1789769,
-                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "icbm.classic:icbmclassic:5.4.0@jar",
-          "name": "ICBM Classic",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4525863,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/DendenICBM-Forge-1.12.2/forgemods/required/ICBM-classic-1.12.2-5.4.0.jar",
-            "MD5": "eb27b449331f712c8fa5dd9615367a57"
-          }
-        },
-        {
-          "id": "mezz.jei:jei:4.16.1.1012@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 649218,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/DendenICBM-Forge-1.12.2/forgemods/required/jei_1.12.2-4.16.1.1012.jar",
-            "MD5": "c08dcdd4f86753d5130f11a987583e85"
-          }
-        },
-        {
-          "id": "com.sk89q:worldedit:6.1.10-SNAPSHOT;4814-ee1af8f@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1479765,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/DendenICBM-Forge-1.12.2/forgemods/required/worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar",
-            "MD5": "1cacd1226c419fa52711a7054171a6e3"
-          }
-        }
-      ]
-    },
-    {
-      "id": "Exposure-Forge-1.19.2",
-      "name": "%10%Exposure1.19.2 (Minecraft 1.19.2)",
-      "description": "1.19.2",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "",
-      "minecraftVersion": "1.19.2",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.19.2-43.2.4:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 6884870,
-            "MD5": "4eae228402d689d214210d740e86607e",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.19.2-43.2.4/forge-1.19.2-43.2.4-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "com.simibubi:create:0.5.1.c@jar",
-          "name": "Create",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 14741075,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Exposure-Forge-1.19.2/forgemods/required/create-1.19.2-0.5.1.c.jar",
-            "MD5": "38a666b45c13dbab5a1710e698fd4d29"
-          }
-        },
-        {
-          "id": "io.github.mortuusars:exposure:1.2.2@jar",
-          "name": "Exposure",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 850920,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Exposure-Forge-1.19.2/forgemods/required/exposure-1.19.2-1.2.2-forge.jar",
-            "MD5": "f34df192d65fc377937f2039514d987e"
-          }
-        },
-        {
-          "id": "mezz.jei:jei:11.6.0.1015@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1090499,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/Exposure-Forge-1.19.2/forgemods/required/jei-1.19.2-forge-11.6.0.1015.jar",
-            "MD5": "12d0e2bfd6b5f6bf59aba91eb8950c7b"
-          }
-        }
-      ]
-    },
-    {
-      "id": "ShimoCar-Forge-1.12.2",
-      "name": "%11%ShimoCarMod (Minecraft 1.12.2)",
-      "description": "しもむー",
-      "icon": null,
-      "version": "1.0.1",
-      "address": "",
-      "minecraftVersion": "1.12.2",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": true,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
-          "name": "Minecraft Forge",
-          "type": "ForgeHosted",
-          "artifact": {
-            "size": 4466148,
-            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.12.2-14.23.5.2860",
-              "name": "Minecraft Forge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 11799,
-                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
-              "name": "Minecraft Forge (asm-debug-all)",
-              "type": "Library",
-              "artifact": {
-                "size": 387903,
-                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraft:launchwrapper:1.12@jar",
-              "name": "Minecraft Forge (launchwrapper)",
-              "type": "Library",
-              "artifact": {
-                "size": 32999,
-                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline:3.5.1@jar",
-              "name": "Minecraft Forge (jline)",
-              "type": "Library",
-              "artifact": {
-                "size": 614590,
-                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
-              }
-            },
-            {
-              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
-              "name": "Minecraft Forge (akka-actor_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 2514991,
-                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
-              }
-            },
-            {
-              "id": "com.typesafe:config:1.2.1@jar",
-              "name": "Minecraft Forge (config)",
-              "type": "Library",
-              "artifact": {
-                "size": 219554,
-                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
-              "name": "Minecraft Forge (scala-actors-migration_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 58018,
-                "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
-              "name": "Minecraft Forge (scala-compiler)",
-              "type": "Library",
-              "artifact": {
-                "size": 13449765,
-                "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-library_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 25365,
-                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
-              "type": "Library",
-              "artifact": {
-                "size": 206575,
-                "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-library:2.11.1@jar",
-              "name": "Minecraft Forge (scala-library)",
-              "type": "Library",
-              "artifact": {
-                "size": 5538130,
-                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 419701,
-                "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
-              "name": "Minecraft Forge (scala-reflect)",
-              "type": "Library",
-              "artifact": {
-                "size": 4372892,
-                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-swing_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 726500,
-                "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
-              "name": "Minecraft Forge (scala-xml_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 648679,
-                "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
-              }
-            },
-            {
-              "id": "lzma:lzma:0.0.1@jar",
-              "name": "Minecraft Forge (lzma)",
-              "type": "Library",
-              "artifact": {
-                "size": 5762,
-                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
-              }
-            },
-            {
-              "id": "java3d:vecmath:1.5.2@jar",
-              "name": "Minecraft Forge (vecmath)",
-              "type": "Library",
-              "artifact": {
-                "size": 318956,
-                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-              }
-            },
-            {
-              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
-              "name": "Minecraft Forge (trove4j)",
-              "type": "Library",
-              "artifact": {
-                "size": 2523218,
-                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 54961,
-                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
-              "name": "Minecraft Forge (jopt-simple)",
-              "type": "Library",
-              "artifact": {
-                "size": 78175,
-                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
-              "name": "Minecraft Forge (log4j-api)",
-              "type": "Library",
-              "artifact": {
-                "size": 301804,
-                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
-              "name": "Minecraft Forge (log4j-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 1789769,
-                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "com.silvaniastudios.roads:furenikusroads:1.1.10@jar",
-          "name": "Fureniku's Roads",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3316649,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/ShimoCar-Forge-1.12.2/forgemods/required/Fureniku's%20Roads-1.1.10.jar",
-            "MD5": "ccde4687f588147a04293d84fe5e6f08"
-          }
-        },
-        {
-          "id": "mcinterface1122:mts:22.14.2@jar",
-          "name": "Immersive Vehicles (formerly MTS)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5270972,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/ShimoCar-Forge-1.12.2/forgemods/required/Immersive%20Vehicles-1.12.2-22.14.2.jar",
-            "MD5": "db4301c91c1fc1c68eb041b4fda76a3f"
-          }
-        },
-        {
-          "id": "mezz.jei:jei:4.16.1.301@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 653211,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/ShimoCar-Forge-1.12.2/forgemods/optionalon/jei_1.12.2-4.16.1.301.jar",
-            "MD5": "1dee4be93d666e2228039c551e927b35"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.sintinium:oauth:1.06.1-1.12@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 46420,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/ShimoCar-Forge-1.12.2/forgemods/optionalon/oauth-1.06.1-1.12.jar",
-            "MD5": "dc090e808568920a924433c90af5c361"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.sk89q:worldedit:6.1.10-SNAPSHOT;4814-ee1af8f@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1479765,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/ShimoCar-Forge-1.12.2/forgemods/required/worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar",
-            "MD5": "1cacd1226c419fa52711a7054171a6e3"
-          }
-        },
-        {
-          "id": "mtsconfig.json",
-          "name": "mtsconfig.json",
-          "type": "File",
-          "artifact": {
-            "size": 11821,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/ShimoCar-Forge-1.12.2/files/config/mtsconfig.json",
-            "MD5": "f947316e83259383d78bf4197a0c92dc",
-            "path": "config/mtsconfig.json"
-          }
-        },
-        {
-          "id": "mtsconfigclient.json",
-          "name": "mtsconfigclient.json",
-          "type": "File",
-          "artifact": {
-            "size": 18736,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/ShimoCar-Forge-1.12.2/files/config/mtsconfigclient.json",
-            "MD5": "70d10fd727f1152f3f77c9995e1f0e50",
-            "path": "config/mtsconfigclient.json"
-          }
-        },
-        {
-          "id": "CubicChunks-1.12.2-0.0.1208.0-SNAPSHOT-all.jar",
-          "name": "CubicChunks-1.12.2-0.0.1208.0-SNAPSHOT-all.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2087354,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/ShimoCar-Forge-1.12.2/files/mods/CubicChunks-1.12.2-0.0.1208.0-SNAPSHOT-all.jar",
-            "MD5": "66cc5074bfcad7f32c481fd5e5023b6e",
-            "path": "mods/CubicChunks-1.12.2-0.0.1208.0-SNAPSHOT-all.jar"
-          }
-        },
-        {
-          "id": "Hashiriya_Car_Pack_1.1.jar",
-          "name": "Hashiriya_Car_Pack_1.1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 38031266,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/ShimoCar-Forge-1.12.2/files/mods/Hashiriya_Car_Pack_1.1.jar",
-            "MD5": "921f77e1336b503fb15ace544bb4c53a",
-            "path": "mods/Hashiriya_Car_Pack_1.1.jar"
-          }
-        }
-      ]
-    },
-    {
-      "id": "cocricot-MiniTuria-roji-Forge-1.12.2",
-      "name": "%17%コクリ&ミニチュリア (Minecraft 1.12.2)",
-      "description": "導入MOD: cocricot/MiniTuria Mods<br>※手順書に沿って導入してください",
-      "icon": null,
-      "version": "1.0.1",
-      "address": "",
-      "minecraftVersion": "1.12.2",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": true,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
-          "name": "Minecraft Forge",
-          "type": "ForgeHosted",
-          "artifact": {
-            "size": 4466148,
-            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.12.2-14.23.5.2860",
-              "name": "Minecraft Forge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 11799,
-                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
-              "name": "Minecraft Forge (asm-debug-all)",
-              "type": "Library",
-              "artifact": {
-                "size": 387903,
-                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraft:launchwrapper:1.12@jar",
-              "name": "Minecraft Forge (launchwrapper)",
-              "type": "Library",
-              "artifact": {
-                "size": 32999,
-                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline:3.5.1@jar",
-              "name": "Minecraft Forge (jline)",
-              "type": "Library",
-              "artifact": {
-                "size": 614590,
-                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
-              }
-            },
-            {
-              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
-              "name": "Minecraft Forge (akka-actor_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 2514991,
-                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
-              }
-            },
-            {
-              "id": "com.typesafe:config:1.2.1@jar",
-              "name": "Minecraft Forge (config)",
-              "type": "Library",
-              "artifact": {
-                "size": 219554,
-                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
-              "name": "Minecraft Forge (scala-actors-migration_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 58018,
-                "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
-              "name": "Minecraft Forge (scala-compiler)",
-              "type": "Library",
-              "artifact": {
-                "size": 13449765,
-                "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-library_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 25365,
-                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
-              "type": "Library",
-              "artifact": {
-                "size": 206575,
-                "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-library:2.11.1@jar",
-              "name": "Minecraft Forge (scala-library)",
-              "type": "Library",
-              "artifact": {
-                "size": 5538130,
-                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 419701,
-                "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
-              "name": "Minecraft Forge (scala-reflect)",
-              "type": "Library",
-              "artifact": {
-                "size": 4372892,
-                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-swing_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 726500,
-                "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
-              "name": "Minecraft Forge (scala-xml_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 648679,
-                "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
-              }
-            },
-            {
-              "id": "lzma:lzma:0.0.1@jar",
-              "name": "Minecraft Forge (lzma)",
-              "type": "Library",
-              "artifact": {
-                "size": 5762,
-                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
-              }
-            },
-            {
-              "id": "java3d:vecmath:1.5.2@jar",
-              "name": "Minecraft Forge (vecmath)",
-              "type": "Library",
-              "artifact": {
-                "size": 318956,
-                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-              }
-            },
-            {
-              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
-              "name": "Minecraft Forge (trove4j)",
-              "type": "Library",
-              "artifact": {
-                "size": 2523218,
-                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 54961,
-                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
-              "name": "Minecraft Forge (jopt-simple)",
-              "type": "Library",
-              "artifact": {
-                "size": 78175,
-                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
-              "name": "Minecraft Forge (log4j-api)",
-              "type": "Library",
-              "artifact": {
-                "size": 301804,
-                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
-              "name": "Minecraft Forge (log4j-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 1789769,
-                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "net.optifine:optifine:1.12.2_HD_U_F5@jar",
-          "name": "OptiFine 1.12.2_HD_U_F5",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2598821,
-            "url": "",
-            "MD5": "043ac1db6f7441ea4cf31bcb621aff0b",
-            "manual": {
-              "url": "https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_F5.jar",
-              "name": "OptiFine_1.12.2_HD_U_F5.jar",
-              "hints": [
-                {
-                  "css": "a[href*=\"OptiFine_1.12.2_HD_U_F5.jar\"]:contains(\"Download\")"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "com.bear.rojiura:rojiuramod:1.12.2_0.1.4.a@jar",
-          "name": "Rojiura Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4072608,
-            "url": "",
-            "MD5": "5a2c5da4645273d8677ccd5109796d81",
-            "manual": {
-              "url": "http://rojiuramod.php.xdomain.jp/",
-              "name": "rojiuramod-1.12.2_0.1.4.a.jar",
-              "hints": [
-                {
-                  "css": "a.btn[href=download]"
-                },
-                {
-                  "css": "p:has(label.checkbox03)"
-                },
-                {
-                  "css": "#link3"
-                },
-                {
-                  "script": "this.jQuery(\"iframe[src=download_inframe]\").contents().find(\"label[for=acd-check1]\")"
-                },
-                {
-                  "script": "(function($){let n=$(\"iframe[src=download_inframe]\").contents();if(0==n.find(\".manual-inframe-style\").length){let e=$(\"style:contains(.manual-info-button)\");n.find(\"head\").append(e.clone().addClass(\"manual-inframe-style\"))}return n.find(\"#acd_content01 a\")})(this.jQuery)"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "techguns:techguns:1.12.2-2.0.2.0@jar",
-          "name": "Techguns",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 28126750,
-            "MD5": "dbae09102aedeca925d4b3546685e5b5",
-            "url": "",
-            "manual": {
-              "url": "https://www.curseforge.com/minecraft/mc-mods/techguns/download",
-              "name": "techguns-1.12.2-2.0.2.0_pre3.2.jar",
-              "hints": []
-            }
-          }
-        },
-        {
-          "id": "mezz.jei:jei:4.16.1.301@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 653211,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/cocricot-MiniTuria-roji-Forge-1.12.2/forgemods/optionalon/jei_1.12.2-4.16.1.301.jar",
-            "MD5": "1dee4be93d666e2228039c551e927b35"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "org.dimdev:jeid:1.0.3-FixChunkSaving@jar",
-          "name": "JustEnoughIDs",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 982959,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/cocricot-MiniTuria-roji-Forge-1.12.2/forgemods/required/JustEnoughIDs-1.0.3-FixChunkSaving.jar",
-            "MD5": "4f9ac7d997282ca33bfb49e2fc36d56d"
-          }
-        },
-        {
-          "id": "com.sintinium:oauth:1.06.1-1.12@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 46420,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/cocricot-MiniTuria-roji-Forge-1.12.2/forgemods/optionalon/oauth-1.06.1-1.12.jar",
-            "MD5": "dc090e808568920a924433c90af5c361"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.sk89q:worldedit:6.1.10-SNAPSHOT;e6b38e8@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1479535,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/cocricot-MiniTuria-roji-Forge-1.12.2/forgemods/required/worldedit-forge-mc1.12.2-6.1.10-dist.jar",
-            "MD5": "bdf6d8d20591c014fed66633f4ef3b23"
-          }
-        }
-      ]
-    },
-    {
-      "id": "denden-1.20.1",
-      "name": "%9%denden1.20.1 (Minecraft 1.20.1)",
-      "description": "1.20.1",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "",
-      "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecrafst",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.20.1-47.2.19:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 5908822,
-            "MD5": "83c1d893638484d6d89ff3eed2255673",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.20.1-47.2.19/forge-1.20.1-47.2.19-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "dzwdz.chat_heads:chat_heads:0.10.31@jar",
-          "name": "Chat Heads",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 207152,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/denden-1.20.1/forgemods/optionalon/chat_heads-0.10.31-forge-1.20.jar",
-            "MD5": "85ed31913d400f2752a456c4282c8647"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "jp.axer.cocoainput.loader:cocoainput:4.0.9@jar",
-          "name": "CocoaInput",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 192190,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/denden-1.20.1/forgemods/optionalon/CocoaInput-1.20-forge-4.0.9-PREVIEW2.jar",
-            "MD5": "fd82f660a461ce246df0b434ad479f11"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.tacz.guns:tacz:1.0.0-hotfix2@jar",
-          "name": "Timeless & Classics Guns: Zero",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 13972675,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/denden-1.20.1/forgemods/required/tacz-1.20.1-1.0.0-hotfix2-beta.jar",
-            "MD5": "e0105aa5ade39cec31d4656396f0ef50"
-          }
-        }
-      ]
-    },
-    {
-      "id": "local-1.16.5",
-      "name": "%3%LOCAL系1.16.5(Minecraft 1.16.5)",
-      "description": "SimpleVoiceChat",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecraft",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.20:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 7390346,
-            "MD5": "6298276cc9396bb1b2d8526b1ee0e8c5",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "de.maxhenkel:voicechat:1.16.5-2.3.27@jar",
-          "name": "Simple Voice Chat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7841613,
-            "MD5": "2e3a134a9e436a35a77f56da4bb7a715",
-            "url": "",
-            "manual": {
-              "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/download/4332093",
-              "name": "voicechat-forge-1.16.5-2.3.27.jar"
-            }
-          }
-        },
-        {
-          "id": "com.momosoftworks.coldsweat:cold_sweat:2.2.5.1@jar",
-          "name": "Cold Sweat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 8337963,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.16.5/forgemods/optionaloff/ColdSweat-2.2.5.1.jar",
-            "MD5": "4448018aea70c0d70fc495009406563f"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "ichttt.mods:eternalwinter:1.3@jar",
-          "name": "Eternal Winter",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7415,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.16.5/forgemods/optionaloff/eternalwinter-1.3.jar",
-            "MD5": "ef64eab25d4fe7dd7c8903bb8c39dc0d"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "com.kreezcraft:localizedchat:4.1.6@jar",
-          "name": "Localized Chat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 13178,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.16.5/forgemods/required/localizedchat-1.16.5-4.1.6.jar",
-            "MD5": "77799c7e4d1338afe2d6a622b8261dbd"
-          }
-        },
-        {
-          "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
-          "name": "Obfuscate",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 142536,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.16.5/forgemods/optionaloff/obfuscate-0.6.3-1.16.5.jar",
-            "MD5": "514fe4c6c39bc1b7e474d813daab593e"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "com.alcatrazescapee:primalwinter:2.0.7@jar",
-          "name": "Primal Winter",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 281227,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.16.5/forgemods/optionaloff/primalwinter-forge-1.16.4-2.0.7.jar",
-            "MD5": "c8d3fc30fba572fc85a05709018ec87b"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "com.tac.guns:tac:0.3.14.2@jar",
-          "name": "Timeless and Classics Guns",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 43320575,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.16.5/forgemods/optionaloff/tac-release-0.3.14.2-1.16.5.jar",
-            "MD5": "ad52fa4804a4600028c0b0b675ceca39"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "com.terraforged.mod:terraforged:0.2.16@jar",
-          "name": "TerraForged",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1695951,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.16.5/forgemods/optionaloff/TerraForged-1.16.5-0.2.16.jar",
-            "MD5": "eb71e738c8d300b98921d336bcc0bfe1"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "net.mcreator:welcometothebackrooms:1.0.0@jar",
-          "name": "WelcomeToTheBackrooms",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 379512,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.16.5/forgemods/optionalon/WelcomeToTheBackrooms-0.1.jar",
-            "MD5": "3b9a764378d9ac2ad6701b84fb1fd0a7"
-          },
-          "required": {
-            "value": false
-          }
-        }
-      ]
-    },
-    {
       "id": "local-1.20.1",
       "name": "%2%LOCAL系1.20.1(Minecraft 1.20.1)",
       "description": "1.20.1",
@@ -2333,13 +24,13 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.20.1-47.2.19:installer",
+          "id": "net.minecraftforge:forge:1.20.1-47.3.0:installer",
           "name": "Minecraft Forge (installer)",
           "type": "Forge",
           "artifact": {
-            "size": 5908822,
-            "MD5": "83c1d893638484d6d89ff3eed2255673",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.20.1-47.2.19/forge-1.20.1-47.2.19-installer.jar"
+            "size": 6021040,
+            "MD5": "ee3ca303001d1e856558b75b2a5854f1",
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-installer.jar"
           },
           "subModules": []
         },
@@ -2352,9 +43,79 @@
             "MD5": "215aa011aca6f62c7c284e3ff6d04366",
             "url": "",
             "manual": {
-              "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/download/5438656",
+              "url": "https://www.curseforge.com/api/v1/mods/416089/files/5438656/download",
               "name": "voicechat-forge-1.20.1-2.5.17.jar"
             }
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "mod.azure:azurelib:2.0.41@jar",
+          "name": "AzureLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 757383,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/azurelib-neo-1.20.1-2.0.41.jar",
+            "MD5": "7165e45783e57daa741de618442d814b"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.mcreator.callofyucutan:call_of_yucutan:1.0.11@jar",
+          "name": "Call of Yucatán",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3566930,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/call_of_yucatan-1.0.11-forge-1.20.1.jar",
+            "MD5": "2ae3def498d61126e964715ff759ec2e"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "de.maxhenkel:car:1.20.1-1.0.32@jar",
+          "name": "Ultimate Car Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2653241,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/car-forge-1.20.1-1.0.32.jar",
+            "MD5": "c706a89c7f295bbf4f596a9fc4c574c1"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.mcreator.cataclysmut:cataclysm_ut:1.7.0@jar",
+          "name": "Cataclysm Apotheosis",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21230,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/cataclysm_ut-9%20-%201.20.1.jar",
+            "MD5": "0b9078043b1e58483719c69d500da75c"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -2371,6 +132,20 @@
           }
         },
         {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "jp.axer.cocoainput.loader:cocoainput:4.0.9@jar",
           "name": "CocoaInput",
           "type": "ForgeMod",
@@ -2384,6 +159,34 @@
           }
         },
         {
+          "id": "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
+          "name": "CoroUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64187,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/coroutil-forge-1.20.1-1.3.7.jar",
+            "MD5": "6fb9ccbe8c05c1da61c224d1127e9643"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.simibubi:create:0.5.1.j@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15583566,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/create-1.20.1-0.5.1.j.jar",
+            "MD5": "db945b2441efa1a136d3f86126a6f813"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "team.creative:creativecore:2.11.30@jar",
           "name": "CreativeCore",
           "type": "ForgeMod",
@@ -2391,6 +194,118 @@
             "size": 1115602,
             "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar",
             "MD5": "d3cd8960102a9049207940e1baa0ed2d"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.lazrproductions:cuffed:1.3.3@jar",
+          "name": "Cuffed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 838324,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/Cuffed-1.20.1-1.3.3.jar",
+            "MD5": "6745703eba474432649817a53ab04a12"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.9.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 382970,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/curios-forge-5.9.1+1.20.1.jar",
+            "MD5": "c4bef497fe84a0140652e43b267bd6ee"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.jeremyseq:damageindicator:1.0.0-1.20.1@jar",
+          "name": "Damage Indicator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17980,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/damageindicator-1.0.0-1.20.1.jar",
+            "MD5": "3cce9fccc4fc6d5319898b446f94e9f4"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.shake.doppelgangercf.main:doppelgangercf:1.0@jar",
+          "name": "DOPPELGANGER CASTLEFALL",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10569,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/DOPPELGANGER%20CASTLEFALL-1.0.0.jar",
+            "MD5": "46d48e71173c33a0beb6266b7d348e10"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.magistuarmory:magistuarmory:9.21@jar",
+          "name": "Epic Knights Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2666204,
+            "MD5": "53c5b2f84bb4942feca850e2c0841cce",
+            "url": "https://www.curseforge.com/api/v1/mods/509041/files/6028374/download"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.copycatsplus:copycats:2.1.4+mc.1.20.1-forge@jar",
+          "name": "Create: Copycats+",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1747441,
+            "MD5": "e4c60c4625db2de2b93f460506e986f7",
+            "url": "https://www.curseforge.com/api/v1/mods/968398/files/5725773/download"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.dragn0007:dragnvehicles:1.20.1-1.3@jar",
+          "name": "DragN's Valiant Vehicles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1301854,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/DragN_Vehicles-1.20.1-1.3.jar",
+            "MD5": "a52caaaa22a1d4af9eda3419cf7eba6f"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "atomicstryker.dynamiclights.server:dynamiclights:1.20.1.2@jar",
+          "name": "Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 49564,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/dynamiclights-1.20.1.2.jar",
+            "MD5": "8ddb1fdf345c919ea74e55c50aa39a55"
           },
           "required": {
             "value": false,
@@ -2412,16 +327,129 @@
           }
         },
         {
+          "id": "yesman.epicfight.main:epicfight:20.9.7@jar",
+          "name": "Epic Fight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6772178,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/epicfight-forge-20.9.7-1.20.1.jar",
+            "MD5": "5c8ee615c061a789b1a3d7ba8999367d"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.veroxuniverse:epicsamurai:0.0.46-1.20.1-neo@jar",
+          "name": "Epic Samurai",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2318497,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/epicsamurai-0.0.46-1.20.1-neo.jar",
+            "MD5": "326c957ee3eaeffaca65495b2acfa35d"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.5@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2937836,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/FarmersDelight-1.20.1-1.2.5.jar",
+            "MD5": "a5affe1dbf62a5bed405cdf6533e96a4"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.wildfire.main:wildfire_gender:1.20.1-3.0.1@jar",
+          "name": "Wildfire's Female Gender Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 255435,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/Female-Gender-Mod-forge-1.20.1-3.1.jar",
+            "MD5": "0f2adbca56e84f96af85b81356db186c"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.4.9@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 991552,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/geckolib-forge-1.20.1-4.4.9.jar",
+            "MD5": "edc6083a1c68415b9635d68c7cdf7a99"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:hauntedharvest:1.20-3.1.20@jar",
+          "name": "Haunted Harvest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 696794,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/hauntedharvest-1.20-3.1.20.jar",
+            "MD5": "4ce45f2a14b56d1a846f46ecbcf110cc"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.shake:inescapableworld:1.0.1@jar",
+          "name": "INESCAPABLE WORLD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 124884,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/INESCAPABLE%20WORLD-1.0.1.jar",
+            "MD5": "5309e39570a6e9717b09649c0e246c30"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.12.3.54@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1344634,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/jei-1.20.1-forge-15.12.3.54.jar",
+            "MD5": "6c15a59c3f96dec0e140576010b3b375"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "journeymap:journeymap:5.10.0@jar",
           "name": "Journeymap",
           "type": "ForgeMod",
           "artifact": {
             "size": 7160167,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionalon/journeymap-1.20.1-5.10.0-forge.jar",
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/journeymap-1.20.1-5.10.0-forge.jar",
             "MD5": "63f6fbda1bf25c533561b596c74952d1"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -2432,6 +460,34 @@
             "size": 1609304,
             "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/Kiwi-1.20.1-Forge-11.8.12.jar",
             "MD5": "533f5ef4589d749b1d731573cec5502b"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:1.99.5@jar",
+          "name": "Cataclysm Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 48848879,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/L_Enders_Cataclysm-1.99.6-1.20.1.jar",
+            "MD5": "d6e1c9dfd516b917d6a70af81e72ac3f"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.lazrproductions:lazrslib:1.1.1@jar",
+          "name": "Lazr's Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 120029,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/Lazr's%20Lib-1.20-1.1.1.jar",
+            "MD5": "adc32a47cfec91a0d1708d5e28f1e593"
           },
           "required": {
             "value": false,
@@ -2453,6 +509,20 @@
           }
         },
         {
+          "id": "com.github.l_ender:lionfishapi:1.9@jar",
+          "name": "LionfishAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 152910,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/lionfishapi-1.9.jar",
+            "MD5": "e814e31ce3696e38e55dd39c6556d6f7"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "com.kreezcraft:localizedchat:5.1.2@jar",
           "name": "Localized Chat",
           "type": "ForgeMod",
@@ -2463,6 +533,34 @@
           }
         },
         {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.13.25@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1201688,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/moonlight-1.20-2.13.25-forge.jar",
+            "MD5": "3f6f146d71c1f2969eda89270f016b2b"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.alrex:parcool:1.20.1-3.3.0.1-R@jar",
+          "name": "ParCool!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 890320,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/ParCool-1.20.1-3.3.0.1-R.jar",
+            "MD5": "f3d80e6d9edaf9cdb11f6d558bc86fc3"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "snownee.passablefoliage:passablefoliage:8.2.1@jar",
           "name": "Passable Foliage",
           "type": "ForgeMod",
@@ -2470,6 +568,34 @@
             "size": 30618,
             "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/PassableFoliage-1.20.1-forge-8.2.1.jar",
             "MD5": "3381182154bb5d0d699e91912b5e300d"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "virtuoel.pehkui:pehkui:3.8.2+1.20.1-forge@jar",
+          "name": "Pehkui",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 671605,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/Pehkui-3.8.2+1.20.1-forge.jar",
+            "MD5": "95bdd5558d34044f54aab0ce292e679b"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
           },
           "required": {
             "value": false,
@@ -2505,13 +631,55 @@
           }
         },
         {
-          "id": "com.tacz.guns:tacz:1.0.2@jar",
+          "id": "me.edoren:skin_changer:0.6.6@jar",
+          "name": "Skin Changer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60904,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/skin_changer-forge-1.20.1-0.6.6.jar",
+            "MD5": "62c922b3219f6d14db704a53d8fea63d"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.railwayteam:railways:1.6.7+forge-mc1.20.1@jar",
+          "name": "Create: Steam 'n' Rails",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9997801,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/Steam_Rails-1.6.7+forge-mc1.20.1.jar",
+            "MD5": "32a83dba6630165e1415f9e78d4aaf2e"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.tacz.guns:tacz:1.0.3@jar",
           "name": "Timeless & Classics Guns: Zero",
           "type": "ForgeMod",
           "artifact": {
-            "size": 25153131,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/tacz-1.20.1-1.0.2-release.jar",
-            "MD5": "ad7af7f4429744c0e8e504d68edac8ec"
+            "size": 29012632,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/tacz-1.20.1-1.0.3-all.jar",
+            "MD5": "2db5220caffce0bc2dec2f6ab4f84266"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.20.1-1.1.3@jar",
+          "name": "What Are They Up To",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 352474,
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/local-1.20.1/forgemods/optionaloff/watut-forge-1.20.1-1.1.3.jar",
+            "MD5": "d3014c889b0c54e1a7f049fa2d54787b"
           },
           "required": {
             "value": false,
@@ -2522,7 +690,7 @@
     },
     {
       "id": "localReplayTest-1.20.1",
-      "name": "%19%LOCAL&ReplayMOD検証1.20.1(Minecraft 1.20.1)",
+      "name": "%22%LOCAL&ReplayMOD検証1.20.1(Minecraft 1.20.1)",
       "description": "1.20.1",
       "icon": null,
       "version": "1.0.0",
@@ -2537,13 +705,13 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.20.1-47.2.19:installer",
+          "id": "net.minecraftforge:forge:1.20.1-47.3.0:installer",
           "name": "Minecraft Forge (installer)",
           "type": "Forge",
           "artifact": {
-            "size": 5908822,
-            "MD5": "83c1d893638484d6d89ff3eed2255673",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.20.1-47.2.19/forge-1.20.1-47.2.19-installer.jar"
+            "size": 6021040,
+            "MD5": "ee3ca303001d1e856558b75b2a5854f1",
+            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-installer.jar"
           },
           "subModules": []
         },
@@ -2728,77 +896,6 @@
             "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/localReplayTest-1.20.1/files/mods/replaymod-1.20.1-2.6.13.jar",
             "MD5": "a21e94698cebef2a52b13f9871a6ca96",
             "path": "mods/replaymod-1.20.1-2.6.13.jar"
-          }
-        }
-      ]
-    },
-    {
-      "id": "neet-uma-forge-1.20.4",
-      "name": "%13%ニート部用[snapshot 1.20.4 24w21b-pre-7]",
-      "description": "1.20.4",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "",
-      "minecraftVersion": "1.20.4",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecrafst",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.20.4-49.0.50:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 5497241,
-            "MD5": "b55c10b4d69eb33f70531decf8bb9093",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.20.4-49.0.50/forge-1.20.4-49.0.50-installer.jar"
-          },
-          "subModules": []
-        }
-      ]
-    },
-    {
-      "id": "size-1.20.1",
-      "name": "%12%身長Mod1.20.1 (Minecraft 1.20.1)",
-      "description": "1.20.1",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "",
-      "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "Minecraft",
-        "largeImageText": "Minecrafst",
-        "largeImageKey": "pack_numa"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.20.1-47.2.19:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 5908822,
-            "MD5": "83c1d893638484d6d89ff3eed2255673",
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/repo/lib/net/minecraftforge/forge/1.20.1-47.2.19/forge-1.20.1-47.2.19-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "virtuoel.pehkui:pehkui:3.7.12+1.20.1-forge@jar",
-          "name": "Pehkui",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 475075,
-            "url": "https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/servers/size-1.20.1/forgemods/optionalon/Pehkui-3.7.12+1.20.1-forge.jar",
-            "MD5": "cee90fe0144f938a6cbcdc7557708e30"
-          },
-          "required": {
-            "value": false
           }
         }
       ]
