@@ -2,11 +2,11 @@
 
 name: Build
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ merge ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -65,6 +65,6 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: deploy
+          branch: deploy-test
           directory: ./packs
           force: true
