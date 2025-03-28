@@ -1,0 +1,16 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "ww2:792x33",
+    "count": 30
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

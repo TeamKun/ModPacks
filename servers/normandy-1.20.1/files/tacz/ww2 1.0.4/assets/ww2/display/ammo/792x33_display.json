@@ -1,0 +1,29 @@
+{
+  "model": "ww2:ammo/792x33",
+  "texture": "ww2:ammo/uv/792x33",
+  "slot": "ww2:ammo/slot/792x33",
+  "shell": {
+    "model": "ww2:shell/792x33_shell",
+    "texture": "ww2:shell/792x33_shell"
+  },
+  "tracer_color": "#FF8888",
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "ground": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fixed": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    }
+  }
+}

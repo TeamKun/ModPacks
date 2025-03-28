@@ -1,0 +1,6 @@
+{
+  "name": "ww2.attachment.pu.name",
+  "display": "ww2:pu_display",
+  "data": "ww2:pu_data",
+  "type": "scope"
+}

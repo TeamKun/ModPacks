@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 18
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "ww2:stg44"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

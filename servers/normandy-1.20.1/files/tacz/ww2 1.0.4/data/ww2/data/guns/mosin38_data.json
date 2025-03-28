@@ -1,0 +1,123 @@
+{
+  "ammo": "tacz:762x54",
+  "ammo_amount": 5,
+  "bolt": "manual_action",
+  "rpm": 300,
+  "bullet": {
+    "life": 0.9,
+    "bullet_amount": 1,
+    "damage": 22,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.50,
+      "head_shot_multiplier": 2,
+      "damage_adjust": [
+        {"distance": 40, "damage": 22},
+        {"distance": 90, "damage": 20},
+        {"distance": "infinite", "damage": 17.5}
+      ]
+    },
+    "speed": 750,
+    "gravity": 0.098,
+    "knockback": 0,
+    "friction": 0.015,
+    "ignite": false,
+    "pierce": 4
+  },
+  "script": "ww2:kar98k_gun_logic",
+  "script_param": {
+    "bolt_time": 0.95,
+    "intro": 1.2917,
+    "intro_empty": 1.2917,
+    "loop": 0.5833,
+    "ending": 1,
+    "ending_empty": 1,
+    "ending_empty_feed": 0.6,
+    "clip_load": 0.9583,
+    "clip_load_feed": 0.88,
+    "loop_feed": 0.3
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 3.5,
+      "tactical": 3.5
+    },
+    "cooldown": {
+      "empty": 4,
+      "tactical": 4.5
+    }
+  },
+  "draw_time": 0.5,
+  "put_away_time": 0.3,
+  "aim_time": 0.2,
+  "sprint_time": 0.2,
+  "weight": 4.2,
+  "bolt_action_time": 1.35,
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [3.2, 3.2]},
+      {"time": 0.32, "value": [2.2, 2.2]},
+      {"time": 0.57, "value": [-0.5, -0.5]},
+      {"time": 0.82, "value": [0.25, 0.25]},
+      {"time": 1.17, "value": [0, 0]},
+      {"time": 1.47, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.6, -0.5]},
+      {"time": 0.32, "value": [-0.6, -0.5]},
+      {"time": 0.57, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 6.5,
+    "move": 7,
+    "sneak": 4.5,
+    "lie": 2.5,
+    "aim": 0.05
+  },
+  // 近战相关
+  "melee": {
+    // 枪械距离参数，用来延升近战攻击范围
+    // 会与刺刀等配件的距离做加和
+    "distance": 1,
+    // 使用时的冷却时间
+    "cooldown": 1.0,
+    // 默认近战数据，会被配件的数据替换掉
+    "default": {
+      // 动画类型：没有枪托的为 melee_push，有枪托的为 melee_stock
+      "animation_type": "melee_stock",
+      // 刺刀距离参数，枪械里还有个刺刀攻击距离参数，两者做加和
+      "distance": 0,
+      // 刺刀范围角度
+      "range_angle": 40,
+      // 伤害值
+      "damage": 1,
+      // 击退效果
+      "knockback": 0.5,
+      // 前摇时长，单位：秒
+      "prep": 0.1
+    }
+  },
+  // 开放的配件槽。未指定的槽位默认关闭。全部配件槽类型有:
+  // scope, stock, muzzle, grip, laser, extended_mag
+  "allow_attachment_types": [
+    "muzzle"
+  ],
+  // 专属的配件属性
+  "exclusive_attachments": {
+    // 配件 ID，后面的数据和配件的 data 部分结构完全一致
+    "tacz:scope_standard_8x": {
+      "weight": 4.0,
+      "ads_addend": 0.04,
+      "inaccuracy_addend": -0.4,
+      "recoil_modifier": {
+        "pitch": -0.2,
+        "yaw": -0.1
+      }
+    }
+  }
+}

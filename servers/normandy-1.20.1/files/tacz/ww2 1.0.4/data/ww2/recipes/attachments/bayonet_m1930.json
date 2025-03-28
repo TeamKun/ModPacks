@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:nuggets/gold"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "ww2:bayonet_m1930"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

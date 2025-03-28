@@ -1,0 +1,10 @@
+{
+  "slot": "ww2:attachment/slot/bayonet_m4",
+  "model": "ww2:attachment/bayonet_m4",
+  "texture": "ww2:attachment/uv/bayonet_m4",
+  "show_muzzle": true,
+  "sounds": {
+    "install": "tacz:attachments/bayonet_install",
+    "uninstall": "tacz:attachments/bayonet_uninstall"
+  }
+}
