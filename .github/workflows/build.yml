@@ -38,7 +38,7 @@ jobs:
 
       - uses: actions/setup-java@v1
         with:
-          java-version: '8'
+          java-version: '17'
           java-package: jre
           architecture: x64
 
@@ -48,7 +48,6 @@ jobs:
       - name: Setup Nebula
         run: |
           npm i
-          npm build ./
           npm run build
 
       - name: Generate Distribution
