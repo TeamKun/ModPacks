@@ -1,20 +1,20 @@
 {
-  "$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
-  "meta": {
-    "version": "1.0.0",
-    "name": "重力攻城戦(Minecraft 1.12.2)",
-    "description": "",
-    "address": "",
-    "discord": {
-      "shortId": "Minecraft",
-      "largeImageText": "Minecraft",
-      "largeImageKey": "pack_numa"
-    },
-    "mainServer": true,
-    "autoconnect": false
-  },
-  "forge": {
-    "version": "14.23.5.2860"
-  },
-  "untrackedFiles": []
+	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+	"meta": {
+		"version": "1.0.0",
+		"name": "%22%重力攻城戦(Minecraft 1.12.2)",
+		"description": "",
+		"address": "",
+		"discord": {
+			"shortId": "Minecraft",
+			"largeImageText": "Minecraft",
+			"largeImageKey": "pack_numa"
+		},
+		"mainServer": true,
+		"autoconnect": false
+	},
+	"forge": {
+		"version": "14.23.5.2860"
+	},
+	"untrackedFiles": []
 }
