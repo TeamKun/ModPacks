@@ -1,0 +1,10 @@
+{
+  "slot": "qkl:attachment/slot/hy88_bayonet",
+  "model": "qkl:attachment/hy88_bayonet",
+  "texture": "qkl:attachment/uv/hy88_bayonet",
+  "show_muzzle": true,
+  "sounds": {
+    "install": "tacz:attachments/bayonet_install",
+    "uninstall": "tacz:attachments/bayonet_uninstall"
+  }
+}

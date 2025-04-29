@@ -1,0 +1,107 @@
+{
+  "ammo": "qkl:rb10",
+  "can_slide": false,
+  "rpm": 650,
+  "bullet": {
+    "life": 1.1,
+    "bullet_amount": 1,
+    "damage": 13,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.4,
+      "head_shot_multiplier": 1.5,
+      "damage_adjust": [
+        {"distance": 5, "damage": 13},
+        {"distance": 8, "damage": 12},
+        {"distance": 20, "damage": 11},
+        {"distance": 30, "damage": 10},
+        {"distance": 40, "damage": 9},
+        {"distance": 40, "damage": 8},
+        {"distance": "infinite", "damage": 7.5}
+      ]
+    },
+   "speed": 300,
+      "gravity": 0.025,
+      "knockback": 0,
+      "friction": 0.015,
+      "ignite": false,
+      "pierce": 2
+  },
+  "ammo_amount": 20,
+  "extended_mag_ammo_amount": [
+    30,
+    42,
+    75
+  ],
+  "bolt": "open_bolt",
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 6.08,
+      "tactical": 6.07
+    },
+    "cooldown": {
+      "empty": 8.53,
+      "tactical": 6.97
+    }
+  },
+  "draw_time": 1.83,
+  "put_away_time": 0.9,
+  "sprint_time": 0.2,
+  "aim_time": 0.3,
+  "weight": 10,
+  "fire_mode": [
+    "auto"
+  ],
+
+  "allow_attachment_types": [
+    "scope",
+    "muzzle",
+    "extended_mag"
+
+  ],
+  "recoil": {
+   "pitch": [
+      {"time": 0, "value": [0.35, 0.35]},
+      {"time": 0.25, "value": [0.35, 0.35]},
+      {"time": 0.65, "value": [-0.175, -0.175]},
+      {"time": 0.7, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.4, 0.15]},
+      {"time": 0.25, "value": [-0.4, 0.15]},
+      {"time": 0.45, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 4.8,
+    "move": 5.25,
+    "sneak": 3.8,
+    "lie": 0.5,
+    "aim": 0.3
+  },
+
+  "melee": {
+
+    "distance": 1,
+
+    "cooldown": 0.6,
+
+    "default": {
+
+      "animation_type": "melee_stock",
+
+      "distance": 0,
+
+      "range_angle": 60,
+   
+      "cooldown": 0,
+
+      "damage": 3,
+
+      "knockback": 0.4,
+
+      "prep": 0.1
+    }
+  }
+}

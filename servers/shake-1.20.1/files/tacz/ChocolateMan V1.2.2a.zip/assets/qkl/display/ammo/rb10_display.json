@@ -1,0 +1,13 @@
+{
+"model": "qkl:ammo/rb10",
+  "texture": "qkl:ammo/uv/rb10",
+    "slot": "qkl:ammo/slot/rb10",
+
+    "shell": {
+    
+        "model": "qkl:shell/rb10_shell",
+    "texture": "qkl:shell/rb10_shell"
+
+     }
+
+}

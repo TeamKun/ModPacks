@@ -1,0 +1,16 @@
+{
+    
+    "name": "qkl.gun.m1905.name",
+   
+    "display": "qkl:m1905_display",
+
+    "data": "qkl:m1905_data",
+   
+    "type": "pistol",
+
+    "tooltip": "rebel.gun.m1905.desc",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

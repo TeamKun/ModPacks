@@ -1,0 +1,16 @@
+{
+    
+    "name": "qkl.gun.csg19.name",
+   
+    "display": "qkl:csg19_display",
+
+    "data": "qkl:csg19_data",
+   
+    "type": "smg",
+
+    "tooltip": "rebel.gun.csg19.desc",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

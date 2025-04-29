@@ -1,0 +1,14 @@
+{
+  "slot": "qkl:attachment/slot/scope_sigk",
+  "model": "qkl:attachment/scope_sigk",
+  "texture": "qkl:attachment/uv/scope_sigk",
+  "zoom": [
+    3.5
+  ],
+  "scope": true,
+  "fov": 60.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_d",
+    "uninstall": "tacz:attachments/scope_general_d"
+  }
+}

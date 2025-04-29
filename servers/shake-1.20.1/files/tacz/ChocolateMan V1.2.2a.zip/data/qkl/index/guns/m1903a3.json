@@ -1,0 +1,16 @@
+{
+    
+    "name": "qkl.gun.m1903a3.name",
+   
+    "display": "qkl:m1903a3_display",
+
+    "data": "qkl:m1903a3_data",
+   
+    "type": "rifle",
+
+    "tooltip": "rebel.gun.m1903a3.desc",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

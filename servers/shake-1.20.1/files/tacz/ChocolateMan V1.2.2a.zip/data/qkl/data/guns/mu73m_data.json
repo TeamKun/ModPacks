@@ -1,0 +1,96 @@
+{
+    "ammo": "qkl:rb10",
+    "can_slide": false,
+    "rpm": 380,
+    "bullet": {
+      "life": 1,
+      "bullet_amount": 1,
+      "damage": 11,
+      "tracer_count_interval": 0,
+      "extra_damage": {
+        "armor_ignore": 0.3,
+        "head_shot_multiplier": 1.5,
+        "damage_adjust": [
+          {"distance": 3, "damage": 13},
+          {"distance": 35.5, "damage": 11},
+          {"distance": 60, "damage": 10},
+          {"distance": "infinite", "damage": 6}
+        ]
+      },
+      "speed": 270,
+      "gravity": 0.025,
+      "knockback": 0,
+      "friction": 0.015,
+      "ignite": false,
+      "pierce": 1
+    },
+    "ammo_amount": 10,
+    "extended_mag_ammo_amount": [
+      13,
+      16,
+      20
+    ],
+    "bolt": "closed_bolt",
+    "reload": {
+      "type": "magazine",
+      "feed": {
+        "empty": 2.5,
+        "tactical": 2.5
+      },
+      "cooldown": {
+        "empty": 4.3,
+        "tactical": 3.5
+      }
+    },
+    "draw_time": 0.65,
+    "put_away_time": 0.5,
+    "aim_time": 0.25,
+    "sprint_time": 0.2,
+    "weight": 3.5,
+    "fire_mode": [
+      "semi"
+    ],
+    "recoil": {
+      "pitch": [
+        {"time": 0, "value": [1, 1]},
+        {"time": 0.3, "value": [1, 1]},
+        {"time": 0.55, "value": [-0.225, -0.225]},
+        {"time": 0.7, "value": [0, 0]},
+        {"time": 0.8, "value": [0, 0]}
+      ],
+      "yaw": [
+        {"time": 0, "value": [-0.5, -0.35]},
+        {"time": 0.45, "value": [-0.5, -0.35]},
+        {"time": 0.7, "value": [0, 0]}
+      ]
+    },
+
+    "melee": {
+      "distance": 1,
+      "cooldown": 0.7,
+      "default": {
+        "animation_type": "melee_stock",
+        "distance": 0,
+        "range_angle": 40,
+        "cooldown": 0,
+        "damage": 2.5,
+        "knockback": 0.5,
+        "prep": 0.1
+      }
+    },
+
+  "allow_attachment_types": [
+
+    "scope",
+    "muzzle",
+    "extended_mag"
+
+  ],
+    "inaccuracy": {
+      "stand": 4,
+      "move": 5,
+      "sneak": 1.5,
+      "lie": 1,
+      "aim": 0.06
+    }
+}

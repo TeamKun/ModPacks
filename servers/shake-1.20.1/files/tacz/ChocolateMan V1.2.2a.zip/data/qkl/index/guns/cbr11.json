@@ -1,0 +1,16 @@
+{
+    
+    "name": "qkl.gun.cbr11.name",
+   
+    "display": "qkl:cbr11_display",
+
+    "data": "qkl:cbr11_data",
+   
+    "type": "rifle",
+
+    "tooltip": "rebel.gun.cbr11.desc",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

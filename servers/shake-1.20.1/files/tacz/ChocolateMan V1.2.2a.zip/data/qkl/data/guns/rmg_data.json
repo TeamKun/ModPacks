@@ -1,0 +1,108 @@
+{
+  "ammo": "qkl:rb10",
+  "can_slide": false,
+  "rpm": 700,
+  "bullet": {
+    "life": 1.0,
+    "bullet_amount": 1,
+    "damage": 9,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.35,
+      "head_shot_multiplier": 1.5,
+      "damage_adjust": [
+        {"distance": 5, "damage": 9},
+        {"distance": 8, "damage": 8.5},
+        {"distance": 20, "damage": 8},
+        {"distance": 30, "damage": 7.5},
+        {"distance": 40, "damage": 7},
+        {"distance": 60, "damage": 6.5},
+        {"distance": "infinite", "damage": 6}
+      ]
+    },
+   "speed": 240,
+      "gravity": 0.025,
+      "knockback": 0,
+      "friction": 0.015,
+      "ignite": false,
+      "pierce": 1
+  },
+  "ammo_amount": 55,
+  "extended_mag_ammo_amount": [
+    72,
+    100,
+    130
+  ],
+  "bolt": "open_bolt",
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 5.3,
+      "tactical": 4
+    },
+    "cooldown": {
+      "empty": 6.8,
+      "tactical": 5.6
+    }
+  },
+  "draw_time": 1,
+  "put_away_time": 0.58,
+  "sprint_time": 0.2,
+  "aim_time": 0.3,
+  "weight": 11.5,
+  "fire_mode": [
+    "auto",
+    "semi"
+  ],
+
+  "allow_attachment_types": [
+    "scope",
+    "muzzle",
+    "extended_mag"
+
+  ],
+  "recoil": {
+   "pitch": [
+      {"time": 0, "value": [0.35, 0.35]},
+      {"time": 0.25, "value": [0.35, 0.35]},
+      {"time": 0.65, "value": [-0.175, -0.175]},
+      {"time": 0.7, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.18, 0.12]},
+      {"time": 0.25, "value": [-0.18, 0.12]},
+      {"time": 0.45, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 2.8,
+    "move": 3.5,
+    "sneak": 2,
+    "lie": 0.45,
+    "aim": 0.25
+  },
+
+  "melee": {
+
+    "distance": 1,
+
+    "cooldown": 0.6,
+
+    "default": {
+
+      "animation_type": "melee_stock",
+
+      "distance": 0,
+
+      "range_angle": 60,
+   
+      "cooldown": 0,
+
+      "damage": 3,
+
+      "knockback": 0.4,
+
+      "prep": 0.1
+    }
+  }
+}

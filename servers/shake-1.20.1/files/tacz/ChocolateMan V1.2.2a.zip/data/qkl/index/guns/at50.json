@@ -1,0 +1,16 @@
+{
+    
+    "name": "qkl.gun.at50.name",
+   
+    "display": "qkl:at50_display",
+
+    "data": "qkl:at50_data",
+   
+    "type": "sniper",
+
+    "tooltip": "rebel.gun.at50.desc",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

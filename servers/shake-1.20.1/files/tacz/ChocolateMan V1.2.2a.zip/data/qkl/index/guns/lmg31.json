@@ -1,0 +1,16 @@
+{
+    
+    "name": "qkl.gun.lmg31.name",
+   
+    "display": "qkl:lmg31_display",
+
+    "data": "qkl:lmg31_data",
+   
+    "type": "mg",
+
+    "tooltip": "rebel.gun.lmg31.desc",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

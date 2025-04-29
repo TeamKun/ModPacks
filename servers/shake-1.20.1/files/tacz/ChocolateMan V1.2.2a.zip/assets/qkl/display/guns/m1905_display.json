@@ -1,0 +1,82 @@
+{
+    "model": "qkl:gun/m1905_geo",
+    "texture": "qkl:gun/uv/m1905",
+    "slot": "qkl:gun/slot/m1905",
+    "hud": "qkl:gun/hud/m1905",
+    "animation": "qkl:m1905",
+    "use_default_animation": "pistol",
+
+    "state_machine": "qkl:m1905_state_machine",
+
+    "sounds": {
+        "shoot": "qkl:m1905/m1905_shoot",
+        "shoot_3p": "qkl:m1905/m1905_shoot_3p",
+        "silence": "qkl:m1905/m1905_silence",
+        "silence_3p": "qkl:m1905/m1905_silence_3p",
+        "draw": "qkl:m1905/m1905_draw",
+        "put_away": "qkl:m1905/m1905_put_away",
+        "reload_empty": "qkl:m1905/m1905_reload_empty",
+        "reload_tactical": "qkl:m1905/m1905_reload_tactical",
+        "inspect_empty": "qkl:m1905/m1905_inspect_empty",
+        "inspect": "qkl:m1905/m1905_inspect",
+        "head_hit": "qkl:m1905/1905_head_hit",
+        "flesh_hit": "qkl:m1905/1905_flesh_hit",
+        "kill": "qkl:m1905/1905_kill"
+       
+    
+    },
+       
+    "muzzle_flash": {
+       
+        "texture": "tacz:flash/common_muzzle_flash",
+        
+        "scale": 1.5
+      },
+
+    "iron_zoom": 1,
+
+    
+
+        "text_show": {
+           
+            "ammo_count_text_pos": {
+             
+              "scale": 0.35,
+            
+              "align": "right",
+              
+              "shadow": false,
+            
+              "color": "#53f9af",
+            
+              "light": 15,
+             
+              "text": "%m1905%"
+            }
+            
+          },
+
+    "transform": {
+        "scale": {
+           
+            "thirdperson": [
+                0.4,
+                0.4,
+                0.4
+            ],
+           
+            "ground": [
+                0.4,
+                0.4,
+                0.4
+            ],
+           
+            "fixed": [
+                0.9,
+                0.9,
+                0.9
+            ]
+        }
+    },
+    "third_person_animation": "default"
+}

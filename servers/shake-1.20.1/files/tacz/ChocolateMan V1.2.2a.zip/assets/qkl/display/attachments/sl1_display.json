@@ -1,0 +1,10 @@
+{
+  "slot": "qkl:attachment/slot/sl1",
+  "model": "qkl:attachment/sl1",
+  "texture": "qkl:attachment/uv/sl1",
+  "show_muzzle": true,
+  "sounds": {
+    "install": "tacz:attachments/muzzle_general",
+    "uninstall": "tacz:attachments/muzzle_general"
+  }
+}

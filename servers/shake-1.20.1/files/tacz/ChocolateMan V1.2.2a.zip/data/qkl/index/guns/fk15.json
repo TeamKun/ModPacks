@@ -1,0 +1,16 @@
+{
+    
+    "name": "qkl.gun.fk15.name",
+   
+    "display": "qkl:fk15_display",
+
+    "data": "qkl:fk15_data",
+   
+    "type": "rifle",
+
+    "tooltip": "rebel.gun.fk15.desc",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

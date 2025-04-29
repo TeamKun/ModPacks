@@ -1,0 +1,10 @@
+{
+  "slot": "qkl:attachment/slot/m1917_bayonet",
+  "model": "qkl:attachment/m1917_bayonet",
+  "texture": "qkl:attachment/uv/m1917_bayonet",
+  "show_muzzle": true,
+  "sounds": {
+    "install": "tacz:attachments/bayonet_install",
+    "uninstall": "tacz:attachments/bayonet_uninstall"
+  }
+}

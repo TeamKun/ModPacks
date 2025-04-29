@@ -1,0 +1,16 @@
+{
+    
+    "name": "qkl.gun.clf10.name",
+   
+    "display": "qkl:clf10_display",
+
+    "data": "qkl:clf10_data",
+   
+    "type": "shotgun",
+
+    "tooltip": "rebel.gun.clf10.desc",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

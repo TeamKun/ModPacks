@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 15
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "qkl:bayonet_fkc1"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

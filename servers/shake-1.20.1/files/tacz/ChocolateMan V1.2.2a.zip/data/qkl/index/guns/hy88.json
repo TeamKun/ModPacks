@@ -1,0 +1,16 @@
+{
+    
+    "name": "qkl.gun.hy88.name",
+   
+    "display": "qkl:hy88_display",
+
+    "data": "qkl:hy88_data",
+   
+    "type": "rifle",
+
+    "tooltip": "rebel.gun.hy88.desc",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

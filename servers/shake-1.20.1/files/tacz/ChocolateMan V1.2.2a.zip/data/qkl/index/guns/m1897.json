@@ -1,0 +1,16 @@
+{
+    
+    "name": "qkl.gun.m1897.name",
+   
+    "display": "qkl:m1897_display",
+
+    "data": "qkl:m1897_data",
+   
+    "type": "shotgun",
+
+    "tooltip": "rebel.gun.m1897.desc",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

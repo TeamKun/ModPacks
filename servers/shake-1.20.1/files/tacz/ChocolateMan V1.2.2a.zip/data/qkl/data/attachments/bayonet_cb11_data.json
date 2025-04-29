@@ -1,0 +1,11 @@
+{
+  "weight": 0.5,
+  "ads_addend": 0.06,
+  "melee": {
+    "distance": 2.5,
+    "range_angle": 45,
+    "damage": 6,
+    "knockback": 0.4,
+    "prep": 0.1
+  }
+}

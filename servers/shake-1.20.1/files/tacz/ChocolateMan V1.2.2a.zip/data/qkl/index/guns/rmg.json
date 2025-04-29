@@ -1,0 +1,16 @@
+{
+    
+    "name": "qkl.gun.rmg.name",
+   
+    "display": "qkl:rmg_display",
+
+    "data": "qkl:rmg_data",
+   
+    "type": "mg",
+
+    "tooltip": "rebel.gun.rmg.desc",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}
