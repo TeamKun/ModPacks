@@ -1,0 +1,14 @@
+{
+  "id": "ru.magistu:swem:1.5.3@jar",
+  "name": "Star Worm Equestrian",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 11375458,
+    "MD5": "f46a3b1ac9d54ad674e72a054c9bf79c",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/swem/download/6566387",
+      "name": "swem-1.20.1-1.5.3.jar"
+    }
+  }
+}
