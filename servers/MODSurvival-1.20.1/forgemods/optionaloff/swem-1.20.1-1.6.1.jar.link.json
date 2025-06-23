@@ -1,0 +1,14 @@
+{
+  "id": "ru.magistu:swem:1.6.1@jar",
+  "name": "Medieval Siege Machines",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 11596857,
+    "MD5": "ee138c4fc3ac2dc228ac335a4513560b",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/medieval-siege-machines/download/6276088",
+      "name": "swem-1.20.1-1.6.1.jar"
+    }
+  }
+}
