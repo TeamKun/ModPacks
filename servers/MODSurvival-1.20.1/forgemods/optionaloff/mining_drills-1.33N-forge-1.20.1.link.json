@@ -1,0 +1,14 @@
+{
+  "id": "miningdrills:mining_drills:1.33@jar",
+  "name": "Mining Drills",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 9102136,
+    "MD5": "8f4b651cead605e2828bd6fa019f6b74",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mining-drills/download/6611077",
+      "name": "mining_drills-1.33N-forge-1.20.1.jar"
+    }
+  }
+}
