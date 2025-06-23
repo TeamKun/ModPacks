@@ -1,0 +1,14 @@
+{
+  "id": "ru.magistu:siegemachines:1.18@jar",
+  "name": "Medieval Siege Machines",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 1876243,
+    "MD5": "5499ac09a5aab715a590f0ca36ecd95f",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/medieval-siege-machines/download/6276088",
+      "name": "[1.20.1]-Siege-Machines-1.21.jar"
+    }
+  }
+}
