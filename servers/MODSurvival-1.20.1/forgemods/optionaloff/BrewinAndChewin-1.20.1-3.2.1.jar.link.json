@@ -1,0 +1,14 @@
+{
+  "id": "umpaz.brewinandchewin:brewinandchewin:1.20.1-3.2.13@jar",
+  "name": "Brewin' And Chewin",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 1206255,
+    "MD5": "a9764338cbfe60d1e67c578b246c79ba",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin/download/6237884",
+      "name": "BrewinAndChewin-1.20.1-3.2.1.jar"
+    }
+  }
+}
