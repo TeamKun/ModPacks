@@ -1,0 +1,14 @@
+{
+  "id": "net.aurelj:dungeons_arise:2.1.58-1.20.x@jar",
+  "name": "When Dungeons Arise",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 8762342,
+    "MD5": "6ac48d0cf2ce763824f96f6d26963219",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise/download/4983862",
+      "name": "DungeonsArise-1.20.x-2.1.58-release.jar"
+    }
+  }
+}
