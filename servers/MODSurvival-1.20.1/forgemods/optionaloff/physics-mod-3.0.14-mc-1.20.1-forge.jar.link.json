@@ -1,0 +1,14 @@
+{
+  "id": "net.diebuddies.physics:physicsmod:3.0.14-mc-1.20.1@jar",
+  "name": "Physics Mod",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 139191552,
+    "MD5": "0d009db15745e39fc6eef96dcafc7b7a",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/physics-mod/download/5306442",
+      "name": "physics-mod-3.0.14-mc-1.20.1-forge.jar"
+    }
+  }
+}
