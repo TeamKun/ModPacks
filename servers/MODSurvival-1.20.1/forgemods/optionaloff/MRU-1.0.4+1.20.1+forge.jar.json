@@ -1,0 +1,10 @@
+{
+  "id": "dev.imb11.loader:mru:1.0.4+1.20.1+forge@jar",
+  "name": "Mineblock's Repeated Utilities",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 287393,
+    "MD5": "4485788a466877a0ddd42d3df84ea913",
+    "url": "https://cdn.modrinth.com/data/SNVQ2c0g/versions/nKL4LKzM/MRU-1.0.4%2B1.20.1%2Bforge.jar"
+  }
+}
