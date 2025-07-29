@@ -1,0 +1,14 @@
+{
+  "id": "OptiFine_1.19.2_HD_U_H9.jar",
+  "name": "OptiFine_1.19.2_HD_U_H9.jar",
+  "type": "File",
+  "artifact": {
+    "size": 6863178,
+    "MD5": "e7c4c8af14d48f4149ff2ed442eed05c",
+    "path": "mods/OptiFine_1.19.2_HD_U_H9.jar",
+    "manual": {
+      "url": "https://optifine.net/adloadx?f=OptiFine_1.19.2_HD_U_I2.jar&x=32a4",
+      "name": "OptiFine_1.19.2_HD_U_H9.jar"
+    }
+  }
+}

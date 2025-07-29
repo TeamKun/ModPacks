@@ -1,0 +1,14 @@
+{
+  "id": "net.meme.sirenhead:siren_head:1.2.7@jar",
+  "name": "Siren Head",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 6241491,
+    "MD5": "f95e4b070714eba8010c7237370ee5a5",
+    "url": "",
+    "manual": {
+      "url": "",
+      "name": "Siren_Head_v1.2.7-1.19.2-Requires_Geckolib.jar"
+    }
+  }
+}

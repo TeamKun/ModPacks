@@ -1,0 +1,14 @@
+{
+  "id": "net.hqrvester.boiled:boiled_reimagined:1.0.12@jar",
+  "name": "Boiled One Reimagined",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 4926836,
+    "MD5": "9df6994b35487052c00876efc0969047",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/the-boiled-one-reimagined/download/6056134",
+      "name": "boiled_reimagined-1.0.12-forge-1.19.2.jar"
+    }
+  }
+}

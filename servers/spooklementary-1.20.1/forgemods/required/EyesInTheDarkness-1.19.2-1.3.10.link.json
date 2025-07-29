@@ -1,0 +1,14 @@
+{
+  "id": "dev.gigaherz.eyes:eyesinthedarkness:${file.jarVersion}@jar",
+  "name": "Eyes in the Darkness",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 278944,
+    "MD5": "2f5ebdc1f057bd8c650f7ff5bed14c35",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/eyes-in-the-darkness/download/5031821",
+      "name": "EyesInTheDarkness-1.19.2-1.3.10.jar"
+    }
+  }
+}
