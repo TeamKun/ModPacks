@@ -1,0 +1,19 @@
+{
+  "id": "bnb.tfp:tfp:0.5.7@jar",
+  "name": "Craftformers Prime",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 2429163,
+    "MD5": "38c07d9bb48df581c3bb532a43912be7",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/craftformers-prime/download/6763626",
+      "name": "cfpforge-0-5-7.jar",
+      "hints": [
+        {
+          "css": "a[href='https://www.curseforge.com/api/v1/mods/954701/files/6763626/download']"
+        }
+      ]
+    }
+  }
+}
