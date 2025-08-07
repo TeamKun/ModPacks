@@ -1,0 +1,14 @@
+{
+  "id": "dev.tr7zw:entityculling:1.6.6@jar",
+  "name": "EntityCulling",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 71139,
+    "MD5": "e633559944ee1cecf7511e9ba38dfeb6",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/entityculling/download/6780226",
+      "name": "entityculling-forge-1.6.6-mc1.20.1.jar"
+    }
+  }
+}
