@@ -1,13 +1,18 @@
 {
-    "name": "scripts",
-    "version": "1.0.0",
-    "description": "",
-    "main": "/scripts/index.js",
-    "scripts": {
-        "order:set": "node ./scripts/order.js",
-        "order:reload": "node ./scripts/reloadorder.js",
-        "order:reset": "node ./scripts/resetorder.js"
-    },
-    "author": "",
-    "license": "ISC"
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/scripts/index.js",
+  "scripts": {
+    "order:set": "node ./scripts/order.js",
+    "order:reload": "node ./scripts/reloadorder.js",
+    "order:reset": "node ./scripts/resetorder.js",
+    "generator": "node ./scripts/generator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "adm-zip": "^0.5.16"
+  }
 }
