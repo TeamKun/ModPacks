@@ -1,0 +1,14 @@
+{
+  "id": "net.mcreator:biologica:1.0.0@jar",
+  "name": "Biologica",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 7037761,
+    "MD5": "4246d9a986edeae31e62b36fd5316f56",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/biologica/download/6809092",
+      "name": "biologica-1.1.1-forge-1.20.1.jar"
+    }
+  }
+}
