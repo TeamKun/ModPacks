@@ -1,0 +1,10 @@
+{
+  "id": "dev.imb11.fog.loaders:fog:1.5.3-1.20.1@jar",
+  "name": "Fog",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 1004144,
+    "MD5": "049002def4bc153c6df5c40cfc0ac2ee",
+    "url": "https://cdn.modrinth.com/data/WuGVWUF2/versions/5Lmz97Q7/Fog-forge-1.5.3-1.20.1.jar"
+  }
+}

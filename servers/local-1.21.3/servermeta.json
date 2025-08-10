@@ -2,7 +2,7 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.0",
-		"name": "%22%LOCAL系1.21.3 (Minecraft 1.21.3)",
+		"name": "%23%LOCAL系1.21.3 (Minecraft 1.21.3)",
 		"description": "1.21.3",
 		"address": "",
 		"discord": {

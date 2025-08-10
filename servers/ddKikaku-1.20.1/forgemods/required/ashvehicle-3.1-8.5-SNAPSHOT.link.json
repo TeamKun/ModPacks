@@ -1,0 +1,14 @@
+{
+  "id": "aru.aru:ashvehicle:3.1-8.5-SNAPSHOT@jar",
+  "name": "ashvehicle",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 4602461,
+    "MD5": "e723286197fd37a210384162b5307e36",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ashvehicle/download/6773323",
+      "name": "ashvehicle-3.1-8.5-SNAPSHOT.jar"
+    }
+  }
+}
