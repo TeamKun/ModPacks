@@ -1,0 +1,14 @@
+{
+  "id": "com.github.l_ender:cataclysm:3.15@jar",
+  "name": "cataclysm",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 127992906,
+    "MD5": "c46c0bbd1ac54b1c7a350cbf4a9a2eb6",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/api/v1/mods/551586/files/6849032/download",
+      "name": "L_Enders_Cataclysm-3.15.jar"
+    }
+  }
+}

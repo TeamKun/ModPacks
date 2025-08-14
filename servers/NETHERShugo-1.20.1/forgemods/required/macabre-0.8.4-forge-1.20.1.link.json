@@ -1,0 +1,14 @@
+{
+  "id": "com.curseforge:macabre:0.8.4@jar",
+  "name": "macabre",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 25512570,
+    "MD5": "38a65bd479cb5137a167d8d5e5f2820d",
+    "url": "",
+    "manual": {
+      "url": "",
+      "name": "macabre-0.8.4-forge-1.20.1.jar"
+    }
+  }
+}

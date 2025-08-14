@@ -1,0 +1,14 @@
+{
+  "id": "com.github.l_ender:lionfishapi:2.4-Fix@jar",
+  "name": "LionfishAPI",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 162767,
+    "MD5": "81efd7c198c3c7036c77c79cae764ed4",
+    "url": "",
+    "manual": {
+      "url": "https://www.curseforge.com/api/v1/mods/1001614/files/5922047/download",
+      "name": "lionfishapi-2.4-Fix.jar"
+    }
+  }
+}
