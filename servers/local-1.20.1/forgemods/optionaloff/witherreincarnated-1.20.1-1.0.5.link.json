@@ -1,0 +1,14 @@
+{
+  "id": "com.alexander:witherreincarnated:1.0.5@jar",
+  "name": "Wither Reincarnated",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 12807443,
+    "MD5": "f56f91065a1cad1bc53764eb9438b31c",
+    "url": "",
+    "manual": {
+      "url": "https://legacy.curseforge.com/minecraft/mc-mods/wither-reincarnated/download/6835382",
+      "name": "witherreincarnated-1.20.1-1.0.5.jar"
+    }
+  }
+}
