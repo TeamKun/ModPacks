@@ -7,12 +7,14 @@
     "order:set": "node ./scripts/order.js",
     "order:reload": "node ./scripts/reloadorder.js",
     "order:reset": "node ./scripts/resetorder.js",
-    "generator": "node ./scripts/generator.js"
+    "generator": "node ./scripts/generator.js",
+    "license": "node ./scripts/licensecheck.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@iarna/toml": "^2.2.5",
-    "adm-zip": "^0.5.16"
+    "adm-zip": "^0.5.16",
+    "unzipper": "^0.12.3"
   }
 }

@@ -79,12 +79,45 @@ for (const file of jarFiles) {
   }
 
   const modsTmlContent = modsTmlEntry.getData().toString("utf-8");
-  const parsed = toml.parse(modsTmlContent);
-  const mod = Array.isArray(parsed.mods) ? parsed.mods[0] : parsed.mods;
-  const modId = mod.modId;
-  const version = mod.version;
-  const displayName = mod.displayName || modId;
+  let parsed;
+  try {
+    parsed = toml.parse(modsTmlContent);
+  } catch (e) {
+    console.error(`❌ mods.toml のパースに失敗: ${e.message}`);
+    continue;
+  }
 
+  const mod = Array.isArray(parsed.mods) ? parsed.mods[0] : parsed.mods;
+  if (!mod) {
+    console.error("❌ mods.toml に mods セクションが見つかりません");
+    continue;
+  }
+
+  const modId = String(mod.modId || "").trim();
+  const version = String(mod.version || "").trim();
+  const displayName = String(
+    mod.displayName || modId || path.basename(file, ".jar")
+  ).trim();
+
+  // 追加: author / license 取得
+  const authorFromMods = (
+    mod.authors != null ? String(mod.authors) : ""
+  ).trim();
+  const authorFromRoot = (
+    parsed.authors != null ? String(parsed.authors) : ""
+  ).trim();
+  const author = authorFromMods || authorFromRoot || ""; // 空なら下流で <author>
+
+  // Forge の慣例ではライセンスはルートにあることが多い
+  const licenseFromRoot = (
+    parsed.license != null ? String(parsed.license) : ""
+  ).trim();
+  const licenseFromMods = (
+    mod.license != null ? String(mod.license) : ""
+  ).trim();
+  const license = licenseFromRoot || licenseFromMods || ""; // 空なら下流で Not specified
+
+  // JARのサイズ/MD5
   const buffer = fs.readFileSync(jarPath);
   const size = buffer.length;
   const md5 = crypto.createHash("md5").update(buffer).digest("hex");
@@ -92,11 +125,13 @@ for (const file of jarFiles) {
   const result = {
     id: `${group}:${modId}:${version}@jar`,
     name: displayName,
+    author: author,
     type: "ForgeMod",
     artifact: {
       size: size,
       MD5: md5,
       url: "",
+      license: license,
       manual: {
         url: "",
         name: path.basename(file),

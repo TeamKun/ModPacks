@@ -1,0 +1,349 @@
+[
+  {
+    "name": "MIT",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "MIT License",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "The MIT License (MIT)",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "MIT https://github.com/Geforce132/SecurityCraft/blob/1.20/LICENSE",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "Apache-2.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "GPL3",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "gplv3",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU GPLv3",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU General Public License v3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU GENERAL PUBLIC LICENSE Version 3",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU General Public License 3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GPLv3",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GPL-3.0-only",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GPL-3.0-or-later",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "LGPLv3",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "LGPL v3",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "LGPL-3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "LGPL-3.0-only",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "LGPL-3.0-or-later",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU LGPLv3",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU Lesser General Public License v3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU Lesser General Public License version 3 (LGPLv3)",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "LGPLv2.1",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "LGPL v2.1",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "LGPL V2.1",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "LGPL",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "MPL-2.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "EPL-2.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "CDDL-1.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "AGPL-3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU Affero General Public License v3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "CC0-1.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "CC BY-NC",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "CC BY-NC-ND 4.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "MIT and CC BY-NC-SA (see github for details)",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "GPL3 / CC BY-NC-ND 4.0",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
+  },
+
+  {
+    "name": "Academic Free License v3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "All Rights Reserved",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "All rights reserved",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "All-Rights-Reserved",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "Assets: All Rights Reserved; Code: LGPL-3.0",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "Not specified",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "Custom License",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
+  },
+
+  {
+    "name": "ComputerCraft Public License (https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE)",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "Stardust Labs License",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "AtomicStrykers License http://atomicstryker.net/about.php",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  },
+
+  {
+    "name": "GNU General Public License v3.1",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU-LGPL-3",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "sanka",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "tr7zw Protective License",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "BSD-3-Clause",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "ComputerCraft Public License (https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE)",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "Mowzie’s Mobs (https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE)",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  },
+
+  {
+    "name": "GNU GENERAL PUBLIC LICENSE",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU GENERAL PUBLIC LICENSE Version 3",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU General Public License",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU General Public License v3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU LESSER GENERAL PUBLIC LICENSE",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+
+  {
+    "name": "All Rights Reserved",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "All rights reserved",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "All Rights Reserved, DragN0007",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "NAll Rights Reserved",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "custom",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "Custom License",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "Minecraft Mod Public License Japanese Transration",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  }
+]
