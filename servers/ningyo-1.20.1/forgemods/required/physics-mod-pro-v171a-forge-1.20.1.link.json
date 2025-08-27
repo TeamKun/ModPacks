@@ -13,7 +13,7 @@
       "name": "physics-mod-pro-v171a-forge-1.20.1.jar",
       "hints": [
         {
-          "css": "physics-mod-pro-v171a-forge-1.20.1.jar"
+          "css": "div:contains('physics-mod-pro-v171a-forge-1.20.1.jar)"
         }
       ]
     }
