@@ -345,5 +345,20 @@
     "name": "Minecraft Mod Public License Japanese Transration",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
+  },
+  {
+    "name": "Obscuria Lithium (c) 2023, All Rights Reserved.",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "https://github.com/team-abnormals/blueprint/blob/main/LICENSE.txt",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "https://github.com/team-abnormals/upgrade-aquatic/blob/main/LICENSE.txt",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
   }
 ]

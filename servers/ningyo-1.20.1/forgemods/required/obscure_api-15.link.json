@@ -1,0 +1,16 @@
+{
+  "id": "com.obscuria.obscureapi:obscure_api:15@jar",
+  "name": "Obscure API",
+  "author": "Obscuria",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 497136,
+    "MD5": "e9cfade6b7a9964fcadffc6e8d4fedff",
+    "url": "",
+    "license": "Obscuria Lithium (c) 2023, All Rights Reserved.",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/obscure-api/download/4616364",
+      "name": "obscure_api-15.jar"
+    }
+  }
+}

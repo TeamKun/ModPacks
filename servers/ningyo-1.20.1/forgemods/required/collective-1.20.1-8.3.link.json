@@ -1,0 +1,16 @@
+{
+  "id": "com.natamus:collective:8.3@jar",
+  "name": "Collective",
+  "author": "Rick South",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 657310,
+    "MD5": "5b0b99ac79f68438ee0133ff6dfd53c5",
+    "url": "",
+    "license": "All rights reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/collective/download/6429218",
+      "name": "collective-1.20.1-8.3.jar"
+    }
+  }
+}

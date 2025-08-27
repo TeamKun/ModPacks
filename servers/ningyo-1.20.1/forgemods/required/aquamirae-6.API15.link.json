@@ -1,0 +1,16 @@
+{
+  "id": "com.obscuria:aquamirae:6.API15@jar",
+  "name": "Aquamirae",
+  "author": "Obscuria, Pluvia",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 17317836,
+    "MD5": "e8ed829ef58a231fd8f41003fa8f4e1b",
+    "url": "",
+    "license": "Obscuria Lithium (c) 2023, All Rights Reserved.",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ob-aquamirae/download/4616373",
+      "name": "aquamirae-6.API15.jar"
+    }
+  }
+}

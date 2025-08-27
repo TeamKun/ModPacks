@@ -1,0 +1,16 @@
+{
+  "id": "com.teamabnormals.blueprint.core:blueprint:7.1.0@jar",
+  "name": "Blueprint",
+  "author": "Team Abnormals",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 1141553,
+    "MD5": "83f35ee21c8d632edde3f1cf650329a7",
+    "url": "",
+    "license": "https://github.com/team-abnormals/blueprint/blob/main/LICENSE.txt",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/blueprint/download/5292242",
+      "name": "blueprint-1.20.1-7.1.0.jar"
+    }
+  }
+}
