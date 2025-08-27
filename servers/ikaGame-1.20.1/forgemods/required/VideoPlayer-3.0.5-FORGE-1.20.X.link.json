@@ -1,0 +1,16 @@
+{
+  "id": "com.github.ngoedix.watchvideo:videoplayer:3.0.5@jar",
+  "name": "VideoPlayer",
+  "author": "Goedix",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 213457,
+    "MD5": "19725092b398a350a1aaa76a13a5e736",
+    "url": "",
+    "license": "All rights reserved",
+    "manual": {
+      "url": "http://curseforge.com/minecraft/mc-mods/video-player/download/5771085",
+      "name": "VideoPlayer-3.0.5-FORGE-1.20.X.jar"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "me.srrapero720.watermedia.loaders:watermedia:2.0.75@jar",
+  "name": "WaterMedia",
+  "author": "SrRapero720, Goedix",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 27600243,
+    "MD5": "05ed7ef455800168b37d15da335a0553",
+    "url": "",
+    "license": "All-Rights-Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/watermedia/download/5811082",
+      "name": "watermedia-2.0.75.jar"
+    }
+  }
+}

@@ -491,7 +491,7 @@
     },
     {
         "modid": "physicsmod",
-        "license": "NAll Rights Reserved",
+        "license": "All rights reserved",
         "url": ""
     },
     {
@@ -837,6 +837,16 @@
     {
         "modid": "cataclysm",
         "license": "All rights reserved",
+        "url": ""
+    },
+    {
+        "modid": "videoplayer",
+        "license": "All rights reserved",
+        "url": ""
+    },
+    {
+        "modid": "watermedia",
+        "license": "All-Rights-Reserved",
         "url": ""
     }
 ]
