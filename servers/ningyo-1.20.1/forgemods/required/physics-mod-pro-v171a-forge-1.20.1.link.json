@@ -6,16 +6,7 @@
   "artifact": {
     "size": 139244870,
     "MD5": "3857fc1b97a789f42a0ab87eee95dc76",
-    "url": "",
-    "license": "All rights reserved",
-    "manual": {
-      "url": "https://www.patreon.com/posts/physics-mod-pro-109708653",
-      "name": "physics-mod-pro-v171a-forge-1.20.1.jar",
-      "hints": [
-        {
-          "css": "p:contains('physics-mod-pro-v171a-forge-1.20.1.jar')"
-        }
-      ]
-    }
+    "url": "https://www.patreon.com/file?h=109708653&m=339125128",
+    "license": "All rights reserved"
   }
 }
