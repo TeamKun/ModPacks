@@ -1,0 +1,14 @@
+{
+  "id": "BSL_v8.2.09.zip",
+  "name": "BSL_v8.2.09.zip",
+  "type": "File",
+  "artifact": {
+    "size": 954784,
+    "MD5": "4443556b4e0d63394f0df1297e484454",
+    "path": "shaderpacks/BSL_v8.2.09.zip",
+    "manual": {
+      "url": "https://www.curseforge.com/api/v1/mods/785390/files/4833616/download",
+      "name": "BSL_v8.2.09.zip"
+    }
+  }
+}

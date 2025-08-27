@@ -1,0 +1,21 @@
+{
+  "id": "net.diebuddies.physics:physicsmod:${file.jarVersion}@jar",
+  "name": "Physics Mod",
+  "author": "Haubna",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 139244870,
+    "MD5": "3857fc1b97a789f42a0ab87eee95dc76",
+    "url": "",
+    "license": "All rights reserved",
+    "manual": {
+      "url": "",
+      "name": "physics-mod-pro-v171a-forge-1.20.1.jar",
+      "hints": [
+        {
+          "css": "physics-mod-pro-v171a-forge-1.20.1.jar"
+        }
+      ]
+    }
+  }
+}
