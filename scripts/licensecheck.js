@@ -404,20 +404,24 @@ async function main() {
       const authors = meta.authors || "<author>";
       const url = rec2.url?.trim() || "";
 
+      let credit = "";
+
+      if (attr.shouldRightsNotation) {
+        credit = `${displayName} by ${authors} (${
+          url || "<URL>"
+        }) Licensed under ${lic}`;
+      }
       serverOut.push({
         modid,
         license: lic,
         shouldRightsNotation: !!attr.shouldRightsNotation,
         canSecondaryDistribution: !!attr.canSecondaryDistribution,
         url: url,
+        credit: credit,
       });
 
       if (attr.shouldRightsNotation) {
-        creditLines.push(
-          `${displayName} by ${authors} (${
-            url || "<URL>"
-          }) Licensed under ${lic}`
-        );
+        creditLines.push(credit);
       }
     }
 
