@@ -1,0 +1,15 @@
+{
+  "blockSettings": {
+    "Physics Type": 3,
+    "Lifetime": 4.0,
+    "Lifetime Variance": 3.0,
+    "Scale": 1.0,
+    "Animation": -1
+  },
+  "mobSettings": {
+    "Physics Type": 0,
+    "Lifetime": 16.200000762939453,
+    "Lifetime Variance": 3.0,
+    "Animation": -1
+  }
+}
