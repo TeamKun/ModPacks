@@ -6,10 +6,10 @@
   "artifact": {
     "size": 139191552,
     "MD5": "0d009db15745e39fc6eef96dcafc7b7a",
-    "url": "",
+    "url": "https://www.curseforge.com/api/v1/mods/403422/files/4632460/download",
     "license": "All rights reserved",
     "manual": {
-      "url": "https://www.curseforge.com/api/v1/mods/403422/files/4632460/download",
+      "url": "",
       "name": "physics-mod-3.0.14-mc-1.20.1-forge.jar"
     }
   }
