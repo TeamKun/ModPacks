@@ -1,5 +1,13 @@
 [
     {
+        "modid": "emotecraft",
+        "license": "CC-BY-4.0 License",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge",
+        "credit": "Emotecraft by KosmX (https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge) Licensed under CC-BY-4.0 License"
+    },
+    {
         "modid": "physicsmod",
         "license": "All rights reserved",
         "shouldRightsNotation": false,
@@ -49,6 +57,30 @@
     },
     {
         "modid": "create",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "fadeinoutmod",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "numberarmor",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "playeranimator",
         "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,

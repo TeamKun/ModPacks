@@ -903,5 +903,20 @@
     "modid": "upgrade_aquatic",
     "license": "https://github.com/team-abnormals/upgrade-aquatic/blob/main/LICENSE.txt",
     "url": "https://www.curseforge.com/minecraft/mc-mods/upgrade-aquatic/files/5615651"
+  },
+  {
+    "modid": "fadeinoutmod",
+    "license": "MIT",
+    "url": ""
+  },
+  {
+    "modid": "numberarmor",
+    "license": "MIT",
+    "url": ""
+  },
+  {
+    "modid": "emotecraft",
+    "license": "CC-BY-4.0 License",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge"
   }
 ]

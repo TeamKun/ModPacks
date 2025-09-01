@@ -1,0 +1,16 @@
+{
+  "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+  "name": "Emotecraft",
+  "author": "KosmX",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 680255,
+    "MD5": "636c62379cd7c5201a70fd457808e331",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge/download/4632460",
+    "license": "CC-BY-4.0 License",
+    "manual": {
+      "url": "",
+      "name": "emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar"
+    }
+  }
+}
