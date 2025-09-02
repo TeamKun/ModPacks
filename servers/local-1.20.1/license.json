@@ -1,0 +1,458 @@
+[
+    {
+        "modid": "aether",
+        "license": "Assets: All Rights Reserved; Code: LGPL-3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "architectury",
+        "license": "GNU LGPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "azurelib",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "call_of_yucutan",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "car",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cataclysm_ut",
+        "license": "Academic Free License v3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "citadel",
+        "license": "GNU LESSER GENERAL PUBLIC LICENSE",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cloth_config",
+        "license": "GNU LGPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "coroutil",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "create",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "creativecore",
+        "license": "LGPL-3.0-only",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cuffed",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "curios",
+        "license": "LGPL-3.0-or-later",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "customnpcs",
+        "license": "CC BY-NC",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": true,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/custom-npcs",
+        "credit": "Custom NPCs by Noppes (https://www.curseforge.com/minecraft/mc-mods/custom-npcs) Licensed under CC BY-NC"
+    },
+    {
+        "modid": "damageindicator",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "dragnvehicles",
+        "license": "All Rights Reserved, DragN0007",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "dynamiclights",
+        "license": "AtomicStrykers License http://atomicstryker.net/about.php",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": true,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/dynamic-lights",
+        "credit": "Dynamic Lights by AtomicStryker (https://www.curseforge.com/minecraft/mc-mods/dynamic-lights) Licensed under AtomicStrykers License http://atomicstryker.net/about.php"
+    },
+    {
+        "modid": "enhancedvisuals",
+        "license": "LGPL-3.0-only",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "epicfight",
+        "license": "GNU GENERAL PUBLIC LICENSE",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "epicsamurai",
+        "license": "GNU Lesser General Public License v3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "farmersdelight",
+        "license": "MIT License",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "wildfire_gender",
+        "license": "LGPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "geckolib",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "vc_gliders",
+        "license": "GPL-3.0-or-later",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "god_koutamod",
+        "license": "sanka",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "hauntedharvest",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "iceandfire",
+        "license": "GNU LESSER GENERAL PUBLIC LICENSE",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "identity",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "immersive_aircraft",
+        "license": "GPL-3.0-only",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "inescapableworld",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "jei",
+        "license": "The MIT License (MIT)",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "journeymap",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "kiwi",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "lazrslib",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "leawind_third_person",
+        "license": "The MIT License (MIT)",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "lexiconfig",
+        "license": "GNU GPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "lionfishapi",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cataclysm",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "modchecker",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "moonlight",
+        "license": "gplv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "mowziesmobs",
+        "license": "custom",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs",
+        "credit": "Mowzie by BobMowzie, Wadoo, Vakypanda, Noonyez, pau101 (https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs) Licensed under custom"
+    },
+    {
+        "modid": "parcool",
+        "license": "GNU GENERAL PUBLIC LICENSE Version 3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "passablefoliage",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "pehkui",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "playeranimator",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "settingslocker",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "simpleplanes",
+        "license": "GNU LGPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "simpleradio",
+        "license": "GNU GPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "skin_changer",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "railways",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "tacz",
+        "license": "GPL3 / CC BY-NC-ND 4.0",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
+        "credit": "Timeless & Classics Guns: Zero by Serene Wave Studio | Timeless Squad (https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) Licensed under GPL3 / CC BY-NC-ND 4.0"
+    },
+    {
+        "modid": "voice_attenuation",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "watut",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "yet_another_config_lib_v3",
+        "license": "LGPL-3.0-or-later",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "chat_heads",
+        "license": "MPL-2.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cocoainput",
+        "license": "Minecraft Mod Public License Japanese Transration",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "localizedchat",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    }
+]

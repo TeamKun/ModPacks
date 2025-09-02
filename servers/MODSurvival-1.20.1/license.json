@@ -1,0 +1,138 @@
+[
+    {
+        "modid": "ambientsounds",
+        "license": "LGPL-3.0-only",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "chat_heads",
+        "license": "MPL-2.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "chunky",
+        "license": "GNU GPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "clumps",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cocoainput",
+        "license": "Minecraft Mod Public License Japanese Transration",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "creativecore",
+        "license": "LGPL-3.0-only",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cristellib",
+        "license": "CC BY-NC-ND 4.0",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": true,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cristel-lib",
+        "credit": "Cristel Lib by Cristelknight999 (https://www.curseforge.com/minecraft/mc-mods/cristel-lib) Licensed under CC BY-NC-ND 4.0"
+    },
+    {
+        "modid": "distanthorizons",
+        "license": "LGPL",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "embeddium",
+        "license": "LGPL-3.0-only",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "embeddiumplus",
+        "license": "All-Rights-Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "ferritecore",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "geckolib",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "immediatelyfast",
+        "license": "LGPL-3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "kiwi",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "oculus",
+        "license": "LGPL-3.0-only",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "passablefoliage",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "t_and_t",
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": true,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/towns-and-towers",
+        "credit": "Towns and Towers by Kubek, Biban_Auriu, Cristelknight (https://www.curseforge.com/minecraft/mc-mods/towns-and-towers) Licensed under https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+]

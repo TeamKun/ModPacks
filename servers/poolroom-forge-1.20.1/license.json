@@ -1,0 +1,42 @@
+[
+    {
+        "modid": "backroomssankazeimod",
+        "license": "sanka",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "framedblocks",
+        "license": "LGPL v3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "geckolib",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "localizedchat",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "moreplayermodels",
+        "license": "CC BY-NC",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": true,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/more-player-models",
+        "credit": "More Player Models by Noppes (https://www.curseforge.com/minecraft/mc-mods/more-player-models) Licensed under CC BY-NC"
+    }
+]

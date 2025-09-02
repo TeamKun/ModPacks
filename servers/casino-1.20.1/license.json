@@ -1,0 +1,74 @@
+[
+    {
+        "modid": "chat_heads",
+        "license": "MPL-2.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cocoainput",
+        "license": "Minecraft Mod Public License Japanese Transration",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "abuliaisland",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "customnpcs",
+        "license": "CC BY-NC",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": true,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/custom-npcs",
+        "credit": "Custom NPCs by Noppes (https://www.curseforge.com/minecraft/mc-mods/custom-npcs) Licensed under CC BY-NC"
+    },
+    {
+        "modid": "localizedchat",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "mtr",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "tacz",
+        "license": "GPL3 / CC BY-NC-ND 4.0",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
+        "credit": "Timeless & Classics Guns: Zero by Serene Wave Studio | Timeless Squad (https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) Licensed under GPL3 / CC BY-NC-ND 4.0"
+    },
+    {
+        "modid": "securitycraft",
+        "license": "MIT https://github.com/Geforce132/SecurityCraft/blob/1.20/LICENSE",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "shake_kazino_support_ramu",
+        "license": "Academic Free License v3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    }
+]

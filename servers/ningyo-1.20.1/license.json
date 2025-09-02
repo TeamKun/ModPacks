@@ -32,6 +32,14 @@
         "credit": ""
     },
     {
+        "modid": "physicsmod",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "smallships",
         "license": "All Rights Reserved",
         "shouldRightsNotation": false,
@@ -120,14 +128,6 @@
         "credit": ""
     },
     {
-        "modid": "vs_eureka",
-        "license": "Apache-2.0",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "geckolib",
         "license": "MIT",
         "shouldRightsNotation": false,
@@ -178,14 +178,6 @@
     {
         "modid": "unusualfishmod",
         "license": "LGPLv3",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "valkyrienskies",
-        "license": "Apache-2.0",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",

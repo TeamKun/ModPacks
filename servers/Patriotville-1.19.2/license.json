@@ -1,0 +1,106 @@
+[
+    {
+        "modid": "ambientsounds",
+        "license": "LGPL-3.0-only",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "architectury",
+        "license": "GNU LGPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "badmobs",
+        "license": "LGPL v2.1",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "boiled_reimagined",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "creativecore",
+        "license": "LGPL-3.0-only",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "darkness",
+        "license": "LGPL-3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "geckolib3",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "identity",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "powered_flashlight",
+        "license": "GNU-LGPL-3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "the_sculpture",
+        "license": "Academic Free License v3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "tacz",
+        "license": "GPL3 / CC BY-NC-ND 4.0",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
+        "credit": "Timeless & Classics Guns: Zero by Serene Wave Studio | Timeless Squad (https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) Licensed under GPL3 / CC BY-NC-ND 4.0"
+    },
+    {
+        "modid": "man_from_the_shadow",
+        "license": "Academic Free License v3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "the_intruder",
+        "license": "Academic Free License v3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    }
+]
