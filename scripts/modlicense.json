@@ -938,5 +938,15 @@
         "modid": "camera",
         "license": "All rights reserved",
         "url": ""
+    },
+    {
+        "modid": "pomkotsmechs",
+        "license": "ARR",
+        "url": ""
+    },
+    {
+        "modid": "pomkotsmechsextension",
+        "license": "ARR",
+        "url": ""
     }
 ]

@@ -365,5 +365,10 @@
     "name": "CC-BY-4.0 License",
     "canSecondaryDistribution": false,
     "shouldRightsNotation": true
+  },
+  {
+    "name": "ARR",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
   }
 ]

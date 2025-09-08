@@ -1,0 +1,16 @@
+{
+  "id": "grcmcs.minecraft.mods:pomkotsmechs:0.0.1-alpha.7@jar",
+  "name": "Pomkots Mechs",
+  "author": "grc_mcs",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 10254239,
+    "MD5": "fd3fe835d589ea0886120f415057ef22",
+    "url": "",
+    "license": "ARR",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/pomkots-mechs/download/6842967",
+      "name": "pomkotsmechs-forge-0.0.1-alpha.7.jar"
+    }
+  }
+}
