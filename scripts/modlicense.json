@@ -948,5 +948,15 @@
         "modid": "pomkotsmechsextension",
         "license": "ARR",
         "url": ""
+    },
+    {
+        "modid": "jujutsucraft",
+        "license": "Academic Free License v3.0",
+        "url": ""
+    },
+    {
+        "modid": "kleiders_custom_renderer",
+        "license": "Academic Free License v3.0",
+        "url": ""
     }
 ]

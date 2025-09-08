@@ -1,2 +1,0 @@
-Blueprint by Team Abnormals (https://www.curseforge.com/minecraft/mc-mods/blueprint/files/5292242) Licensed under https://github.com/team-abnormals/blueprint/blob/main/LICENSE.txt
-Upgrade Aquatic by Team Abnormals (https://www.curseforge.com/minecraft/mc-mods/upgrade-aquatic/files/5615651) Licensed under https://github.com/team-abnormals/upgrade-aquatic/blob/main/LICENSE.txt
