@@ -1,0 +1,16 @@
+{
+  "id": "com.vinlanx:gunfireoverhaul:0.1.1-a@jar",
+  "name": "Gunfire Overhaul",
+  "author": "Vinlanx",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 5626001,
+    "MD5": "a3e84ae3029e9f88c1b134feb0c85cba",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/gunfire-overhaul-echoes-of-the-battlefield/download/6984166",
+      "name": "Gunfire Overhaul-0.1.1-a Forge-1.20.1.jar"
+    }
+  }
+}
