@@ -370,5 +370,10 @@
     "name": "ARR",
     "canSecondaryDistribution": false,
     "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU GPL 3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
   }
 ]

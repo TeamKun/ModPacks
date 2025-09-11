@@ -1,0 +1,16 @@
+{
+  "id": "net.mcreator:wwi:1.0.0@jar",
+  "name": "wwi",
+  "author": "andre_znyxo51, MCreator",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 583396,
+    "MD5": "425cac396d16c711d885a30a25b70825",
+    "url": "",
+    "license": "Not specified",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/world-war-i-uniforms/download/6463581",
+      "name": "wwi-1.0.1-forge-1.20.1.jar"
+    }
+  }
+}
