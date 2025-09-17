@@ -1,5 +1,13 @@
 [
     {
+        "modid": "advancedcompass",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "aether",
         "license": "Assets: All Rights Reserved; Code: LGPL-3.0",
         "shouldRightsNotation": false,
@@ -312,6 +320,14 @@
         "credit": ""
     },
     {
+        "modid": "modernfix",
+        "license": "GNU LGPL 3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "moonlight",
         "license": "gplv3",
         "shouldRightsNotation": false,
@@ -392,8 +408,24 @@
         "credit": ""
     },
     {
+        "modid": "sound_physics_remastered",
+        "license": "GPL",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "railways",
         "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "superbwarfare",
+        "license": "GNU General Public License v3.0",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
@@ -412,6 +444,14 @@
         "license": "All Rights Reserved",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "vvp",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
         "url": "",
         "credit": ""
     },

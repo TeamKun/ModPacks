@@ -1,0 +1,16 @@
+{
+  "id": "dlovin.advancedcompass:advancedcompass:${file.jarVersion}@jar",
+  "name": "Advanced Compass",
+  "author": "DmitryLovin",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 496935,
+    "MD5": "0c2be5ec936d386ec14a8919a02fe91a",
+    "url": "",
+    "license": "All rights reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/advanced-compass/download/4589756",
+      "name": "advancedcompass.forge.1.20.1-1.2.15.jar"
+    }
+  }
+}

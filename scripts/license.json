@@ -375,5 +375,15 @@
     "name": "GNU GPL 3.0",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
+  },
+  {
+    "name": "GNU LGPL 3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GPL",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
   }
 ]
