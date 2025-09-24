@@ -114,10 +114,10 @@
     {
         "modid": "potacore",
         "license": "LGPL-v3",
-        "shouldRightsNotation": true,
-        "canSecondaryDistribution": false,
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
         "url": "",
-        "credit": "Potacore by TeamPotato (<URL>) Licensed under LGPL-v3"
+        "credit": ""
     },
     {
         "modid": "radium",
@@ -137,11 +137,11 @@
     },
     {
         "modid": "takkit",
-        "license": "unknown",
-        "shouldRightsNotation": true,
-        "canSecondaryDistribution": false,
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
         "url": "",
-        "credit": "TakKit by qarsan (<URL>) Licensed under unknown"
+        "credit": ""
     },
     {
         "modid": "yet_another_config_lib_v3",
