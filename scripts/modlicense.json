@@ -1013,5 +1013,40 @@
         "modid": "vvp",
         "license": "MIT",
         "url": ""
+    },
+    {
+        "modid": "culllessleaves",
+        "license": "GNU LGPL 3.0",
+        "url": ""
+    },
+    {
+        "modid": "entity_model_features",
+        "license": "LGPL-3.0",
+        "url": ""
+    },
+    {
+        "modid": "forgeskyboxes",
+        "license": "All Rights Reserved",
+        "url": ""
+    },
+    {
+        "modid": "potacore",
+        "license": "LGPL-v3",
+        "url": ""
+    },
+    {
+        "modid": "radium",
+        "license": "LGPL-3.0-only",
+        "url": ""
+    },
+    {
+        "modid": "takkit",
+        "license": "unknown",
+        "url": ""
+    },
+    {
+        "modid": "conquest",
+        "license": "All Rights Reserved",
+        "url": ""
     }
 ]

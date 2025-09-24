@@ -1,0 +1,16 @@
+{
+  "id": "com.conquestreforged:conquest:1.2.8@jar",
+  "name": "conquest",
+  "author": "",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 164613418,
+    "MD5": "adc1f0141f9570d86220248f6333f7e7",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/conquest-reforged/download/6181837",
+      "name": "ConquestReforged-forge-1.20.1-1.2.8.jar"
+    }
+  }
+}

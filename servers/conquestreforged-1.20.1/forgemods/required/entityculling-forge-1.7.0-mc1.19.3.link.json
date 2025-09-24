@@ -1,0 +1,16 @@
+{
+  "id": "dev.tr7zw:entityculling:1.7.0@jar",
+  "name": "EntityCulling",
+  "author": "tr7zw",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 71448,
+    "MD5": "220264e3a81e9be4bcb6a2d0272a32a9",
+    "url": "",
+    "license": "tr7zw Protective License",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/entityculling/download/5672084",
+      "name": "entityculling-forge-1.7.0-mc1.19.3.jar"
+    }
+  }
+}

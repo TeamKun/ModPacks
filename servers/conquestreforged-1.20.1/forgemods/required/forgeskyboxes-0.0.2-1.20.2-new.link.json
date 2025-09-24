@@ -1,0 +1,16 @@
+{
+  "id": "com.foopy:forgeskyboxes:0.0.2-1.20.2@jar",
+  "name": "ForgeSkyboxes",
+  "author": "Foopy",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 234691,
+    "MD5": "46c9f6f220c048582ad39a210bc655d1",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/forgeskyboxes/download/4775791",
+      "name": "forgeskyboxes-0.0.2-1.20.2-new.jar"
+    }
+  }
+}
