@@ -1,5 +1,13 @@
 [
     {
+        "modid": "gunfireoverhaul",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "journeymap",
         "license": "All rights reserved",
         "shouldRightsNotation": false,
@@ -14,14 +22,6 @@
         "canSecondaryDistribution": true,
         "url": "",
         "credit": ""
-    },
-    {
-        "modid": "tacz",
-        "license": "GPL3 / CC BY-NC-ND 4.0",
-        "shouldRightsNotation": true,
-        "canSecondaryDistribution": false,
-        "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
-        "credit": "Timeless & Classics Guns: Zero by Serene Wave Studio | Timeless Squad (https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) Licensed under GPL3 / CC BY-NC-ND 4.0"
     },
     {
         "modid": "voicechat",
@@ -128,8 +128,24 @@
         "credit": ""
     },
     {
+        "modid": "revive_mod",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "embeddium_extra",
         "license": "LGPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "settingslocker",
+        "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
@@ -164,6 +180,22 @@
         "license": "GNU General Public License v3.0",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "team_journey",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "voice_attenuation",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
         "url": "",
         "credit": ""
     }

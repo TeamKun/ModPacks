@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "modid": "twilightforest",
+        "license": "Custom License",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest",
+        "credit": "The Twilight Forest by <author> (https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest) Licensed under Custom License"
+    }
+]

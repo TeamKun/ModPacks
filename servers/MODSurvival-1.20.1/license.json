@@ -1,5 +1,13 @@
 [
     {
+        "modid": "entityculling",
+        "license": "tr7zw Protective License",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "ambientsounds",
         "license": "LGPL-3.0-only",
         "shouldRightsNotation": false,

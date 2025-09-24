@@ -1,0 +1,106 @@
+/* 全体レイアウト */
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* タイトル */
+h1 .subtitle {
+  display: block;
+  font-size: 0.8em;
+  font-weight: normal;
+  color: #666;
+}
+/* リスト全体 */
+#mod-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+/* 各MODのカード */
+#mod-list li {
+  background: #fff;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+
+/* displayName を大きく目立たせる */
+#mod-list li .name {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #021320;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* author は小さめ＆淡い色 */
+#mod-list li .author {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* license 表示 */
+#mod-list li .license {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #444;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+/* URLリンク */
+#mod-list li a {
+  color: #0078d7;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+#mod-list li a:hover {
+  text-decoration: underline;
+}
+
+/* サブタイトルのスタイル */
+h1 .subtitle {
+  display: block;
+  font-size: 0.8em;
+  font-weight: normal;
+  color: #666;
+  margin-top: 0.3rem;
+}
+
+/* 小さい画面でも見やすく */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  #mod-list li {
+    padding: 0.8rem 1rem;
+  }
+
+  #mod-list li .name {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;   /* タイトルを小さめに */
+    margin-bottom: 1rem;
+  }
+  h1 .subtitle {
+    font-size: 0.7em;    /* サブテキストさらに小さく */
+    color: #777;
+  }
+}
+

@@ -1,5 +1,21 @@
 [
     {
+        "modid": "kleiders_custom_renderer",
+        "license": "Academic Free License v3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "voicechat",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "chat_heads",
         "license": "MPL-2.0",
         "shouldRightsNotation": false,
@@ -32,8 +48,24 @@
         "credit": ""
     },
     {
-        "modid": "kleiders_custom_renderer",
+        "modid": "minepiece",
         "license": "Academic Free License v3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "pehkui",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "playeranimator",
+        "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",

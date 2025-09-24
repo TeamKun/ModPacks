@@ -1,5 +1,21 @@
 [
     {
+        "modid": "smallships",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "voicechat",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "chat_heads",
         "license": "MPL-2.0",
         "shouldRightsNotation": false,

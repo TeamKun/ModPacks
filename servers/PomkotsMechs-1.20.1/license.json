@@ -1,5 +1,13 @@
 [
     {
+        "modid": "voicechat",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "pomkotsmechs",
         "license": "ARR",
         "shouldRightsNotation": false,
@@ -34,6 +42,38 @@
     {
         "modid": "localizedchat",
         "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "architectury",
+        "license": "GNU LGPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cloth_config",
+        "license": "GNU LGPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "geckolib",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "leawind_third_person",
+        "license": "The MIT License (MIT)",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",

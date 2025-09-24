@@ -1,5 +1,37 @@
 [
     {
+        "modid": "ashvehicle",
+        "license": "Custom License",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ashvehicle",
+        "credit": "ashvehicle by <author> (https://www.curseforge.com/minecraft/mc-mods/ashvehicle) Licensed under Custom License"
+    },
+    {
+        "modid": "fog",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "mru",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "voicechat",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "cocoainput",
         "license": "Minecraft Mod Public License Japanese Transration",
         "shouldRightsNotation": false,

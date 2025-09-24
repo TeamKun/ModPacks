@@ -7,7 +7,7 @@ const SERVER_DIR = path.join(ROOT, "servers");
 const MODLICENSE_JSON_PATH = path.join(ROOT, "./scripts/modlicense.json");
 const LICENSE_JSON_PATH = path.join(ROOT, "./scripts/license.json");
 const jarModsTomlCache = new Map();
-
+let modMap = new Map();
 const jarSourceModids = new Set();
 
 const exists = async (p) => !!(await fsp.stat(p).catch(() => null));
@@ -196,7 +196,7 @@ async function parseLinkJson(filePath) {
     }
     if (!modid) modid = path.basename(filePath, ".link.json").toLowerCase();
 
-    const license = (j?.artifact?.license || "").trim();
+    let license = (j?.artifact?.license || "").trim();
     if (!license) license = "Not specified";
 
     const displayName = (j?.name || "").trim() || modid;
@@ -207,6 +207,18 @@ async function parseLinkJson(filePath) {
     console.warn(`  -> SKIP (bad link.json): ${filePath} : ${e.message || e}`);
     return { ok: false };
   }
+}
+
+// 追加：modMap を安全に更新する小ヘルパー
+function upsertModRecord(modid, { license, url, authors, displayName }) {
+  const prev = modMap.get(modid) || {};
+  const next = {
+    license: license ?? prev.license ?? "",
+    url: url ?? prev.url ?? "",
+    authors: authors ?? prev.authors ?? "",
+    displayName: displayName ?? prev.displayName ?? "",
+  };
+  modMap.set(modid, next);
 }
 
 // -------------------- main --------------------
@@ -224,10 +236,15 @@ async function main() {
       modlicenseTable = [];
     }
   }
-  const modMap = new Map(
+  modMap = new Map(
     modlicenseTable.map((m) => [
       m.modid,
-      { license: String(m.license || ""), url: m.url ?? "" },
+      {
+        license: String(m.license || ""),
+        url: m.url ?? "",
+        authors: m.authors ?? "",
+        displayName: m.displayName ?? "",
+      },
     ])
   );
   // load license attribute table
@@ -258,25 +275,36 @@ async function main() {
     const seenModids = new Set();
     const metaByModid = new Map();
 
-    // --- link.json を先に処理
     for (const link of links) {
       console.log(`\n[LINK] ${link}`);
+
+      // link.json を解析
       const info = await parseLinkJson(link);
       if (!info.ok) continue;
 
       const { modid, license, displayName, authors } = info;
-      seenModids.add(modid);
-      if (!metaByModid.has(modid))
-        metaByModid.set(modid, { displayName, authors });
 
+      // このサーバーで見つかった modid を記録
+      seenModids.add(modid);
+
+      // 表示用メタ（displayName/authors）は既に無ければ登録
+      if (!metaByModid.has(modid)) {
+        metaByModid.set(modid, { displayName, authors });
+      }
+
+      // 検出ライセンスの整形
       const detectedLicense = (license || "").trim();
       const hasDetected =
         detectedLicense && detectedLicense.toLowerCase() !== "not specified";
+
+      // 既存レコードの確認
       const rec = modMap.get(modid);
       const existing = rec?.license;
 
       if (existing !== undefined) {
+        // 既存レコードがある
         if (hasDetected) {
+          // 新しく具体的なライセンスが検出できた場合
           if (
             existing === "unknown" ||
             existing === "Not specified" ||
@@ -285,27 +313,51 @@ async function main() {
             console.log(
               `  -> UPDATE: modid=${modid} license: "${existing}" -> "${detectedLicense}"`
             );
-            modMap.set(modid, {
+            // ライセンス更新＋authors/displayName も（あれば）反映
+            upsertModRecord(modid, {
               license: detectedLicense,
               url: rec?.url ?? "",
+              authors,
+              displayName,
             });
             touched = true;
           } else {
+            // ライセンスは変化なしでも、authors/displayName が新情報なら反映
             console.log(`  -> NO CHANGE: modid=${modid} license="${existing}"`);
+            upsertModRecord(modid, {
+              authors,
+              displayName,
+            });
           }
         } else {
+          // ライセンス未検出。既存ライセンスは維持しつつ authors/displayName を補完
           console.log(
             `  -> KEEP (no detected license): modid=${modid} license="${existing}"`
           );
+          upsertModRecord(modid, {
+            authors,
+            displayName,
+          });
         }
       } else {
+        // 新規レコード
         if (hasDetected) {
           console.log(`  -> ADD: modid=${modid} license="${detectedLicense}"`);
-          modMap.set(modid, { license: detectedLicense, url: "" });
+          upsertModRecord(modid, {
+            license: detectedLicense,
+            url: "",
+            authors,
+            displayName,
+          });
           touched = true;
         } else {
           console.log(`  -> ADD: modid=${modid} license="Not specified"`);
-          modMap.set(modid, { license: "Not specified", url: "" });
+          upsertModRecord(modid, {
+            license: "Not specified",
+            url: "",
+            authors,
+            displayName,
+          });
           touched = true;
         }
       }
@@ -337,12 +389,14 @@ async function main() {
 
         jarSourceModids.add(modid);
         seenModids.add(modid);
+
         // 表示情報：mods.toml を優先（無ければ link.json → 既定値）
         const nowMeta = metaByModid.get(modid) || {};
         metaByModid.set(modid, {
           displayName: displayName || nowMeta.displayName || modid,
           authors: authors || nowMeta.authors || "<author>",
         });
+
         const rec = modMap.get(modid);
         const existing = rec?.license;
 
@@ -356,31 +410,54 @@ async function main() {
               console.log(
                 `  -> UPDATE: modid=${modid} license: "${existing}" -> "${detectedLicense}"`
               );
-              modMap.set(modid, {
+              // 更新時に authors/displayName も反映
+              upsertModRecord(modid, {
                 license: detectedLicense,
                 url: rec?.url ?? "",
+                authors,
+                displayName,
               });
               touched = true;
             } else {
               console.log(
                 `  -> NO CHANGE: modid=${modid} license="${existing}"`
               );
+              // license に変化はなくても authors/displayName を更新
+              upsertModRecord(modid, {
+                authors,
+                displayName,
+              });
             }
           } else {
             console.log(
               `  -> KEEP (no detected license): modid=${modid} license="${existing}"`
             );
+            // ライセンスは維持しつつ authors/displayName を補完
+            upsertModRecord(modid, {
+              authors,
+              displayName,
+            });
           }
         } else {
           if (hasDetected) {
             console.log(
               `  -> ADD: modid=${modid} license="${detectedLicense}"`
             );
-            modMap.set(modid, { license: detectedLicense, url: "" });
+            upsertModRecord(modid, {
+              license: detectedLicense,
+              url: "",
+              authors,
+              displayName,
+            });
             touched = true;
           } else {
             console.log(`  -> ADD: modid=${modid} license="unknown"`);
-            modMap.set(modid, { license: "unknown", url: "" });
+            upsertModRecord(modid, {
+              license: "unknown",
+              url: "",
+              authors,
+              displayName,
+            });
             touched = true;
           }
         }
@@ -446,6 +523,8 @@ async function main() {
       modid,
       license: v.license,
       url: v.url ?? "",
+      authors: v.authors ?? "",
+      displayName: v.displayName ?? "",
     }));
     await fsp.mkdir(path.dirname(MODLICENSE_JSON_PATH), { recursive: true });
     await fsp.writeFile(
