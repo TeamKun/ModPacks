@@ -70,7 +70,6 @@ async function getCreditRequiredMods(opts = {}) {
     };
   });
 
-  // 表記が必要なものだけ、名前順で返す
   return rows
     .filter((r) => r.shouldRightsNotation)
     .sort((a, b) => a.displayName.localeCompare(b.displayName));

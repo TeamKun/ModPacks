@@ -21,6 +21,16 @@ const listFilesByExt = async (dir, ext) =>
     .map((e) => path.join(dir, e.name));
 const listJarFiles = (dir) => listFilesByExt(dir, ".jar");
 const listLinkJsonFiles = (dir) => listFilesByExt(dir, "link.json");
+const DOCS_DIR = path.join(ROOT, "docs");
+
+async function copyToDocs(srcPath, outName) {
+  if (!(await exists(srcPath))) return false;
+  await fsp.mkdir(DOCS_DIR, { recursive: true });
+  const dest = path.join(DOCS_DIR, outName);
+  await fsp.copyFile(srcPath, dest);
+  console.log(`📄 Copied: ${srcPath} -> ${dest}`);
+  return true;
+}
 
 function extractFromModsToml(text) {
   const licenses = [];
@@ -615,6 +625,30 @@ async function main() {
     for (const u of unknownLicenses) {
       console.warn(`  - ${u.modid} (license: ${u.license || "未指定"})`);
     }
+  }
+
+  const ROOT_MODLICENSE = path.join(ROOT, "modlicense.json");
+  const ROOT_LICENSE = path.join(ROOT, "license.json");
+
+  const srcModlicense = (await exists(ROOT_MODLICENSE))
+    ? ROOT_MODLICENSE
+    : MODLICENSE_JSON_PATH;
+  const srcLicense = (await exists(ROOT_LICENSE))
+    ? ROOT_LICENSE
+    : LICENSE_JSON_PATH;
+
+  let copiedAny = false;
+  try {
+    copiedAny =
+      (await copyToDocs(srcModlicense, "modlicense.json")) || copiedAny;
+    copiedAny = (await copyToDocs(srcLicense, "license.json")) || copiedAny;
+  } catch (e) {
+    console.warn(`⚠️ docs へのコピーでエラー: ${e.message || e}`);
+  }
+  if (!copiedAny) {
+    console.warn(
+      "⚠️ コピー対象の modlicense.json / license.json が見つかりませんでした。"
+    );
   }
 }
 
