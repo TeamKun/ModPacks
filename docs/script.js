@@ -22,7 +22,7 @@ async function loadJSON(url) {
  * }>>}
  */
 async function getCreditRequiredMods(opts = {}) {
-  const { scriptsBase = "../scripts", creditUnknown = true } = opts;
+  const { scriptsBase = "./", creditUnknown = true } = opts;
 
   // 取得
   const [licenseTable, modLicense] = await Promise.all([
