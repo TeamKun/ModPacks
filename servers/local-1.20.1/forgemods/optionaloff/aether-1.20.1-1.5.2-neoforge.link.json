@@ -1,0 +1,16 @@
+{
+  "id": "com.aetherteam:aether:${file.jarVersion}@jar",
+  "name": "The Aether",
+  "author": "AlphaMode, bconlon, Blodhgarm, Burning Cactus, Drullkus, Hugo Payn, Jaryt, Oscar Payn, quek, Raptor, reetam, RENREN, sunsette",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 39746073,
+    "MD5": "387c7fb849f0bba6187bc6eabb1eb251",
+    "url": "",
+    "license": "Assets: All Rights Reserved; Code: LGPL-3.0",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/aether/download/6134920",
+      "name": "aether-1.20.1-1.5.2-neoforge.jar"
+    }
+  }
+}

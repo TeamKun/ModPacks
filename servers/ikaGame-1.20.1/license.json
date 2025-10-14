@@ -8,6 +8,14 @@
         "credit": "Emotecraft by KosmX (https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge) Licensed under CC-BY-4.0 License"
     },
     {
+        "modid": "journeymap",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "physicsmod",
         "license": "All rights reserved",
         "shouldRightsNotation": false,

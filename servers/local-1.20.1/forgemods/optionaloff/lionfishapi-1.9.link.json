@@ -1,0 +1,16 @@
+{
+  "id": "com.github.l_ender:lionfishapi:1.9@jar",
+  "name": "LionfishAPI",
+  "author": "",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 152910,
+    "MD5": "e814e31ce3696e38e55dd39c6556d6f7",
+    "url": "",
+    "license": "All rights reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lionfish-api/download/5363774",
+      "name": "lionfishapi-1.9.jar"
+    }
+  }
+}

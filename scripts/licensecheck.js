@@ -4,12 +4,25 @@ const unzipper = require("unzipper");
 
 const ROOT = process.cwd();
 const SERVER_DIR = path.join(ROOT, "servers");
-const MODLICENSE_JSON_PATH = path.join(ROOT, "./scripts/modlicense.json");
-const LICENSE_JSON_PATH = path.join(ROOT, "./scripts/license.json");
-const jarModsTomlCache = new Map();
-let modMap = new Map();
-const jarSourceModids = new Set();
 
+// ----- modlicense / license の候補（読み込みは ROOT 優先） -----
+const ROOT_MODLICENSE = path.join(ROOT, "modlicense.json");
+const SCRIPTS_MODLICENSE = path.join(ROOT, "scripts", "modlicense.json");
+const ROOT_LICENSE = path.join(ROOT, "license.json");
+const SCRIPTS_LICENSE = path.join(ROOT, "scripts", "license.json");
+
+// docs 出力
+const DOCS_DIR = path.join(ROOT, "docs");
+// 二次配布禁止 JAR の退避先 (../scripts/mods 相当)
+const QUARANTINE_DIR = path.join(ROOT, "scripts", "mods");
+
+const jarModsTomlCache = new Map();
+let modMap = new Map();               // key: normalized modid -> {license,url,authors,displayName,ignore}
+const jarSourceModids = new Set();    // normalized modid（JAR から見つかったものだけ）
+const jarPathsByModid = new Map();    // normalized modid -> Set<jarPath>
+
+// ---------- utils ----------
+const normId = (s) => String(s || "").trim().toLowerCase();
 const exists = async (p) => !!(await fsp.stat(p).catch(() => null));
 const listDirs = async (dir) =>
   (await fsp.readdir(dir, { withFileTypes: true }))
@@ -21,7 +34,6 @@ const listFilesByExt = async (dir, ext) =>
     .map((e) => path.join(dir, e.name));
 const listJarFiles = (dir) => listFilesByExt(dir, ".jar");
 const listLinkJsonFiles = (dir) => listFilesByExt(dir, "link.json");
-const DOCS_DIR = path.join(ROOT, "docs");
 
 async function copyToDocs(srcPath, outName) {
   if (!(await exists(srcPath))) return false;
@@ -40,22 +52,16 @@ function extractFromModsToml(text) {
   let m;
 
   const licRe = /^\s*license\s*=\s*["']([^"']+)["']/gim;
-  while ((m = licRe.exec(text)) !== null) {
-    if (m[1]) licenses.push(m[1].trim());
-  }
+  while ((m = licRe.exec(text)) !== null) if (m[1]) licenses.push(m[1].trim());
 
   const idRe = /^\s*modId\s*=\s*["']([^"']+)["']/gim;
-  while ((m = idRe.exec(text)) !== null) {
-    if (m[1]) modids.push(m[1].trim());
-  }
+  while ((m = idRe.exec(text)) !== null) if (m[1]) modids.push(m[1].trim());
 
   const dnRe = /^\s*displayName\s*=\s*["']([^"']+)["']/im;
-  m = dnRe.exec(text);
-  if (m) displayName = m[1].trim();
+  if ((m = dnRe.exec(text))) displayName = m[1].trim();
 
   const auRe = /^\s*authors\s*=\s*["']([^"']+)["']/im;
-  m = auRe.exec(text);
-  if (m) authors = m[1].trim();
+  if ((m = auRe.exec(text))) authors = m[1].trim();
 
   return { licenses, modids, displayName, authors };
 }
@@ -66,13 +72,10 @@ async function extractModsTomlFromJar(
   streamTimeoutMs = 30000
 ) {
   if (jarModsTomlCache.has(jarPath)) return jarModsTomlCache.get(jarPath);
-
   const p = (async () => {
     const toText = (buf) => {
       let t = "";
-      try {
-        t = buf.toString("utf8");
-      } catch {}
+      try { t = buf.toString("utf8"); } catch {}
       if (!/\w/.test(t)) t = buf.toString("latin1");
       return t;
     };
@@ -80,8 +83,7 @@ async function extractModsTomlFromJar(
     try {
       const st = await fsp.stat(jarPath).catch(() => null);
       if (!st || !st.isFile() || st.size === 0) {
-        if (!st) console.warn(`  -> SKIP (stat failed): ${jarPath}`);
-        else console.warn(`  -> SKIP (empty jar): ${jarPath}`);
+        console.warn(!st ? `  -> SKIP (stat failed): ${jarPath}` : `  -> SKIP (empty jar): ${jarPath}`);
         return [];
       }
       const MAX_JAR_BYTES = 256 * 1024 * 1024;
@@ -91,107 +93,64 @@ async function extractModsTomlFromJar(
       }
 
       let buf;
-      try {
-        buf = await fsp.readFile(jarPath);
-      } catch (e) {
-        console.warn(`  -> SKIP (read error): ${jarPath} : ${e.message || e}`);
-        return [];
-      }
+      try { buf = await fsp.readFile(jarPath); }
+      catch (e) { console.warn(`  -> SKIP (read error): ${jarPath} : ${e.message || e}`); return []; }
       if (!Buffer.isBuffer(buf) || buf.length === 0) return [];
 
       let dir;
-      try {
-        dir = await unzipper.Open.buffer(buf);
-      } catch (e) {
-        console.warn(`  -> SKIP (corrupt zip): ${jarPath} : ${e.message || e}`);
-        return [];
-      }
+      try { dir = await unzipper.Open.buffer(buf); }
+      catch (e) { console.warn(`  -> SKIP (corrupt zip): ${jarPath} : ${e.message || e}`); return []; }
 
       const out = [];
       for (const f of dir.files) {
         if (path.basename(f.path).toLowerCase() !== "mods.toml") continue;
-
         try {
           const s = await f.stream();
           const acc = await new Promise((resolve) => {
             let a = Buffer.alloc(0);
-            let timer = setTimeout(() => {
-              try {
-                s.destroy();
-              } catch {}
-              resolve(a);
-            }, streamTimeoutMs);
-
+            const timer = setTimeout(() => { try { s.destroy(); } catch {} resolve(a); }, streamTimeoutMs);
             s.on("data", (chunk) => {
               a = Buffer.concat([a, chunk]);
-              if (a.length > maxBytes) {
-                try {
-                  s.destroy();
-                } catch {}
-              }
+              if (a.length > maxBytes) { try { s.destroy(); } catch {} }
             });
-            s.on("end", () => {
-              clearTimeout(timer);
-              resolve(a);
-            });
-            s.on("close", () => {
-              clearTimeout(timer);
-              resolve(a);
-            });
-            s.on("error", () => {
-              clearTimeout(timer);
-              resolve(a);
-            });
+            const done = () => { clearTimeout(timer); resolve(a); };
+            s.on("end", done); s.on("close", done); s.on("error", done);
           });
-
           out.push({ name: f.path, text: toText(acc) });
         } catch (e) {
-          console.warn(
-            `  -> entry read error in ${jarPath}: ${e.message || e}`
-          );
+          console.warn(`  -> entry read error in ${jarPath}: ${e.message || e}`);
         }
       }
-
       return out;
     } catch (e) {
-      console.warn(
-        `  -> SKIP (unexpected error): ${jarPath} : ${e.message || e}`
-      );
+      console.warn(`  -> SKIP (unexpected error): ${jarPath} : ${e.message || e}`);
       return [];
     }
   })();
-
   jarModsTomlCache.set(jarPath, p);
   return p;
 }
 
-// forgemods 配下の .jar / link.json を収集
 async function collectForgeModArtifacts(baseDir) {
   const fm = path.join(baseDir, "forgemods");
   if (!(await exists(fm))) return { jars: [], links: [] };
-
   const buckets = ["optionaloff", "optionalon", "required"];
   const dirs = [fm, ...buckets.map((b) => path.join(fm, b))];
-
   const jarSets = await Promise.all(dirs.map((d) => listJarFiles(d)));
   const linkSets = await Promise.all(dirs.map((d) => listLinkJsonFiles(d)));
-
   return { jars: jarSets.flat(), links: linkSets.flat() };
 }
 
-// link.json 解析
 async function parseLinkJson(filePath) {
   try {
     const raw = await fsp.readFile(filePath, "utf8");
     const j = JSON.parse(raw);
 
-    // modid 推定：id 形式 "group:artifact:version@jar"
     let modid = "";
     if (typeof j.id === "string" && j.id.includes(":")) {
       const parts = j.id.split(":");
       if (parts.length >= 2) modid = (parts[1] || "").trim();
     }
-    // 予備: manual.name / name / ファイル名 から推定
     if (!modid) {
       const manualName = j?.artifact?.manual?.name || "";
       const base = manualName.split("/").pop() || "";
@@ -219,305 +178,206 @@ async function parseLinkJson(filePath) {
   }
 }
 
-// 追加：modMap を安全に更新する小ヘルパー
-function upsertModRecord(modid, { license, url, authors, displayName }) {
-  const prev = modMap.get(modid) || {};
+// modMap を安全に更新（ignore は常に保持）
+function upsertModRecord(modid, { license, url, authors, displayName, ignore }) {
+  const k = normId(modid);
+  const prev = modMap.get(k) || {};
   const next = {
     license: license ?? prev.license ?? "",
     url: url ?? prev.url ?? "",
     authors: authors ?? prev.authors ?? "",
     displayName: displayName ?? prev.displayName ?? "",
+    ignore: typeof ignore === "boolean" ? ignore : !!prev.ignore, // ← 既存値を必ず保持
   };
-  modMap.set(modid, next);
+  modMap.set(k, next);
+}
+
+const isIgnored = (modid) => !!(modMap.get(normId(modid))?.ignore);
+
+async function moveFileSafe(src, destDir) {
+  await fsp.mkdir(destDir, { recursive: true });
+  const base = path.basename(src);
+  let dest = path.join(destDir, base);
+  let i = 1;
+  while (await exists(dest)) {
+    const ext = path.extname(base);
+    const stem = path.basename(base, ext);
+    dest = path.join(destDir, `${stem} (${i})${ext}`);
+    i++;
+  }
+  try { await fsp.rename(src, dest); }
+  catch (e) {
+    if (e.code === "EXDEV") { await fsp.copyFile(src, dest); await fsp.unlink(src).catch(() => {}); }
+    else { throw e; }
+  }
+  return dest;
+}
+
+async function readJsonSafely(p, fallback = []) {
+  try { return JSON.parse(await fsp.readFile(p, "utf8")); }
+  catch { return fallback; }
 }
 
 // -------------------- main --------------------
 async function main() {
   const [, , maybeName] = process.argv;
 
-  // load existing modlicense.json
-  let modlicenseTable = [];
-  if (await exists(MODLICENSE_JSON_PATH)) {
-    try {
-      modlicenseTable = JSON.parse(
-        await fsp.readFile(MODLICENSE_JSON_PATH, "utf8")
-      );
-    } catch {
-      modlicenseTable = [];
-    }
-  }
+  // 1) modlicense.json 読み込み（ROOT 優先）
+  let modlicenseSrc = (await exists(ROOT_MODLICENSE)) ? ROOT_MODLICENSE : SCRIPTS_MODLICENSE;
+  let modlicenseTable = (await exists(modlicenseSrc))
+    ? await readJsonSafely(modlicenseSrc, [])
+    : [];
   modMap = new Map(
     modlicenseTable.map((m) => [
-      m.modid,
+      normId(m.modid),
       {
         license: String(m.license || ""),
         url: m.url ?? "",
         authors: m.authors ?? "",
         displayName: m.displayName ?? "",
+        ignore: !!m.ignore, // 既定 false
       },
     ])
   );
-  // load license attribute table
-  if (!(await exists(LICENSE_JSON_PATH))) {
-    console.error(`license.json が見つかりません: ${LICENSE_JSON_PATH}`);
+
+  // 2) license.json 読み込み（ROOT 優先）
+  const licenseSrc = (await exists(ROOT_LICENSE)) ? ROOT_LICENSE : SCRIPTS_LICENSE;
+  if (!(await exists(licenseSrc))) {
+    console.error(`license.json が見つかりません: ${licenseSrc}`);
     process.exit(1);
   }
-  let licenseAttr = [];
-  try {
-    licenseAttr = JSON.parse(await fsp.readFile(LICENSE_JSON_PATH, "utf8"));
-  } catch (e) {
-    console.error(`license.json の読み込みに失敗: ${e.message}`);
-    process.exit(1);
-  }
+  const licenseAttr = await readJsonSafely(licenseSrc, []);
   const licenseMap = new Map(
     licenseAttr.map((l) => [String(l.name || "").toLowerCase(), l])
   );
 
-  // targets
+  // 3) targets 収集
   const targets = maybeName
     ? [path.join(SERVER_DIR, maybeName)]
     : await listDirs(SERVER_DIR);
 
   let touched = false;
 
+  // 4) 解析（modMap 更新は ignore を保持する）
   for (const target of targets) {
     const { jars, links } = await collectForgeModArtifacts(target);
-    const seenModids = new Set();
-    const metaByModid = new Map();
+    const seenModids = new Set();       // normalized
+    const metaByModid = new Map();      // normalized -> {displayName, authors}
 
+    // link.json
     for (const link of links) {
       console.log(`\n[LINK] ${link}`);
-
-      // link.json を解析
       const info = await parseLinkJson(link);
       if (!info.ok) continue;
 
-      const { modid, license, displayName, authors } = info;
+      const k = normId(info.modid);
+      const displayName = (info.displayName || "").trim() || k;
+      const authors = (info.authors || "").trim() || "<author>";
+      const detectedLicense = (info.license || "").trim();
+      const hasDetected = detectedLicense && detectedLicense.toLowerCase() !== "not specified";
 
-      // このサーバーで見つかった modid を記録
-      seenModids.add(modid);
+      seenModids.add(k);
+      if (!metaByModid.has(k)) metaByModid.set(k, { displayName, authors });
 
-      // 表示用メタ（displayName/authors）は既に無ければ登録
-      if (!metaByModid.has(modid)) {
-        metaByModid.set(modid, { displayName, authors });
-      }
-
-      // 検出ライセンスの整形
-      const detectedLicense = (license || "").trim();
-      const hasDetected =
-        detectedLicense && detectedLicense.toLowerCase() !== "not specified";
-
-      // 既存レコードの確認
-      const rec = modMap.get(modid);
+      const rec = modMap.get(k);
       const existing = rec?.license;
 
       if (existing !== undefined) {
-        // 既存レコードがある
-        if (hasDetected) {
-          // 新しく具体的なライセンスが検出できた場合
-          if (
-            existing === "unknown" ||
-            existing === "Not specified" ||
-            detectedLicense !== existing
-          ) {
-            console.log(
-              `  -> UPDATE: modid=${modid} license: "${existing}" -> "${detectedLicense}"`
-            );
-            // ライセンス更新＋authors/displayName も（あれば）反映
-            upsertModRecord(modid, {
-              license: detectedLicense,
-              url: rec?.url ?? "",
-              authors,
-              displayName,
-            });
-            touched = true;
-          } else {
-            // ライセンスは変化なしでも、authors/displayName が新情報なら反映
-            console.log(`  -> NO CHANGE: modid=${modid} license="${existing}"`);
-            upsertModRecord(modid, {
-              authors,
-              displayName,
-            });
-          }
+        if (hasDetected && (existing === "unknown" || existing === "Not specified" || detectedLicense !== existing)) {
+          console.log(`  -> UPDATE: modid=${k} license: "${existing}" -> "${detectedLicense}"`);
+          upsertModRecord(k, { license: detectedLicense, url: rec?.url ?? "", authors, displayName });
+          touched = true;
         } else {
-          // ライセンス未検出。既存ライセンスは維持しつつ authors/displayName を補完
-          console.log(
-            `  -> KEEP (no detected license): modid=${modid} license="${existing}"`
-          );
-          upsertModRecord(modid, {
-            authors,
-            displayName,
-          });
+          console.log(`  -> NO CHANGE/KEEP: modid=${k} license="${existing ?? "(none)"}"`);
+          upsertModRecord(k, { authors, displayName });
         }
       } else {
-        // 新規レコード
-        if (hasDetected) {
-          console.log(`  -> ADD: modid=${modid} license="${detectedLicense}"`);
-          upsertModRecord(modid, {
-            license: detectedLicense,
-            url: "",
-            authors,
-            displayName,
-          });
-          touched = true;
-        } else {
-          console.log(`  -> ADD: modid=${modid} license="Not specified"`);
-          upsertModRecord(modid, {
-            license: "Not specified",
-            url: "",
-            authors,
-            displayName,
-          });
-          touched = true;
-        }
+        const licToSet = hasDetected ? detectedLicense : "Not specified";
+        console.log(`  -> ADD: modid=${k} license="${licToSet}"`);
+        upsertModRecord(k, { license: licToSet, url: "", authors, displayName });
+        touched = true;
       }
     }
 
-    // --- JAR（mods.toml）処理
+    // JAR
     for (const jar of jars) {
       console.log(`\n[JAR] ${jar}`);
       const items = await extractModsTomlFromJar(jar);
-
-      if (items.length === 0) {
-        console.log("  -> mods.toml が見つかりませんでした");
-        continue;
-      }
+      if (items.length === 0) { console.log("  -> mods.toml が見つかりませんでした"); continue; }
 
       for (const it of items) {
         const parsed = extractFromModsToml(it.text);
-        const modid = (parsed.modids[0] || "").trim();
+        const k = normId(parsed.modids[0] || "");
         const detectedLicense = (parsed.licenses[0] || "").trim();
-        const hasDetected =
-          detectedLicense && detectedLicense.toLowerCase() !== "not specified";
+        const hasDetected = detectedLicense && detectedLicense.toLowerCase() !== "not specified";
         const displayName = (parsed.displayName || "").trim();
         const authors = (parsed.authors || "").trim();
+        if (!k) { console.log("  -> mods.toml に modId が見つかりませんでした"); continue; }
 
-        if (!modid) {
-          console.log("  -> mods.toml に modId が見つかりませんでした");
-          continue;
-        }
+        if (!jarPathsByModid.has(k)) jarPathsByModid.set(k, new Set());
+        jarPathsByModid.get(k).add(jar);
+        jarSourceModids.add(k);
+        seenModids.add(k);
 
-        jarSourceModids.add(modid);
-        seenModids.add(modid);
-
-        // 表示情報：mods.toml を優先（無ければ link.json → 既定値）
-        const nowMeta = metaByModid.get(modid) || {};
-        metaByModid.set(modid, {
-          displayName: displayName || nowMeta.displayName || modid,
+        const nowMeta = metaByModid.get(k) || {};
+        metaByModid.set(k, {
+          displayName: displayName || nowMeta.displayName || k,
           authors: authors || nowMeta.authors || "<author>",
         });
 
-        const rec = modMap.get(modid);
+        const rec = modMap.get(k);
         const existing = rec?.license;
 
         if (existing !== undefined) {
-          if (hasDetected) {
-            if (
-              existing === "unknown" ||
-              existing === "Not specified" ||
-              detectedLicense !== existing
-            ) {
-              console.log(
-                `  -> UPDATE: modid=${modid} license: "${existing}" -> "${detectedLicense}"`
-              );
-              // 更新時に authors/displayName も反映
-              upsertModRecord(modid, {
-                license: detectedLicense,
-                url: rec?.url ?? "",
-                authors,
-                displayName,
-              });
-              touched = true;
-            } else {
-              console.log(
-                `  -> NO CHANGE: modid=${modid} license="${existing}"`
-              );
-              // license に変化はなくても authors/displayName を更新
-              upsertModRecord(modid, {
-                authors,
-                displayName,
-              });
-            }
+          if (hasDetected && (existing === "unknown" || existing === "Not specified" || detectedLicense !== existing)) {
+            console.log(`  -> UPDATE: modid=${k} license: "${existing}" -> "${detectedLicense}"`);
+            upsertModRecord(k, { license: detectedLicense, url: rec?.url ?? "", authors, displayName });
+            touched = true;
           } else {
-            console.log(
-              `  -> KEEP (no detected license): modid=${modid} license="${existing}"`
-            );
-            // ライセンスは維持しつつ authors/displayName を補完
-            upsertModRecord(modid, {
-              authors,
-              displayName,
-            });
+            console.log(`  -> NO CHANGE/KEEP: modid=${k} license="${existing ?? "(none)"}"`);
+            upsertModRecord(k, { authors, displayName });
           }
         } else {
-          if (hasDetected) {
-            console.log(
-              `  -> ADD: modid=${modid} license="${detectedLicense}"`
-            );
-            upsertModRecord(modid, {
-              license: detectedLicense,
-              url: "",
-              authors,
-              displayName,
-            });
-            touched = true;
-          } else {
-            console.log(`  -> ADD: modid=${modid} license="unknown"`);
-            upsertModRecord(modid, {
-              license: "unknown",
-              url: "",
-              authors,
-              displayName,
-            });
-            touched = true;
-          }
+          const licToSet = hasDetected ? detectedLicense : "unknown";
+          console.log(`  -> ADD: modid=${k} license="${licToSet}"`);
+          upsertModRecord(k, { license: licToSet, url: "", authors, displayName });
+          touched = true;
         }
       }
     }
 
-    // ---- サーバーごとの license.json / credit.txt を生成 ----
+    // サーバーごとの license.json / credit.txt 生成（出力は ignore に関わらず実施）
     const serverOut = [];
     const creditLines = [];
-
-    for (const modid of seenModids) {
-      const rec2 = modMap.get(modid) || { license: "", url: "" };
+    for (const k of seenModids) {
+      const rec2 = modMap.get(k) || { license: "", url: "" };
       const lic = String(rec2.license || "").trim();
       const attr = licenseMap.get(lic.toLowerCase()) || {
         shouldRightsNotation: true,
         canSecondaryDistribution: false,
         url: "",
       };
-      const meta = metaByModid.get(modid) || {};
-      const displayName = meta.displayName || modid;
+      const meta = metaByModid.get(k) || {};
+      const displayName = meta.displayName || k;
       const authors = meta.authors || "<author>";
       const url = rec2.url?.trim() || "";
 
       let credit = "";
-
       if (attr.shouldRightsNotation) {
-        credit = `${displayName} by ${authors} (${
-          url || "<URL>"
-        }) Licensed under ${lic}`;
+        credit = `${displayName} by ${authors} (${url || "<URL>"}) Licensed under ${lic}`;
       }
       serverOut.push({
-        modid,
+        modid: k,
         license: lic,
         shouldRightsNotation: !!attr.shouldRightsNotation,
         canSecondaryDistribution: !!attr.canSecondaryDistribution,
-        url: url,
-        credit: credit,
+        url,
+        credit,
       });
-
-      if (attr.shouldRightsNotation) {
-        creditLines.push(credit);
-      }
+      if (attr.shouldRightsNotation) creditLines.push(credit);
     }
-
     const serverLicensePath = path.join(target, "license.json");
-    await fsp.writeFile(
-      serverLicensePath,
-      JSON.stringify(serverOut, null, 4),
-      "utf8"
-    );
+    await fsp.writeFile(serverLicensePath, JSON.stringify(serverOut, null, 4), "utf8");
     console.log(`\n生成: ${serverLicensePath} （${serverOut.length} mods）`);
 
     if (creditLines.length > 0) {
@@ -527,73 +387,41 @@ async function main() {
     }
   }
 
-  // modlicense.json の書き戻し
-  if (touched) {
-    const outArr = Array.from(modMap.entries()).map(([modid, v]) => ({
-      modid,
-      license: v.license,
-      url: v.url ?? "",
-      authors: v.authors ?? "",
-      displayName: v.displayName ?? "",
-    }));
-    await fsp.mkdir(path.dirname(MODLICENSE_JSON_PATH), { recursive: true });
-    await fsp.writeFile(
-      MODLICENSE_JSON_PATH,
-      JSON.stringify(outArr, null, 4),
-      "utf8"
-    );
-    console.log(`\nmodlicense.json を更新しました: ${MODLICENSE_JSON_PATH}`);
-  } else {
-    console.log(
-      `\n新規追加/更新はありませんでした（modlicense.json は変更されていません）`
-    );
-  }
+  // 5) —— ここが重要：判定（警告／移動）は “書き戻し前” にやる —— //
 
-  // --- 警告: Not specified / unknown の MOD をリストアップ
+  // 未解決
   const unresolved = Array.from(modMap.entries())
-    .filter(([_, v]) => {
+    .filter(([modid, v]) => {
+      if (isIgnored(modid)) return false;
       const lic = String(v.license || "");
-      return (
-        !lic ||
-        lic.toLowerCase() === "not specified" ||
-        lic.toLowerCase() === "unknown"
-      );
+      return !lic || lic.toLowerCase() === "not specified" || lic.toLowerCase() === "unknown";
     })
     .map(([modid, v]) => ({ modid, license: v.license }));
   if (unresolved.length > 0) {
-    console.warn(
-      "\n⚠️ 以下のMODはライセンスが不明 (Not specified / unknown) です:"
-    );
-    for (const u of unresolved) {
-      console.warn(`  - ${u.modid} (license: ${u.license || "未指定"})`);
-    }
+    console.warn("\n⚠️ ライセンス不明 (Not specified / unknown):");
+    for (const u of unresolved) console.warn(`  - ${u.modid} (license: ${u.license || "未指定"})`);
   }
 
-  // shouldRightsNotation が true かつ URL 未設定の MOD を警告
+  // URL 未設定
   const unlinked = Array.from(modMap.entries())
-    .filter(([_, v]) => {
+    .filter(([modid, v]) => {
+      if (isIgnored(modid)) return false;
       const lic = String(v.license || "");
-      const attr = licenseMap.get(lic.toLowerCase()) || {
-        shouldRightsNotation: false,
-      };
+      const attr = licenseMap.get(lic.toLowerCase()) || { shouldRightsNotation: false };
       const urlEmpty = !v.url || String(v.url).trim() === "";
       return attr.shouldRightsNotation && urlEmpty;
     })
     .map(([modid, v]) => ({ modid, license: v.license }));
-
   if (unlinked.length > 0) {
-    console.warn(
-      "\n⚠️ 以下のMODは権利表記が必要ですが URL が未表記です(modlicense.jsonに記載してください):"
-    );
-    for (const u of unlinked) {
-      console.warn(`  - ${u.modid} (license: ${u.license || "未指定"})`);
-    }
+    console.warn("\n⚠️ 権利表記が必要だが URL 未設定:");
+    for (const u of unlinked) console.warn(`  - ${u.modid} (license: ${u.license || "未指定"})`);
   }
 
-  // --- 警告: JAR由来で二次配布禁止フラグ（canSecondaryDistribution: false）のMODをリストアップ
+  // 二次配布禁止（JAR 由来のみ）
   const prohibited = Array.from(modMap.entries())
     .filter(([modid, v]) => {
-      if (!jarSourceModids.has(modid)) return false; // JAR由来のみ対象
+      if (isIgnored(modid)) return false;                // ← ignore の最優先スキップ
+      if (!jarSourceModids.has(normId(modid))) return false;
       const lic = String(v.license || "").toLowerCase();
       const attr = licenseMap.get(lic);
       return attr && attr.canSecondaryDistribution === false;
@@ -601,54 +429,89 @@ async function main() {
     .map(([modid, v]) => ({ modid, license: v.license }));
 
   if (prohibited.length > 0) {
-    console.warn(
-      "\n⛔ 二次配布禁止（canSecondaryDistribution: false）が設定されたJAR由来のMOD:"
-    );
+    console.warn("\n⛔ 二次配布禁止（canSecondaryDistribution: false）の JAR:");
     for (const p of prohibited) {
-      console.warn(`  - ${p.modid} (license: ${p.license || "未指定"})`);
+      const rec = modMap.get(normId(p.modid));
+      const lic = String(rec?.license || "").toLowerCase();
+      const attr = licenseMap.get(lic);
+      console.warn(`  - ${p.modid} (license: ${p.license || "未指定"}) ignore=${!!rec?.ignore} canSecondaryDistribution=${String(attr?.canSecondaryDistribution)}`);
     }
   }
 
-  // --- 警告: license.jsonに存在しない未知のライセンス
+  // 退避（移動）— ignore を再確認してから実施
+  if (prohibited.length > 0) {
+    console.warn(`\n🚚 二次配布禁止と判定された JAR を "${QUARANTINE_DIR}" に移動します...`);
+    for (const p of prohibited) {
+      const k = normId(p.modid);
+      if (isIgnored(k)) {   // 二重チェック
+        console.warn(`  -> ignore=true のため移動スキップ: ${k}`);
+        continue;
+      }
+      const jarSet = jarPathsByModid.get(k);
+      if (!jarSet || jarSet.size === 0) {
+        console.warn(`  -> JAR パス不明のためスキップ: ${k}`);
+        continue;
+      }
+      for (const jarPath of jarSet) {
+        try {
+          if (!(await exists(jarPath))) {
+            console.warn(`  -> 既に存在しないためスキップ: ${jarPath}`);
+            continue;
+          }
+          const movedTo = await moveFileSafe(jarPath, QUARANTINE_DIR);
+          console.warn(`  -> 移動: ${jarPath} -> ${movedTo}`);
+        } catch (e) {
+          console.warn(`  -> 移動失敗: ${jarPath} : ${e && e.message ? e.message : e}`);
+        }
+      }
+    }
+  }
+
+  // 未知ライセンス
   const unknownLicenses = Array.from(modMap.entries())
-    .filter(([_, v]) => {
+    .filter(([modid, v]) => {
+      if (isIgnored(modid)) return false;
       const lic = String(v.license || "").trim();
       if (!lic) return false;
-      return !licenseMap.has(lic.toLowerCase()); // license.jsonに未登録
+      return !licenseMap.has(lic.toLowerCase());
     })
     .map(([modid, v]) => ({ modid, license: v.license }));
-
   if (unknownLicenses.length > 0) {
-    console.warn(
-      "\n⚠️ 以下のMODは license.json に未登録のライセンスを検出しました（クレジット必須・二次配布禁止として扱います）:"
-    );
-    for (const u of unknownLicenses) {
-      console.warn(`  - ${u.modid} (license: ${u.license || "未指定"})`);
-    }
+    console.warn("\n⚠️ license.json に未登録のライセンス（クレジット必須・二次配布禁止として扱う想定）:");
+    for (const u of unknownLicenses) console.warn(`  - ${u.modid} (license: ${u.license || "未指定"})`);
   }
 
-  const ROOT_MODLICENSE = path.join(ROOT, "modlicense.json");
-  const ROOT_LICENSE = path.join(ROOT, "license.json");
+  // 6) modlicense.json の書き戻し（最後に一括・ignore を保持）
+  if (touched) {
+    const outArr = Array.from(modMap.entries())
+      .map(([modid, v]) => ({
+        modid,
+        license: v.license,
+        url: v.url ?? "",
+        authors: v.authors ?? "",
+        displayName: v.displayName ?? "",
+        ignore: !!v.ignore,
+      }))
+      .sort((a, b) => a.modid.localeCompare(b.modid));
+    const savePath = (await exists(ROOT_MODLICENSE)) ? ROOT_MODLICENSE : SCRIPTS_MODLICENSE;
+    await fsp.mkdir(path.dirname(savePath), { recursive: true });
+    await fsp.writeFile(savePath, JSON.stringify(outArr, null, 4), "utf8");
+    console.log(`\nmodlicense.json を更新しました: ${savePath}`);
+  } else {
+    console.log(`\n新規追加/更新はありませんでした（modlicense.json は変更されていません）`);
+  }
 
-  const srcModlicense = (await exists(ROOT_MODLICENSE))
-    ? ROOT_MODLICENSE
-    : MODLICENSE_JSON_PATH;
-  const srcLicense = (await exists(ROOT_LICENSE))
-    ? ROOT_LICENSE
-    : LICENSE_JSON_PATH;
-
-  let copiedAny = false;
+  // 7) docs へコピー（表示用）
   try {
-    copiedAny =
-      (await copyToDocs(srcModlicense, "modlicense.json")) || copiedAny;
-    copiedAny = (await copyToDocs(srcLicense, "license.json")) || copiedAny;
+    const srcMod = (await exists(ROOT_MODLICENSE)) ? ROOT_MODLICENSE : SCRIPTS_MODLICENSE;
+    const srcLic = (await exists(ROOT_LICENSE)) ? ROOT_LICENSE : SCRIPTS_LICENSE;
+    const ok1 = await copyToDocs(srcMod, "modlicense.json");
+    const ok2 = await copyToDocs(srcLic, "license.json");
+    if (!ok1 && !ok2) {
+      console.warn("⚠️ コピー対象の modlicense.json / license.json が見つかりませんでした。");
+    }
   } catch (e) {
     console.warn(`⚠️ docs へのコピーでエラー: ${e.message || e}`);
-  }
-  if (!copiedAny) {
-    console.warn(
-      "⚠️ コピー対象の modlicense.json / license.json が見つかりませんでした。"
-    );
   }
 }
 

@@ -24,6 +24,14 @@
         "credit": ""
     },
     {
+        "modid": "tacz",
+        "license": "GPL3 / CC BY-NC-ND 4.0",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
+        "credit": "Timeless & Classics Guns: Zero by Serene Wave Studio | Timeless Squad (https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) Licensed under GPL3 / CC BY-NC-ND 4.0"
+    },
+    {
         "modid": "ambientsounds",
         "license": "LGPL-3.0-only",
         "shouldRightsNotation": false,
@@ -94,14 +102,6 @@
         "canSecondaryDistribution": true,
         "url": "",
         "credit": ""
-    },
-    {
-        "modid": "tacz",
-        "license": "GPL3 / CC BY-NC-ND 4.0",
-        "shouldRightsNotation": true,
-        "canSecondaryDistribution": false,
-        "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
-        "credit": "Timeless & Classics Guns: Zero by Serene Wave Studio | Timeless Squad (https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) Licensed under GPL3 / CC BY-NC-ND 4.0"
     },
     {
         "modid": "man_from_the_shadow",

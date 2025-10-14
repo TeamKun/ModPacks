@@ -1,7 +1,55 @@
 [
     {
+        "modid": "coroutil",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "damageindicator",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "disable_all_but_front_perspective",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "journeymap",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "tacz",
+        "license": "GPL3 / CC BY-NC-ND 4.0",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
+        "credit": "Timeless & Classics Guns: Zero by Serene Wave Studio | Timeless Squad (https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) Licensed under GPL3 / CC BY-NC-ND 4.0"
+    },
+    {
         "modid": "voicechat",
         "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "watut",
+        "license": "All Rights Reserved",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": false,
         "url": "",
@@ -24,34 +72,10 @@
         "credit": ""
     },
     {
-        "modid": "coroutil",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "cucumber",
         "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "damageindicator",
-        "license": "All rights reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "disable_all_but_front_perspective",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
         "url": "",
         "credit": ""
     },
@@ -80,14 +104,6 @@
         "credit": ""
     },
     {
-        "modid": "journeymap",
-        "license": "All rights reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "localizedchat",
         "license": "MIT",
         "shouldRightsNotation": false,
@@ -112,14 +128,6 @@
         "credit": "ParCool! by alRex_U (<URL>) Licensed under GNU LESSER GENERAL PUBLIC LICENSE Version 3"
     },
     {
-        "modid": "parcool_compat_addon",
-        "license": "All rights reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "playeranimator",
         "license": "MIT",
         "shouldRightsNotation": false,
@@ -136,27 +144,11 @@
         "credit": ""
     },
     {
-        "modid": "watut",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "modchecker",
         "license": "All Rights Reserved",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": false,
         "url": "",
         "credit": ""
-    },
-    {
-        "modid": "tacz",
-        "license": "GPL3 / CC BY-NC-ND 4.0",
-        "shouldRightsNotation": true,
-        "canSecondaryDistribution": false,
-        "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
-        "credit": "Timeless & Classics Guns: Zero by Serene Wave Studio | Timeless Squad (https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) Licensed under GPL3 / CC BY-NC-ND 4.0"
     }
 ]

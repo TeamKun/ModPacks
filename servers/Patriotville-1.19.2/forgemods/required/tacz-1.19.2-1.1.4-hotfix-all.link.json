@@ -1,0 +1,16 @@
+{
+  "id": "com.tacz.guns:tacz:${file.jarVersion}@jar",
+  "name": "Timeless & Classics Guns: Zero",
+  "author": "Serene Wave Studio | Timeless Squad",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 39143619,
+    "MD5": "4cfa69f36f84bc778cc57e6691dfaad7",
+    "url": "",
+    "license": "GPL3 / CC BY-NC-ND 4.0",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero/download/6069349",
+      "name": "tacz-1.19.2-1.1.4-hotfix-all.jar"
+    }
+  }
+}

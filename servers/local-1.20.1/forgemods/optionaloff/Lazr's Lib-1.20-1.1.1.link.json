@@ -1,0 +1,16 @@
+{
+  "id": "com.lazrproductions:lazrslib:1.1.1@jar",
+  "name": "Lazr's Lib",
+  "author": "Lazr Productions",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 120029,
+    "MD5": "adc32a47cfec91a0d1708d5e28f1e593",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lazrs-lib/download/5654672",
+      "name": "Lazr's Lib-1.20-1.1.1.jar"
+    }
+  }
+}

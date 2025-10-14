@@ -8,18 +8,18 @@
         "credit": ""
     },
     {
-        "modid": "cocoainput",
-        "license": "Minecraft Mod Public License Japanese Transration",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "customgui",
         "license": "All rights reserved",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cocoainput",
+        "license": "Minecraft Mod Public License Japanese Transration",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
         "url": "",
         "credit": ""
     },

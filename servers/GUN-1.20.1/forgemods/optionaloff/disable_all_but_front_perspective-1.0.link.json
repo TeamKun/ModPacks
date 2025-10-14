@@ -1,0 +1,16 @@
+{
+  "id": "org.myzael:disable_all_but_front_perspective:1.0@jar",
+  "name": "disable-all-but-front-perspective",
+  "author": "Myzael",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 6449,
+    "MD5": "ba97e834f6507561bbe5ce7ca3dd6945",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/disable-front-perspective/download/5874615",
+      "name": "disable_all_but_front_perspective-1.0.jar"
+    }
+  }
+}

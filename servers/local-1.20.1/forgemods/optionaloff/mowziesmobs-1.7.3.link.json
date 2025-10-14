@@ -1,0 +1,16 @@
+{
+  "id": "com.bobmowzie:mowziesmobs:1.7.3@jar",
+  "name": "Mowzie's Mobs",
+  "author": "BobMowzie, Wadoo, Vakypanda, Noonyez, pau101",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 35239406,
+    "MD5": "ae03fbc5568adbf84e49806af92844cd",
+    "url": "",
+    "license": "custom",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs/download/6586086",
+      "name": "mowziesmobs-1.7.3.jar"
+    }
+  }
+}

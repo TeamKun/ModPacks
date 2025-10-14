@@ -1,0 +1,16 @@
+{
+  "id": "me.srrapero720:embeddiumplus:1.2.13@jar",
+  "name": "Embeddium++",
+  "author": "SrRapero720",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 895427,
+    "MD5": "e370f41a09f9d1bfd90e89044230d3a8",
+    "url": "",
+    "license": "All-Rights-Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/chloride/download/5436746",
+      "name": "embeddiumplus-1.20.1-v1.2.13.jar"
+    }
+  }
+}

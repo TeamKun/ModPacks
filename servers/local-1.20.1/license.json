@@ -8,8 +8,64 @@
         "credit": ""
     },
     {
+        "modid": "aether",
+        "license": "Assets: All Rights Reserved; Code: LGPL-3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "call_of_yucutan",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "car",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "copycats",
         "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "coroutil",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cuffed",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "damageindicator",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "dragnvehicles",
+        "license": "All Rights Reserved, DragN0007",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": false,
         "url": "",
@@ -24,6 +80,54 @@
         "credit": ""
     },
     {
+        "modid": "hauntedharvest",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "journeymap",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "lazrslib",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "lionfishapi",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cataclysm",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "mowziesmobs",
+        "license": "custom",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs",
+        "credit": "Mowzie's Mobs by BobMowzie, Wadoo, Vakypanda, Noonyez, pau101 (https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs) Licensed under custom"
+    },
+    {
         "modid": "mru",
         "license": "All Rights Reserved",
         "shouldRightsNotation": false,
@@ -34,6 +138,22 @@
     {
         "modid": "physicsmod",
         "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "tacz",
+        "license": "GPL3 / CC BY-NC-ND 4.0",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
+        "credit": "Timeless & Classics Guns: Zero by Serene Wave Studio | Timeless Squad (https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) Licensed under GPL3 / CC BY-NC-ND 4.0"
+    },
+    {
+        "modid": "watut",
+        "license": "All Rights Reserved",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": false,
         "url": "",
@@ -64,14 +184,6 @@
         "credit": ""
     },
     {
-        "modid": "aether",
-        "license": "Assets: All Rights Reserved; Code: LGPL-3.0",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "architectury",
         "license": "GNU LGPLv3",
         "shouldRightsNotation": false,
@@ -84,22 +196,6 @@
         "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "call_of_yucutan",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "car",
-        "license": "All rights reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
         "url": "",
         "credit": ""
     },
@@ -128,14 +224,6 @@
         "credit": ""
     },
     {
-        "modid": "coroutil",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "create",
         "license": "MIT",
         "shouldRightsNotation": false,
@@ -148,14 +236,6 @@
         "license": "LGPL-3.0-only",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "cuffed",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
         "url": "",
         "credit": ""
     },
@@ -174,22 +254,6 @@
         "canSecondaryDistribution": true,
         "url": "https://www.curseforge.com/minecraft/mc-mods/custom-npcs",
         "credit": "Custom NPCs by Noppes (https://www.curseforge.com/minecraft/mc-mods/custom-npcs) Licensed under CC BY-NC"
-    },
-    {
-        "modid": "damageindicator",
-        "license": "All rights reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "dragnvehicles",
-        "license": "All Rights Reserved, DragN0007",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
     },
     {
         "modid": "dynamiclights",
@@ -272,14 +336,6 @@
         "credit": ""
     },
     {
-        "modid": "hauntedharvest",
-        "license": "All rights reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "iceandfire",
         "license": "GNU LESSER GENERAL PUBLIC LICENSE",
         "shouldRightsNotation": false,
@@ -320,26 +376,10 @@
         "credit": ""
     },
     {
-        "modid": "journeymap",
-        "license": "All rights reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "kiwi",
         "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "lazrslib",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
         "url": "",
         "credit": ""
     },
@@ -356,22 +396,6 @@
         "license": "GNU GPLv3",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "lionfishapi",
-        "license": "All rights reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "cataclysm",
-        "license": "All rights reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
         "url": "",
         "credit": ""
     },
@@ -398,14 +422,6 @@
         "canSecondaryDistribution": true,
         "url": "",
         "credit": ""
-    },
-    {
-        "modid": "mowziesmobs",
-        "license": "custom",
-        "shouldRightsNotation": true,
-        "canSecondaryDistribution": false,
-        "url": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs",
-        "credit": "Mowzie by BobMowzie, Wadoo, Vakypanda, Noonyez, pau101 (https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs) Licensed under custom"
     },
     {
         "modid": "parcool",
@@ -496,14 +512,6 @@
         "credit": ""
     },
     {
-        "modid": "tacz",
-        "license": "GPL3 / CC BY-NC-ND 4.0",
-        "shouldRightsNotation": true,
-        "canSecondaryDistribution": false,
-        "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
-        "credit": "Timeless & Classics Guns: Zero by Serene Wave Studio | Timeless Squad (https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) Licensed under GPL3 / CC BY-NC-ND 4.0"
-    },
-    {
         "modid": "voice_attenuation",
         "license": "All Rights Reserved",
         "shouldRightsNotation": false,
@@ -516,14 +524,6 @@
         "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "watut",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
         "url": "",
         "credit": ""
     },

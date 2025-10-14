@@ -1,0 +1,16 @@
+{
+  "id": "de.maxhenkel:car:1.20.1-1.0.32@jar",
+  "name": "Ultimate Car Mod",
+  "author": "Max Henkel",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 2653241,
+    "MD5": "c706a89c7f295bbf4f596a9fc4c574c1",
+    "url": "",
+    "license": "All rights reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ultimate-car-mod/download/5770402",
+      "name": "car-forge-1.20.1-1.0.32.jar"
+    }
+  }
+}

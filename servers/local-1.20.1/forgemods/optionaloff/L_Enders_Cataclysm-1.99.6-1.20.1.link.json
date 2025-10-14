@@ -1,0 +1,16 @@
+{
+  "id": "com.github.l_ender:cataclysm:1.99.5@jar",
+  "name": "Cataclysm Mod",
+  "author": "L_Ender",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 48848879,
+    "MD5": "d6e1c9dfd516b917d6a70af81e72ac3f",
+    "url": "",
+    "license": "All rights reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lendercataclysm/download/5474791",
+      "name": "L_Enders_Cataclysm-1.99.6-1.20.1.jar"
+    }
+  }
+}

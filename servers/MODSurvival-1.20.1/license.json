@@ -1,5 +1,13 @@
 [
     {
+        "modid": "embeddiumplus",
+        "license": "All-Rights-Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "entityculling",
         "license": "tr7zw Protective License",
         "shouldRightsNotation": false,
@@ -76,14 +84,6 @@
         "license": "LGPL-3.0-only",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "embeddiumplus",
-        "license": "All-Rights-Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
         "url": "",
         "credit": ""
     },

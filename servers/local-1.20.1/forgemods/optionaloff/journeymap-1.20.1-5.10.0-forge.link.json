@@ -1,0 +1,16 @@
+{
+  "id": "journeymap:journeymap:5.10.0@jar",
+  "name": "Journeymap",
+  "author": "Techbrew, Mysticdrew",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 7160167,
+    "MD5": "63f6fbda1bf25c533561b596c74952d1",
+    "url": "",
+    "license": "All rights reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/journeymap/download/5458344",
+      "name": "journeymap-1.20.1-5.10.0-forge.jar"
+    }
+  }
+}
