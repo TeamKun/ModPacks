@@ -128,3 +128,4 @@ async function getAllMods(opts = {}) {
     .sort((a, b) => a.displayName.localeCompare(b.displayName));
 }
 window.getCreditRequiredMods = getCreditRequiredMods;
+window.getAllMods = getAllMods;
