@@ -60,6 +60,33 @@
   @media (max-width: 420px){
     .toolbar{grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));}
   }
+
+  /* 値バッジ（高コントラスト気味） */
+.badge{
+  display:inline-block;
+  padding:.1rem .45rem;
+  border-radius:999px;
+  font-weight:700;
+  font-size:.85rem;
+  line-height:1.2;
+  border:1px solid transparent;
+}
+.badge-ok{
+  color:#166534;               /* 緑系テキスト */
+  background:#dcfce7;          /* 薄緑背景 */
+  border-color:#86efac;        /* 緑系枠 */
+}
+.badge-warn{
+  color:#92400e;               /* オレンジ系テキスト */
+  background:#fef3c7;          /* 薄オレンジ背景 */
+  border-color:#fcd34d;        /* オレンジ系枠 */
+}
+.badge-ng{
+  color:#991b1b;               /* 赤系テキスト */
+  background:#fee2e2;          /* 薄赤背景 */
+  border-color:#fca5a5;        /* 赤系枠 */
+}
+
 </style>
 
 </head>
@@ -243,11 +270,15 @@
         tdLic.className = "small";
 
         const tdRights = document.createElement("td");
-        tdRights.textContent = m.shouldRightsNotation ? "必要" : "不要";
+        tdRights.innerHTML = m.shouldRightsNotation
+          ? `<span class="badge badge-warn">必要</span>`
+          : `<span class="badge badge-ok">不要</span>`;
         tdRights.className = "small";
 
         const tdSecondary = document.createElement("td");
-        tdSecondary.textContent = m.canSecondaryDistribution ? "許可" : "不許可";
+        tdSecondary.innerHTML = m.canSecondaryDistribution
+          ? `<span class="badge badge-ok">許可</span>`
+          : `<span class="badge badge-ng">不可</span>`;
         tdSecondary.className = "small";
 
         const tdURL = document.createElement("td");
