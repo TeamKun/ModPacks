@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./style.css">
+  <title>Credit List by KUNLab</title>
+</head>
+<body>
+<h1>
+  Credit List
+  <span class="subtitle">by KUNLab</span>
+  <span class="subtitle">(including mods not used in the video)</span>
+</h1>
+  <ul id="mod-list"></ul>
+  <script src="./script.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", async () => {
+      try {
+        const mods = await getAllMods();
+        const listEl = document.getElementById("mod-list");
+
+    for (const mod of mods) {
+    const li = document.createElement("li");
+    const authorPart =
+        mod.authors && mod.authors !== "<author>"
+        ? `<span class="author">by ${mod.authors}</span>`
+        : "";
+
+    li.innerHTML = `
+        <span class="name">${mod.displayName}</span>
+        ${authorPart}
+        <span class="license">License: ${mod.license}</span>
+        ${mod.url ? `<a href="${mod.url}" target="_blank">${mod.url}</a>` : ""}
+    `;
+    listEl.appendChild(li);
+    }
+
+      } catch (e) {
+        console.error(e);
+        document.getElementById("mod-list").innerHTML =
+          "<li>ERROR</li>";
+      }
+    });
+  </script>
+</body>
+</html>

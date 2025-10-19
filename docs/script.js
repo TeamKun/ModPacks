@@ -75,4 +75,56 @@ async function getCreditRequiredMods(opts = {}) {
     .sort((a, b) => a.displayName.localeCompare(b.displayName));
 }
 
+async function getAllMods(opts = {}) {
+  const { scriptsBase = "./", creditUnknown = true } = opts;
+
+  // 取得
+  const [licenseTable, modLicense] = await Promise.all([
+    loadJSON(`${scriptsBase}/license.json`),
+    loadJSON(`${scriptsBase}/modlicense.json`),
+  ]);
+
+  // ライセンス属性（小文字キー）
+  const lmap = new Map(
+    (licenseTable || []).map((l) => [String(l.name || "").toLowerCase(), l])
+  );
+
+  // 判定 & 整形
+  const rows = (modLicense || []).map((m) => {
+    const lic = String(m.license || "").trim();
+    const attr = lmap.get(lic.toLowerCase());
+
+    const shouldRightsNotation =
+      attr?.shouldRightsNotation === true || (!attr && creditUnknown);
+
+    const canSecondaryDistribution = attr?.canSecondaryDistribution ?? false;
+
+    const displayName = m.displayName?.trim() || m.modid;
+    const authors = m.authors?.trim() || "<author>";
+    const url = (m.url || "").trim();
+
+    const reason = attr ? "listed_in_license_json" : "unknown_license";
+
+    const creditLine = shouldRightsNotation
+      ? `${displayName} by ${authors} (${url || "<URL>"}) Licensed under ${
+          lic || "Unspecified"
+        }`
+      : "";
+
+    return {
+      modid: m.modid,
+      displayName,
+      authors,
+      license: lic || "Unspecified",
+      url,
+      shouldRightsNotation,
+      canSecondaryDistribution,
+      reason,
+      creditLine,
+    };
+  });
+
+  return rows
+    .sort((a, b) => a.displayName.localeCompare(b.displayName));
+}
 window.getCreditRequiredMods = getCreditRequiredMods;
