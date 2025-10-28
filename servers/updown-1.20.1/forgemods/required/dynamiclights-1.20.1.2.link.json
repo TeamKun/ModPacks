@@ -1,0 +1,16 @@
+{
+  "id": "atomicstryker.dynamiclights.server:dynamiclights:${file.jarVersion}@jar",
+  "name": "Dynamic Lights",
+  "author": "AtomicStryker",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 49564,
+    "MD5": "8ddb1fdf345c919ea74e55c50aa39a55",
+    "url": "",
+    "license": "AtomicStrykers License http://atomicstryker.net/about.php",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/dynamic-lights/download/4861183",
+      "name": "dynamiclights-1.20.1.2.jar"
+    }
+  }
+}
