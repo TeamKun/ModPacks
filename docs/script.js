@@ -76,12 +76,20 @@ async function getCreditRequiredMods(opts = {}) {
 }
 
 async function getAllMods(opts = {}) {
+  return await getLicenses("/modlicense.json");
+}
+
+async function getAllAddons(opts = {}) {
+  return license = await getLicenses("/addonlicense.json");
+}
+
+async function getLicenses(path,opts = {}) {
   const { scriptsBase = "./", creditUnknown = true } = opts;
 
   // 取得
   const [licenseTable, modLicense] = await Promise.all([
     loadJSON(`${scriptsBase}/license.json`),
-    loadJSON(`${scriptsBase}/modlicense.json`),
+    loadJSON(`${scriptsBase}${path}`),
   ]);
 
   // ライセンス属性（小文字キー）
@@ -129,3 +137,4 @@ async function getAllMods(opts = {}) {
 }
 window.getCreditRequiredMods = getCreditRequiredMods;
 window.getAllMods = getAllMods;
+window.getAllAddons = getAllAddons;

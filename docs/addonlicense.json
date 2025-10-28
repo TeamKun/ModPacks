@@ -1,0 +1,74 @@
+[
+    {
+        "license": "CC-BY-4.0",
+        "url": "https://modrinth.com/shader/cursed-fog/",
+        "authors": "LoLip_p",
+        "displayName": "Cursed Fog"
+    },
+    {
+        "license": "CustomLicense(Complementary Shaders - Unbound)",
+        "url": "https://www.curseforge.com/minecraft/shaders/complementary-unbound/",
+        "authors": "EminGT",
+        "displayName": "Complementary Shaders - Unbound"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/shaders/bsl-shaders",
+        "authors": "capttatsu",
+        "displayName": "BSL Shaders"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/shaders/chocapic13-shaders",
+        "authors": "Choca_13",
+        "displayName": "Chocapic13' Shaders"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/shaders/sildurs-vibrant-shaders",
+        "authors": "Sildur",
+        "displayName": "Sildur's Vibrant shaders"
+    },
+    {
+        "license": "CC BY-NC-ND 4.0",
+        "url": "https://www.curseforge.com/minecraft/customization/tacz-rebel-gunpack",
+        "authors": "DianDaoFish",
+        "displayName": "[TaCZ]Rebel gunpack"
+    },
+    {
+        "license": "CC BY-NC-ND 4.0",
+        "url": "https://www.curseforge.com/minecraft/customization/tacz-lr-trench-tactics-ww1-gadget-packet",
+        "authors": "hamsterbaron",
+        "displayName": "[TacZ & LR]Trench Tactics WW1 gadget packet"
+    },
+    {
+        "license": "CC BY-NC-ND 4.0",
+        "url": "https://www.curseforge.com/minecraft/customization/tacz-gunpowder-revolution-great-war-gunpack",
+        "authors": "hamsterbaron",
+        "displayName": "[TacZ]Gunpowder Revolution:Great War gunpack"
+    },
+    {
+        "license": "CC-BY-4.0",
+        "url": "https://www.curseforge.com/minecraft/customization/tacz-classics-reborn",
+        "authors": "cima_silchin_warfare",
+        "displayName": "[TACZ]classics reborn"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/customization/tacz-it-a-big-gun",
+        "authors": "Cosea",
+        "displayName": "[TaCZ] It a Big Gun!!!"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/customization/tacz-apocalypse-gun-pack",
+        "authors": "Am1ethy",
+        "displayName": "[TaCZ]Apocalypse Gun Pack"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-addons/tacz-perseus-gun-pack",
+        "authors": "aaanjuinami",
+        "displayName": "[TACZ] Perseus Gun Pack"
+    }
+]

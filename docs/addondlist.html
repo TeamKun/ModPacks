@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="stylesheet" href="./style.css">
+  <title>アドオンライセンス一覧 | KUNLab</title>
+<style>
+  /* --- 視認性最優先の素朴スタイル（改） --- */
+  :root{
+    --gap:.5rem;
+    --pad:.6rem;
+    --border:#cbd5e1;
+    --border2:#d1d5db;
+    --head:#f3f4f6;
+    --zebra:#fafafa;
+  }
+  *{box-sizing:border-box}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5;margin:16px;}
+  h1{font-size:1.4rem;margin:0 0 .5rem;}
+  .subtitle{font-size:.9rem;opacity:.8;margin-left:.25rem;}
+
+  /* ツールバー：auto-fit で自動段組み、各セルは最小220pxで折り返し */
+  .toolbar{
+    display:grid;
+    gap:var(--gap);
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    align-items:end;
+    margin:.75rem 0;
+  }
+  .toolbar label{font-size:.9rem;display:grid;gap:.25rem;min-width:0;} /* ← これが重要（中身を縮め可） */
+  .toolbar .row2{
+    grid-column:1 / -1; display:flex; gap:.75rem; align-items:center; flex-wrap:wrap;
+  }
+
+  /* フォーム要素：親幅に合わせて伸縮。長文でも崩れないように min-width:0 指定 */
+  button,select,input{
+    padding:.4rem .5rem; border:1px solid var(--border); border-radius:4px; background:#fff;
+    width:100%; min-width:0;
+  }
+  input[type="search"]{min-width:0;}
+  /* 選択中テキストを省略表示（ブラウザ実装依存だが実用的） */
+  .select-ellipsis{
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  }
+
+  .count{margin:.5rem 0;font-weight:600;}
+
+  .table-wrap{overflow:auto;border:1px solid var(--border2);border-radius:6px;}
+  table{border-collapse:collapse;min-width:980px;width:100%;}
+  thead th{position:sticky;top:0;background:var(--head);font-weight:700;border-bottom:1px solid var(--border);padding:.5rem var(--pad);text-align:left;}
+  tbody td{border-bottom:1px solid #e5e7eb;padding:.45rem var(--pad);vertical-align:top;}
+  tbody tr:nth-child(odd){background:var(--zebra);}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}
+  .nowrap{white-space:nowrap;}
+  .break{word-break:break-all;}
+  .small{font-size:.9rem;opacity:.9;}
+
+  /* さらに狭い幅では最小幅を200pxまで妥協 */
+  @media (max-width: 420px){
+    .toolbar{grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));}
+  }
+
+  /* 値バッジ（高コントラスト気味） */
+.badge{
+  display:inline-block;
+  padding:.1rem .45rem;
+  border-radius:999px;
+  font-weight:700;
+  font-size:.85rem;
+  line-height:1.2;
+  border:1px solid transparent;
+}
+.badge-ok{
+  color:#166534;               /* 緑系テキスト */
+  background:#dcfce7;          /* 薄緑背景 */
+  border-color:#86efac;        /* 緑系枠 */
+}
+.badge-warn{
+  color:#92400e;               /* オレンジ系テキスト */
+  background:#fef3c7;          /* 薄オレンジ背景 */
+  border-color:#fcd34d;        /* オレンジ系枠 */
+}
+.badge-ng{
+  color:#991b1b;               /* 赤系テキスト */
+  background:#fee2e2;          /* 薄赤背景 */
+  border-color:#fca5a5;        /* 赤系枠 */
+}
+
+</style>
+
+</head>
+<body>
+  <h1>
+    アドオンライセンス一覧
+    <span class="subtitle">by KUNLab</span>
+    <span class="subtitle">（動画未使用のMOD含む）</span>
+  </h1>
+
+  <!-- フィルタUI（日本語化） -->
+  <div class="toolbar" role="region" aria-label="フィルター">
+    <label>
+      キーワード（名前 / 作者）
+      <input id="q" type="search" placeholder="例）sodium / sp614x / fabric">
+    </label>
+
+    <label>
+      ライセンス
+      <select id="license" class="select-ellipsis">
+        <option value="">すべて</option>
+      </select>
+    </label>
+
+    <label>
+      二次配布
+      <select id="secondary">
+        <option value="">すべて</option>
+        <option value="true">許可のみ</option>
+        <option value="false">不許可のみ</option>
+      </select>
+    </label>
+
+    <label>
+      権利表記の要否
+      <select id="rights">
+        <option value="">すべて</option>
+        <option value="true">必要のみ</option>
+        <option value="false">不要のみ</option>
+      </select>
+    </label>
+
+    <div class="row2">
+      <label>
+        並び替え
+        <select id="sort">
+          <option value="name_asc">名前 昇順</option>
+          <option value="name_desc">名前 降順</option>
+          <option value="license_asc">ライセンス 昇順</option>
+          <option value="license_desc">ライセンス 降順</option>
+          <option value="author_asc">作者 昇順</option>
+          <option value="author_desc">作者 降順</option>
+        </select>
+      </label>
+      <button id="reset" type="button">フィルタをリセット</button>
+    </div>
+  </div>
+
+  <div id="count" class="count" aria-live="polite"></div>
+
+  <div class="table-wrap">
+    <table aria-label="MOD一覧テーブル">
+      <thead>
+        <tr>
+          <th class="nowrap">名前</th>
+          <th class="nowrap">作者</th>
+          <th class="nowrap">ライセンス</th>
+          <th class="nowrap">権利表記</th>
+          <th class="nowrap">二次配布</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+  <script src="./script.js"></script>
+  <script>
+    // ---- デバウンス（入力時の過剰再描画を抑制） ----
+    const debounce = (fn, ms = 200) => {
+      let t; return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
+    };
+
+    let ALL = []; // 全MODキャッシュ
+
+    const els = {
+      q: document.getElementById("q"),
+      license: document.getElementById("license"),
+      secondary: document.getElementById("secondary"),
+      rights: document.getElementById("rights"),
+      sort: document.getElementById("sort"),
+      reset: document.getElementById("reset"),
+      count: document.getElementById("count"),
+      tbody: document.getElementById("tbody"),
+    };
+
+    const normalize = (s) => (s ?? "").toString().toLowerCase();
+
+    function populateLicenseOptions(allRows) {
+      const set = new Set(allRows.map(r => r.license).filter(Boolean));
+      const sorted = Array.from(set).sort((a,b)=>a.localeCompare(b));
+      for (const v of sorted) {
+        const opt = document.createElement("option");
+        opt.value = v;
+        opt.textContent = v;
+        els.license.appendChild(opt);
+      }
+    }
+
+    function applyFilters() {
+      const q = normalize(els.q.value);
+      const lic = els.license.value;
+      const secondary = els.secondary.value; // "", "true", "false"
+      const rights = els.rights.value;       // "", "true", "false"
+      const sort = els.sort.value;
+
+      let rows = ALL.filter(r => {
+        if (q) {
+          const hay = [
+            normalize(r.displayName),
+            normalize(r.authors),
+          ].join(" ");
+          if (!hay.includes(q)) return false;
+        }
+        if (lic && r.license !== lic) return false;
+        if (secondary) {
+          const should = secondary === "true";
+          if (!!r.canSecondaryDistribution !== should) return false;
+        }
+        if (rights) {
+          const should = rights === "true";
+          if (!!r.shouldRightsNotation !== should) return false;
+        }
+        return true;
+      });
+
+      // 並び替え
+      const keyMap = {
+        name: r => r.displayName || "",
+        license: r => r.license || "",
+        author: r => r.authors || "",
+      };
+      const [key, dir] = sort.split("_");
+      rows.sort((a,b) => {
+        const A = normalize(keyMap[key](a));
+        const B = normalize(keyMap[key](b));
+        const cmp = A.localeCompare(B, undefined, {sensitivity:"base"});
+        return dir === "asc" ? cmp : -cmp;
+      });
+
+      render(rows);
+    }
+
+    function render(rows) {
+      els.tbody.innerHTML = "";
+      els.count.textContent = `表示 ${rows.length} 件 / 全体 ${ALL.length} 件`;
+
+      const frag = document.createDocumentFragment();
+
+      for (const m of rows) {
+        const tr = document.createElement("tr");
+
+        const tdName = document.createElement("td");
+        tdName.textContent = m.displayName || "";
+        tdName.style.fontWeight = "700";
+
+        const tdAuthor = document.createElement("td");
+        tdAuthor.textContent = (m.authors && m.authors !== "<author>") ? m.authors : "";
+        tdAuthor.className = "small";
+
+        const tdLic = document.createElement("td");
+        tdLic.textContent = m.license || "Unspecified";
+        tdLic.className = "small";
+
+        const tdRights = document.createElement("td");
+        tdRights.innerHTML = m.shouldRightsNotation
+          ? `<span class="badge badge-warn">必要</span>`
+          : `<span class="badge badge-ok">不要</span>`;
+        tdRights.className = "small";
+
+        const tdSecondary = document.createElement("td");
+        tdSecondary.innerHTML = m.canSecondaryDistribution
+          ? `<span class="badge badge-ok">許可</span>`
+          : `<span class="badge badge-ng">不可</span>`;
+        tdSecondary.className = "small";
+
+        const tdURL = document.createElement("td");
+        if (m.url) {
+          const a = document.createElement("a");
+          a.href = m.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+          a.textContent = m.url;
+          a.className = "break";
+          tdURL.appendChild(a);
+        } else {
+          tdURL.textContent = "";
+        }
+
+        tr.append(tdName, tdAuthor, tdLic, tdRights, tdSecondary);
+        frag.appendChild(tr);
+      }
+
+      els.tbody.appendChild(frag);
+    }
+
+    function wireEvents() {
+      const onChange = debounce(applyFilters, 120);
+      els.q.addEventListener("input", onChange);
+      els.license.addEventListener("change", onChange);
+      els.secondary.addEventListener("change", onChange);
+      els.rights.addEventListener("change", onChange);
+      els.sort.addEventListener("change", onChange);
+
+      els.reset.addEventListener("click", () => {
+        els.q.value = "";
+        els.license.value = "";
+        els.secondary.value = "";
+        els.rights.value = "";
+        els.sort.value = "name_asc";
+        applyFilters();
+      });
+    }
+
+    window.addEventListener("DOMContentLoaded", async () => {
+      try {
+        ALL = await getAllAddons();         // script.js の既存関数
+        populateLicenseOptions(ALL);
+        wireEvents();
+        applyFilters();                   // 初回描画
+      } catch (e) {
+        console.error(e);
+        els.tbody.innerHTML = `<tr><td colspan="8">読み込みエラー</td></tr>`;
+      }
+    });
+  </script>
+</body>
+</html>

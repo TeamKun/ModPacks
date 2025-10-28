@@ -395,5 +395,10 @@
     "name": "MIT License https://github.com/McJtyMods/FXControl/blob/1.16/LICENCE",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
+  },
+  {
+    "name": "CustomLicense(Complementary Shaders - Unbound)",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
   }
 ]
