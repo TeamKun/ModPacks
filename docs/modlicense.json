@@ -400,6 +400,14 @@
         "ignore": false
     },
     {
+        "modid": "crafttweaker",
+        "license": "MIT",
+        "url": "",
+        "authors": "Jaredlll08, Kindlich, StanHebben and TheSilkMiner",
+        "displayName": "CraftTweaker",
+        "ignore": false
+    },
+    {
         "modid": "create",
         "license": "MIT",
         "url": "",
@@ -501,6 +509,14 @@
         "url": "",
         "authors": "C4",
         "displayName": "Curios API",
+        "ignore": false
+    },
+    {
+        "modid": "custom_border",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "",
+        "displayName": "Custom World Border",
         "ignore": false
     },
     {
@@ -832,6 +848,14 @@
         "ignore": false
     },
     {
+        "modid": "incontrol",
+        "license": "MIT License https://github.com/McJtyMods/FXControl/blob/1.16/LICENCE",
+        "url": "",
+        "authors": "McJty",
+        "displayName": "InControl",
+        "ignore": false
+    },
+    {
         "modid": "inescapableworld",
         "license": "All Rights Reserved",
         "url": "",
@@ -1021,6 +1045,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "midnight_madness",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "kotishe666",
+        "displayName": "Midnight Madness",
         "ignore": false
     },
     {

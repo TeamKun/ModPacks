@@ -390,5 +390,10 @@
     "name": "LGPL-v3",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
+  },
+  {
+    "name": "MIT License https://github.com/McJtyMods/FXControl/blob/1.16/LICENCE",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
   }
 ]
