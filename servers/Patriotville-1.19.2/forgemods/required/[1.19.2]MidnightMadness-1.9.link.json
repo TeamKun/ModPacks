@@ -1,0 +1,16 @@
+{
+  "id": "net.mcreator.midnightmadness:midnight_madness:1.9@jar",
+  "name": "Midnight Madness",
+  "author": "kotishe666",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 9989334,
+    "MD5": "5af7ededc597e94d19dfd587db69f584",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/midnight-madness/download/6216947",
+      "name": "[1.19.2]MidnightMadness-1.9.jar"
+    }
+  }
+}
