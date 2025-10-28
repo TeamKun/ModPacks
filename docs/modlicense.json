@@ -517,7 +517,7 @@
         "url": "",
         "authors": "",
         "displayName": "Custom World Border",
-        "ignore": false
+        "ignore": true
     },
     {
         "modid": "customgui",

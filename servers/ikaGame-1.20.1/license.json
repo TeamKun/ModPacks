@@ -3,7 +3,7 @@
         "modid": "emotecraft",
         "license": "CC-BY-4.0 License",
         "shouldRightsNotation": true,
-        "canSecondaryDistribution": false,
+        "canSecondaryDistribution": true,
         "url": "https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge",
         "credit": "Emotecraft by KosmX (https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge) Licensed under CC-BY-4.0 License"
     },

@@ -363,7 +363,12 @@
   },
   {
     "name": "CC-BY-4.0 License",
-    "canSecondaryDistribution": false,
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "CC-BY-4.0",
+    "canSecondaryDistribution": true,
     "shouldRightsNotation": true
   },
   {
@@ -395,5 +400,10 @@
     "name": "MIT License https://github.com/McJtyMods/FXControl/blob/1.16/LICENCE",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
+  },
+  {
+    "name": "CustomLicense(Complementary Shaders - Unbound)",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
   }
 ]

@@ -363,7 +363,12 @@
   },
   {
     "name": "CC-BY-4.0 License",
-    "canSecondaryDistribution": false,
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "CC-BY-4.0",
+    "canSecondaryDistribution": true,
     "shouldRightsNotation": true
   },
   {
