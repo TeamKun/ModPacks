@@ -16,7 +16,7 @@
     --zebra:#fafafa;
   }
   *{box-sizing:border-box}
-  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5;margin:16px;}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5;margin:0pc;padding: 0;}
   h1{font-size:1.4rem;margin:0 0 .5rem;}
   .subtitle{font-size:.9rem;opacity:.8;margin-left:.25rem;}
 
@@ -55,6 +55,12 @@
   .nowrap{white-space:nowrap;}
   .break{word-break:break-all;}
   .small{font-size:.9rem;opacity:.9;}
+  /* ===== 行ホバー効果 ===== */
+  tbody tr:hover {
+    background-color: #cdd2d8; /* 薄いグレー（目立ちすぎない） */
+    transition: background-color 0.05s ease-in-out;
+  }
+
 
   /* さらに狭い幅では最小幅を200pxまで妥協 */
   @media (max-width: 420px){
@@ -87,14 +93,69 @@
   border-color:#fca5a5;        /* 赤系枠 */
 }
 
+/* ===== コンパクト固定ヘッダー ===== */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #111827; /* ダークグレーで落ち着いた印象 */
+  color: #fff;
+  padding: 0.9rem 1rem; /* 上下を詰める */
+  margin: 0;               /* 左右・上下マージンを完全排除 */
+  border-bottom: 1px solid rgba(255,255,255,0.08); /* 軽い仕切り線 */
+}
+
+/* ロゴとナビゲーション */
+
+
+header nav {
+  display: flex;
+  gap: 0.6rem; /* ナビの間隔も少し詰める */
+}
+
+header a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem; /* 上下の余白を詰める */
+  border-radius: 4px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+header a:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+header a.active {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  font-weight: 700;
+}
+
+.content {
+  padding:2rem;
+}
+
 </style>
 
 </head>
 <body>
+<header>
+  <nav>
+    <a href="./modlist.html" class="active">MOD</a>
+    <a href="./addonlist.html">Addon</a>
+  </nav>
+</header>
+<div class="content">
   <h1>
     MODライセンス一覧
     <span class="subtitle">by KUNLab</span>
-    <span class="subtitle">（動画未使用のMOD含む）</span>
+    <span class="subtitle">（動画未使用含む）</span>
   </h1>
 
   <!-- フィルタUI（日本語化） -->
@@ -329,5 +390,6 @@
       }
     });
   </script>
+  </div>
 </body>
 </html>
