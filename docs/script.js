@@ -25,9 +25,10 @@ async function getCreditRequiredMods(opts = {}) {
   const { scriptsBase = "./", creditUnknown = true } = opts;
 
   // 取得
-  const [licenseTable, modLicense] = await Promise.all([
+  const [licenseTable, modLicense, addonLicense] = await Promise.all([
     loadJSON(`${scriptsBase}/license.json`),
     loadJSON(`${scriptsBase}/modlicense.json`),
+    loadJSON(`${scriptsBase}/addonlicense.json`), // addonlicense.jsonの追加読み込み
   ]);
 
   // ライセンス属性（小文字キー）
@@ -36,44 +37,55 @@ async function getCreditRequiredMods(opts = {}) {
   );
 
   // 判定 & 整形
-  const rows = (modLicense || []).map((m) => {
-    const lic = String(m.license || "").trim();
-    const attr = lmap.get(lic.toLowerCase());
+  const processLicense = (licenseArray, source) => {
+    return (licenseArray || []).map((m) => {
+      const lic = String(m.license || "").trim();
+      const attr = lmap.get(lic.toLowerCase());
 
-    const shouldRightsNotation =
-      attr?.shouldRightsNotation === true || (!attr && creditUnknown);
+      const shouldRightsNotation =
+        attr?.shouldRightsNotation === true || (!attr && creditUnknown);
 
-    const canSecondaryDistribution = attr?.canSecondaryDistribution ?? false;
+      const canSecondaryDistribution = attr?.canSecondaryDistribution ?? false;
 
-    const displayName = m.displayName?.trim() || m.modid;
-    const authors = m.authors?.trim() || "<author>";
-    const url = (m.url || "").trim();
+      const displayName = m.displayName?.trim() || m.modid;
+      const authors = m.authors?.trim() || "<author>";
+      const url = (m.url || "").trim();
 
-    const reason = attr ? "listed_in_license_json" : "unknown_license";
+      const reason = attr ? "listed_in_license_json" : "unknown_license";
 
-    const creditLine = shouldRightsNotation
-      ? `${displayName} by ${authors} (${url || "<URL>"}) Licensed under ${
-          lic || "Unspecified"
-        }`
-      : "";
+      const creditLine = shouldRightsNotation
+        ? `${displayName} by ${authors} (${url || "<URL>"}) Licensed under ${
+            lic || "Unspecified"
+          }`
+        : "";
 
-    return {
-      modid: m.modid,
-      displayName,
-      authors,
-      license: lic || "Unspecified",
-      url,
-      shouldRightsNotation,
-      canSecondaryDistribution,
-      reason,
-      creditLine,
-    };
-  });
+      return {
+        modid: m.modid,
+        displayName,
+        authors,
+        license: lic || "Unspecified",
+        url,
+        shouldRightsNotation,
+        canSecondaryDistribution,
+        reason,
+        creditLine,
+        source, // sourceを追加して、どのライセンスファイルから来たのかを追跡できるようにする
+      };
+    });
+  };
 
-  return rows
+  // modLicense と addonLicense を個別に処理し、マージする
+  const modRows = processLicense(modLicense, "modlicense.json");
+  const addonRows = processLicense(addonLicense, "addonlicense.json");
+
+  // 2つの配列をマージして返す
+  const rows = [...modRows, ...addonRows]
     .filter((r) => r.shouldRightsNotation)
     .sort((a, b) => a.displayName.localeCompare(b.displayName));
+
+  return rows;
 }
+
 
 async function getAllMods(opts = {}) {
   return await getLicenses("/modlicense.json");
