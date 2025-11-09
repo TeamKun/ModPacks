@@ -1584,6 +1584,22 @@
         "ignore": false
     },
     {
+        "modid": "trajanscore",
+        "license": "MIT",
+        "url": "",
+        "authors": "Trajan, Furiousky, Royalty, LucasPelukas",
+        "displayName": "Trajan",
+        "ignore": false
+    },
+    {
+        "modid": "trajanstanks",
+        "license": "MIT",
+        "url": "",
+        "authors": "Crescentine",
+        "displayName": "Trajan",
+        "ignore": false
+    },
+    {
         "modid": "traveloptics",
         "license": "All rights reserved",
         "url": "",
