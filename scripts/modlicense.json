@@ -1000,6 +1000,22 @@
         "ignore": false
     },
     {
+        "modid": "luckytntlib",
+        "license": "All rights reserved",
+        "url": "",
+        "authors": "SlimingHD, Fleshcrafter",
+        "displayName": "Lucky TNT Lib",
+        "ignore": false
+    },
+    {
+        "modid": "luckytntmod",
+        "license": "All rights reserved",
+        "url": "",
+        "authors": "",
+        "displayName": "Lucky TNT Mod",
+        "ignore": false
+    },
+    {
         "modid": "macabre",
         "license": "All Rights Reserved",
         "url": "",
@@ -1013,6 +1029,14 @@
         "url": "",
         "authors": "<author>",
         "displayName": "Epic Knights Mod",
+        "ignore": false
+    },
+    {
+        "modid": "mahoutsukai",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "stepsword",
+        "displayName": "Mahou Tsukai",
         "ignore": false
     },
     {
