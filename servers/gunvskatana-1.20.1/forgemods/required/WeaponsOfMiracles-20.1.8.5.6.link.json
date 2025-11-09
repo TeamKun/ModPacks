@@ -1,0 +1,16 @@
+{
+  "id": "reascer.wom.main:wom:20.1.8.5.6@jar",
+  "name": "Weapons of miracle",
+  "author": "Reascer",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 14050970,
+    "MD5": "ca2263d0e56281e1c82d28ecab522b35",
+    "url": "",
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/weapons-of-miracles-epicfight/download/5889471",
+      "name": "WeaponsOfMiracles-20.1.8.5.6.jar"
+    }
+  }
+}

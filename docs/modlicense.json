@@ -1776,6 +1776,14 @@
         "ignore": false
     },
     {
+        "modid": "wom",
+        "license": "GNU GENERAL PUBLIC LICENSE",
+        "url": "",
+        "authors": "Reascer",
+        "displayName": "Weapons of miracle",
+        "ignore": false
+    },
+    {
         "modid": "wwi",
         "license": "ARR",
         "url": "",
