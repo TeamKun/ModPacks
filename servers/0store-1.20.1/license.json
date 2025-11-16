@@ -1,5 +1,13 @@
 [
     {
+        "modid": "clanginghowl",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "trajanstanks",
         "license": "MIT",
         "shouldRightsNotation": false,

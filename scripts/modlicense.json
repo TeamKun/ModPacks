@@ -304,6 +304,14 @@
         "ignore": false
     },
     {
+        "modid": "clanginghowl",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "Mongoose_artist, Polarice3",
+        "displayName": "Clanging Howl",
+        "ignore": false
+    },
+    {
         "modid": "clockworkadditions",
         "license": "All Rights Reserved",
         "url": "",
