@@ -1,0 +1,15 @@
+{
+  "id": "net.mcreator:mutantsbuf:1.0.0@jar",
+  "name": "mutantsbuff",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 4354596,
+    "MD5": "7345b26289915d5acfe9c57da73d16c8",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mutants-buff/download/7105873",
+      "name": "Mutants Buff 1.5.10 - 1.20.1.jar"
+    }
+  }
+}

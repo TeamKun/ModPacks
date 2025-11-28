@@ -1,0 +1,15 @@
+{
+  "id": "net.miauczel:legendary_monsters:1.20.1@jar",
+  "name": "LegendaryMonsters",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 17573018,
+    "MD5": "69ceb230ca06a906bf8cfa202e10977a",
+    "url": "",
+    "license": "Custom License",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/legendary-monsters/download/6776766",
+      "name": "legendarymonsters-1.9.8 MC 1.20.1.jar"
+    }
+  }
+}

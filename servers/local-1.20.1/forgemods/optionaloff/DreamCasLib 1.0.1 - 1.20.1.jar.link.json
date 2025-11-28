@@ -1,0 +1,15 @@
+{
+  "id": "net.mcreator:dreamcaslib:1.0.0@jar",
+  "name": "DreamCasLib",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 38721,
+    "MD5": "dd75ef35e263d897ca2341e9cb769e1a",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/dreamcaslib/download/6869654",
+      "name": "DreamCasLib 1.0.1 - 1.20.1.jar"
+    }
+  }
+}

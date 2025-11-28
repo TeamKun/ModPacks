@@ -1,0 +1,15 @@
+{
+  "id": "io.github.flemmli97:mobbattle:1.20.1-2.5.3@jar",
+  "name": "Mob Battle Mod",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 519518,
+    "MD5": "3317fce4e21261f983bfd523cdcd5672",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mob-battle-mod/download/6596542",
+      "name": "mobbattle-1.20.1-2.5.3-forge.jar"
+    }
+  }
+}
