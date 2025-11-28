@@ -1,0 +1,15 @@
+{
+  "id": "crazynessawakened:craziness_awakened:6.0@jar",
+  "name": "Craziness Awakened",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 12972675,
+    "MD5": "4bfea7d2bf664ac31a8b741d5a1ee422",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/craziness-awakened/download/6967732",
+      "name": "craziness_awakened-6.0.jar"
+    }
+  }
+}
