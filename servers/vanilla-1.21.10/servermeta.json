@@ -1,0 +1,20 @@
+{
+	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
+	"meta": {
+		"version": "1.0.0",
+		"name": "%0%バニラ1.21.10 (Minecraft 1.21.10)",
+		"description": "1.21.10",
+		"address": "",
+		"discord": {
+			"shortId": "Minecraft",
+			"largeImageText": "Minecrafst",
+			"largeImageKey": "pack_numa"
+		},
+		"mainServer": false,
+		"autoconnect": false
+	},
+	"forge": {
+		"version": "60.1.0"
+	},
+	"untrackedFiles": []
+}
