@@ -27,8 +27,8 @@
         "modid": "alexscaves",
         "license": "GNU LESSER GENERAL PUBLIC LICENSE",
         "url": "",
-        "authors": "",
-        "displayName": "",
+        "authors": "Alexthe668, Noonyeyz",
+        "displayName": "Alex",
         "ignore": false
     },
     {
@@ -416,6 +416,14 @@
         "ignore": false
     },
     {
+        "modid": "craziness_awakened",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "<author>",
+        "displayName": "Craziness Awakened",
+        "ignore": false
+    },
+    {
         "modid": "create",
         "license": "MIT",
         "url": "",
@@ -584,11 +592,27 @@
         "ignore": false
     },
     {
+        "modid": "dreamcaslib",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "<author>",
+        "displayName": "DreamCasLib",
+        "ignore": false
+    },
+    {
         "modid": "dynamiclights",
         "license": "AtomicStrykers License http://atomicstryker.net/about.php",
         "url": "https://www.curseforge.com/minecraft/mc-mods/dynamic-lights",
         "authors": "AtomicStryker",
         "displayName": "Dynamic Lights",
+        "ignore": false
+    },
+    {
+        "modid": "eeeabsmobs",
+        "license": "LGPL-3.0",
+        "url": "",
+        "authors": "EEEAB",
+        "displayName": "EEEAB",
         "ignore": false
     },
     {
@@ -968,6 +992,14 @@
         "ignore": false
     },
     {
+        "modid": "legendary_monsters",
+        "license": "Custom License",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/legendary-monsters",
+        "authors": "<author>",
+        "displayName": "LegendaryMonsters",
+        "ignore": false
+    },
+    {
         "modid": "lexiconfig",
         "license": "GNU GPLv3",
         "url": "",
@@ -1104,6 +1136,14 @@
         "ignore": false
     },
     {
+        "modid": "mobbattle",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "<author>",
+        "displayName": "Mob Battle Mod",
+        "ignore": false
+    },
+    {
         "modid": "modchecker",
         "license": "All Rights Reserved",
         "url": "",
@@ -1157,6 +1197,22 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "mutantmonsters",
+        "license": "AGPL-3.0-or-later",
+        "url": "",
+        "authors": "shcott21, Chumbanotz, Fuzs, tdstress",
+        "displayName": "Mutant Monsters",
+        "ignore": false
+    },
+    {
+        "modid": "mutantsbuf",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "<author>",
+        "displayName": "mutantsbuff",
         "ignore": false
     },
     {
@@ -1280,6 +1336,14 @@
         "ignore": false
     },
     {
+        "modid": "playerstaminamod",
+        "license": "MIT",
+        "url": "",
+        "authors": "",
+        "displayName": "PlayerStaminaMod",
+        "ignore": false
+    },
+    {
         "modid": "pomkotsmechs",
         "license": "ARR",
         "url": "",
@@ -1325,6 +1389,14 @@
         "url": "",
         "authors": "AlcatrazEscapee",
         "displayName": "Primal Winter",
+        "ignore": false
+    },
+    {
+        "modid": "puzzleslib",
+        "license": "MPL-2.0",
+        "url": "",
+        "authors": "Fuzs",
+        "displayName": "Puzzles Lib",
         "ignore": false
     },
     {
@@ -1381,6 +1453,14 @@
         "url": "",
         "authors": "<author>",
         "displayName": "Rojiura Mod",
+        "ignore": false
+    },
+    {
+        "modid": "rpghud",
+        "license": "GNU GPLv3",
+        "url": "",
+        "authors": "Raelzaryn",
+        "displayName": "RPG-HUD",
         "ignore": false
     },
     {
@@ -1552,6 +1632,14 @@
         "ignore": false
     },
     {
+        "modid": "taczadditions",
+        "license": "MIT",
+        "url": "",
+        "authors": "Raiiiden",
+        "displayName": "TaCZ: Additions",
+        "ignore": false
+    },
+    {
         "modid": "takkit",
         "license": "MIT",
         "url": "",
@@ -1605,6 +1693,14 @@
         "url": "",
         "authors": "User, MCreator",
         "displayName": "The Sculpture",
+        "ignore": false
+    },
+    {
+        "modid": "themutantmobsmod",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "<author>",
+        "displayName": "TheMutantMobsMod",
         "ignore": false
     },
     {

@@ -1,9 +1,17 @@
 [
     {
-        "modid": "clanginghowl",
-        "license": "All Rights Reserved",
+        "modid": "playerstaminamod",
+        "license": "MIT",
         "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "taczadditions",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
         "url": "",
         "credit": ""
     },
@@ -18,6 +26,14 @@
     {
         "modid": "trajanscore",
         "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "rpghud",
+        "license": "GNU GPLv3",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",

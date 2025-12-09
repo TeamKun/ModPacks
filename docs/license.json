@@ -406,4 +406,10 @@
     "canSecondaryDistribution": false,
     "shouldRightsNotation": true
   }
+  ,
+  {
+    "name": "AGPL-3.0-or-later",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  }
 ]
