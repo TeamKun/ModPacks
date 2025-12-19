@@ -675,7 +675,7 @@
         "modid": "entityculling",
         "license": "tr7zw Protective License",
         "url": "",
-        "authors": "<author>",
+        "authors": "tr7zw",
         "displayName": "EntityCulling",
         "ignore": false
     },
@@ -1893,6 +1893,22 @@
         "url": "",
         "authors": "andre_znyxo51, MCreator",
         "displayName": "wwi",
+        "ignore": false
+    },
+    {
+        "modid": "xaerominimap",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "xaero96",
+        "displayName": "Xaero",
+        "ignore": false
+    },
+    {
+        "modid": "xaeroworldmap",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "xaero96",
+        "displayName": "Xaero",
         "ignore": false
     },
     {
