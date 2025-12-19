@@ -1576,6 +1576,14 @@
         "ignore": false
     },
     {
+        "modid": "splatcraft",
+        "license": "https://github.com/splatcraft/splatcraft-forge/blob/HEAD/LICENSE",
+        "url": "",
+        "authors": "Cibernet, Octol1ttle",
+        "displayName": "Splatcraft",
+        "ignore": false
+    },
+    {
         "modid": "subnautica_flow",
         "license": "Academic Free License v3.0",
         "url": "",
