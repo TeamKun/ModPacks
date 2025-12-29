@@ -48,22 +48,6 @@
         "credit": ""
     },
     {
-        "modid": "chat_heads",
-        "license": "MPL-2.0",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "cloth_config",
-        "license": "GNU LGPLv3",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "cocoainput",
         "license": "Minecraft Mod Public License Japanese Transration",
         "shouldRightsNotation": false,
@@ -74,6 +58,54 @@
     {
         "modid": "culllessleaves",
         "license": "GNU LGPL 3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "lexiconfig",
+        "license": "GNU GPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "localizedchat",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "simpleradio",
+        "license": "GNU GPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "yet_another_config_lib_v3",
+        "license": "LGPL-3.0-or-later",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "chat_heads",
+        "license": "MPL-2.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cloth_config",
+        "license": "GNU LGPLv3",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
@@ -120,22 +152,6 @@
         "credit": ""
     },
     {
-        "modid": "lexiconfig",
-        "license": "GNU GPLv3",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "localizedchat",
-        "license": "MIT",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "oculus",
         "license": "LGPL-3.0-only",
         "shouldRightsNotation": false,
@@ -176,14 +192,6 @@
         "credit": ""
     },
     {
-        "modid": "simpleradio",
-        "license": "GNU GPLv3",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "takkit",
         "license": "MIT",
         "shouldRightsNotation": false,
@@ -196,14 +204,6 @@
         "license": "All Rights Reserved",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "yet_another_config_lib_v3",
-        "license": "LGPL-3.0-or-later",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
         "url": "",
         "credit": ""
     }

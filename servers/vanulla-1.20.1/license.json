@@ -16,16 +16,16 @@
         "credit": ""
     },
     {
-        "modid": "chat_heads",
-        "license": "MPL-2.0",
+        "modid": "cocoainput",
+        "license": "Minecraft Mod Public License Japanese Transration",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
         "credit": ""
     },
     {
-        "modid": "cocoainput",
-        "license": "Minecraft Mod Public License Japanese Transration",
+        "modid": "chat_heads",
+        "license": "MPL-2.0",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
