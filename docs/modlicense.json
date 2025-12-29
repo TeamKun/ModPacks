@@ -232,6 +232,14 @@
         "ignore": false
     },
     {
+        "modid": "carryon",
+        "license": "GNU LGPLv3",
+        "url": "",
+        "authors": "Tschipp, Purplicious_Cow, cy4n",
+        "displayName": "Carry On",
+        "ignore": false
+    },
+    {
         "modid": "casinocraft",
         "license": "All Rights Reserved",
         "url": "",
