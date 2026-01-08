@@ -1,85 +1,5 @@
 [
     {
-        "modid": "cuffed",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "dragnvehicles",
-        "license": "All Rights Reserved, DragN0007",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "dreamcaslib",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "fog",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "cataclysm",
-        "license": "All rights reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "lazrslib",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "mru",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "mutantsbuf",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "themutantmobsmod",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "magistuarmory",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "advancedcompass",
         "license": "All rights reserved",
         "shouldRightsNotation": false,
@@ -136,8 +56,40 @@
         "credit": ""
     },
     {
+        "modid": "cuffed",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "damageindicator",
         "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "dragnvehicles",
+        "license": "All Rights Reserved, DragN0007",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "dreamcaslib",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "fog",
+        "license": "All Rights Reserved",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": false,
         "url": "",
@@ -160,6 +112,14 @@
         "credit": ""
     },
     {
+        "modid": "lazrslib",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "legendary_monsters",
         "license": "Custom License",
         "shouldRightsNotation": true,
@@ -169,6 +129,14 @@
     },
     {
         "modid": "lionfishapi",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cataclysm",
         "license": "All rights reserved",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": false,
@@ -192,6 +160,22 @@
         "credit": "Mowzie's Mobs by BobMowzie, Wadoo, Vakypanda, Noonyez, pau101 (https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs) Licensed under custom"
     },
     {
+        "modid": "mru",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "mutantsbuf",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "physicsmod",
         "license": "All rights reserved",
         "shouldRightsNotation": false,
@@ -206,6 +190,14 @@
         "canSecondaryDistribution": false,
         "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
         "credit": "Timeless & Classics Guns: Zero by Serene Wave Studio | Timeless Squad (https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) Licensed under GPL3 / CC BY-NC-ND 4.0"
+    },
+    {
+        "modid": "themutantmobsmod",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
     },
     {
         "modid": "watut",
@@ -224,55 +216,7 @@
         "credit": ""
     },
     {
-        "modid": "voicechat",
-        "license": "All rights reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "creativecore",
-        "license": "LGPL-3.0-only",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "customnpcs",
-        "license": "CC BY-NC",
-        "shouldRightsNotation": true,
-        "canSecondaryDistribution": true,
-        "url": "https://www.curseforge.com/minecraft/mc-mods/custom-npcs",
-        "credit": "Custom NPCs by Noppes (https://www.curseforge.com/minecraft/mc-mods/custom-npcs) Licensed under CC BY-NC"
-    },
-    {
-        "modid": "enhancedvisuals",
-        "license": "LGPL-3.0-only",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "farmersdelight",
-        "license": "MIT License",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "wildfire_gender",
-        "license": "LGPLv3",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "inescapableworld",
+        "modid": "magistuarmory",
         "license": "All Rights Reserved",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": false,
@@ -280,74 +224,10 @@
         "credit": ""
     },
     {
-        "modid": "kiwi",
-        "license": "MIT",
+        "modid": "voicechat",
+        "license": "All rights reserved",
         "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "lexiconfig",
-        "license": "GNU GPLv3",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "mutantmonsters",
-        "license": "AGPL-3.0-or-later",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "parcool",
-        "license": "GNU GENERAL PUBLIC LICENSE Version 3",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "passablefoliage",
-        "license": "MIT",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "pehkui",
-        "license": "MIT",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "puzzleslib",
-        "license": "MPL-2.0",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "simpleradio",
-        "license": "GNU GPLv3",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "railways",
-        "license": "MIT",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
+        "canSecondaryDistribution": false,
         "url": "",
         "credit": ""
     },
@@ -408,12 +288,28 @@
         "credit": ""
     },
     {
+        "modid": "creativecore",
+        "license": "LGPL-3.0-only",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "curios",
         "license": "LGPL-3.0-or-later",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
         "credit": ""
+    },
+    {
+        "modid": "customnpcs",
+        "license": "CC BY-NC",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": true,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/custom-npcs",
+        "credit": "Custom NPCs by Noppes (https://www.curseforge.com/minecraft/mc-mods/custom-npcs) Licensed under CC BY-NC"
     },
     {
         "modid": "dynamiclights",
@@ -432,6 +328,14 @@
         "credit": ""
     },
     {
+        "modid": "enhancedvisuals",
+        "license": "LGPL-3.0-only",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "epicfight",
         "license": "GNU GENERAL PUBLIC LICENSE",
         "shouldRightsNotation": false,
@@ -442,6 +346,22 @@
     {
         "modid": "epicsamurai",
         "license": "GNU Lesser General Public License v3.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "farmersdelight",
+        "license": "MIT License",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "wildfire_gender",
+        "license": "LGPLv3",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
@@ -504,6 +424,14 @@
         "credit": ""
     },
     {
+        "modid": "inescapableworld",
+        "license": "All Rights Reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "jei",
         "license": "The MIT License (MIT)",
         "shouldRightsNotation": false,
@@ -512,8 +440,24 @@
         "credit": ""
     },
     {
+        "modid": "kiwi",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "leawind_third_person",
         "license": "The MIT License (MIT)",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "lexiconfig",
+        "license": "GNU GPLv3",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
@@ -544,8 +488,48 @@
         "credit": ""
     },
     {
+        "modid": "mutantmonsters",
+        "license": "AGPL-3.0-or-later",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "parcool",
+        "license": "GNU GENERAL PUBLIC LICENSE Version 3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "passablefoliage",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "pehkui",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "playeranimator",
         "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "puzzleslib",
+        "license": "MPL-2.0",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
@@ -568,6 +552,14 @@
         "credit": ""
     },
     {
+        "modid": "simpleradio",
+        "license": "GNU GPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "skin_changer",
         "license": "MIT",
         "shouldRightsNotation": false,
@@ -578,6 +570,14 @@
     {
         "modid": "sound_physics_remastered",
         "license": "GPL",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "railways",
+        "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
@@ -616,6 +616,14 @@
         "credit": ""
     },
     {
+        "modid": "chat_heads",
+        "license": "MPL-2.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "cocoainput",
         "license": "Minecraft Mod Public License Japanese Transration",
         "shouldRightsNotation": false,
@@ -624,16 +632,16 @@
         "credit": ""
     },
     {
-        "modid": "localizedchat",
-        "license": "MIT",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
+        "modid": "figura",
+        "license": "Polyform-Noncommercial-1.0.0",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
         "url": "",
-        "credit": ""
+        "credit": "Figura by skyrina, lumelia, UnlikePaladin, omoflop (<URL>) Licensed under Polyform-Noncommercial-1.0.0"
     },
     {
-        "modid": "chat_heads",
-        "license": "MPL-2.0",
+        "modid": "localizedchat",
+        "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",

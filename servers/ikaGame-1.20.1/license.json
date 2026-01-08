@@ -1,13 +1,5 @@
 [
     {
-        "modid": "videoplayer",
-        "license": "All rights reserved",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "emotecraft",
         "license": "CC-BY-4.0 License",
         "shouldRightsNotation": true,
@@ -40,6 +32,14 @@
         "credit": "Timeless & Classics Guns: Zero by Serene Wave Studio | Timeless Squad (https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) Licensed under GPL3 / CC BY-NC-ND 4.0"
     },
     {
+        "modid": "videoplayer",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "watermedia",
         "license": "All-Rights-Reserved",
         "shouldRightsNotation": false,
@@ -56,22 +56,6 @@
         "credit": ""
     },
     {
-        "modid": "cocoainput",
-        "license": "Minecraft Mod Public License Japanese Transration",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "fadeinoutmod",
-        "license": "MIT",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "chat_heads",
         "license": "MPL-2.0",
         "shouldRightsNotation": false,
@@ -80,7 +64,23 @@
         "credit": ""
     },
     {
+        "modid": "cocoainput",
+        "license": "Minecraft Mod Public License Japanese Transration",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "create",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "fadeinoutmod",
         "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,

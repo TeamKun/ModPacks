@@ -683,7 +683,7 @@
         "modid": "entityculling",
         "license": "tr7zw Protective License",
         "url": "",
-        "authors": "tr7zw",
+        "authors": "<author>",
         "displayName": "EntityCulling",
         "ignore": false
     },
@@ -752,6 +752,14 @@
         "ignore": false
     },
     {
+        "modid": "figura",
+        "license": "Polyform-Noncommercial-1.0.0",
+        "url": "",
+        "authors": "skyrina, lumelia, UnlikePaladin, omoflop",
+        "displayName": "Figura",
+        "ignore": false
+    },
+    {
         "modid": "fog",
         "license": "All Rights Reserved",
         "url": "",
@@ -813,6 +821,14 @@
         "url": "",
         "authors": "kouta, MCreator",
         "displayName": "GOD_koutaMOD",
+        "ignore": false
+    },
+    {
+        "modid": "gonebutnotforgotten",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "Minemats44",
+        "displayName": "GONEBUTNOTFORGOTTEN.jar",
         "ignore": false
     },
     {

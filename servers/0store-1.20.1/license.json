@@ -1,21 +1,5 @@
 [
     {
-        "modid": "rpghud",
-        "license": "GNU GPLv3",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "carryon",
-        "license": "GNU LGPLv3",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "playerstaminamod",
         "license": "MIT",
         "shouldRightsNotation": false,
@@ -42,6 +26,14 @@
     {
         "modid": "trajanscore",
         "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "rpghud",
+        "license": "GNU GPLv3",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",

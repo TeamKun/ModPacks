@@ -56,6 +56,22 @@
         "credit": ""
     },
     {
+        "modid": "architectury",
+        "license": "GNU LGPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cloth_config",
+        "license": "GNU LGPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "cucumber",
         "license": "MIT",
         "shouldRightsNotation": false,
@@ -66,6 +82,14 @@
     {
         "modid": "wildfire_gender",
         "license": "LGPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "identity",
+        "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
@@ -102,30 +126,6 @@
         "canSecondaryDistribution": false,
         "url": "",
         "credit": "ParCool! by alRex_U (<URL>) Licensed under GNU LESSER GENERAL PUBLIC LICENSE Version 3"
-    },
-    {
-        "modid": "architectury",
-        "license": "GNU LGPLv3",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "cloth_config",
-        "license": "GNU LGPLv3",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "identity",
-        "license": "MIT",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
     },
     {
         "modid": "playeranimator",

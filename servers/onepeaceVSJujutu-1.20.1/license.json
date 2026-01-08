@@ -16,8 +16,24 @@
         "credit": ""
     },
     {
+        "modid": "chat_heads",
+        "license": "MPL-2.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "cocoainput",
         "license": "Minecraft Mod Public License Japanese Transration",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "geckolib",
+        "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
@@ -41,22 +57,6 @@
     },
     {
         "modid": "pehkui",
-        "license": "MIT",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "chat_heads",
-        "license": "MPL-2.0",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "geckolib",
         "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,

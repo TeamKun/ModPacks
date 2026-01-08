@@ -1,7 +1,7 @@
 [
     {
-        "modid": "camera",
-        "license": "All rights reserved",
+        "modid": "gonebutnotforgotten",
+        "license": "All Rights Reserved",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": false,
         "url": "",
@@ -30,6 +30,14 @@
         "canSecondaryDistribution": true,
         "url": "",
         "credit": ""
+    },
+    {
+        "modid": "figura",
+        "license": "Polyform-Noncommercial-1.0.0",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": "Figura by skyrina, lumelia, UnlikePaladin, omoflop (<URL>) Licensed under Polyform-Noncommercial-1.0.0"
     },
     {
         "modid": "localizedchat",

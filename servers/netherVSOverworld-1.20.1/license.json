@@ -8,22 +8,6 @@
         "credit": ""
     },
     {
-        "modid": "cocoainput",
-        "license": "Minecraft Mod Public License Japanese Transration",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
-        "modid": "localizedchat",
-        "license": "MIT",
-        "shouldRightsNotation": false,
-        "canSecondaryDistribution": true,
-        "url": "",
-        "credit": ""
-    },
-    {
         "modid": "architectury",
         "license": "GNU LGPLv3",
         "shouldRightsNotation": false,
@@ -34,6 +18,22 @@
     {
         "modid": "chat_heads",
         "license": "MPL-2.0",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "cocoainput",
+        "license": "Minecraft Mod Public License Japanese Transration",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "localizedchat",
+        "license": "MIT",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",
