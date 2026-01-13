@@ -405,11 +405,15 @@
     "name": "CustomLicense(Complementary Shaders - Unbound)",
     "canSecondaryDistribution": false,
     "shouldRightsNotation": true
-  }
-  ,
+  },
   {
     "name": "AGPL-3.0-or-later",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
+  },
+  {
+    "name": "Polyform-Noncommercial-1.0.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
   }
 ]
