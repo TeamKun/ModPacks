@@ -32,12 +32,20 @@
         "credit": ""
     },
     {
+        "modid": "cold_sweat",
+        "license": "GNU General Public License v3.1",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
         "modid": "figura",
         "license": "Polyform-Noncommercial-1.0.0",
         "shouldRightsNotation": true,
-        "canSecondaryDistribution": false,
-        "url": "",
-        "credit": "Figura by skyrina, lumelia, UnlikePaladin, omoflop (<URL>) Licensed under Polyform-Noncommercial-1.0.0"
+        "canSecondaryDistribution": true,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/figura",
+        "credit": "Figura by skyrina, lumelia, UnlikePaladin, omoflop (https://www.curseforge.com/minecraft/mc-mods/figura) Licensed under Polyform-Noncommercial-1.0.0"
     },
     {
         "modid": "localizedchat",
