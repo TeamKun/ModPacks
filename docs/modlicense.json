@@ -472,6 +472,14 @@
         "ignore": false
     },
     {
+        "modid": "createdeco",
+        "license": "Insert License Here",
+        "url": "",
+        "authors": "Kayla, Talrey",
+        "displayName": "Create Deco",
+        "ignore": false
+    },
+    {
         "modid": "createdieselgenerators",
         "license": "MIT",
         "url": "",
@@ -1867,8 +1875,8 @@
         "modid": "vvp",
         "license": "MIT",
         "url": "",
-        "authors": "Team VVP, ROIF",
-        "displayName": "VVP",
+        "authors": "Team VVP, ROIF, FL",
+        "displayName": "Vintage Vehicle Pack",
         "ignore": false
     },
     {
