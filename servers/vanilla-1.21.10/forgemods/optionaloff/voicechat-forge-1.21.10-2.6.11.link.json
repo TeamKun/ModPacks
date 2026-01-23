@@ -1,6 +1,6 @@
 {
-  "id": "de.maxhenkel:voicechat:1.21.10-2.6.0@jar",
-  "name": "Simple Voice Chat",
+  "id": "de.maxhenkel.voicechat:voicechat_api:2.6.0@jar",
+  "name": "Simple Voice Chat API",
   "author": "Max Henkel",
   "type": "ForgeMod",
   "artifact": {
