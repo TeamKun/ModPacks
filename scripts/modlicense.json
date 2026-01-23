@@ -27,8 +27,8 @@
         "modid": "alexscaves",
         "license": "GNU LESSER GENERAL PUBLIC LICENSE",
         "url": "",
-        "authors": "",
-        "displayName": "",
+        "authors": "Alexthe668, Noonyeyz",
+        "displayName": "Alex",
         "ignore": false
     },
     {
@@ -232,6 +232,14 @@
         "ignore": false
     },
     {
+        "modid": "carryon",
+        "license": "GNU LGPLv3",
+        "url": "",
+        "authors": "Tschipp, Purplicious_Cow, cy4n",
+        "displayName": "Carry On",
+        "ignore": false
+    },
+    {
         "modid": "casinocraft",
         "license": "All Rights Reserved",
         "url": "",
@@ -416,6 +424,14 @@
         "ignore": false
     },
     {
+        "modid": "craziness_awakened",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "<author>",
+        "displayName": "Craziness Awakened",
+        "ignore": false
+    },
+    {
         "modid": "create",
         "license": "MIT",
         "url": "",
@@ -453,6 +469,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/create-big-cannons",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "createdeco",
+        "license": "ARR",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-deco/files/5293982",
+        "authors": "Kayla, Talrey",
+        "displayName": "Create Deco",
         "ignore": false
     },
     {
@@ -584,11 +608,27 @@
         "ignore": false
     },
     {
+        "modid": "dreamcaslib",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "<author>",
+        "displayName": "DreamCasLib",
+        "ignore": false
+    },
+    {
         "modid": "dynamiclights",
         "license": "AtomicStrykers License http://atomicstryker.net/about.php",
         "url": "https://www.curseforge.com/minecraft/mc-mods/dynamic-lights",
         "authors": "AtomicStryker",
         "displayName": "Dynamic Lights",
+        "ignore": false
+    },
+    {
+        "modid": "eeeabsmobs",
+        "license": "LGPL-3.0",
+        "url": "",
+        "authors": "EEEAB",
+        "displayName": "EEEAB",
         "ignore": false
     },
     {
@@ -720,6 +760,14 @@
         "ignore": false
     },
     {
+        "modid": "figura",
+        "license": "Polyform-Noncommercial-1.0.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/figura",
+        "authors": "skyrina, lumelia, UnlikePaladin, omoflop",
+        "displayName": "Figura",
+        "ignore": false
+    },
+    {
         "modid": "fog",
         "license": "All Rights Reserved",
         "url": "",
@@ -781,6 +829,14 @@
         "url": "",
         "authors": "kouta, MCreator",
         "displayName": "GOD_koutaMOD",
+        "ignore": false
+    },
+    {
+        "modid": "gonebutnotforgotten",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "Minemats44",
+        "displayName": "GONEBUTNOTFORGOTTEN.jar",
         "ignore": false
     },
     {
@@ -968,6 +1024,14 @@
         "ignore": false
     },
     {
+        "modid": "legendary_monsters",
+        "license": "Custom License",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/legendary-monsters",
+        "authors": "<author>",
+        "displayName": "LegendaryMonsters",
+        "ignore": false
+    },
+    {
         "modid": "lexiconfig",
         "license": "GNU GPLv3",
         "url": "",
@@ -1104,6 +1168,14 @@
         "ignore": false
     },
     {
+        "modid": "mobbattle",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "<author>",
+        "displayName": "Mob Battle Mod",
+        "ignore": false
+    },
+    {
         "modid": "modchecker",
         "license": "All Rights Reserved",
         "url": "",
@@ -1157,6 +1229,22 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "mutantmonsters",
+        "license": "AGPL-3.0-or-later",
+        "url": "",
+        "authors": "shcott21, Chumbanotz, Fuzs, tdstress",
+        "displayName": "Mutant Monsters",
+        "ignore": false
+    },
+    {
+        "modid": "mutantsbuf",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "<author>",
+        "displayName": "mutantsbuff",
         "ignore": false
     },
     {
@@ -1280,6 +1368,14 @@
         "ignore": false
     },
     {
+        "modid": "playerstaminamod",
+        "license": "MIT",
+        "url": "",
+        "authors": "",
+        "displayName": "PlayerStaminaMod",
+        "ignore": false
+    },
+    {
         "modid": "pomkotsmechs",
         "license": "ARR",
         "url": "",
@@ -1325,6 +1421,14 @@
         "url": "",
         "authors": "AlcatrazEscapee",
         "displayName": "Primal Winter",
+        "ignore": false
+    },
+    {
+        "modid": "puzzleslib",
+        "license": "MPL-2.0",
+        "url": "",
+        "authors": "Fuzs",
+        "displayName": "Puzzles Lib",
         "ignore": false
     },
     {
@@ -1381,6 +1485,14 @@
         "url": "",
         "authors": "<author>",
         "displayName": "Rojiura Mod",
+        "ignore": false
+    },
+    {
+        "modid": "rpghud",
+        "license": "GNU GPLv3",
+        "url": "",
+        "authors": "Raelzaryn",
+        "displayName": "RPG-HUD",
         "ignore": false
     },
     {
@@ -1496,6 +1608,14 @@
         "ignore": false
     },
     {
+        "modid": "splatcraft",
+        "license": "https://github.com/splatcraft/splatcraft-forge/blob/HEAD/LICENSE",
+        "url": "",
+        "authors": "Cibernet, Octol1ttle",
+        "displayName": "Splatcraft",
+        "ignore": false
+    },
+    {
         "modid": "subnautica_flow",
         "license": "Academic Free License v3.0",
         "url": "",
@@ -1552,6 +1672,14 @@
         "ignore": false
     },
     {
+        "modid": "taczadditions",
+        "license": "MIT",
+        "url": "",
+        "authors": "Raiiiden",
+        "displayName": "TaCZ: Additions",
+        "ignore": false
+    },
+    {
         "modid": "takkit",
         "license": "MIT",
         "url": "",
@@ -1605,6 +1733,14 @@
         "url": "",
         "authors": "User, MCreator",
         "displayName": "The Sculpture",
+        "ignore": false
+    },
+    {
+        "modid": "themutantmobsmod",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "<author>",
+        "displayName": "TheMutantMobsMod",
         "ignore": false
     },
     {
@@ -1739,8 +1875,8 @@
         "modid": "vvp",
         "license": "MIT",
         "url": "",
-        "authors": "Team VVP, ROIF",
-        "displayName": "VVP",
+        "authors": "Team VVP, ROIF, FL",
+        "displayName": "Vintage Vehicle Pack",
         "ignore": false
     },
     {
@@ -1797,6 +1933,22 @@
         "url": "",
         "authors": "andre_znyxo51, MCreator",
         "displayName": "wwi",
+        "ignore": false
+    },
+    {
+        "modid": "xaerominimap",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "xaero96",
+        "displayName": "Xaero",
+        "ignore": false
+    },
+    {
+        "modid": "xaeroworldmap",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "xaero96",
+        "displayName": "Xaero",
         "ignore": false
     },
     {

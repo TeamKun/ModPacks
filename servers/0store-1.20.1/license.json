@@ -1,9 +1,25 @@
 [
     {
-        "modid": "clanginghowl",
-        "license": "All Rights Reserved",
-        "shouldRightsNotation": false,
+        "modid": "createdeco",
+        "license": "Insert License Here",
+        "shouldRightsNotation": true,
         "canSecondaryDistribution": false,
+        "url": "",
+        "credit": "Create Deco by Kayla, Talrey (<URL>) Licensed under Insert License Here"
+    },
+    {
+        "modid": "playerstaminamod",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "taczadditions",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
         "url": "",
         "credit": ""
     },
@@ -18,6 +34,22 @@
     {
         "modid": "trajanscore",
         "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "vvp",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "rpghud",
+        "license": "GNU GPLv3",
         "shouldRightsNotation": false,
         "canSecondaryDistribution": true,
         "url": "",

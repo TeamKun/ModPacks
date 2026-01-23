@@ -1,0 +1,26 @@
+[
+    {
+        "modid": "voicechat",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "pehkui",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "splatcraft",
+        "license": "https://github.com/splatcraft/splatcraft-forge/blob/HEAD/LICENSE",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": "Splatcraft by Cibernet, Octol1ttle (<URL>) Licensed under https://github.com/splatcraft/splatcraft-forge/blob/HEAD/LICENSE"
+    }
+]

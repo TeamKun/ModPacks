@@ -1,0 +1,16 @@
+{
+  "id": "net.mcreator:gonebutnotforgotten:1.2.1@jar",
+  "name": "GONEBUTNOTFORGOTTEN.jar",
+  "author": "Minemats44",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 21250053,
+    "MD5": "d9563ade00f4a0d04fdb1119ee1941a3",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/gonebutnotforgotten-jar/download/7430321",
+      "name": "gonebutnotforgotten-1.2.1-forge-1.20.1.jar"
+    }
+  }
+}

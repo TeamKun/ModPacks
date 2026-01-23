@@ -70,5 +70,29 @@
         "url": "https://www.curseforge.com/minecraft/mc-addons/tacz-perseus-gun-pack",
         "authors": "aaanjuinami",
         "displayName": "[TACZ] Perseus Gun Pack"
+    },
+    {
+        "license": "MIT",
+        "url": "https://github.com/Ai-Akaishi/AnywhereTeleport/tree/main",
+        "authors": "Ai-Akaishi",
+        "displayName": "AnywhereTeleport"
+    },
+    {
+        "license": "MIT",
+        "url": "https://github.com/Ai-Akaishi/AnywhereTeleport/tree/main",
+        "authors": "Ai-Akaishi",
+        "displayName": "AnywhereTeleport"
+    },
+    {
+        "license": "MIT",
+        "url": "https://github.com/Ai-Akaishi/AnywhereFunction?tab=readme-ov-file",
+        "authors": "Ai-Akaishi",
+        "displayName": "AnywhereFunction"
+    },
+    {
+        "license": "MIT",
+        "url": "https://github.com/Ai-Akaishi/AiMath",
+        "authors": "Ai-Akaishi",
+        "displayName": "AiMath"
     }
 ]
