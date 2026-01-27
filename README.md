@@ -54,7 +54,7 @@ npm install
 ### 2. コマンド実行
 
 ```bash
-npm run generator
+npm run generate
 ```
 
 - scripts/outputに<modName>.link.jsonが生成されます

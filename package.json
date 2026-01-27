@@ -7,7 +7,7 @@
     "order:set": "node ./scripts/order.js",
     "order:reload": "node ./scripts/reloadorder.js",
     "order:reset": "node ./scripts/resetorder.js",
-    "generator": "node ./scripts/generator.js",
+    "generate": "node ./scripts/generator.js",
     "license": "node ./scripts/licensecheck.js"
   },
   "author": "",
