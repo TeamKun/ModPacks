@@ -99,16 +99,16 @@
         "modid": "attributelocalvoice",
         "license": "All Rights Reserved",
         "url": "",
-        "authors": "",
-        "displayName": "",
-        "ignore": false
+        "authors": "ryouhei0815",
+        "displayName": "Attribute Local",
+        "ignore": true
     },
     {
         "modid": "attributeslib",
         "license": "MIT License",
         "url": "",
-        "authors": "",
-        "displayName": "",
+        "authors": "Shadows_of_Fire",
+        "displayName": "Apothic Attributes",
         "ignore": false
     },
     {
@@ -195,8 +195,8 @@
         "modid": "caelus",
         "license": "LGPL-3.0-or-later",
         "url": "",
-        "authors": "",
-        "displayName": "",
+        "authors": "C4",
+        "displayName": "Caelus API",
         "ignore": false
     },
     {
@@ -473,8 +473,8 @@
     },
     {
         "modid": "createdeco",
-        "license": "Insert License Here",
-        "url": "",
+        "license": "ARR",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-deco/files/5293982",
         "authors": "Kayla, Talrey",
         "displayName": "Create Deco",
         "ignore": false
@@ -569,10 +569,10 @@
     },
     {
         "modid": "damageindicator",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "JeremySeq",
-        "displayName": "Damage Indicator",
+        "displayName": "JeremySeq",
         "ignore": false
     },
     {
@@ -1347,8 +1347,8 @@
         "modid": "placebo",
         "license": "MIT License",
         "url": "",
-        "authors": "",
-        "displayName": "",
+        "authors": "Shadows_of_Fire",
+        "displayName": "Placebo",
         "ignore": false
     },
     {
@@ -1609,7 +1609,7 @@
     },
     {
         "modid": "splatcraft",
-        "license": "https://github.com/splatcraft/splatcraft-forge/blob/HEAD/LICENSE",
+        "license": "MIT",
         "url": "",
         "authors": "Cibernet, Octol1ttle",
         "displayName": "Splatcraft",

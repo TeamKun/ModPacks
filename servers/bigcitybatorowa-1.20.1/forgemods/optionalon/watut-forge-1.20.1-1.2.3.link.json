@@ -1,0 +1,16 @@
+{
+  "id": "com.corosus.watut.loader:watut:1.20.1-1.2.3@jar",
+  "name": "What Are They Up To",
+  "author": "Corosus",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 435496,
+    "MD5": "345d3ecdf94dffaa0e3ba55538c65f80",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/what-are-they-up-to/download/6315241",
+      "name": "watut-forge-1.20.1-1.2.3.jar"
+    }
+  }
+}

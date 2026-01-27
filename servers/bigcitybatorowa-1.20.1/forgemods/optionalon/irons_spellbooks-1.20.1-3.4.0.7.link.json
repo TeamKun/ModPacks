@@ -1,0 +1,16 @@
+{
+  "id": "io.redspace.ironsspellbooks:irons_spellbooks:1.20.1-3.4.0.7@jar",
+  "name": "Iron's Spells 'n Spellbooks",
+  "author": "Iron431, Lab3",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 8673400,
+    "MD5": "49323dd2d1b630fc0516a7a2a7a07114",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks/download/6054196",
+      "name": "irons_spellbooks-1.20.1-3.4.0.7.jar"
+    }
+  }
+}

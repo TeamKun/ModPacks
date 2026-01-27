@@ -1,0 +1,16 @@
+{
+  "id": "com.jeremyseq:damageindicator:2.2.1-1.20.1@jar",
+  "name": "JeremySeq's Damage Indicator",
+  "author": "JeremySeq",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 53180,
+    "MD5": "184860438f771cf18a96799627a2b3f0",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jeremyseq-damage-indicator/download/6471200",
+      "name": "damageindicator-2.2.1-1.20.1.jar"
+    }
+  }
+}
