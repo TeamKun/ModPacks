@@ -94,5 +94,11 @@
         "url": "https://github.com/Ai-Akaishi/AiMath",
         "authors": "Ai-Akaishi",
         "displayName": "AiMath"
+    },
+    {
+        "license": "CC BY-NC-ND 4.0",
+        "url": "https://www.curseforge.com/minecraft/customization/chocolateman-retro-gunpowder-gunpack/files/all?page=1&pageSize=20&version=1.20.1&showAlphaFiles=hide",
+        "authors": "DianDaoFish",
+        "displayName": "[TaCZ]ChocolateMan:Retro gunpowder gunpack"
     }
 ]
