@@ -416,4 +416,10 @@
     "canSecondaryDistribution": true,
     "shouldRightsNotation": true
   }
+  ,
+  {
+    "name": "CC BY-NC-SA 3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  }
 ]

@@ -4,8 +4,16 @@
         "license": "Insert License Here",
         "shouldRightsNotation": true,
         "canSecondaryDistribution": false,
-        "url": "",
-        "credit": "Create Deco by Kayla, Talrey (<URL>) Licensed under Insert License Here"
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-deco/files/5293982",
+        "credit": "Create Deco by Kayla, Talrey (https://www.curseforge.com/minecraft/mc-mods/create-deco/files/5293982) Licensed under Insert License Here"
+    },
+    {
+        "modid": "patchouli",
+        "license": "CC BY-NC-SA 3.0",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": true,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/patchouli",
+        "credit": "Patchouli by Vazkii (https://www.curseforge.com/minecraft/mc-mods/patchouli) Licensed under CC BY-NC-SA 3.0"
     },
     {
         "modid": "playerstaminamod",

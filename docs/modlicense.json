@@ -1248,6 +1248,14 @@
         "ignore": false
     },
     {
+        "modid": "mythicmounts",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "",
+        "displayName": "MythicMounts",
+        "ignore": false
+    },
+    {
         "modid": "no_fog",
         "license": "MIT",
         "url": "",
@@ -1325,6 +1333,14 @@
         "url": "",
         "authors": "Snownee",
         "displayName": "Passable Foliage",
+        "ignore": false
+    },
+    {
+        "modid": "patchouli",
+        "license": "CC BY-NC-SA 3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/patchouli",
+        "authors": "Vazkii",
+        "displayName": "Patchouli",
         "ignore": false
     },
     {
