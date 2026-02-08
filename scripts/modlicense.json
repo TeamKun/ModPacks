@@ -8,6 +8,14 @@
         "ignore": false
     },
     {
+        "modid": "ad_astra",
+        "license": "Terrarium License",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ad-astra/files/6262032",
+        "authors": "Alex Nijjar",
+        "displayName": "Ad Astra",
+        "ignore": false
+    },
+    {
         "modid": "advancedcompass",
         "license": "All rights reserved",
         "url": "",
@@ -189,6 +197,14 @@
         "url": "",
         "authors": "<author>",
         "displayName": "Boiled One Reimagined",
+        "ignore": false
+    },
+    {
+        "modid": "botarium",
+        "license": "MIT",
+        "url": "",
+        "authors": "CodexAdrian",
+        "displayName": "Botarium",
         "ignore": false
     },
     {
@@ -589,6 +605,14 @@
         "url": "",
         "authors": "Myzael",
         "displayName": "disable-all-but-front-perspective",
+        "ignore": false
+    },
+    {
+        "modid": "displayarmor",
+        "license": "CC BY-NC 4.0",
+        "url": "",
+        "authors": "Shake_1227",
+        "displayName": "DisplayArmor",
         "ignore": false
     },
     {
@@ -1485,6 +1509,22 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "resourcefulconfig",
+        "license": "MIT",
+        "url": "",
+        "authors": "",
+        "displayName": "Resourcefulconfig",
+        "ignore": false
+    },
+    {
+        "modid": "resourcefullib",
+        "license": "MIT",
+        "url": "",
+        "authors": "ThatGravyBoat, Epic_Oreo",
+        "displayName": "Resourceful Lib",
         "ignore": false
     },
     {

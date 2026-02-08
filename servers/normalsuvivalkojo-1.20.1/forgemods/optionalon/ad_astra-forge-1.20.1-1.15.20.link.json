@@ -1,0 +1,16 @@
+{
+  "id": "earth.terrarium.adastra:ad_astra:1.15.20@jar",
+  "name": "Ad Astra",
+  "author": "Alex Nijjar",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 7508861,
+    "MD5": "1ce3f9859fce6a4eac9b7f17e375dfd2",
+    "url": "",
+    "license": "Terrarium License",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ad-astra/files/6262032",
+      "name": "ad_astra-forge-1.20.1-1.15.20.jar"
+    }
+  }
+}

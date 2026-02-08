@@ -422,4 +422,15 @@
     "canSecondaryDistribution": true,
     "shouldRightsNotation": true
   }
+    ,
+  {
+    "name": "CC BY-NC 4.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  } ,
+  {
+    "name": "Terrarium License",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  }
 ]

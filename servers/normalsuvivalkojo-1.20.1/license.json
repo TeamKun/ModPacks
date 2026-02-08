@@ -1,0 +1,82 @@
+[
+    {
+        "modid": "ad_astra",
+        "license": "Terrarium License",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": true,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ad-astra/files/6262032",
+        "credit": "Ad Astra by Alex Nijjar (https://www.curseforge.com/minecraft/mc-mods/ad-astra/files/6262032) Licensed under Terrarium License"
+    },
+    {
+        "modid": "voicechat",
+        "license": "All rights reserved",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": false,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "botarium",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "displayarmor",
+        "license": "CC BY-NC 4.0",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": "DisplayArmor by Shake_1227 (<URL>) Licensed under CC BY-NC 4.0"
+    },
+    {
+        "modid": "figura",
+        "license": "Polyform-Noncommercial-1.0.0",
+        "shouldRightsNotation": true,
+        "canSecondaryDistribution": true,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/figura",
+        "credit": "Figura by skyrina, lumelia, UnlikePaladin, omoflop (https://www.curseforge.com/minecraft/mc-mods/figura) Licensed under Polyform-Noncommercial-1.0.0"
+    },
+    {
+        "modid": "lexiconfig",
+        "license": "GNU GPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "localizedchat",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "resourcefulconfig",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "resourcefullib",
+        "license": "MIT",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    },
+    {
+        "modid": "simpleradio",
+        "license": "GNU GPLv3",
+        "shouldRightsNotation": false,
+        "canSecondaryDistribution": true,
+        "url": "",
+        "credit": ""
+    }
+]
