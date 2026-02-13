@@ -2014,5 +2014,29 @@
         "authors": "isXander",
         "displayName": "YetAnotherConfigLib",
         "ignore": false
+    },
+    {
+        "modid": "props",
+        "license": "ARR",
+        "url": "",
+        "authors": "RazzleberryFox",
+        "displayName": "Decocraft",
+        "ignore": true
+    },
+    {
+        "modid": "mitomod",
+        "license": "ARR",
+        "url": "",
+        "authors": "ichigo",
+        "displayName": "Braces&Oscillators",
+        "ignore": true
+    },
+    {
+        "modid": "ashes",
+        "license": "ARR",
+        "url": "",
+        "authors": "ichigo",
+        "displayName": "AshesAD",
+        "ignore": true
     }
 ]
