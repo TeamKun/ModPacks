@@ -613,7 +613,7 @@
         "url": "",
         "authors": "Shake_1227",
         "displayName": "DisplayArmor",
-        "ignore": false
+        "ignore": true
     },
     {
         "modid": "distanthorizons",
