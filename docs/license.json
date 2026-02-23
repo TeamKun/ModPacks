@@ -432,5 +432,10 @@
     "name": "Terrarium License",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": true
+  },
+  {
+    "name": "GLGPLv3",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
   }
 ]

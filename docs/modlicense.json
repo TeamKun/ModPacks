@@ -72,6 +72,14 @@
         "ignore": false
     },
     {
+        "modid": "ashes",
+        "license": "ARR",
+        "url": "",
+        "authors": "ichigo",
+        "displayName": "AshesAD",
+        "ignore": true
+    },
+    {
         "modid": "ashvehicle",
         "license": "Custom License",
         "url": "https://www.curseforge.com/minecraft/mc-mods/ashvehicle",
@@ -309,6 +317,14 @@
         "url": "",
         "authors": "dzwdz, Fourmisain",
         "displayName": "Chat Heads",
+        "ignore": false
+    },
+    {
+        "modid": "chiselsandbits",
+        "license": "GLGPLv3",
+        "url": "",
+        "authors": "OrionDevelopment",
+        "displayName": "chisels-and-bits",
         "ignore": false
     },
     {
@@ -1192,6 +1208,14 @@
         "ignore": false
     },
     {
+        "modid": "mitomod",
+        "license": "ARR",
+        "url": "",
+        "authors": "ichigo",
+        "displayName": "Braces&Oscillators",
+        "ignore": true
+    },
+    {
         "modid": "mobbattle",
         "license": "All Rights Reserved",
         "url": "",
@@ -1462,6 +1486,14 @@
         "authors": "AlcatrazEscapee",
         "displayName": "Primal Winter",
         "ignore": false
+    },
+    {
+        "modid": "props",
+        "license": "ARR",
+        "url": "",
+        "authors": "RazzleberryFox",
+        "displayName": "Decocraft",
+        "ignore": true
     },
     {
         "modid": "puzzleslib",
@@ -1891,7 +1923,7 @@
         "modid": "voicechat",
         "license": "All rights reserved",
         "url": "",
-        "authors": "Max Henkel",
+        "authors": "<author>",
         "displayName": "Simple Voice Chat",
         "ignore": false
     },
@@ -2014,29 +2046,5 @@
         "authors": "isXander",
         "displayName": "YetAnotherConfigLib",
         "ignore": false
-    },
-    {
-        "modid": "props",
-        "license": "ARR",
-        "url": "",
-        "authors": "RazzleberryFox",
-        "displayName": "Decocraft",
-        "ignore": true
-    },
-    {
-        "modid": "mitomod",
-        "license": "ARR",
-        "url": "",
-        "authors": "ichigo",
-        "displayName": "Braces&Oscillators",
-        "ignore": true
-    },
-    {
-        "modid": "ashes",
-        "license": "ARR",
-        "url": "",
-        "authors": "ichigo",
-        "displayName": "AshesAD",
-        "ignore": true
     }
 ]
