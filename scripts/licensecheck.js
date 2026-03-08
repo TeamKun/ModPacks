@@ -1,5 +1,6 @@
 const fsp = require("node:fs/promises");
 const path = require("node:path");
+const readline = require("node:readline");
 const unzipper = require("unzipper");
 
 const ROOT = process.cwd();
@@ -23,6 +24,57 @@ const jarPathsByModid = new Map();    // normalized modid -> Set<jarPath>
 
 // ---------- utils ----------
 const normId = (s) => String(s || "").trim().toLowerCase();
+
+// ライセンス名の表記揺れを正規名に変換
+function normalizeLicense(raw) {
+  const s = (raw || "").trim();
+  if (!s) return "";
+  const l = s.toLowerCase();
+  if (l === "not specified" || l === "unknown") return s;
+  // All Rights Reserved 系
+  if (/\ball\s*rights?\s*reserved\b/i.test(s) || l === "arr") return "All Rights Reserved";
+  // MIT
+  if (/\bmit\b/i.test(s)) return "MIT";
+  // Apache
+  if (/apache/i.test(s)) return "Apache-2.0";
+  // AGPL (LGPL より先に判定)
+  if (/agpl|affero/i.test(s)) return "AGPL-3.0";
+  // LGPL
+  if (/lgpl|lesser.*general.*public/i.test(s)) return "LGPL-3.0";
+  // GPL (LGPL/AGPL を除外済み)
+  if (/\bgpl\b|general.*public.*licen/i.test(s)) return "GPL-3.0";
+  // CC 系 (順序重要: 具体的→一般的)
+  if (/cc.*by.*nc.*nd/i.test(s)) return "CC BY-NC-ND 4.0";
+  if (/cc.*by.*nc.*sa/i.test(s)) return "CC BY-NC-SA 4.0";
+  if (/cc.*by.*nc/i.test(s)) return "CC BY-NC 4.0";
+  if (/cc.*by.*4/i.test(s) || /cc-by-4/i.test(s)) return "CC-BY-4.0";
+  if (/cc0/i.test(s)) return "CC0-1.0";
+  // MPL / EPL / BSD / CDDL
+  if (/mpl.*2/i.test(s)) return "MPL-2.0";
+  if (/epl.*2/i.test(s)) return "EPL-2.0";
+  if (/bsd.*3/i.test(s)) return "BSD-3-Clause";
+  if (/cddl/i.test(s)) return "CDDL-1.0";
+  // Polyform
+  if (/polyform.*noncommercial/i.test(s)) return "Polyform-Noncommercial-1.0.0";
+  // Custom
+  if (/\bcustom\b/i.test(s)) return "Custom License";
+  // マッチしなければそのまま返す（個別ライセンスはlicense.jsonに残す）
+  return s;
+}
+
+// 対話式プロンプト
+function ask(rl, question) {
+  return new Promise((resolve) => rl.question(question, (ans) => resolve(ans.trim())));
+}
+async function askYesNo(rl, question) {
+  while (true) {
+    const a = (await ask(rl, `${question} (y/n): `)).toLowerCase();
+    if (a === "y" || a === "yes") return true;
+    if (a === "n" || a === "no") return false;
+    console.log("  y または n で回答してください。");
+  }
+}
+
 const exists = async (p) => !!(await fsp.stat(p).catch(() => null));
 const listDirs = async (dir) =>
   (await fsp.readdir(dir, { withFileTypes: true }))
@@ -220,7 +272,9 @@ async function readJsonSafely(p, fallback = []) {
 
 // -------------------- main --------------------
 async function main() {
-  const [, , maybeName] = process.argv;
+  const args = process.argv.slice(2);
+  const scanAll = args.includes("-a");
+  const maybeName = args.find(a => a !== "-a");
 
   // 1) modlicense.json 読み込み（ROOT 優先）
   let modlicenseSrc = (await exists(ROOT_MODLICENSE)) ? ROOT_MODLICENSE : SCRIPTS_MODLICENSE;
@@ -231,7 +285,7 @@ async function main() {
     modlicenseTable.map((m) => [
       normId(m.modid),
       {
-        license: String(m.license || ""),
+        license: normalizeLicense(String(m.license || "")),
         url: m.url ?? "",
         authors: m.authors ?? "",
         displayName: m.displayName ?? "",
@@ -252,9 +306,9 @@ async function main() {
   );
 
   // 3) targets 収集
-  const targets = maybeName
-    ? [path.join(SERVER_DIR, maybeName)]
-    : await listDirs(SERVER_DIR);
+  const targets = scanAll
+    ? await listDirs(SERVER_DIR)
+    : [path.join(SERVER_DIR, maybeName || "0store-1.20.1")];
 
   let touched = false;
 
@@ -273,7 +327,7 @@ async function main() {
       const k = normId(info.modid);
       const displayName = (info.displayName || "").trim() || k;
       const authors = (info.authors || "").trim() || "<author>";
-      const detectedLicense = (info.license || "").trim();
+      const detectedLicense = normalizeLicense((info.license || "").trim());
       const hasDetected = detectedLicense && detectedLicense.toLowerCase() !== "not specified";
 
       seenModids.add(k);
@@ -308,7 +362,7 @@ async function main() {
       for (const it of items) {
         const parsed = extractFromModsToml(it.text);
         const k = normId(parsed.modids[0] || "");
-        const detectedLicense = (parsed.licenses[0] || "").trim();
+        const detectedLicense = normalizeLicense((parsed.licenses[0] || "").trim());
         const hasDetected = detectedLicense && detectedLicense.toLowerCase() !== "not specified";
         const displayName = (parsed.displayName || "").trim();
         const authors = (parsed.authors || "").trim();
@@ -346,45 +400,6 @@ async function main() {
       }
     }
 
-    // サーバーごとの license.json / credit.txt 生成（出力は ignore に関わらず実施）
-    const serverOut = [];
-    const creditLines = [];
-    for (const k of seenModids) {
-      const rec2 = modMap.get(k) || { license: "", url: "" };
-      const lic = String(rec2.license || "").trim();
-      const attr = licenseMap.get(lic.toLowerCase()) || {
-        shouldRightsNotation: true,
-        canSecondaryDistribution: false,
-        url: "",
-      };
-      const meta = metaByModid.get(k) || {};
-      const displayName = meta.displayName || k;
-      const authors = meta.authors || "<author>";
-      const url = rec2.url?.trim() || "";
-
-      let credit = "";
-      if (attr.shouldRightsNotation) {
-        credit = `${displayName} by ${authors} (${url || "<URL>"}) Licensed under ${lic}`;
-      }
-      serverOut.push({
-        modid: k,
-        license: lic,
-        shouldRightsNotation: !!attr.shouldRightsNotation,
-        canSecondaryDistribution: !!attr.canSecondaryDistribution,
-        url,
-        credit,
-      });
-      if (attr.shouldRightsNotation) creditLines.push(credit);
-    }
-    const serverLicensePath = path.join(target, "license.json");
-    await fsp.writeFile(serverLicensePath, JSON.stringify(serverOut, null, 4), "utf8");
-    console.log(`\n生成: ${serverLicensePath} （${serverOut.length} mods）`);
-
-    if (creditLines.length > 0) {
-      const creditPath = path.join(target, "credit.txt");
-      await fsp.writeFile(creditPath, creditLines.join("\n"), "utf8");
-      console.log(`生成: ${creditPath} （${creditLines.length} entries）`);
-    }
   }
 
   // 5) —— ここが重要：判定（警告／移動）は “書き戻し前” にやる —— //
@@ -467,18 +482,67 @@ async function main() {
     }
   }
 
-  // 未知ライセンス
-  const unknownLicenses = Array.from(modMap.entries())
-    .filter(([modid, v]) => {
-      if (isIgnored(modid)) return false;
-      const lic = String(v.license || "").trim();
-      if (!lic) return false;
-      return !licenseMap.has(lic.toLowerCase());
-    })
-    .map(([modid, v]) => ({ modid, license: v.license }));
-  if (unknownLicenses.length > 0) {
-    console.warn("\n⚠️ license.json に未登録のライセンス（クレジット必須・二次配布禁止として扱う想定）:");
-    for (const u of unknownLicenses) console.warn(`  - ${u.modid} (license: ${u.license || "未指定"})`);
+  // 未知ライセンス — 対話形式で登録
+  const unknownLicNames = new Set();
+  const modsByUnknownLic = new Map(); // licName -> [modid, ...]
+  for (const [modid, v] of modMap.entries()) {
+    if (isIgnored(modid)) continue;
+    const lic = String(v.license || "").trim();
+    if (!lic) continue;
+    if (!licenseMap.has(lic.toLowerCase())) {
+      unknownLicNames.add(lic);
+      if (!modsByUnknownLic.has(lic)) modsByUnknownLic.set(lic, []);
+      modsByUnknownLic.get(lic).push(modid);
+    }
+  }
+
+  if (unknownLicNames.size > 0) {
+    console.warn("\n⚠️ license.json に未登録のライセンスが見つかりました:");
+    for (const name of unknownLicNames) {
+      const mods = modsByUnknownLic.get(name) || [];
+      console.warn(`  - ${name} (${mods.join(", ")})`);
+    }
+
+    const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+    const newEntries = [];
+    try {
+      for (const name of unknownLicNames) {
+        const mods = modsByUnknownLic.get(name) || [];
+        console.log(`\n--- ライセンス登録: "${name}" ---`);
+        console.log(`  対象MOD: ${mods.join(", ")}`);
+        const canDist = await askYesNo(rl, "  二次配布を許可しますか？");
+        const shouldNotation = await askYesNo(rl, "  権利表記は必要ですか？");
+        const entry = {
+          name,
+          canSecondaryDistribution: canDist,
+          shouldRightsNotation: shouldNotation,
+        };
+        newEntries.push(entry);
+        licenseMap.set(name.toLowerCase(), entry);
+        console.log(`  -> 登録: canSecondaryDistribution=${canDist}, shouldRightsNotation=${shouldNotation}`);
+
+        // MODごとに ignore を確認
+        for (const modid of mods) {
+          const shouldIgnore = await askYesNo(rl, `  "${modid}" を ignore（警告・退避をスキップ）しますか？`);
+          if (shouldIgnore) {
+            upsertModRecord(modid, { ignore: true });
+            touched = true;
+            console.log(`  -> ${modid}: ignore=true`);
+          }
+        }
+      }
+    } finally {
+      rl.close();
+    }
+
+    // license.json に追記保存
+    if (newEntries.length > 0) {
+      const saveLicPath = (await exists(ROOT_LICENSE)) ? ROOT_LICENSE : SCRIPTS_LICENSE;
+      const current = await readJsonSafely(saveLicPath, []);
+      current.push(...newEntries);
+      await fsp.writeFile(saveLicPath, JSON.stringify(current, null, 2), "utf8");
+      console.log(`\nlicense.json に ${newEntries.length} 件追加しました: ${saveLicPath}`);
+    }
   }
 
   // 6) modlicense.json の書き戻し（最後に一括・ignore を保持）

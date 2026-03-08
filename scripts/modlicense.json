@@ -17,7 +17,7 @@
     },
     {
         "modid": "advancedcompass",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "DmitryLovin",
         "displayName": "Advanced Compass",
@@ -25,7 +25,7 @@
     },
     {
         "modid": "aether",
-        "license": "Assets: All Rights Reserved; Code: LGPL-3.0",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "AlphaMode, bconlon, Blodhgarm, Burning Cactus, Drullkus, Hugo Payn, Jaryt, Oscar Payn, quek, Raptor, reetam, RENREN, sunsette",
         "displayName": "The Aether",
@@ -33,7 +33,7 @@
     },
     {
         "modid": "alexscaves",
-        "license": "GNU LESSER GENERAL PUBLIC LICENSE",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "Alexthe668, Noonyeyz",
         "displayName": "Alex",
@@ -41,7 +41,7 @@
     },
     {
         "modid": "alexsmobs",
-        "license": "GNU LESSER GENERAL PUBLIC LICENSE",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -49,7 +49,7 @@
     },
     {
         "modid": "ambientsounds",
-        "license": "LGPL-3.0-only",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "CreativeMD",
         "displayName": "AmbientSounds",
@@ -57,7 +57,7 @@
     },
     {
         "modid": "aquamirae",
-        "license": "Obscuria Lithium (c) 2023, All Rights Reserved.",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -65,7 +65,7 @@
     },
     {
         "modid": "architectury",
-        "license": "GNU LGPLv3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "shedaniel",
         "displayName": "Architectury",
@@ -73,7 +73,7 @@
     },
     {
         "modid": "ashes",
-        "license": "ARR",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "ichigo",
         "displayName": "AshesAD",
@@ -105,7 +105,7 @@
     },
     {
         "modid": "attributefix",
-        "license": "LGPL V2.1",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "Darkhax",
         "displayName": "AttributeFix",
@@ -121,7 +121,7 @@
     },
     {
         "modid": "attributeslib",
-        "license": "MIT License",
+        "license": "MIT",
         "url": "",
         "authors": "Shadows_of_Fire",
         "displayName": "Apothic Attributes",
@@ -153,7 +153,7 @@
     },
     {
         "modid": "badmobs",
-        "license": "LGPL v2.1",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "Darkhax",
         "displayName": "BadMobs",
@@ -161,7 +161,7 @@
     },
     {
         "modid": "benssharks",
-        "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "benndevs",
         "displayName": "Ben",
@@ -217,7 +217,7 @@
     },
     {
         "modid": "caelus",
-        "license": "LGPL-3.0-or-later",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "C4",
         "displayName": "Caelus API",
@@ -233,7 +233,7 @@
     },
     {
         "modid": "camera",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "Max Henkel",
         "displayName": "Camera Mod",
@@ -249,7 +249,7 @@
     },
     {
         "modid": "car",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "Max Henkel",
         "displayName": "Ultimate Car Mod",
@@ -257,7 +257,7 @@
     },
     {
         "modid": "carryon",
-        "license": "GNU LGPLv3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "Tschipp, Purplicious_Cow, cy4n",
         "displayName": "Carry On",
@@ -273,7 +273,7 @@
     },
     {
         "modid": "cataclysm",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "L_Ender",
         "displayName": "Cataclysm Mod",
@@ -321,7 +321,7 @@
     },
     {
         "modid": "chiselsandbits",
-        "license": "GLGPLv3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "OrionDevelopment",
         "displayName": "chisels-and-bits",
@@ -337,7 +337,7 @@
     },
     {
         "modid": "citadel",
-        "license": "GNU LESSER GENERAL PUBLIC LICENSE",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "Alexthe666",
         "displayName": "Citadel",
@@ -361,7 +361,7 @@
     },
     {
         "modid": "cloth_config",
-        "license": "GNU LGPLv3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "shedaniel",
         "displayName": "Cloth Config v10 API",
@@ -385,7 +385,7 @@
     },
     {
         "modid": "cold_sweat",
-        "license": "GNU General Public License v3.1",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "iMikul, chubbymomo, skinnymomo",
         "displayName": "Cold Sweat",
@@ -393,7 +393,7 @@
     },
     {
         "modid": "collective",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -473,7 +473,7 @@
     },
     {
         "modid": "create_connected",
-        "license": "GNU Affero General Public License v3.0",
+        "license": "AGPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -497,7 +497,7 @@
     },
     {
         "modid": "createbigcannons",
-        "license": "MIT and CC BY-NC-SA (see github for details)",
+        "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/create-big-cannons",
         "authors": "",
         "displayName": "",
@@ -529,7 +529,7 @@
     },
     {
         "modid": "creativecore",
-        "license": "LGPL-3.0-only",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "CreativeMD",
         "displayName": "CreativeCore",
@@ -561,7 +561,7 @@
     },
     {
         "modid": "culllessleaves",
-        "license": "GNU LGPL 3.0",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "CCr4ft3r (this port), isXander (original fabric version)",
         "displayName": "Cull Less Leaves Reforged",
@@ -569,7 +569,7 @@
     },
     {
         "modid": "curios",
-        "license": "LGPL-3.0-or-later",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "C4",
         "displayName": "Curios API",
@@ -585,7 +585,7 @@
     },
     {
         "modid": "customgui",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "",
         "displayName": "CustomGUI Mod",
@@ -593,7 +593,7 @@
     },
     {
         "modid": "customnpcs",
-        "license": "CC BY-NC",
+        "license": "CC BY-NC 4.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/custom-npcs",
         "authors": "Noppes",
         "displayName": "Custom NPCs",
@@ -604,7 +604,7 @@
         "license": "All Rights Reserved",
         "url": "",
         "authors": "JeremySeq",
-        "displayName": "JeremySeq",
+        "displayName": "Damage Indicator",
         "ignore": false
     },
     {
@@ -633,7 +633,7 @@
     },
     {
         "modid": "distanthorizons",
-        "license": "LGPL",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "Distant Horizons",
@@ -641,7 +641,7 @@
     },
     {
         "modid": "dragnvehicles",
-        "license": "All Rights Reserved, DragN0007",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "DragN0007, EvangeliX",
         "displayName": "DragN's Valiant Vehicles",
@@ -673,7 +673,7 @@
     },
     {
         "modid": "embeddium",
-        "license": "LGPL-3.0-only",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "embeddedt",
         "displayName": "Embeddium",
@@ -681,7 +681,7 @@
     },
     {
         "modid": "embeddium_extra",
-        "license": "LGPLv3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "dima_dencep, FlashyReese",
         "displayName": "Embeddium Extra",
@@ -697,7 +697,7 @@
     },
     {
         "modid": "emotecraft",
-        "license": "CC-BY-4.0 License",
+        "license": "CC-BY-4.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge",
         "authors": "KosmX",
         "displayName": "Emotecraft",
@@ -705,7 +705,7 @@
     },
     {
         "modid": "enhancedvisuals",
-        "license": "LGPL-3.0-only",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "CreativeMD, Sonicjumper",
         "displayName": "EnhancedVisuals",
@@ -737,7 +737,7 @@
     },
     {
         "modid": "epicfight",
-        "license": "GNU GENERAL PUBLIC LICENSE",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "Yesman(a.k.a maninthe_home)",
         "displayName": "Epic Fight",
@@ -745,7 +745,7 @@
     },
     {
         "modid": "epicsamurai",
-        "license": "GNU Lesser General Public License v3.0",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "epicsamuraisareus",
         "displayName": "Epic Samurai",
@@ -753,7 +753,7 @@
     },
     {
         "modid": "eternalwinter",
-        "license": "GNU GENERAL PUBLIC LICENSE Version 3",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "ichttt",
         "displayName": "Eternal Winter",
@@ -785,7 +785,7 @@
     },
     {
         "modid": "farmersdelight",
-        "license": "MIT License",
+        "license": "MIT",
         "url": "",
         "authors": "vectorwing",
         "displayName": "Farmer",
@@ -825,7 +825,7 @@
     },
     {
         "modid": "framedblocks",
-        "license": "LGPL v3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -833,7 +833,7 @@
     },
     {
         "modid": "framework",
-        "license": "LGPLv2.1",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -897,7 +897,7 @@
     },
     {
         "modid": "hauntedharvest",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "MehVahdJukaar, Plantkillable",
         "displayName": "Haunted Harvest",
@@ -905,7 +905,7 @@
     },
     {
         "modid": "iceandfire",
-        "license": "GNU LESSER GENERAL PUBLIC LICENSE",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "Alexthe666, TheBv",
         "displayName": "Ice and Fire",
@@ -913,7 +913,7 @@
     },
     {
         "modid": "ichunutil",
-        "license": "GNU Lesser General Public License v3.0",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -937,7 +937,7 @@
     },
     {
         "modid": "immersive_aircraft",
-        "license": "GPL-3.0-only",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "Luke100000",
         "displayName": "Immersive Aircraft",
@@ -953,7 +953,7 @@
     },
     {
         "modid": "incontrol",
-        "license": "MIT License https://github.com/McJtyMods/FXControl/blob/1.16/LICENCE",
+        "license": "MIT",
         "url": "",
         "authors": "McJty",
         "displayName": "InControl",
@@ -969,7 +969,7 @@
     },
     {
         "modid": "infinity",
-        "license": "LGPL-3.0-or-later",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -987,13 +987,13 @@
         "modid": "irons_spellbooks",
         "license": "All Rights Reserved",
         "url": "",
-        "authors": "",
-        "displayName": "",
+        "authors": "Iron431, Lab3",
+        "displayName": "Iron's Spells 'n Spellbooks",
         "ignore": false
     },
     {
         "modid": "itemproductionlib",
-        "license": "GNU GENERAL PUBLIC LICENSE",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "Daripher",
         "displayName": "Item Production Lib",
@@ -1001,7 +1001,7 @@
     },
     {
         "modid": "jei",
-        "license": "The MIT License (MIT)",
+        "license": "MIT",
         "url": "",
         "authors": "mezz",
         "displayName": "Just Enough Items",
@@ -1009,7 +1009,7 @@
     },
     {
         "modid": "journeymap",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "Techbrew, Mysticdrew",
         "displayName": "Journeymap",
@@ -1057,7 +1057,7 @@
     },
     {
         "modid": "leawind_third_person",
-        "license": "The MIT License (MIT)",
+        "license": "MIT",
         "url": "",
         "authors": "Leawind",
         "displayName": "Leawind",
@@ -1081,7 +1081,7 @@
     },
     {
         "modid": "lionfishapi",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "<author>",
         "displayName": "LionfishAPI",
@@ -1097,7 +1097,7 @@
     },
     {
         "modid": "lrtactical",
-        "license": "GNU GPL 3.0",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "LesRaisins Studio",
         "displayName": "LesRaisins Tactical Equipments",
@@ -1113,7 +1113,7 @@
     },
     {
         "modid": "luckytntlib",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "SlimingHD, Fleshcrafter",
         "displayName": "Lucky TNT Lib",
@@ -1121,7 +1121,7 @@
     },
     {
         "modid": "luckytntmod",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "",
         "displayName": "Lucky TNT Mod",
@@ -1161,7 +1161,7 @@
     },
     {
         "modid": "man_of_many_planes",
-        "license": "GPL-3.0-only",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "Luke100000, Man of Many Snails",
         "displayName": "Man of Many Planes",
@@ -1209,7 +1209,7 @@
     },
     {
         "modid": "mitomod",
-        "license": "ARR",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "ichigo",
         "displayName": "Braces&Oscillators",
@@ -1233,7 +1233,7 @@
     },
     {
         "modid": "modernfix",
-        "license": "GNU LGPL 3.0",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "embeddedt",
         "displayName": "ModernFix",
@@ -1249,7 +1249,7 @@
     },
     {
         "modid": "moreplayermodels",
-        "license": "CC BY-NC",
+        "license": "CC BY-NC 4.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/more-player-models",
         "authors": "",
         "displayName": "",
@@ -1257,7 +1257,7 @@
     },
     {
         "modid": "mowziesmobs",
-        "license": "custom",
+        "license": "Custom License",
         "url": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs",
         "authors": "BobMowzie, Wadoo, Vakypanda, Noonyez, pau101",
         "displayName": "Mowzie's Mobs",
@@ -1281,7 +1281,7 @@
     },
     {
         "modid": "mutantmonsters",
-        "license": "AGPL-3.0-or-later",
+        "license": "AGPL-3.0",
         "url": "",
         "authors": "shcott21, Chumbanotz, Fuzs, tdstress",
         "displayName": "Mutant Monsters",
@@ -1321,7 +1321,7 @@
     },
     {
         "modid": "oauth",
-        "license": "GNU General Public License v3.0",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "OAuth",
@@ -1329,7 +1329,7 @@
     },
     {
         "modid": "obfuscate",
-        "license": "GNU General Public License 3.0",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "MrCrayfish",
         "displayName": "Obfuscate",
@@ -1337,7 +1337,7 @@
     },
     {
         "modid": "obscure_api",
-        "license": "Obscuria Lithium (c) 2023, All Rights Reserved.",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -1345,7 +1345,7 @@
     },
     {
         "modid": "oculus",
-        "license": "LGPL-3.0-only",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "NanoLive, dima_dencep, coderbot, IMS212, Justsnoopy30, FoundationGames",
         "displayName": "Oculus",
@@ -1361,7 +1361,7 @@
     },
     {
         "modid": "parcool",
-        "license": "GNU GENERAL PUBLIC LICENSE Version 3",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "alRex_U",
         "displayName": "ParCool!",
@@ -1369,7 +1369,7 @@
     },
     {
         "modid": "parcool_compat_addon",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "",
         "displayName": "ParCool+ / Compatibility Addon",
@@ -1385,7 +1385,7 @@
     },
     {
         "modid": "patchouli",
-        "license": "CC BY-NC-SA 3.0",
+        "license": "CC BY-NC-SA 4.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/patchouli",
         "authors": "Vazkii",
         "displayName": "Patchouli",
@@ -1401,7 +1401,7 @@
     },
     {
         "modid": "physicsmod",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "<author>",
         "displayName": "Physics Mod",
@@ -1409,7 +1409,7 @@
     },
     {
         "modid": "placebo",
-        "license": "MIT License",
+        "license": "MIT",
         "url": "",
         "authors": "Shadows_of_Fire",
         "displayName": "Placebo",
@@ -1425,7 +1425,7 @@
     },
     {
         "modid": "playerladder",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "ForwarD NerN",
         "displayName": "Player Ladder",
@@ -1441,7 +1441,7 @@
     },
     {
         "modid": "pomkotsmechs",
-        "license": "ARR",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "grc_mcs",
         "displayName": "Pomkots Mechs",
@@ -1449,7 +1449,7 @@
     },
     {
         "modid": "pomkotsmechsextension",
-        "license": "ARR",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "grc_mcs",
         "displayName": "Pomkots Mechs Extension",
@@ -1457,7 +1457,7 @@
     },
     {
         "modid": "potacore",
-        "license": "LGPL-v3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "TeamPotato",
         "displayName": "Potacore",
@@ -1465,7 +1465,7 @@
     },
     {
         "modid": "powered_flashlight",
-        "license": "GNU-LGPL-3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "HDainester",
         "displayName": "Powered Flashlight",
@@ -1489,7 +1489,7 @@
     },
     {
         "modid": "props",
-        "license": "ARR",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "RazzleberryFox",
         "displayName": "Decocraft",
@@ -1505,7 +1505,7 @@
     },
     {
         "modid": "quality_food",
-        "license": "MIT License",
+        "license": "MIT",
         "url": "",
         "authors": "Cadentem",
         "displayName": "Quality Food",
@@ -1513,7 +1513,7 @@
     },
     {
         "modid": "radium",
-        "license": "LGPL-3.0-only",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "dima_dencep, NanoLive",
         "displayName": "Radium",
@@ -1545,7 +1545,7 @@
     },
     {
         "modid": "repurposed_structures",
-        "license": "GNU Lesser General Public License v3.0",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -1601,7 +1601,7 @@
     },
     {
         "modid": "securitycraft",
-        "license": "MIT https://github.com/Geforce132/SecurityCraft/blob/1.20/LICENSE",
+        "license": "MIT",
         "url": "",
         "authors": "Geforce132, bl4ckscor3, Redstone_Dubstep",
         "displayName": "SecurityCraft",
@@ -1625,7 +1625,7 @@
     },
     {
         "modid": "simpleplanes",
-        "license": "GNU LGPLv3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "adoxentor, Przemyk",
         "displayName": "Simple Planes",
@@ -1649,7 +1649,7 @@
     },
     {
         "modid": "skilltree",
-        "license": "GNU GENERAL PUBLIC LICENSE",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "Daripher",
         "displayName": "Passive Skill Tree",
@@ -1681,7 +1681,7 @@
     },
     {
         "modid": "sodiumoptionsapi",
-        "license": "LGPLv3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "toni",
         "displayName": "Sodium Options API",
@@ -1689,7 +1689,7 @@
     },
     {
         "modid": "sound_physics_remastered",
-        "license": "GPL",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "Sonic Ether, vlad2305m, Max Henkel, Saint",
         "displayName": "Sound Physics Remastered",
@@ -1705,7 +1705,7 @@
     },
     {
         "modid": "splatcraft",
-        "license": "MIT",
+        "license": "https://github.com/splatcraft/splatcraft-forge/blob/HEAD/LICENSE",
         "url": "",
         "authors": "Cibernet, Octol1ttle",
         "displayName": "Splatcraft",
@@ -1729,7 +1729,7 @@
     },
     {
         "modid": "superbwarfare",
-        "license": "GNU General Public License v3.0",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "Atsuishio, Roki27, Light_Quanta",
         "displayName": "Superb Warfare",
@@ -1769,7 +1769,7 @@
     },
     {
         "modid": "tacz",
-        "license": "GPL3 / CC BY-NC-ND 4.0",
+        "license": "CC BY-NC-ND 4.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
         "authors": "Serene Wave Studio | Timeless Squad",
         "displayName": "Timeless & Classics Guns: Zero",
@@ -1809,7 +1809,7 @@
     },
     {
         "modid": "terrablender",
-        "license": "LGPLv3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -1849,7 +1849,7 @@
     },
     {
         "modid": "trackwork",
-        "license": "MIT License",
+        "license": "MIT",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -1873,7 +1873,7 @@
     },
     {
         "modid": "traveloptics",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -1889,7 +1889,7 @@
     },
     {
         "modid": "unusualfishmod",
-        "license": "LGPLv3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "",
@@ -1913,7 +1913,7 @@
     },
     {
         "modid": "vc_gliders",
-        "license": "GPL-3.0-or-later",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "Jeryn99, TommyBricks, Lucraft",
         "displayName": "Gliders",
@@ -1921,7 +1921,7 @@
     },
     {
         "modid": "videoplayer",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "Goedix",
         "displayName": "VideoPlayer",
@@ -1937,9 +1937,9 @@
     },
     {
         "modid": "voicechat",
-        "license": "All rights reserved",
+        "license": "All Rights Reserved",
         "url": "",
-        "authors": "<author>",
+        "authors": "Max Henkel",
         "displayName": "Simple Voice Chat",
         "ignore": false
     },
@@ -1979,8 +1979,8 @@
         "modid": "vvp",
         "license": "MIT",
         "url": "",
-        "authors": "Team VVP, ROIF, FL",
-        "displayName": "Vintage Vehicle Pack",
+        "authors": "Team VVP, ROIF",
+        "displayName": "VVP",
         "ignore": false
     },
     {
@@ -2009,7 +2009,7 @@
     },
     {
         "modid": "wildfire_gender",
-        "license": "LGPLv3",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "WildfireRomeo",
         "displayName": "Wildfire",
@@ -2025,7 +2025,7 @@
     },
     {
         "modid": "wom",
-        "license": "GNU GENERAL PUBLIC LICENSE",
+        "license": "GPL-3.0",
         "url": "",
         "authors": "Reascer",
         "displayName": "Weapons of miracle",
@@ -2033,7 +2033,7 @@
     },
     {
         "modid": "wwi",
-        "license": "ARR",
+        "license": "All Rights Reserved",
         "url": "",
         "authors": "andre_znyxo51, MCreator",
         "displayName": "wwi",
@@ -2057,7 +2057,7 @@
     },
     {
         "modid": "yet_another_config_lib_v3",
-        "license": "LGPL-3.0-or-later",
+        "license": "LGPL-3.0",
         "url": "",
         "authors": "isXander",
         "displayName": "YetAnotherConfigLib",

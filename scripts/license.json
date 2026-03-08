@@ -19,13 +19,11 @@
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   },
-
   {
     "name": "Apache-2.0",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   },
-
   {
     "name": "GPL3",
     "canSecondaryDistribution": true,
@@ -71,7 +69,6 @@
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   },
-
   {
     "name": "LGPLv3",
     "canSecondaryDistribution": true,
@@ -112,7 +109,6 @@
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   },
-
   {
     "name": "LGPLv2.1",
     "canSecondaryDistribution": true,
@@ -133,25 +129,21 @@
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   },
-
   {
     "name": "MPL-2.0",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   },
-
   {
     "name": "EPL-2.0",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   },
-
   {
     "name": "CDDL-1.0",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   },
-
   {
     "name": "AGPL-3.0",
     "canSecondaryDistribution": true,
@@ -162,13 +154,11 @@
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   },
-
   {
     "name": "CC0-1.0",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   },
-
   {
     "name": "CC BY-NC",
     "canSecondaryDistribution": true,
@@ -194,13 +184,11 @@
     "canSecondaryDistribution": false,
     "shouldRightsNotation": true
   },
-
   {
     "name": "Academic Free License v3.0",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   },
-
   {
     "name": "All Rights Reserved",
     "canSecondaryDistribution": false,
@@ -221,7 +209,6 @@
     "canSecondaryDistribution": false,
     "shouldRightsNotation": false
   },
-
   {
     "name": "Not specified",
     "canSecondaryDistribution": false,
@@ -232,7 +219,6 @@
     "canSecondaryDistribution": false,
     "shouldRightsNotation": true
   },
-
   {
     "name": "ComputerCraft Public License (https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE)",
     "canSecondaryDistribution": false,
@@ -248,7 +234,6 @@
     "canSecondaryDistribution": true,
     "shouldRightsNotation": true
   },
-
   {
     "name": "GNU General Public License v3.1",
     "canSecondaryDistribution": true,
@@ -284,7 +269,6 @@
     "canSecondaryDistribution": true,
     "shouldRightsNotation": true
   },
-
   {
     "name": "GNU GENERAL PUBLIC LICENSE",
     "canSecondaryDistribution": true,
@@ -310,7 +294,6 @@
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   },
-
   {
     "name": "All Rights Reserved",
     "canSecondaryDistribution": false,
@@ -415,19 +398,17 @@
     "name": "Polyform-Noncommercial-1.0.0",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": true
-  }
-  ,
+  },
   {
     "name": "CC BY-NC-SA 3.0",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": true
-  }
-    ,
+  },
   {
     "name": "CC BY-NC 4.0",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": true
-  } ,
+  },
   {
     "name": "Terrarium License",
     "canSecondaryDistribution": true,
@@ -435,6 +416,51 @@
   },
   {
     "name": "GLGPLv3",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "GPL-3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "LGPL-3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "AGPL-3.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "Apache-2.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
+  },
+  {
+    "name": "CC BY-NC-SA 4.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "CC BY-NC 4.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "CC-BY-4.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "Insert License Here",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "https://github.com/splatcraft/splatcraft-forge/blob/HEAD/LICENSE",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
   }
