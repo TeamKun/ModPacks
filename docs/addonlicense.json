@@ -100,5 +100,17 @@
         "url": "https://www.curseforge.com/minecraft/customization/chocolateman-retro-gunpowder-gunpack/files/all?page=1&pageSize=20&version=1.20.1&showAlphaFiles=hide",
         "authors": "DianDaoFish",
         "displayName": "[TaCZ]ChocolateMan:Retro gunpowder gunpack"
+    },
+        {
+        "license": "ARR",
+        "url": "https://www.curseforge.com/minecraft/customization/tacz-world-war-2-gunpack",
+        "authors": "qtgs",
+        "displayName": "[TACZ] World War 2 gunpack"
+    },
+    {
+        "license": "ARR",
+        "url": "https://www.curseforge.com/minecraft/customization/tacz-khancraftgunpack/files/6588802",
+        "authors": "Khan_offline",
+        "displayName": "[TACZ]Khan's Old Guns PackIn WW2"
     }
 ]
