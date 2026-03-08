@@ -2070,5 +2070,13 @@
         "authors": "isXander",
         "displayName": "YetAnotherConfigLib",
         "ignore": false
+    },
+    {
+        "modid": "thedarkcolour.kotlinforforge",
+        "license": "GNU Lesser General Public License",
+        "url": "",
+        "authors": "thedarkcolour",
+        "displayName": "kotlinforforge",
+        "ignore": false
     }
 ]
