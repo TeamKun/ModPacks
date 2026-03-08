@@ -505,7 +505,7 @@
     },
     {
         "modid": "createdeco",
-        "license": "ARR",
+        "license": "Insert License Here",
         "url": "https://www.curseforge.com/minecraft/mc-mods/create-deco/files/5293982",
         "authors": "Kayla, Talrey",
         "displayName": "Create Deco",
@@ -1504,6 +1504,14 @@
         "ignore": false
     },
     {
+        "modid": "quality_food",
+        "license": "MIT License",
+        "url": "",
+        "authors": "Cadentem",
+        "displayName": "Quality Food",
+        "ignore": false
+    },
+    {
         "modid": "radium",
         "license": "LGPL-3.0-only",
         "url": "",
@@ -1701,6 +1709,14 @@
         "url": "",
         "authors": "Cibernet, Octol1ttle",
         "displayName": "Splatcraft",
+        "ignore": false
+    },
+    {
+        "modid": "stardew_fishing",
+        "license": "MIT",
+        "url": "",
+        "authors": "bonker",
+        "displayName": "Stardew Fishing",
         "ignore": false
     },
     {
