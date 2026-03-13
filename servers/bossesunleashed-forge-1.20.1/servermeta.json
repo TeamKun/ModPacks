@@ -2,7 +2,7 @@
 	"$schema": "file:///E:/softdata/git/NumaPacks/schemas/ServerMetaSchema.schema.json",
 	"meta": {
 		"version": "1.0.0",
-		"name": "bossesunleashed(Minecraft 1.20.1)",
+		"name": "SteveVsAlex-1.2.0(Minecraft 1.20.1)",
 		"description": "1.20.1",
 		"address": "",
 		"discord": {
@@ -14,7 +14,7 @@
 		"autoconnect": false
 	},
 	"forge": {
-		"version": "47.3.0"
+		"version": "47.4.16"
 	},
 	"untrackedFiles": []
 }
