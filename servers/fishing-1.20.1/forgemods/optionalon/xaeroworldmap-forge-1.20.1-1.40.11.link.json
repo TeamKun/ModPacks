@@ -1,0 +1,16 @@
+{
+  "id": "xaero.map:xaeroworldmap:1.40.11@jar",
+  "name": "Xaero's World Map",
+  "author": "xaero96",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 1388342,
+    "MD5": "d8624a1b587fbcd28d8f5dc5b13399d4",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map/download/7598469",
+      "name": "xaeroworldmap-forge-1.20.1-1.40.11.jar"
+    }
+  }
+}

@@ -808,6 +808,14 @@
         "ignore": false
     },
     {
+        "modid": "fishingsizes",
+        "license": "Custom License",
+        "url": "",
+        "authors": "chore_3",
+        "displayName": "FishingSizes",
+        "ignore": true
+    },
+    {
         "modid": "fog",
         "license": "All Rights Reserved",
         "url": "",
@@ -845,6 +853,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "gatekeeper",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "",
+        "displayName": "Gatekeeper",
         "ignore": false
     },
     {
@@ -894,6 +910,14 @@
         "authors": "Vinlanx",
         "displayName": "Gunfire Overhaul",
         "ignore": false
+    },
+    {
+        "modid": "hatoyoke_fishes",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "chore_3",
+        "displayName": "Hatoyoke",
+        "ignore": true
     },
     {
         "modid": "hauntedharvest",
@@ -1392,6 +1416,14 @@
         "ignore": false
     },
     {
+        "modid": "pauth",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "Peyang",
+        "displayName": "PAuth",
+        "ignore": false
+    },
+    {
         "modid": "pehkui",
         "license": "MIT",
         "url": "",
@@ -1848,6 +1880,14 @@
         "ignore": false
     },
     {
+        "modid": "thedarkcolour.kotlinforforge",
+        "license": "LGPL-3.0",
+        "url": "",
+        "authors": "thedarkcolour",
+        "displayName": "kotlinforforge",
+        "ignore": false
+    },
+    {
         "modid": "themutantmobsmod",
         "license": "All Rights Reserved",
         "url": "",
@@ -2069,14 +2109,6 @@
         "url": "",
         "authors": "isXander",
         "displayName": "YetAnotherConfigLib",
-        "ignore": false
-    },
-    {
-        "modid": "thedarkcolour.kotlinforforge",
-        "license": "GNU Lesser General Public License",
-        "url": "",
-        "authors": "thedarkcolour",
-        "displayName": "kotlinforforge",
         "ignore": false
     }
 ]
