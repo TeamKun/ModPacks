@@ -1,0 +1,19 @@
+{
+  "$schema": "file:///schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "[Test] Forge 1.7.10",
+    "description": "Smoke test server for Forge 1.7.10",
+    "address": "",
+    "discord": {
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "10.13.4.1614"
+  }
+}
