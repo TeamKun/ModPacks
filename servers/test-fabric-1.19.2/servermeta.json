@@ -1,0 +1,19 @@
+{
+  "$schema": "file:///schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "[Test] Fabric 1.19.2",
+    "description": "Smoke test server for Fabric 1.19.2",
+    "address": "",
+    "discord": {
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft",
+      "largeImageKey": "pack_numa"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.15.11"
+  }
+}

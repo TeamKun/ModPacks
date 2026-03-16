@@ -40,6 +40,7 @@ const forgeServers = [
     { id: 'test-forge-1.7.10', mc: '1.7.10', format: 'mcmod.info' },
     { id: 'test-forge-1.12.2', mc: '1.12.2', format: 'mcmod.info' },
     { id: 'test-forge-1.16.5', mc: '1.16.5', format: 'mods.toml' },
+    { id: 'test-forge-1.19.2', mc: '1.19.2', format: 'mods.toml' },
     { id: 'test-forge-1.20.1', mc: '1.20.1', format: 'mods.toml' },
     { id: 'test-forge-1.20.4', mc: '1.20.4', format: 'mods.toml' },
 ]
@@ -47,6 +48,8 @@ const forgeServers = [
 // --- Fabric servers ---
 
 const fabricServers = [
+    { id: 'test-fabric-1.16.5', mc: '1.16.5' },
+    { id: 'test-fabric-1.19.2', mc: '1.19.2' },
     { id: 'test-fabric-1.20.1', mc: '1.20.1' },
     { id: 'test-fabric-1.20.4', mc: '1.20.4' },
     { id: 'test-fabric-1.21.1', mc: '1.21.1' },
