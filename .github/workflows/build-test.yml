@@ -1,0 +1,57 @@
+name: Build (Smoke Test)
+
+on:
+  push:
+    branches: [ smoke-test ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Nebula
+        uses: actions/checkout@v4
+        with:
+          repository: TeamKun/ModNebula
+
+      - name: Checkout Packs
+        uses: actions/checkout@v4
+        with:
+          ref: smoke-test
+          path: ./packs
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+
+      - uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'zulu'
+
+      - name: Create .env
+        run: echo -e "JAVA_EXECUTABLE=$(which java)\nROOT=$GITHUB_WORKSPACE/packs\nBASE_URL=https://raw.githubusercontent.com/$GITHUB_REPOSITORY/deploy-test/" > .env
+
+      - name: Setup Nebula
+        run: |
+          npm i
+          npm run build
+
+      - name: Generate Distribution
+        run: node dist/index.js generate distro
+
+      - name: Git commit files
+        working-directory: ./packs
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Auto-Generate Nebula Distribution (test)" -a
+
+      - name: Git push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: deploy-test
+          directory: ./packs
+          force: true
