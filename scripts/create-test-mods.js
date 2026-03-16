@@ -43,6 +43,7 @@ const forgeServers = [
     { id: 'test-forge-1.19.2', mc: '1.19.2', format: 'mods.toml' },
     { id: 'test-forge-1.20.1', mc: '1.20.1', format: 'mods.toml' },
     { id: 'test-forge-1.20.4', mc: '1.20.4', format: 'mods.toml' },
+    { id: 'test-forge-1.21.1', mc: '1.21.1', format: 'mods.toml' },
 ]
 
 // --- Fabric servers ---
