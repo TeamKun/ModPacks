@@ -463,5 +463,10 @@
     "name": "https://github.com/splatcraft/splatcraft-forge/blob/HEAD/LICENSE",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
+  },
+  {
+    "name": "unknown",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": false
   }
 ]

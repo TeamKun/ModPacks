@@ -72,6 +72,14 @@
         "ignore": false
     },
     {
+        "modid": "armourers_workshop",
+        "license": "CC BY-NC-SA 4.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/armourers-workshop",
+        "authors": "RiskyKen, SAGESSE",
+        "displayName": "Armourer",
+        "ignore": false
+    },
+    {
         "modid": "ashes",
         "license": "All Rights Reserved",
         "url": "",
@@ -189,6 +197,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "blocky_bikes",
+        "license": "unknown",
+        "url": "",
+        "authors": "BrawlFrostbear",
+        "displayName": "BlockyBikes",
         "ignore": false
     },
     {
