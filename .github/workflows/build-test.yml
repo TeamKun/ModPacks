@@ -46,7 +46,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Auto-Generate Nebula Distribution (test)" -a
+          git add distribution.json repo/
+          git commit -m "Auto-Generate Nebula Distribution (test)"
 
       - name: Git push changes
         uses: ad-m/github-push-action@master
