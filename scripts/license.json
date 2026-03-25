@@ -468,5 +468,10 @@
     "name": "unknown",
     "canSecondaryDistribution": false,
     "shouldRightsNotation": false
+  },
+  {
+    "name": "Apache License Version 2.0",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
   }
 ]

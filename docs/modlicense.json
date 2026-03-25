@@ -2134,5 +2134,21 @@
         "authors": "isXander",
         "displayName": "YetAnotherConfigLib",
         "ignore": false
+    },
+    {
+        "modid": "MiscUtils",
+        "license": "MIT",
+        "url": "",
+        "authors": "Horeaki",
+        "displayName": "MiscUtils",
+        "ignore": false
+    },
+    {
+        "modid": "immersive-portals",
+        "license": "Apache License Version 2.0",
+        "url": "",
+        "authors": "qouteall",
+        "displayName": "Immersive Portals",
+        "ignore": false
     }
 ]
