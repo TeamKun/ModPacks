@@ -1504,6 +1504,14 @@
         "ignore": false
     },
     {
+        "modid": "portalgun",
+        "license": "All-Rights-Reserved",
+        "url": "",
+        "authors": "MeowMC, qouteall, Thelnfamous1, xhyrom",
+        "displayName": "Portal Gun Mod",
+        "ignore": false
+    },
+    {
         "modid": "potacore",
         "license": "LGPL-3.0",
         "url": "",
