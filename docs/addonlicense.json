@@ -112,5 +112,11 @@
         "url": "https://www.curseforge.com/minecraft/customization/tacz-khancraftgunpack/files/6588802",
         "authors": "Khan_offline",
         "displayName": "[TACZ]Khan's Old Guns PackIn WW2"
+    },    
+    {
+        "license": "ARR",
+        "url": "https://www.curseforge.com/minecraft/texture-packs/xray-ultimate-1-11-compatible/files/all?page=1&pageSize=20&showAlphaFiles=hide",
+        "authors": "Filmjolk",
+        "displayName": "Xray Ultimate"
     }
 ]
