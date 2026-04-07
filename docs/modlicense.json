@@ -434,9 +434,9 @@
     {
         "modid": "conquest",
         "license": "All Rights Reserved",
-        "url": "",
-        "authors": "<author>",
-        "displayName": "conquest",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/conquest-reforged",
+        "authors": "ConquestAdmin",
+        "displayName": "Conquest Reforged",
         "ignore": false
     },
     {
@@ -784,6 +784,14 @@
         "ignore": false
     },
     {
+        "modid": "extraspellattributes",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/extra-spell-attributes",
+        "authors": "cleannrooster",
+        "displayName": "Extra Spell Attributes (RPG Series Tweaks)",
+        "ignore": false
+    },
+    {
         "modid": "fabric_api",
         "license": "Apache-2.0",
         "url": "",
@@ -797,6 +805,14 @@
         "url": "",
         "authors": "tacowasa059",
         "displayName": "FadeInOutMod",
+        "ignore": false
+    },
+    {
+        "modid": "fantasy_weapons",
+        "license": "DSMSLv2",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fantasy-weapons-medieval-series",
+        "authors": "Kenddie, mon1tor",
+        "displayName": "Fantasy Weapons (Medieval Series)",
         "ignore": false
     },
     {
@@ -1757,6 +1773,22 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "spell_engine",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/spell-engine",
+        "authors": "ZsoltMolnarrr",
+        "displayName": "Spell Engine",
+        "ignore": false
+    },
+    {
+        "modid": "spellbladenext",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/spellblade-next",
+        "authors": "cleannrooster",
+        "displayName": "Spellblades and Such",
         "ignore": false
     },
     {
