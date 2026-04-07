@@ -93,6 +93,7 @@
       font-size: .85rem;
       line-height: 1.2;
       border: 1px solid transparent;
+      white-space: nowrap;
     }
 
     .badge-ok {
@@ -487,12 +488,23 @@
       return (s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
     }
 
+    function extractSlug(url) {
+      const m = (url || "").match(/\/mc-mods\/([^/?#]+)/);
+      return m ? m[1].toLowerCase() : "";
+    }
+
     function checkRegistration(parsed, allMods) {
       const exactMap = new Map();
+      const urlSlugMap = new Map();
       const partialList = [];
       for (const mod of allMods) {
         const dn = (mod.displayName || "").trim();
         if (dn) exactMap.set(dn.toLowerCase(), mod);
+        const modSlug = extractSlug(mod.url);
+        if (modSlug) {
+          if (!urlSlugMap.has(modSlug)) urlSlugMap.set(modSlug, []);
+          urlSlugMap.get(modSlug).push(mod);
+        }
         partialList.push({
           mod,
           normName: normalize(dn),
@@ -504,14 +516,22 @@
         const key = item.name.toLowerCase();
         const normKey = normalize(item.name);
         const slug = normalize((item.url.match(/\/mc-mods\/([^/?#]+)/) || [])[1] || "");
+        const itemSlug = extractSlug(item.url);
 
-        // 1) 完全一致
+        // 1) 完全一致: displayName一致 or URL slug一致
         const exact = exactMap.get(key);
         if (exact) {
           return {
             name: item.name, author: item.author, url: item.url,
             match: "exact",
             matches: [exact],
+          };
+        }
+        if (itemSlug && urlSlugMap.has(itemSlug)) {
+          return {
+            name: item.name, author: item.author, url: item.url,
+            match: "exact",
+            matches: urlSlugMap.get(itemSlug),
           };
         }
 
