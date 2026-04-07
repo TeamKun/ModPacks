@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="./style.css">
+  <title>MOD登録チェック | KUNLab</title>
+  <style>
+    :root {
+      --gap: .5rem;
+      --pad: .6rem;
+      --border: #cbd5e1;
+      --border2: #d1d5db;
+      --head: #f3f4f6;
+      --zebra: #fafafa;
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      margin: 0 0 .5rem;
+    }
+
+    .subtitle {
+      font-size: .9rem;
+      opacity: .8;
+      margin-left: .25rem;
+    }
+
+    .count {
+      margin: .5rem 0;
+      font-weight: 600;
+    }
+
+    .table-wrap {
+      overflow: auto;
+      border: 1px solid var(--border2);
+      border-radius: 6px;
+    }
+
+    table {
+      border-collapse: collapse;
+      min-width: 900px;
+      width: 100%;
+    }
+
+    thead th {
+      position: sticky;
+      top: 0;
+      background: var(--head);
+      font-weight: 700;
+      border-bottom: 1px solid var(--border);
+      padding: .5rem var(--pad);
+      text-align: left;
+    }
+
+    tbody td {
+      border-bottom: 1px solid #e5e7eb;
+      padding: .45rem var(--pad);
+      vertical-align: top;
+    }
+
+    tbody tr:nth-child(odd) {
+      background: var(--zebra);
+    }
+
+    .small {
+      font-size: .9rem;
+      opacity: .9;
+    }
+
+    tbody tr:hover {
+      background-color: #cdd2d8;
+      transition: background-color 0.05s ease-in-out;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: .1rem .45rem;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: .85rem;
+      line-height: 1.2;
+      border: 1px solid transparent;
+    }
+
+    .badge-ok {
+      color: #166534;
+      background: #dcfce7;
+      border-color: #86efac;
+    }
+
+    .badge-warn {
+      color: #92400e;
+      background: #fef3c7;
+      border-color: #fcd34d;
+    }
+
+    .badge-ng {
+      color: #991b1b;
+      background: #fee2e2;
+      border-color: #fca5a5;
+    }
+
+    .break {
+      word-break: break-all;
+    }
+
+    details {
+      margin: 0;
+    }
+
+    details summary {
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: .3rem;
+    }
+
+    details summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details summary::before {
+      content: "▶";
+      font-size: .7rem;
+      transition: transform .15s;
+    }
+
+    details[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    .match-list {
+      margin: .3rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .match-list li {
+      padding: .2rem 0;
+      border-top: 1px solid #e5e7eb;
+      font-size: .85rem;
+    }
+
+    .match-list li:first-child {
+      border-top: none;
+    }
+
+    .match-label {
+      font-weight: 600;
+    }
+
+    .match-license {
+      opacity: .8;
+      margin-left: .5rem;
+    }
+
+    .match-link {
+      cursor: pointer;
+      color: #2563eb;
+      text-decoration: underline;
+    }
+
+    .match-link:hover {
+      color: #1d4ed8;
+    }
+
+    /* モーダル */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 2000;
+      background: rgba(0, 0, 0, .45);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-overlay.open {
+      display: flex;
+    }
+
+    .modal {
+      background: #fff;
+      border-radius: 8px;
+      max-width: 560px;
+      width: 90%;
+      max-height: 80vh;
+      overflow-y: auto;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, .25);
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: .75rem 1rem;
+      border-bottom: 1px solid #e5e7eb;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    .modal-close {
+      background: none;
+      border: none;
+      font-size: 1.3rem;
+      cursor: pointer;
+      color: #6b7280;
+      width: auto;
+      padding: .2rem .4rem;
+    }
+
+    .modal-close:hover {
+      color: #111;
+    }
+
+    .modal-body {
+      padding: 1rem;
+    }
+
+    .modal-body dl {
+      margin: 0;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: .4rem .8rem;
+    }
+
+    .modal-body dt {
+      font-weight: 600;
+      color: #374151;
+      white-space: nowrap;
+    }
+
+    .modal-body dd {
+      margin: 0;
+      word-break: break-all;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #111827;
+      color: #fff;
+      padding: 0.9rem 1rem;
+      margin: 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    header nav {
+      display: flex;
+      gap: 0.6rem;
+    }
+
+    header a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    header a:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    header a.active {
+      background: rgba(255, 255, 255, 0.25);
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .content {
+      padding: 2rem;
+    }
+
+    .upload-area {
+      border: 2px dashed var(--border);
+      border-radius: 8px;
+      padding: 2rem;
+      text-align: center;
+      margin: 1rem 0;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .upload-area:hover,
+    .upload-area.dragover {
+      border-color: #60a5fa;
+      background: #eff6ff;
+    }
+
+    .upload-area input[type="file"] {
+      display: none;
+    }
+
+    .upload-label {
+      font-size: 1rem;
+      color: #374151;
+    }
+
+    #result {
+      display: none;
+    }
+
+    .sel-btn {
+      width: auto;
+      padding: .35rem .75rem;
+      font-size: .8rem;
+      font-weight: 600;
+      background: #f3f4f6;
+      color: #374151;
+      border: 1px solid #d1d5db;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background .15s, border-color .15s;
+    }
+
+    .sel-btn:hover {
+      background: #e5e7eb;
+      border-color: #9ca3af;
+    }
+
+    .sel-btn.active {
+      background: #dbeafe;
+      color: #1d4ed8;
+      border-color: #93c5fd;
+    }
+
+    .export-btn {
+      width: auto;
+      padding: .4rem 1rem;
+      font-size: .85rem;
+      font-weight: 600;
+      background: #2563eb;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background .15s, box-shadow .15s, opacity .15s;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+    }
+
+    .export-btn:hover:not(:disabled) {
+      background: #1d4ed8;
+    }
+
+    .export-btn:disabled {
+      opacity: .45;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="./modlist.html">MOD</a>
+      <a href="./addonlist.html">Addon</a>
+      <a href="./check.html" class="active">Check</a>
+    </nav>
+  </header>
+  <div class="content">
+    <h1>
+      MOD登録チェック
+      <span class="subtitle">by KUNLab</span>
+    </h1>
+    <p class="small">CurseForge ランチャーが生成した <code>modlist.html</code> をアップロードすると、ライセンスの登録状況を確認できます。</p>
+
+    <div class="upload-area" id="dropzone">
+      <input type="file" id="fileInput" accept=".html,.htm">
+      <div class="upload-label">modlist.html をドラッグ＆ドロップ、またはクリックして選択</div>
+    </div>
+
+    <div id="result">
+      <div style="display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin-bottom:.75rem;">
+        <div id="count" class="count" style="margin:0;"></div>
+        <button id="selectExact" type="button" class="sel-btn">完全一致を選択</button>
+        <button id="selectPartial" type="button" class="sel-btn">部分一致を選択</button>
+        <button id="selectNone" type="button" class="sel-btn">一致なしを選択</button>
+        <button id="exportJson" type="button" disabled class="export-btn">結果を保存</button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:2.5rem;text-align:center"><input type="checkbox" id="checkAll" title="すべて選択"></th>
+              <th>MOD名</th>
+              <th>作者</th>
+              <th>ステータス</th>
+              <th>一致先</th>
+              <th>ライセンス</th>
+              <th>CurseForge</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal">
+    <div class="modal">
+      <div class="modal-header">
+        <span id="modal-title"></span>
+        <button class="modal-close" id="modal-close" aria-label="閉じる">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+  <script>
+    const dropzone = document.getElementById("dropzone");
+    const fileInput = document.getElementById("fileInput");
+
+    let lastResults = [];
+
+    dropzone.addEventListener("click", () => fileInput.click());
+    dropzone.addEventListener("dragover", (e) => { e.preventDefault(); dropzone.classList.add("dragover"); });
+    dropzone.addEventListener("dragleave", () => dropzone.classList.remove("dragover"));
+    dropzone.addEventListener("drop", (e) => {
+      e.preventDefault();
+      dropzone.classList.remove("dragover");
+      const file = e.dataTransfer.files[0];
+      if (file) processFile(file);
+    });
+    fileInput.addEventListener("change", () => {
+      if (fileInput.files[0]) processFile(fileInput.files[0]);
+    });
+
+    function processFile(file) {
+      const reader = new FileReader();
+      reader.onload = async (e) => {
+        try {
+          const [mods, addons] = await Promise.all([getAllMods(), getAllAddons()]);
+          allModsCache = [...mods, ...addons];
+          const parsed = parseModlistHtml(e.target.result);
+          lastResults = checkRegistration(parsed, allModsCache);
+          renderResults(lastResults);
+        } catch (err) {
+          console.error(err);
+          document.getElementById("tbody").innerHTML = '<tr><td colspan="7">読み込みエラー</td></tr>';
+          document.getElementById("result").style.display = "block";
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function parseModlistHtml(html) {
+      const doc = new DOMParser().parseFromString(html, "text/html");
+      const items = [];
+      for (const li of doc.querySelectorAll("li")) {
+        const a = li.querySelector("a");
+        const text = (a ? a.textContent : li.textContent).trim();
+        const url = a ? a.href : "";
+        const match = text.match(/^(.+?)\s*\(by\s+(.+)\)\s*$/);
+        if (match) {
+          items.push({ name: match[1].trim(), author: match[2].trim(), url });
+        } else {
+          items.push({ name: text, author: "", url });
+        }
+      }
+      return items;
+    }
+
+    function normalize(s) {
+      return (s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+    }
+
+    function checkRegistration(parsed, allMods) {
+      const exactMap = new Map();
+      const partialList = [];
+      for (const mod of allMods) {
+        const dn = (mod.displayName || "").trim();
+        if (dn) exactMap.set(dn.toLowerCase(), mod);
+        partialList.push({
+          mod,
+          normName: normalize(dn),
+          normModid: normalize(mod.modid),
+        });
+      }
+
+      return parsed.map(item => {
+        const key = item.name.toLowerCase();
+        const normKey = normalize(item.name);
+        const slug = normalize((item.url.match(/\/mc-mods\/([^/?#]+)/) || [])[1] || "");
+
+        // 1) 完全一致
+        const exact = exactMap.get(key);
+        if (exact) {
+          return {
+            name: item.name, author: item.author, url: item.url,
+            match: "exact",
+            matches: [exact],
+          };
+        }
+
+        // 2) 部分一致: 全候補を収集
+        const hits = [];
+        for (const p of partialList) {
+          if (
+            (normKey && p.normName && (p.normName.includes(normKey) || normKey.includes(p.normName))) ||
+            (normKey && p.normModid && (p.normModid.includes(normKey) || normKey.includes(p.normModid))) ||
+            (slug && p.normModid && (p.normModid.includes(slug) || slug.includes(p.normModid)))
+          ) {
+            hits.push(p.mod);
+          }
+        }
+        if (hits.length > 0) {
+          return {
+            name: item.name, author: item.author, url: item.url,
+            match: "partial", matches: hits,
+          };
+        }
+
+        // 3) 一致なし
+        return {
+          name: item.name, author: item.author, url: item.url,
+          match: "none", matches: [],
+        };
+      }).sort((a, b) => {
+        const order = { none: 0, partial: 1, exact: 2 };
+        if (order[a.match] !== order[b.match]) return order[a.match] - order[b.match];
+        return a.name.localeCompare(b.name);
+      });
+    }
+
+    // モーダル管理
+    let allModsCache = [];
+    const modalEl = document.getElementById("modal");
+    const modalTitle = document.getElementById("modal-title");
+    const modalBody = document.getElementById("modal-body");
+    document.getElementById("modal-close").addEventListener("click", () => modalEl.classList.remove("open"));
+    modalEl.addEventListener("click", (e) => { if (e.target === modalEl) modalEl.classList.remove("open"); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") modalEl.classList.remove("open"); });
+
+    function openModal(mod) {
+      const name = mod.displayName || mod.modid;
+      modalTitle.textContent = name;
+
+      const rights = mod.shouldRightsNotation
+        ? '<span class="badge badge-warn">必要</span>'
+        : '<span class="badge badge-ok">不要</span>';
+      const dist = mod.canSecondaryDistribution
+        ? '<span class="badge badge-ok">許可</span>'
+        : '<span class="badge badge-ng">不可</span>';
+      const urlHtml = mod.url
+        ? `<a href="${esc(mod.url)}" target="_blank" rel="noopener noreferrer" class="break">${esc(mod.url)}</a>`
+        : "<span style='opacity:.5'>未設定</span>";
+      const authors = (mod.authors && mod.authors !== "<author>") ? esc(mod.authors) : "<span style='opacity:.5'>不明</span>";
+
+      modalBody.innerHTML = `<dl>
+      <dt>名前</dt><dd style="font-weight:700">${esc(name)}</dd>
+      <dt>modid</dt><dd><code>${esc(mod.modid)}</code></dd>
+      <dt>作者</dt><dd>${authors}</dd>
+      <dt>ライセンス</dt><dd>${esc(mod.license || "Unspecified")}</dd>
+      <dt>権利表記</dt><dd>${rights}</dd>
+      <dt>二次配布</dt><dd>${dist}</dd>
+      <dt>URL</dt><dd>${urlHtml}</dd>
+    </dl>`;
+      modalEl.classList.add("open");
+    }
+
+    function makeMatchLink(mod) {
+      const span = document.createElement("span");
+      span.className = "match-link";
+      span.textContent = mod.displayName || mod.modid;
+      span.addEventListener("click", () => openModal(mod));
+      return span;
+    }
+
+    function renderMatchCell(td, matches) {
+      if (matches.length === 0) return;
+      if (matches.length === 1) {
+        td.appendChild(makeMatchLink(matches[0]));
+        return;
+      }
+      // 複数: アコーディオン
+      const details = document.createElement("details");
+      const summary = document.createElement("summary");
+      summary.appendChild(makeMatchLink(matches[0]));
+      const countSpan = document.createElement("span");
+      countSpan.textContent = ` 他${matches.length - 1}件`;
+      countSpan.style.opacity = ".7";
+      summary.appendChild(countSpan);
+      details.appendChild(summary);
+
+      const ul = document.createElement("ul");
+      ul.className = "match-list";
+      for (const m of matches) {
+        const li = document.createElement("li");
+        li.appendChild(makeMatchLink(m));
+        const code = document.createElement("code");
+        code.textContent = ` ${m.modid}`;
+        code.style.marginLeft = ".4rem";
+        li.appendChild(code);
+        ul.appendChild(li);
+      }
+      details.appendChild(ul);
+      td.appendChild(details);
+    }
+
+    function esc(s) {
+      const d = document.createElement("div");
+      d.textContent = s;
+      return d.innerHTML;
+    }
+
+    function renderResults(results) {
+      const tbody = document.getElementById("tbody");
+      const countEl = document.getElementById("count");
+      const exact = results.filter(r => r.match === "exact").length;
+      const partial = results.filter(r => r.match === "partial").length;
+      const none = results.filter(r => r.match === "none").length;
+
+      countEl.textContent = `アップロード: ${results.length} 件 / 完全一致: ${exact} 件 / 部分一致: ${partial} 件 / 一致なし: ${none} 件`;
+
+      tbody.innerHTML = "";
+      const frag = document.createDocumentFragment();
+
+      const badgeHtml = {
+        exact: '<span class="badge badge-ok">完全一致</span>',
+        partial: '<span class="badge badge-warn">部分一致</span>',
+        none: '<span class="badge badge-ng">一致なし</span>',
+      };
+
+      for (let i = 0; i < results.length; i++) {
+        const r = results[i];
+        const tr = document.createElement("tr");
+        tr.dataset.match = r.match;
+
+        const tdCheck = document.createElement("td");
+        tdCheck.style.textAlign = "center";
+        const cb = document.createElement("input");
+        cb.type = "checkbox";
+        cb.dataset.idx = i;
+        cb.className = "row-check";
+        tdCheck.appendChild(cb);
+
+        const tdName = document.createElement("td");
+        tdName.textContent = r.name;
+        tdName.style.fontWeight = "700";
+
+        const tdAuthor = document.createElement("td");
+        tdAuthor.textContent = r.author;
+        tdAuthor.className = "small";
+
+        const tdStatus = document.createElement("td");
+        tdStatus.innerHTML = badgeHtml[r.match];
+
+        const tdMatched = document.createElement("td");
+        renderMatchCell(tdMatched, r.matches);
+        tdMatched.className = "small";
+
+        const tdLicense = document.createElement("td");
+        tdLicense.textContent = r.matches.length === 1 ? r.matches[0].license : "";
+        tdLicense.className = "small";
+
+        const tdUrl = document.createElement("td");
+        if (r.url) {
+          const a = document.createElement("a");
+          a.href = r.url;
+          a.target = "_blank";
+          a.rel = "noopener noreferrer";
+          a.textContent = r.url;
+          a.className = "break";
+          tdUrl.appendChild(a);
+        }
+        tdUrl.className = "small";
+
+        tr.append(tdCheck, tdName, tdAuthor, tdStatus, tdMatched, tdLicense, tdUrl);
+        frag.appendChild(tr);
+      }
+      tbody.appendChild(frag);
+      document.getElementById("checkAll").checked = false;
+      document.getElementById("checkAll").indeterminate = false;
+      syncCheckState();
+      document.getElementById("result").style.display = "block";
+    }
+
+    // 全選択チェックボックス
+    document.getElementById("checkAll").addEventListener("change", (e) => {
+      const checked = e.target.checked;
+      document.querySelectorAll(".row-check").forEach(cb => cb.checked = checked);
+      syncCheckState();
+    });
+
+    // 個別チェック時に全選択の状態を同期
+    document.getElementById("tbody").addEventListener("change", (e) => {
+      if (!e.target.classList.contains("row-check")) return;
+      syncCheckState();
+    });
+
+    // グループ選択ボタン（トグル動作）
+    for (const type of ["exact", "partial", "none"]) {
+      const btnId = "select" + type.charAt(0).toUpperCase() + type.slice(1);
+      document.getElementById(btnId).addEventListener("click", () => {
+        const cbs = document.querySelectorAll(`tr[data-match="${type}"] .row-check`);
+        const allChecked = Array.from(cbs).every(cb => cb.checked);
+        cbs.forEach(cb => cb.checked = !allChecked);
+        syncCheckState();
+      });
+    }
+
+    function syncCheckState() {
+      const all = document.querySelectorAll(".row-check");
+      const checked = document.querySelectorAll(".row-check:checked");
+      const checkAll = document.getElementById("checkAll");
+      checkAll.checked = all.length > 0 && all.length === checked.length;
+      checkAll.indeterminate = checked.length > 0 && checked.length < all.length;
+
+      // グループボタンのactive状態
+      for (const type of ["exact", "partial", "none"]) {
+        const btnId = "select" + type.charAt(0).toUpperCase() + type.slice(1);
+        const cbs = document.querySelectorAll(`tr[data-match="${type}"] .row-check`);
+        const allOn = cbs.length > 0 && Array.from(cbs).every(cb => cb.checked);
+        document.getElementById(btnId).classList.toggle("active", allOn);
+      }
+
+      // エクスポートボタン
+      const btn = document.getElementById("exportJson");
+      const count = checked.length;
+      btn.disabled = count === 0;
+      btn.textContent = count > 0 ? `選択中 (${count}件) を保存` : "結果を保存";
+    }
+
+    function getSelectedIndices() {
+      return Array.from(document.querySelectorAll(".row-check:checked")).map(cb => Number(cb.dataset.idx));
+    }
+
+    // JSON エクスポート（選択中のみ）
+    document.getElementById("exportJson").addEventListener("click", () => {
+      const selected = getSelectedIndices();
+      if (selected.length === 0) return;
+      const target = selected.map(i => lastResults[i]);
+      const output = target.map(r => ({
+        name: r.name,
+        author: r.author,
+        curseforgeUrl: r.url,
+        status: r.match,
+        matches: r.matches.map(m => ({
+          displayName: m.displayName,
+          modid: m.modid,
+          authors: m.authors,
+          license: m.license,
+          url: m.url,
+          shouldRightsNotation: m.shouldRightsNotation,
+          canSecondaryDistribution: m.canSecondaryDistribution,
+        })),
+      }));
+      const blob = new Blob([JSON.stringify(output, null, 2)], { type: "application/json" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "check-result.json";
+      a.click();
+      URL.revokeObjectURL(a.href);
+    });
+  </script>
+</body>
+
+</html>
