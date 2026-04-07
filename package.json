@@ -16,5 +16,8 @@
     "@iarna/toml": "^2.2.5",
     "adm-zip": "^0.5.16",
     "unzipper": "^0.12.3"
+  },
+  "devDependencies": {
+    "playwright": "^1.59.1"
   }
 }
