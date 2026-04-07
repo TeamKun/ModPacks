@@ -118,5 +118,11 @@
         "url": "https://www.curseforge.com/minecraft/texture-packs/xray-ultimate-1-11-compatible/files/all?page=1&pageSize=20&showAlphaFiles=hide",
         "authors": "Filmjolk",
         "displayName": "Xray Ultimate"
+    },
+    {
+        "license": "MIT",
+        "url": "https://modrinth.com/datapack/trek",
+        "authors": "hotsuop, Hugger, ALDgamer",
+        "displayName": "Trek"
     }
 ]
