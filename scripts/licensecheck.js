@@ -8,12 +8,10 @@ const SERVER_DIR = path.join(ROOT, "servers");
 
 // ----- modlicense / license の候補（読み込みは ROOT 優先） -----
 const ROOT_MODLICENSE = path.join(ROOT, "modlicense.json");
-const SCRIPTS_MODLICENSE = path.join(ROOT, "scripts", "modlicense.json");
+const DOCS_MODLICENSE = path.join(ROOT, "docs", "modlicense.json");
 const ROOT_LICENSE = path.join(ROOT, "license.json");
-const SCRIPTS_LICENSE = path.join(ROOT, "scripts", "license.json");
+const DOCS_LICENSE = path.join(ROOT, "docs", "license.json");
 
-// docs 出力
-const DOCS_DIR = path.join(ROOT, "docs");
 // 二次配布禁止 JAR の退避先 (../scripts/mods 相当)
 const QUARANTINE_DIR = path.join(ROOT, "scripts", "mods");
 
@@ -86,15 +84,6 @@ const listFilesByExt = async (dir, ext) =>
     .map((e) => path.join(dir, e.name));
 const listJarFiles = (dir) => listFilesByExt(dir, ".jar");
 const listLinkJsonFiles = (dir) => listFilesByExt(dir, "link.json");
-
-async function copyToDocs(srcPath, outName) {
-  if (!(await exists(srcPath))) return false;
-  await fsp.mkdir(DOCS_DIR, { recursive: true });
-  const dest = path.join(DOCS_DIR, outName);
-  await fsp.copyFile(srcPath, dest);
-  console.log(`📄 Copied: ${srcPath} -> ${dest}`);
-  return true;
-}
 
 function extractFromModsToml(text) {
   const licenses = [];
@@ -277,7 +266,7 @@ async function main() {
   const maybeName = args.find(a => a !== "-a");
 
   // 1) modlicense.json 読み込み（ROOT 優先）
-  let modlicenseSrc = (await exists(ROOT_MODLICENSE)) ? ROOT_MODLICENSE : SCRIPTS_MODLICENSE;
+  let modlicenseSrc = (await exists(ROOT_MODLICENSE)) ? ROOT_MODLICENSE : DOCS_MODLICENSE;
   let modlicenseTable = (await exists(modlicenseSrc))
     ? await readJsonSafely(modlicenseSrc, [])
     : [];
@@ -295,7 +284,7 @@ async function main() {
   );
 
   // 2) license.json 読み込み（ROOT 優先）
-  const licenseSrc = (await exists(ROOT_LICENSE)) ? ROOT_LICENSE : SCRIPTS_LICENSE;
+  const licenseSrc = (await exists(ROOT_LICENSE)) ? ROOT_LICENSE : DOCS_LICENSE;
   if (!(await exists(licenseSrc))) {
     console.error(`license.json が見つかりません: ${licenseSrc}`);
     process.exit(1);
@@ -537,7 +526,7 @@ async function main() {
 
     // license.json に追記保存
     if (newEntries.length > 0) {
-      const saveLicPath = (await exists(ROOT_LICENSE)) ? ROOT_LICENSE : SCRIPTS_LICENSE;
+      const saveLicPath = (await exists(ROOT_LICENSE)) ? ROOT_LICENSE : DOCS_LICENSE;
       const current = await readJsonSafely(saveLicPath, []);
       current.push(...newEntries);
       await fsp.writeFile(saveLicPath, JSON.stringify(current, null, 2), "utf8");
@@ -557,7 +546,7 @@ async function main() {
         ignore: !!v.ignore,
       }))
       .sort((a, b) => a.modid.localeCompare(b.modid));
-    const savePath = (await exists(ROOT_MODLICENSE)) ? ROOT_MODLICENSE : SCRIPTS_MODLICENSE;
+    const savePath = (await exists(ROOT_MODLICENSE)) ? ROOT_MODLICENSE : DOCS_MODLICENSE;
     await fsp.mkdir(path.dirname(savePath), { recursive: true });
     await fsp.writeFile(savePath, JSON.stringify(outArr, null, 4), "utf8");
     console.log(`\nmodlicense.json を更新しました: ${savePath}`);
@@ -565,18 +554,6 @@ async function main() {
     console.log(`\n新規追加/更新はありませんでした（modlicense.json は変更されていません）`);
   }
 
-  // 7) docs へコピー（表示用）
-  try {
-    const srcMod = (await exists(ROOT_MODLICENSE)) ? ROOT_MODLICENSE : SCRIPTS_MODLICENSE;
-    const srcLic = (await exists(ROOT_LICENSE)) ? ROOT_LICENSE : SCRIPTS_LICENSE;
-    const ok1 = await copyToDocs(srcMod, "modlicense.json");
-    const ok2 = await copyToDocs(srcLic, "license.json");
-    if (!ok1 && !ok2) {
-      console.warn("⚠️ コピー対象の modlicense.json / license.json が見つかりませんでした。");
-    }
-  } catch (e) {
-    console.warn(`⚠️ docs へのコピーでエラー: ${e.message || e}`);
-  }
 }
 
 main().catch((e) => {
