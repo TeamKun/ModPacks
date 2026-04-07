@@ -1512,6 +1512,14 @@
         "ignore": false
     },
     {
+        "modid": "nightmareesm",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/epic-mob-siege-nightmare",
+        "authors": "nuclearlavalamp, greenchiss",
+        "displayName": "Nightmare Epic Siege Mod",
+        "ignore": false
+    },
+    {
         "modid": "nirvana",
         "license": "https://github.com/teamgalena/nirvana/blob/1.20.x/LICENSE.txt",
         "url": "https://www.curseforge.com/minecraft/mc-mods/nirvana",
