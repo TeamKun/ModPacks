@@ -124,5 +124,17 @@
         "url": "https://modrinth.com/datapack/trek",
         "authors": "hotsuop, Hugger, ALDgamer",
         "displayName": "Trek"
+    },
+    {
+        "license": "CustomLicense(AGNYA License)",
+        "url": "https://www.curseforge.com/minecraft/shaders/insanity-shader",
+        "authors": "ElocinDev",
+        "displayName": "Insanity Shader"
+    },
+    {
+        "license": "MIT",
+        "url": "https://github.com/Ai-Akaishi/OhMyDat",
+        "authors": "Ai-Akaishi",
+        "displayName": "OhMyDat"
     }
 ]
