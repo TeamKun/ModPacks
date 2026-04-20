@@ -72,6 +72,14 @@
         "ignore": false
     },
     {
+        "modid": "ardagrass",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ardagrass",
+        "authors": "JayemCeekay",
+        "displayName": "ArdaGrass",
+        "ignore": false
+    },
+    {
         "modid": "architectury",
         "license": "LGPL-3.0",
         "url": "",
@@ -421,6 +429,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/collective",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "continuity",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/continuity",
+        "authors": "PepperCode1",
+        "displayName": "Continuity",
         "ignore": false
     },
     {
@@ -848,6 +864,14 @@
         "ignore": false
     },
     {
+        "modid": "fabric-permissions-api-v0",
+        "license": "MIT",
+        "url": "https://modrinth.com/mod/fabric-permissions-api",
+        "authors": "lucko",
+        "displayName": "Fabric Permissions API",
+        "ignore": false
+    },
+    {
         "modid": "fabric_api",
         "license": "Apache-2.0",
         "url": "",
@@ -1272,6 +1296,14 @@
         "ignore": false
     },
     {
+        "modid": "luckperms",
+        "license": "MIT",
+        "url": "https://modrinth.com/plugin/luckperms",
+        "authors": "lucko",
+        "displayName": "LuckPerms",
+        "ignore": false
+    },
+    {
         "modid": "lucky",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/lucky-block",
@@ -1528,6 +1560,14 @@
         "ignore": false
     },
     {
+        "modid": "nuit",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/nuit",
+        "authors": "FlashyReese",
+        "displayName": "Nuit",
+        "ignore": false
+    },
+    {
         "modid": "no_fog",
         "license": "MIT",
         "url": "",
@@ -1669,6 +1709,14 @@
         "url": "",
         "authors": "",
         "displayName": "PlayerStaminaMod",
+        "ignore": false
+    },
+    {
+        "modid": "polytone",
+        "license": "Supplementaries Team License v1.5",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/polytone",
+        "authors": "MehVahdJukaar",
+        "displayName": "Polytone",
         "ignore": false
     },
     {
@@ -1840,6 +1888,14 @@
         "ignore": false
     },
     {
+        "modid": "runes",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/rune-crafting",
+        "authors": "ZsoltMolnarrr",
+        "displayName": "Runes",
+        "ignore": false
+    },
+    {
         "modid": "s_a_b",
         "license": "Academic Free License v3.0",
         "url": "",
@@ -1965,6 +2021,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/spell-engine",
         "authors": "ZsoltMolnarrr",
         "displayName": "Spell Engine",
+        "ignore": false
+    },
+    {
+        "modid": "spell_power",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/spell-power",
+        "authors": "ZsoltMolnarrr",
+        "displayName": "Spell Power Attributes",
         "ignore": false
     },
     {
@@ -2208,6 +2272,14 @@
         "ignore": false
     },
     {
+        "modid": "trinkets",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/trinkets",
+        "authors": "EmilyPloszaj",
+        "displayName": "Trinkets",
+        "ignore": false
+    },
+    {
         "modid": "twilightforest",
         "license": "Custom License",
         "url": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest",
@@ -2237,6 +2309,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "vanilla-permissions",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/essential-permissions",
+        "authors": "DrexHD",
+        "displayName": "Vanilla Permissions",
         "ignore": false
     },
     {
