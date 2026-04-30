@@ -72,19 +72,19 @@
         "ignore": false
     },
     {
-        "modid": "ardagrass",
-        "license": "MIT",
-        "url": "https://www.curseforge.com/minecraft/mc-mods/ardagrass",
-        "authors": "JayemCeekay",
-        "displayName": "ArdaGrass",
-        "ignore": false
-    },
-    {
         "modid": "architectury",
         "license": "LGPL-3.0",
         "url": "",
         "authors": "shedaniel",
         "displayName": "Architectury",
+        "ignore": false
+    },
+    {
+        "modid": "ardagrass",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ardagrass",
+        "authors": "JayemCeekay",
+        "displayName": "ArdaGrass",
         "ignore": false
     },
     {
@@ -432,14 +432,6 @@
         "ignore": false
     },
     {
-        "modid": "continuity",
-        "license": "LGPL-3.0",
-        "url": "https://www.curseforge.com/minecraft/mc-mods/continuity",
-        "authors": "PepperCode1",
-        "displayName": "Continuity",
-        "ignore": false
-    },
-    {
         "modid": "computercraft",
         "license": "ComputerCraft Public License (https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE)",
         "url": "",
@@ -461,6 +453,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/conquest-reforged",
         "authors": "ConquestAdmin",
         "displayName": "Conquest Reforged",
+        "ignore": false
+    },
+    {
+        "modid": "continuity",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/continuity",
+        "authors": "PepperCode1",
+        "displayName": "Continuity",
         "ignore": false
     },
     {
@@ -592,6 +592,14 @@
         "ignore": false
     },
     {
+        "modid": "crittersandcompanions",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/critters-and-companions",
+        "authors": "Joosh, EterDelta",
+        "displayName": "Critters and Companions",
+        "ignore": false
+    },
+    {
         "modid": "cucumber",
         "license": "MIT",
         "url": "",
@@ -621,6 +629,14 @@
         "url": "",
         "authors": "C4",
         "displayName": "Curios API",
+        "ignore": false
+    },
+    {
+        "modid": "curtain",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/curtain",
+        "authors": "Gugle",
+        "displayName": "Curtain",
         "ignore": false
     },
     {
@@ -701,6 +717,14 @@
         "url": "",
         "authors": "<author>",
         "displayName": "DreamCasLib",
+        "ignore": false
+    },
+    {
+        "modid": "duckling",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/duckling",
+        "authors": "Frogipher, ThatGravyBoat",
+        "displayName": "Duckling",
         "ignore": false
     },
     {
@@ -792,6 +816,14 @@
         "ignore": false
     },
     {
+        "modid": "enhancedai",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/enhanced-ai",
+        "authors": "Insane96MCP",
+        "displayName": "Enhanced AI",
+        "ignore": false
+    },
+    {
         "modid": "enhancedvisuals",
         "license": "LGPL-3.0",
         "url": "",
@@ -864,11 +896,11 @@
         "ignore": false
     },
     {
-        "modid": "fabric-permissions-api-v0",
-        "license": "MIT",
-        "url": "https://modrinth.com/mod/fabric-permissions-api",
-        "authors": "lucko",
-        "displayName": "Fabric Permissions API",
+        "modid": "ezvcsurvival",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/voiceless-survival",
+        "authors": "armilp",
+        "displayName": "Voiceless Survival",
         "ignore": false
     },
     {
@@ -877,6 +909,14 @@
         "url": "",
         "authors": "FabricMC, Sinytra",
         "displayName": "Forgified Fabric API",
+        "ignore": false
+    },
+    {
+        "modid": "fabric-permissions-api-v0",
+        "license": "MIT",
+        "url": "https://modrinth.com/mod/fabric-permissions-api",
+        "authors": "lucko",
+        "displayName": "Fabric Permissions API",
         "ignore": false
     },
     {
@@ -1160,11 +1200,27 @@
         "ignore": false
     },
     {
+        "modid": "insanelib",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/insanelib",
+        "authors": "Insane96MCP",
+        "displayName": "InsaneLib",
+        "ignore": false
+    },
+    {
         "modid": "ironjetpacks",
         "license": "MIT",
         "url": "",
         "authors": "BlakeBr0",
         "displayName": "Iron Jetpacks",
+        "ignore": false
+    },
+    {
+        "modid": "irons_lib",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "Iron431",
+        "displayName": "Iron's Lib",
         "ignore": false
     },
     {
@@ -1448,6 +1504,14 @@
         "ignore": false
     },
     {
+        "modid": "mocreatures",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mo-creatures-reforged",
+        "authors": "Mo' Creatures Team",
+        "displayName": "Mo' Creatures Reforged",
+        "ignore": false
+    },
+    {
         "modid": "modchecker",
         "license": "All Rights Reserved",
         "url": "",
@@ -1544,14 +1608,6 @@
         "ignore": false
     },
     {
-        "modid": "nightmareesm",
-        "license": "All Rights Reserved",
-        "url": "https://www.curseforge.com/minecraft/mc-mods/epic-mob-siege-nightmare",
-        "authors": "nuclearlavalamp, greenchiss",
-        "displayName": "Nightmare Epic Siege Mod",
-        "ignore": false
-    },
-    {
         "modid": "nirvana",
         "license": "https://github.com/teamgalena/nirvana/blob/1.20.x/LICENSE.txt",
         "url": "https://www.curseforge.com/minecraft/mc-mods/nirvana",
@@ -1560,19 +1616,19 @@
         "ignore": false
     },
     {
-        "modid": "nuit",
-        "license": "MIT",
-        "url": "https://www.curseforge.com/minecraft/mc-mods/nuit",
-        "authors": "FlashyReese",
-        "displayName": "Nuit",
-        "ignore": false
-    },
-    {
         "modid": "no_fog",
         "license": "MIT",
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "nuit",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/nuit",
+        "authors": "FlashyReese",
+        "displayName": "Nuit",
         "ignore": false
     },
     {
@@ -1624,6 +1680,14 @@
         "ignore": false
     },
     {
+        "modid": "ore_timer",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "<author>",
+        "displayName": "Ore Timer Mod",
+        "ignore": false
+    },
+    {
         "modid": "parcool",
         "license": "GPL-3.0",
         "url": "",
@@ -1669,6 +1733,14 @@
         "url": "",
         "authors": "Virtuoel",
         "displayName": "Pehkui",
+        "ignore": false
+    },
+    {
+        "modid": "petting",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/petting",
+        "authors": "Yigit Guven",
+        "displayName": "Petting",
         "ignore": false
     },
     {
@@ -1741,6 +1813,14 @@
         "url": "",
         "authors": "MeowMC, qouteall, Thelnfamous1, xhyrom",
         "displayName": "Portal Gun Mod",
+        "ignore": false
+    },
+    {
+        "modid": "posture",
+        "license": "GPL3",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mrcrayfishs-posture-unofficial-player-port",
+        "authors": "MrCrayfish",
+        "displayName": "Posture",
         "ignore": false
     },
     {
@@ -2176,6 +2256,14 @@
         "ignore": false
     },
     {
+        "modid": "terralith",
+        "license": "Stardust Labs License",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/terralith",
+        "authors": "Stardust Labs, Cristelknight",
+        "displayName": "Terralith",
+        "ignore": false
+    },
+    {
         "modid": "the_blood_giant",
         "license": "Academic Free License v3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/the-rampage-of-the-blood-giant-villager",
@@ -2288,6 +2376,14 @@
         "ignore": false
     },
     {
+        "modid": "untamedwilds",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/untamedwilds",
+        "authors": "RayTrace082",
+        "displayName": "Untamed Wilds",
+        "ignore": false
+    },
+    {
         "modid": "unusualfishmod",
         "license": "LGPL-3.0",
         "url": "",
@@ -2328,11 +2424,27 @@
         "ignore": false
     },
     {
+        "modid": "vehicle",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mrcrayfishs-vehicle-mod-unofficial-player-port",
+        "authors": "MrCrayfish, ItsUniqueGamer",
+        "displayName": "MrCrayfish's Vehicle Mod",
+        "ignore": false
+    },
+    {
         "modid": "videoplayer",
         "license": "All Rights Reserved",
         "url": "",
         "authors": "Goedix",
         "displayName": "VideoPlayer",
+        "ignore": false
+    },
+    {
+        "modid": "village_shop",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "<author>",
+        "displayName": "VillageShop",
         "ignore": false
     },
     {
@@ -2400,6 +2512,14 @@
         "ignore": false
     },
     {
+        "modid": "warsteel",
+        "license": "GPL-3.0",
+        "url": "",
+        "authors": "Lilrevo",
+        "displayName": "WarSteel 3985",
+        "ignore": false
+    },
+    {
         "modid": "watermedia",
         "license": "All-Rights-Reserved",
         "url": "",
@@ -2445,6 +2565,14 @@
         "url": "",
         "authors": "Reascer",
         "displayName": "Weapons of miracle",
+        "ignore": false
+    },
+    {
+        "modid": "worldedit",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/worldedit",
+        "authors": "EngineHub",
+        "displayName": "WorldEdit",
         "ignore": false
     },
     {
