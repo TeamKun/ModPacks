@@ -5,6 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="./style.css">
   <title>Credit List by KUNLab</title>
+  <style>
+    /* タブ */
+    .tabs {
+      display: flex;
+      gap: 0;
+      margin-bottom: 1.5rem;
+      border-bottom: 2px solid #ddd;
+    }
+    .tabs button {
+      padding: 0.6rem 1.4rem;
+      border: none;
+      background: none;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #666;
+      cursor: pointer;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -2px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .tabs button:hover {
+      color: #333;
+    }
+    .tabs button.active {
+      color: #0078d7;
+      border-bottom-color: #0078d7;
+    }
+    .tab-panel {
+      display: none;
+    }
+    .tab-panel.active {
+      display: block;
+    }
+  </style>
 </head>
 <body>
 <h1>
@@ -12,34 +46,81 @@
   <span class="subtitle">by KUNLab</span>
   <span class="subtitle">(including mods not used in the video)</span>
 </h1>
-  <ul id="mod-list"></ul>
+
+  <div class="tabs">
+    <button class="active" data-tab="addons">Addons</button>
+    <button data-tab="maps">Maps</button>
+  </div>
+
+  <div id="panel-addons" class="tab-panel active">
+    <ul id="mod-list"></ul>
+  </div>
+
+  <div id="panel-maps" class="tab-panel">
+    <ul id="map-list"></ul>
+  </div>
+
   <script src="./script.js"></script>
   <script>
+    // タブ切り替え
+    document.querySelectorAll(".tabs button").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".tabs button").forEach(b => b.classList.remove("active"));
+        document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+        btn.classList.add("active");
+        document.getElementById("panel-" + btn.dataset.tab).classList.add("active");
+      });
+    });
+
     window.addEventListener("DOMContentLoaded", async () => {
+      // Addons（既存のまま）
       try {
         const mods = await getCreditRequiredMods();
         const listEl = document.getElementById("mod-list");
 
-    for (const mod of mods) {
-    const li = document.createElement("li");
-    const authorPart =
-        mod.authors && mod.authors !== "<author>"
-        ? `<span class="author">by ${mod.authors}</span>`
-        : "";
+        for (const mod of mods) {
+          const li = document.createElement("li");
+          const authorPart =
+            mod.authors && mod.authors !== "<author>"
+              ? `<span class="author">by ${mod.authors}</span>`
+              : "";
 
-    li.innerHTML = `
-        <span class="name">${mod.displayName}</span>
-        ${authorPart}
-        <span class="license">License: ${mod.license}</span>
-        ${mod.url ? `<a href="${mod.url}" target="_blank">${mod.url}</a>` : ""}
-    `;
-    listEl.appendChild(li);
-    }
-
+          li.innerHTML = `
+            <span class="name">${mod.displayName}</span>
+            ${authorPart}
+            <span class="license">License: ${mod.license}</span>
+            ${mod.url ? `<a href="${mod.url}" target="_blank">${mod.url}</a>` : ""}
+          `;
+          listEl.appendChild(li);
+        }
       } catch (e) {
         console.error(e);
-        document.getElementById("mod-list").innerHTML =
-          "<li>ERROR</li>";
+        document.getElementById("mod-list").innerHTML = "<li>ERROR</li>";
+      }
+
+      // Maps
+      try {
+        const res = await fetch("./maplist.json", { cache: "no-store" });
+        if (!res.ok) throw new Error(`Failed: ${res.status}`);
+        const maps = await res.json();
+        const mapListEl = document.getElementById("map-list");
+
+        for (const m of maps) {
+          const li = document.createElement("li");
+          const authorPart = m.author
+            ? `<span class="author">by ${m.author}</span>`
+            : "";
+
+          li.innerHTML = `
+            <span class="name">${m.name || ""}</span>
+            ${authorPart}
+            ${m.url ? `<a href="${m.url}" target="_blank">${m.url}</a>` : ""}
+          `;
+          mapListEl.appendChild(li);
+        }
+      } catch (e) {
+        console.error(e);
+        document.getElementById("map-list").innerHTML = "<li>ERROR</li>";
       }
     });
   </script>
