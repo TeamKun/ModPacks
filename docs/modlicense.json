@@ -432,6 +432,14 @@
         "ignore": false
     },
     {
+        "modid": "coloured_bricks",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/coloured-bricks",
+        "authors": "hp, MCreator",
+        "displayName": "Coloured Bricks",
+        "ignore": false
+    },
+    {
         "modid": "computercraft",
         "license": "ComputerCraft Public License (https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE)",
         "url": "",
@@ -485,6 +493,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "cozy_home",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cozy-home",
+        "authors": "Prela, MCreator",
+        "displayName": "Cozy Home",
         "ignore": false
     },
     {
@@ -584,19 +600,19 @@
         "ignore": false
     },
     {
-        "modid": "crust",
-        "license": "GPL-3.0",
-        "url": "https://www.curseforge.com/minecraft/mc-mods/crust",
-        "authors": "Father Toast, Sarinsa",
-        "displayName": "Crust",
-        "ignore": false
-    },
-    {
         "modid": "crittersandcompanions",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/critters-and-companions",
         "authors": "Joosh, EterDelta",
         "displayName": "Critters and Companions",
+        "ignore": false
+    },
+    {
+        "modid": "crust",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/crust",
+        "authors": "Father Toast, Sarinsa",
+        "displayName": "Crust",
         "ignore": false
     },
     {
@@ -933,6 +949,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/fantasy-weapons-medieval-series",
         "authors": "Kenddie, mon1tor",
         "displayName": "Fantasy Weapons (Medieval Series)",
+        "ignore": false
+    },
+    {
+        "modid": "fantasyfurniture",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fantasys-furniture",
+        "authors": "ApexStudios",
+        "displayName": "Fantasy's Furniture",
         "ignore": false
     },
     {
@@ -1338,7 +1362,7 @@
     {
         "modid": "localizedchat",
         "license": "MIT",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/localized-chat",
         "authors": "kreezxil",
         "displayName": "Localized Chat",
         "ignore": false
@@ -1437,6 +1461,14 @@
         "url": "",
         "authors": "Alejandro Coria (MemeSapiens)",
         "displayName": "MapFrontiers",
+        "ignore": false
+    },
+    {
+        "modid": "mcwwindows",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-windows",
+        "authors": "Sketch Macaw & Peachy Macaw",
+        "displayName": "Macaw's Windows",
         "ignore": false
     },
     {
@@ -1976,6 +2008,14 @@
         "ignore": false
     },
     {
+        "modid": "runiclib",
+        "license": "AZURUNE License",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/runiclib",
+        "authors": "Yirmiri",
+        "displayName": "RunicLib",
+        "ignore": false
+    },
+    {
         "modid": "s_a_b",
         "license": "Academic Free License v3.0",
         "url": "",
@@ -2141,6 +2181,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "sundries",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sundries",
+        "authors": "Donjey, MCreator",
+        "displayName": "Sundries",
         "ignore": false
     },
     {
@@ -2397,6 +2445,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/upgrade-aquatic/files/5615651",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "urban_decor",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/urban-decor",
+        "authors": "Yirmiri & aridoitsu",
+        "displayName": "Urban Decor",
         "ignore": false
     },
     {
