@@ -1,0 +1,16 @@
+{
+  "id": "net.gabou:identity2:1.3.4@jar",
+  "name": "Identity2",
+  "author": "Gabou",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 679826,
+    "MD5": "f7d95f61720e6b937889dd81016c287e",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/identity-fix-morph/download/7846009",
+      "name": "identity2-forge-1.3.4.jar"
+    }
+  }
+}

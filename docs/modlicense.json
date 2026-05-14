@@ -36,7 +36,7 @@
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/alexs-caves",
         "authors": "Alexthe668, Noonyeyz",
-        "displayName": "Alex's Caves",
+        "displayName": "Alex",
         "ignore": false
     },
     {
@@ -146,7 +146,7 @@
     {
         "modid": "attributeslib",
         "license": "MIT",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/apothic-attributes",
         "authors": "Shadows_of_Fire",
         "displayName": "Apothic Attributes",
         "ignore": false
@@ -193,10 +193,10 @@
     },
     {
         "modid": "bettercombat",
-        "license": "All Rights Reserved",
+        "license": "GPL-3.0",
         "url": "",
-        "authors": "",
-        "displayName": "",
+        "authors": "Daedelus",
+        "displayName": "Better Combat",
         "ignore": false
     },
     {
@@ -306,7 +306,7 @@
     {
         "modid": "cataclysm",
         "license": "All Rights Reserved",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lendercataclysm",
         "authors": "L_Ender",
         "displayName": "Cataclysm Mod",
         "ignore": false
@@ -1152,6 +1152,14 @@
         "ignore": false
     },
     {
+        "modid": "identity2",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "Gabou",
+        "displayName": "Identity2",
+        "ignore": false
+    },
+    {
         "modid": "immediatelyfast",
         "license": "LGPL-3.0",
         "url": "",
@@ -1169,7 +1177,7 @@
     },
     {
         "modid": "immersive-portals",
-        "license": "Apache License Version 2.0",
+        "license": "Apache-2.0",
         "url": "",
         "authors": "qouteall",
         "displayName": "Immersive Portals",
@@ -1260,7 +1268,15 @@
         "license": "All Rights Reserved",
         "url": "",
         "authors": "Iron431, Lab3",
-        "displayName": "Iron's Spells 'n Spellbooks",
+        "displayName": "Iron",
+        "ignore": false
+    },
+    {
+        "modid": "ironsspellmodifiermod",
+        "license": "MIT",
+        "url": "https://github.com/KUN-Command-Team/IronsspellModifierMod",
+        "authors": "",
+        "displayName": "IronsSpellModifierMod",
         "ignore": false
     },
     {
@@ -1353,9 +1369,9 @@
     },
     {
         "modid": "lionfishapi",
-        "license": "All Rights Reserved",
+        "license": "LGPL-3.0",
         "url": "",
-        "authors": "<author>",
+        "authors": "",
         "displayName": "LionfishAPI",
         "ignore": false
     },
@@ -1512,7 +1528,7 @@
         "ignore": false
     },
     {
-        "modid": "MiscUtils",
+        "modid": "miscutils",
         "license": "MIT",
         "url": "",
         "authors": "Horeaki",
@@ -2024,6 +2040,14 @@
         "ignore": false
     },
     {
+        "modid": "samurai_dynasty",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/samurai-dynasty",
+        "authors": "VeroxUniverse",
+        "displayName": "Samurai Dynasty",
+        "ignore": false
+    },
+    {
         "modid": "securitycraft",
         "license": "MIT",
         "url": "",
@@ -2402,9 +2426,9 @@
     {
         "modid": "traveloptics",
         "license": "All Rights Reserved",
-        "url": "",
-        "authors": "",
-        "displayName": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/to-tweaks-irons-spells",
+        "authors": "GameTechBC",
+        "displayName": "T.O Magic",
         "ignore": false
     },
     {

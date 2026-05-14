@@ -498,5 +498,10 @@
     "name": "GPLv3 license",
     "canSecondaryDistribution": true,
     "shouldRightsNotation": false
+  },
+  {
+    "name": "AZURUNE License",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
   }
 ]
