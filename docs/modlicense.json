@@ -1032,6 +1032,14 @@
         "ignore": false
     },
     {
+        "modid": "gaboulibs",
+        "license": "All Rights Reserved",
+        "url": "",
+        "authors": "Gabou",
+        "displayName": "gaboulibs",
+        "ignore": false
+    },
+    {
         "modid": "gatekeeper",
         "license": "All Rights Reserved",
         "url": "",

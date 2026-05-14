@@ -1,0 +1,16 @@
+{
+  "id": "net.gabou:gaboulibs:1.7.1@jar",
+  "name": "gaboulibs",
+  "author": "Gabou",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 25349,
+    "MD5": "a831f7f8d6d5f42fb7eaa4583241c41e",
+    "url": "",
+    "license": "All Rights Reserved",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/gabous-libs/download/7519775",
+      "name": "gaboulibs-forge-1.7.1.jar"
+    }
+  }
+}
