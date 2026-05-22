@@ -120,6 +120,14 @@
         "ignore": false
     },
     {
+        "modid": "astemirlib",
+        "license": "All-Rights-Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/astemirlib",
+        "authors": "Astemir",
+        "displayName": "AstemirLib",
+        "ignore": false
+    },
+    {
         "modid": "attack_on_titan",
         "license": "Academic Free License v3.0",
         "url": "",
@@ -693,6 +701,14 @@
         "url": "",
         "authors": "",
         "displayName": "True Darkness",
+        "ignore": false
+    },
+    {
+        "modid": "dawnera",
+        "license": "All-Rights-Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/the-dawn-era",
+        "authors": "Owner: Xish, Coder: Astemir, Main Artist: jurnaro, Artist: MinoriRainach",
+        "displayName": "TheDawnEra",
         "ignore": false
     },
     {
@@ -1320,6 +1336,22 @@
         "ignore": false
     },
     {
+        "modid": "jurassicreborn",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jurassic-reborn",
+        "authors": "<author>",
+        "displayName": "Jurassic Reborn",
+        "ignore": false
+    },
+    {
+        "modid": "jurassicsaga",
+        "license": "All-Rights-Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jurassic-saga",
+        "authors": "Collinvht, Totemaster, BizarreMegaloceros, Starstorms21",
+        "displayName": "JurassicSaga",
+        "ignore": false
+    },
+    {
         "modid": "kimetsunoyaiba",
         "license": "Academic Free License v3.0",
         "url": "",
@@ -1896,11 +1928,27 @@
         "ignore": false
     },
     {
+        "modid": "prehistoricfauna",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/prehistoric-fauna",
+        "authors": "superlord9362, Corgi Taco, RafaMv, Alexthe668, cappin",
+        "displayName": "Prehistoric Fauna",
+        "ignore": false
+    },
+    {
         "modid": "presencefootsteps",
         "license": "MIT",
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "primal_frontier",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/primal-frontier",
+        "authors": "Deemo",
+        "displayName": "Primal Frontier",
         "ignore": false
     },
     {
@@ -2013,6 +2061,14 @@
         "url": "",
         "authors": "<author>",
         "displayName": "Rojiura Mod",
+        "ignore": false
+    },
+    {
+        "modid": "ror",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/raxiores-of-raxiore",
+        "authors": "raxiore, MCreator",
+        "displayName": "Raxiores Of Raxiore",
         "ignore": false
     },
     {
@@ -2437,6 +2493,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/to-tweaks-irons-spells",
         "authors": "GameTechBC",
         "displayName": "T.O Magic",
+        "ignore": false
+    },
+    {
+        "modid": "travelerslib",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-lib",
+        "authors": "Collinvht",
+        "displayName": "Travelers Lib",
         "ignore": false
     },
     {
