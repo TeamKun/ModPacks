@@ -776,6 +776,30 @@
         "ignore": false
     },
     {
+        "modid": "easy_npc",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/easy-npc-core",
+        "authors": "Markus Bordihn",
+        "displayName": "Easy NPC",
+        "ignore": false
+    },
+    {
+        "modid": "easy_npc_bundle",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/easy-npc",
+        "authors": "Markus Bordihn",
+        "displayName": "Easy NPC (Bundle)",
+        "ignore": false
+    },
+    {
+        "modid": "easy_npc_config_ui",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/easy-npc-config-ui",
+        "authors": "Markus Bordihn",
+        "displayName": "Easy NPC: Config UI",
+        "ignore": false
+    },
+    {
         "modid": "ebb",
         "license": "AGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/elytra-bombing",
@@ -2488,19 +2512,19 @@
         "ignore": false
     },
     {
-        "modid": "traveloptics",
-        "license": "All Rights Reserved",
-        "url": "https://www.curseforge.com/minecraft/mc-mods/to-tweaks-irons-spells",
-        "authors": "GameTechBC",
-        "displayName": "T.O Magic",
-        "ignore": false
-    },
-    {
         "modid": "travelerslib",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-lib",
         "authors": "Collinvht",
         "displayName": "Travelers Lib",
+        "ignore": false
+    },
+    {
+        "modid": "traveloptics",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/to-tweaks-irons-spells",
+        "authors": "GameTechBC",
+        "displayName": "T.O Magic",
         "ignore": false
     },
     {
