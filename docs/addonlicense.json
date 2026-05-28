@@ -138,7 +138,7 @@
         "displayName": "OhMyDat"
     },
     {
-        "license": "https://cocricot.pics/ja/faq",
+        "license": "https://cocricot.pics/ja/terms",
         "url": "https://cocricot.pics/",
         "authors": "cocricot",
         "displayName": "Cocricot"
@@ -148,5 +148,11 @@
         "url": "https://miniaturia.club/",
         "authors": "はすっこ",
         "displayName": "MiniaTuria"
+    },
+    {
+        "license": "https://rojiuramod.cloudfree.jp/download",
+        "url": "https://rojiuramod.cloudfree.jp/download",
+        "authors": "Kumanoko",
+        "displayName": "Rojiura Mod"
     }
 ]

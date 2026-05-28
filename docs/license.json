@@ -505,12 +505,17 @@
     "shouldRightsNotation": true
   },
   {
-    "name": "https://cocricot.pics/ja/faq",
+    "name": "https://cocricot.pics/ja/terms",
     "canSecondaryDistribution": false,
     "shouldRightsNotation": true
   },
   {
     "name": "https://miniaturia.club/terms/java/",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "https://rojiuramod.cloudfree.jp/download",
     "canSecondaryDistribution": false,
     "shouldRightsNotation": true
   }
