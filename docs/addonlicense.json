@@ -136,5 +136,17 @@
         "url": "https://github.com/Ai-Akaishi/OhMyDat",
         "authors": "Ai-Akaishi",
         "displayName": "OhMyDat"
+    },
+    {
+        "license": "https://cocricot.pics/ja/faq",
+        "url": "https://cocricot.pics/",
+        "authors": "cocricot",
+        "displayName": "Cocricot"
+    },
+    {
+        "license": "https://miniaturia.club/terms/java/",
+        "url": "https://miniaturia.club/",
+        "authors": "はすっこ",
+        "displayName": "MiniaTuria"
     }
 ]

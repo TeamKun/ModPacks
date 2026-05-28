@@ -984,6 +984,14 @@
         "ignore": false
     },
     {
+        "modid": "familiar_fauna",
+        "license": "CC BY-NC-ND 4.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/familiar-fauna",
+        "authors": "Forstride",
+        "displayName": "Familiar Fauna",
+        "ignore": false
+    },
+    {
         "modid": "fantasy_weapons",
         "license": "DSMSLv2",
         "url": "https://www.curseforge.com/minecraft/mc-mods/fantasy-weapons-medieval-series",

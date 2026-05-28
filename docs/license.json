@@ -503,5 +503,15 @@
     "name": "AZURUNE License",
     "canSecondaryDistribution": false,
     "shouldRightsNotation": true
+  },
+  {
+    "name": "https://cocricot.pics/ja/faq",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
+  },
+  {
+    "name": "https://miniaturia.club/terms/java/",
+    "canSecondaryDistribution": false,
+    "shouldRightsNotation": true
   }
 ]
