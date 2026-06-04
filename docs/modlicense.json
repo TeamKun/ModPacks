@@ -936,6 +936,14 @@
         "ignore": false
     },
     {
+        "modid": "explosionoverhaul",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/explosion-overhaul-a-new-level-of-destruction",
+        "authors": "Vinlanx",
+        "displayName": "Explosion Overhaul: A new level of destruction",
+        "ignore": false
+    },
+    {
         "modid": "extraspellattributes",
         "license": "CC0-1.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/extra-spell-attributes",
@@ -1685,6 +1693,22 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "mts",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator",
+        "authors": "Mr_Mulle",
+        "displayName": "Immersive Vehicles (formerly MTS)",
+        "ignore": false
+    },
+    {
+        "modid": "mtsofficialpack",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/transport-simulator-official-vehicle-set",
+        "authors": "Mr_Mulle",
+        "displayName": "Immersive Vehicles (MTS/IV) - Official Content Pack",
         "ignore": false
     },
     {
