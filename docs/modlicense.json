@@ -490,7 +490,7 @@
     {
         "modid": "coroutil",
         "license": "All Rights Reserved",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/coroutil",
         "authors": "Corosus",
         "displayName": "CoroUtil",
         "ignore": false
@@ -634,7 +634,7 @@
     {
         "modid": "cuffed",
         "license": "All Rights Reserved",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cuffed",
         "authors": "Lazr Productions",
         "displayName": "Cuffed",
         "ignore": false
@@ -1418,7 +1418,7 @@
     {
         "modid": "lazrslib",
         "license": "All Rights Reserved",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lazrs-lib",
         "authors": "Lazr Productions",
         "displayName": "Lazr's Lib",
         "ignore": false
@@ -1442,7 +1442,7 @@
     {
         "modid": "lexiconfig",
         "license": "GNU GPLv3",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lexiconfig",
         "authors": "CodinGlitch",
         "displayName": "Lexiconfig",
         "ignore": false
@@ -1874,7 +1874,7 @@
     {
         "modid": "pehkui",
         "license": "MIT",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/pehkui",
         "authors": "Virtuoel",
         "displayName": "Pehkui",
         "ignore": false
@@ -1898,7 +1898,7 @@
     {
         "modid": "placebo",
         "license": "MIT",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/placebo",
         "authors": "Shadows_of_Fire",
         "displayName": "Placebo",
         "ignore": false
@@ -2202,7 +2202,7 @@
     {
         "modid": "simpleradio",
         "license": "GNU GPLv3",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-radio",
         "authors": "CodinGlitch",
         "displayName": "SimpleRadio",
         "ignore": false
@@ -2666,7 +2666,7 @@
     {
         "modid": "voicechat",
         "license": "All Rights Reserved",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat",
         "authors": "Max Henkel",
         "displayName": "Simple Voice Chat",
         "ignore": false
@@ -2738,7 +2738,7 @@
     {
         "modid": "watut",
         "license": "All Rights Reserved",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/what-are-they-up-to",
         "authors": "Corosus",
         "displayName": "What Are They Up To",
         "ignore": false
