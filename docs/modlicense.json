@@ -1528,19 +1528,19 @@
         "ignore": false
     },
     {
-        "modid": "localizedchat",
-        "license": "MIT",
-        "url": "https://www.curseforge.com/minecraft/mc-mods/localized-chat",
-        "authors": "kreezxil",
-        "displayName": "Localized Chat",
-        "ignore": false
-    },
-    {
         "modid": "lithostitched",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/lithostitched",
         "authors": "Apollo",
         "displayName": "Lithostitched",
+        "ignore": false
+    },
+    {
+        "modid": "localizedchat",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/localized-chat",
+        "authors": "kreezxil",
+        "displayName": "Localized Chat",
         "ignore": false
     },
     {
@@ -2885,6 +2885,14 @@
         "url": "",
         "authors": "Lilrevo",
         "displayName": "WarSteel 3985",
+        "ignore": false
+    },
+    {
+        "modid": "watching",
+        "license": "None",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/from-the-fog",
+        "authors": "Bret06",
+        "displayName": "From The Fog",
         "ignore": false
     },
     {
