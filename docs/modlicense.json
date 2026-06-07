@@ -1,5 +1,13 @@
 [
     {
+        "modid": "aaa_particles",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/aaa-particles",
+        "authors": "ChloePrime",
+        "displayName": "AAA Particles",
+        "ignore": false
+    },
+    {
         "modid": "abuliaisland",
         "license": "All Rights Reserved",
         "url": "",
@@ -61,6 +69,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/fnaf-animatronic-containment",
         "authors": "Blocksmith Creations",
         "displayName": "Animatronic Containment",
+        "ignore": false
+    },
+    {
+        "modid": "apotheosis",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/apotheosis",
+        "authors": "Shadows_of_Fire",
+        "displayName": "Apotheosis",
         "ignore": false
     },
     {
@@ -200,11 +216,27 @@
         "ignore": false
     },
     {
+        "modid": "better_weaponry",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/better-weaponry-better-combat",
+        "authors": "Worox_IV",
+        "displayName": "Better Weaponry",
+        "ignore": false
+    },
+    {
         "modid": "bettercombat",
         "license": "GPL-3.0",
         "url": "",
         "authors": "Daedelus",
         "displayName": "Better Combat",
+        "ignore": false
+    },
+    {
+        "modid": "betterdungeons",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons",
+        "authors": "YUNGNICKYOUNG, Acarii",
+        "displayName": "YUNG's Better Dungeons",
         "ignore": false
     },
     {
@@ -245,6 +277,14 @@
         "url": "",
         "authors": "<author>",
         "displayName": "Boiled One Reimagined",
+        "ignore": false
+    },
+    {
+        "modid": "bosses_of_mass_destruction",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge",
+        "authors": "CerbonXD",
+        "displayName": "Bosses of Mass Destruction",
         "ignore": false
     },
     {
@@ -341,6 +381,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "cerbons_api",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cerbons-api",
+        "authors": "CerbonXD",
+        "displayName": "Cerbons API",
         "ignore": false
     },
     {
@@ -760,6 +808,22 @@
         "ignore": false
     },
     {
+        "modid": "dungeons_arise",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise",
+        "authors": "Aurelj, DiamondTown and Zephyrusj",
+        "displayName": "When Dungeons Arise",
+        "ignore": false
+    },
+    {
+        "modid": "dungeons_enhanced",
+        "license": "https://github.com/Ametrin-Studios/DungeonsEnhanced/blob/master/LICENSE",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/dungeonsenhanced",
+        "authors": "Ametrin Studios",
+        "displayName": "Dungeons Enhanced",
+        "ignore": false
+    },
+    {
         "modid": "dyemobdye",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/dye-mob-dye",
@@ -997,6 +1061,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/familiar-fauna",
         "authors": "Forstride",
         "displayName": "Familiar Fauna",
+        "ignore": false
+    },
+    {
+        "modid": "fantasy_armor",
+        "license": "DSMSLv2",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fantasy-armor",
+        "authors": "Kenddie, mon1tor",
+        "displayName": "Fantasy Armor",
         "ignore": false
     },
     {
@@ -1464,6 +1536,22 @@
         "ignore": false
     },
     {
+        "modid": "lithostitched",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lithostitched",
+        "authors": "Apollo",
+        "displayName": "Lithostitched",
+        "ignore": false
+    },
+    {
+        "modid": "lodestone",
+        "license": "GPLv3",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lodestone",
+        "authors": "Lodestar",
+        "displayName": "Lodestone",
+        "ignore": false
+    },
+    {
         "modid": "lrtactical",
         "license": "GPL-3.0",
         "url": "",
@@ -1656,6 +1744,14 @@
         "ignore": false
     },
     {
+        "modid": "monsterexpansion",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/monster-expansion",
+        "authors": "Saksolm",
+        "displayName": "Monster Expansion",
+        "ignore": false
+    },
+    {
         "modid": "moonlight",
         "license": "gplv3",
         "url": "",
@@ -1717,6 +1813,14 @@
         "url": "",
         "authors": "shcott21, Chumbanotz, Fuzs, tdstress",
         "displayName": "Mutant Monsters",
+        "ignore": false
+    },
+    {
+        "modid": "mutantmore",
+        "license": "Custom",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/new-mutant-more",
+        "authors": "Alexander's Fun and Games",
+        "displayName": "Mutant More",
         "ignore": false
     },
     {
@@ -2056,6 +2160,14 @@
         "ignore": false
     },
     {
+        "modid": "rats",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/rats",
+        "authors": "AlexThe666, GizmoTheMoonPig",
+        "displayName": "Rats",
+        "ignore": false
+    },
+    {
         "modid": "rechiseled",
         "license": "All Rights Reserved",
         "url": "",
@@ -2168,6 +2280,14 @@
         "ignore": false
     },
     {
+        "modid": "sandworm_mod",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/desert-behemoths-sandworms",
+        "authors": "JellyCarbonara",
+        "displayName": "Desert Behemoths: Sandworms!",
+        "ignore": false
+    },
+    {
         "modid": "securitycraft",
         "license": "MIT",
         "url": "",
@@ -2256,6 +2376,22 @@
         "ignore": false
     },
     {
+        "modid": "sophisticatedbackpacks",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks",
+        "authors": "P3pp3rF1y, Ridanisaurus",
+        "displayName": "Sophisticated Backpacks",
+        "ignore": false
+    },
+    {
+        "modid": "sophisticatedcore",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-core",
+        "authors": "P3pp3rF1y",
+        "displayName": "Sophisticated Core",
+        "ignore": false
+    },
+    {
         "modid": "sound_physics_remastered",
         "license": "GPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered",
@@ -2317,6 +2453,14 @@
         "url": "",
         "authors": "bonker",
         "displayName": "Stardew Fishing",
+        "ignore": false
+    },
+    {
+        "modid": "structure_gel",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/structure-gel-api",
+        "authors": "Silver_David, KingPhygieBoo, Jonathing",
+        "displayName": "Structure Gel API",
         "ignore": false
     },
     {
@@ -2424,6 +2568,14 @@
         "ignore": false
     },
     {
+        "modid": "tectonic",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tectonic",
+        "authors": "Apollo",
+        "displayName": "Tectonic",
+        "ignore": false
+    },
+    {
         "modid": "tenshilib",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/tenshilib",
@@ -2501,6 +2653,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/thief",
         "authors": "mortuusars",
         "displayName": "Thief",
+        "ignore": false
+    },
+    {
+        "modid": "threateningly_mobs",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/threateningly-mobs",
+        "authors": "tkhy, MCreator",
+        "displayName": "Threateningly mobs",
         "ignore": false
     },
     {
@@ -2813,6 +2973,14 @@
         "url": "",
         "authors": "isXander",
         "displayName": "YetAnotherConfigLib",
+        "ignore": false
+    },
+    {
+        "modid": "yungsapi",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-api",
+        "authors": "YUNGNICKYOUNG",
+        "displayName": "YUNG's API",
         "ignore": false
     }
 ]
