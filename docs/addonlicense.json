@@ -154,5 +154,11 @@
         "url": "https://rojiuramod.cloudfree.jp/download",
         "authors": "Kumanoko",
         "displayName": "Rojiura Mod"
+    },
+    {
+        "license": "MIT",
+        "url": "https://modrinth.com/datapack/tvf-infinite-village-datapack",
+        "authors": "TVFLabs",
+        "displayName": "The Infinite Village"
     }
 ]
