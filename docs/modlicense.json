@@ -784,6 +784,14 @@
         "ignore": false
     },
     {
+        "modid": "door_knocker",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/door-knocker-horror",
+        "authors": "Apelsinpro2009",
+        "displayName": "Door Knocker",
+        "ignore": false
+    },
+    {
         "modid": "dragnvehicles",
         "license": "All Rights Reserved",
         "url": "",
@@ -1317,6 +1325,14 @@
         "url": "",
         "authors": "qouteall",
         "displayName": "Immersive Portals",
+        "ignore": false
+    },
+    {
+        "modid": "imposter",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/imposter-horror",
+        "authors": "Danila Podpivas",
+        "displayName": "imposter",
         "ignore": false
     },
     {
@@ -2336,6 +2352,14 @@
         "ignore": false
     },
     {
+        "modid": "siren_head_the_sirens_attacker",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/siren-head-the-sirens-attacker-java-port-horror",
+        "authors": "megagatus, ExonarithMC, Kyrie Guinto",
+        "displayName": "Siren Head: The Siren's Attacker",
+        "ignore": false
+    },
+    {
         "modid": "skilltree",
         "license": "GPL-3.0",
         "url": "",
@@ -2637,6 +2661,14 @@
         "url": "",
         "authors": "thedarkcolour",
         "displayName": "kotlinforforge",
+        "ignore": false
+    },
+    {
+        "modid": "themimic_er",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/the-mimicer",
+        "authors": "Maximilian Cadentem",
+        "displayName": "themimic_er",
         "ignore": false
     },
     {
@@ -2989,6 +3021,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-api",
         "authors": "YUNGNICKYOUNG",
         "displayName": "YUNG's API",
+        "ignore": false
+    },
+    {
+        "modid": "zoniex",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/zoniex",
+        "authors": "vllax",
+        "displayName": "Zombie Nightmare Expansions",
         "ignore": false
     }
 ]
