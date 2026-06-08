@@ -1272,6 +1272,14 @@
         "ignore": false
     },
     {
+        "modid": "hollowmarch",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/hollowmarch",
+        "authors": "OverYourHead",
+        "displayName": "Hollowmarch",
+        "ignore": false
+    },
+    {
         "modid": "iceandfire",
         "license": "LGPL-3.0",
         "url": "",
@@ -2160,6 +2168,14 @@
         "ignore": false
     },
     {
+        "modid": "raccompat",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/rac-compat",
+        "authors": "SSKirillSS",
+        "displayName": "RAC-Compat",
+        "ignore": false
+    },
+    {
         "modid": "radium",
         "license": "LGPL-3.0",
         "url": "",
@@ -2197,6 +2213,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/regions-unexplored",
         "authors": "UHQ_GAMES",
         "displayName": "Regions Unexplored",
+        "ignore": false
+    },
+    {
+        "modid": "relics",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/relics-mod",
+        "authors": "SSKirillSS",
+        "displayName": "Relics",
         "ignore": false
     },
     {
