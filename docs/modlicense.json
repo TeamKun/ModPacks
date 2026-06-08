@@ -2680,6 +2680,14 @@
         "ignore": false
     },
     {
+        "modid": "the_silhouettes",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/the-silhouettes-horror",
+        "authors": "nolifeuser",
+        "displayName": "The Silhouettes",
+        "ignore": false
+    },
+    {
         "modid": "thedarkcolour.kotlinforforge",
         "license": "LGPL-3.0",
         "url": "",
