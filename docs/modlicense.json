@@ -512,6 +512,14 @@
         "ignore": false
     },
     {
+        "modid": "combatroll",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/combat-roll",
+        "authors": "Daedelus",
+        "displayName": "Combat Roll",
+        "ignore": false
+    },
+    {
         "modid": "connectorextras",
         "license": "MIT",
         "url": "",
@@ -677,6 +685,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/crust",
         "authors": "Father Toast, Sarinsa",
         "displayName": "Crust",
+        "ignore": false
+    },
+    {
+        "modid": "crusty_chunks",
+        "license": "Academic Free License v3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/warium",
+        "authors": "Novum",
+        "displayName": "Warium",
         "ignore": false
     },
     {

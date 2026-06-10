@@ -160,5 +160,23 @@
         "url": "https://modrinth.com/datapack/tvf-infinite-village-datapack",
         "authors": "TVFLabs",
         "displayName": "The Infinite Village"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tacz-presence",
+        "authors": "Alfr3XD",
+        "displayName": "TaCZ: Presence"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tacz-addons-daffas-arsenal",
+        "authors": "dafafatan",
+        "displayName": "[TACZ Addons] Daffa's Arsenal"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tacz-gucci-vuitton-attachments",
+        "authors": "xjqshm, LesRaisinsStudio, Koei",
+        "displayName": "[TACZ] Gucci & Vuitton Attachments"
     }
 ]
