@@ -416,6 +416,14 @@
         "ignore": false
     },
     {
+        "modid": "chovys_apocalypse_mod",
+        "license": "Academic Free License v3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/chovys-apocalypse",
+        "authors": "LazutiC",
+        "displayName": "Chovy's Apocalypse Mod",
+        "ignore": false
+    },
+    {
         "modid": "chunky",
         "license": "GNU GPLv3",
         "url": "",
@@ -1128,6 +1136,14 @@
         "ignore": true
     },
     {
+        "modid": "fnm_recrafted",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fapdos-nether-mobs-recrafted",
+        "authors": "fapdos",
+        "displayName": "fapdos' Nether Mobs: Recrafted",
+        "ignore": false
+    },
+    {
         "modid": "fog",
         "license": "All Rights Reserved",
         "url": "",
@@ -1197,6 +1213,14 @@
         "url": "",
         "authors": "Gecko, Eliot, AzureDoom, Chappie, DerToaster",
         "displayName": "GeckoLib",
+        "ignore": false
+    },
+    {
+        "modid": "glitchcore",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/glitchcore",
+        "authors": "Adubbz",
+        "displayName": "GlitchCore",
         "ignore": false
     },
     {
@@ -1512,6 +1536,14 @@
         "ignore": false
     },
     {
+        "modid": "lava_monster",
+        "license": "https://moddinglegacy.com/ML-Lesser-Terms/",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lava-monsters",
+        "authors": "FatherToast, KingPhygieBoo",
+        "displayName": "Lava Monster",
+        "ignore": false
+    },
+    {
         "modid": "lazrslib",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/lazrs-lib",
@@ -1621,6 +1653,14 @@
         "url": "",
         "authors": "",
         "displayName": "Lucky TNT Mod",
+        "ignore": false
+    },
+    {
+        "modid": "lycanitesmobs",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lycanites-mobs-reloaded",
+        "authors": "Lycanite (Richard Nicholson)",
+        "displayName": "Lycanites Mobs",
         "ignore": false
     },
     {
@@ -1741,6 +1781,14 @@
         "url": "",
         "authors": "<author>",
         "displayName": "Mob Battle Mod",
+        "ignore": false
+    },
+    {
+        "modid": "mobsexplodeondeath",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/explosive-mob-deaths",
+        "authors": "dillo, MCreator",
+        "displayName": "Mobsexplodeondeath",
         "ignore": false
     },
     {
@@ -2424,6 +2472,14 @@
         "ignore": false
     },
     {
+        "modid": "solarapocalypse",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/solar-apocalypse-reborn",
+        "authors": "Kannuki_san",
+        "displayName": "SolarApocalypse",
+        "ignore": false
+    },
+    {
         "modid": "sophisticatedbackpacks",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks",
@@ -2741,6 +2797,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/tomfoolery",
         "authors": "Sarinsa",
         "displayName": "Tomfoolery",
+        "ignore": false
+    },
+    {
+        "modid": "toughasnails",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tough-as-nails",
+        "authors": "Adubbz, Forstride",
+        "displayName": "ToughAsNails",
         "ignore": false
     },
     {
