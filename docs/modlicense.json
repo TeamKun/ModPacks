@@ -72,6 +72,14 @@
         "ignore": false
     },
     {
+        "modid": "anotherflashlightmodport",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/another-flashlight-mod",
+        "authors": "sozda, MCreator",
+        "displayName": "AnotherFlashlightModPort",
+        "ignore": false
+    },
+    {
         "modid": "apotheosis",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/apotheosis",
@@ -237,6 +245,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons",
         "authors": "YUNGNICKYOUNG, Acarii",
         "displayName": "YUNG's Better Dungeons",
+        "ignore": false
+    },
+    {
+        "modid": "betterfog",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/better-fog",
+        "authors": "Cloud",
+        "displayName": "BetterFog",
         "ignore": false
     },
     {
@@ -504,19 +520,19 @@
         "ignore": false
     },
     {
-        "modid": "computercraft",
-        "license": "ComputerCraft Public License (https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE)",
-        "url": "",
-        "authors": "",
-        "displayName": "",
-        "ignore": false
-    },
-    {
         "modid": "combatroll",
         "license": "GPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/combat-roll",
         "authors": "Daedelus",
         "displayName": "Combat Roll",
+        "ignore": false
+    },
+    {
+        "modid": "computercraft",
+        "license": "ComputerCraft Public License (https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE)",
+        "url": "",
+        "authors": "",
+        "displayName": "",
         "ignore": false
     },
     {
@@ -1173,6 +1189,14 @@
         "url": "",
         "authors": "Foopy",
         "displayName": "ForgeSkyboxes",
+        "ignore": false
+    },
+    {
+        "modid": "fracturepoint",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fracture-point",
+        "authors": "Raiiiden",
+        "displayName": "Fracture Point",
         "ignore": false
     },
     {
