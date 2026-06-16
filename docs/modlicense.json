@@ -24,6 +24,14 @@
         "ignore": false
     },
     {
+        "modid": "advanced_runtime_resource_pack",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/arrp",
+        "authors": "HalfOf2",
+        "displayName": "Runtime Resource Pack",
+        "ignore": false
+    },
+    {
         "modid": "advancedcompass",
         "license": "All Rights Reserved",
         "url": "",
@@ -85,6 +93,22 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/apotheosis",
         "authors": "Shadows_of_Fire",
         "displayName": "Apotheosis",
+        "ignore": false
+    },
+    {
+        "modid": "aquaculture",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/aquaculture",
+        "authors": "Shadowclaimer, Girafi",
+        "displayName": "Aquaculture 2",
+        "ignore": false
+    },
+    {
+        "modid": "aquaculturedelight",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/aquaculture-delight",
+        "authors": "NoCube",
+        "displayName": "Aquaculture Delight",
         "ignore": false
     },
     {
@@ -253,6 +277,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/better-fog",
         "authors": "Cloud",
         "displayName": "BetterFog",
+        "ignore": false
+    },
+    {
+        "modid": "betteroceanmonuments",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments",
+        "authors": "YUNGNICKYOUNG, Tera",
+        "displayName": "YUNG's Better Ocean Monuments",
         "ignore": false
     },
     {
@@ -800,6 +832,14 @@
         "ignore": false
     },
     {
+        "modid": "deeper_oceans",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/deeper-oceans",
+        "authors": "Apollo",
+        "displayName": "Deeper Oceans",
+        "ignore": false
+    },
+    {
         "modid": "disable_all_but_front_perspective",
         "license": "All Rights Reserved",
         "url": "",
@@ -864,6 +904,14 @@
         "ignore": false
     },
     {
+        "modid": "dungeons_arise_seven_seas",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise-seven-seas",
+        "authors": "Zephyrusj, Aurelj",
+        "displayName": "When Dungeons Arise: Seven Seas",
+        "ignore": false
+    },
+    {
         "modid": "dungeons_enhanced",
         "license": "https://github.com/Ametrin-Studios/DungeonsEnhanced/blob/master/LICENSE",
         "url": "https://www.curseforge.com/minecraft/mc-mods/dungeonsenhanced",
@@ -885,6 +933,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/dynamic-lights",
         "authors": "AtomicStryker",
         "displayName": "Dynamic Lights",
+        "ignore": false
+    },
+    {
+        "modid": "dynamicwaters",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/dynamic-waters",
+        "authors": "AdamNew",
+        "displayName": "Dynamic Waters",
         "ignore": false
     },
     {
@@ -1440,6 +1496,14 @@
         "ignore": true
     },
     {
+        "modid": "infectious",
+        "license": "Academic Free License v3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/infectious-zombie-apocalypse",
+        "authors": "User, MCreator",
+        "displayName": "Infectious",
+        "ignore": false
+    },
+    {
         "modid": "infernalmobs",
         "license": "AtomicStrykers License http://atomicstryker.net/about.php",
         "url": "https://www.curseforge.com/minecraft/mc-mods/atomicstrykers-infernal-mobs",
@@ -1549,6 +1613,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/jurassic-saga",
         "authors": "Collinvht, Totemaster, BizarreMegaloceros, Starstorms21",
         "displayName": "JurassicSaga",
+        "ignore": false
+    },
+    {
+        "modid": "justhammers",
+        "license": "GPL3",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/justhammers",
+        "authors": "ErrorMikey",
+        "displayName": "Just Hammers",
         "ignore": false
     },
     {
@@ -1757,6 +1829,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-windows",
         "authors": "Sketch Macaw & Peachy Macaw",
         "displayName": "Macaw's Windows",
+        "ignore": false
+    },
+    {
+        "modid": "medievalweapons",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/medievalweapons",
+        "authors": "Globox_Z",
+        "displayName": "Medieval Weapons",
         "ignore": false
     },
     {
@@ -2021,6 +2101,22 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "oceanicrealms",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/oceanic-realms",
+        "authors": "min01, leomard",
+        "displayName": "Oceanic Realms",
+        "ignore": false
+    },
+    {
+        "modid": "oceansdelight",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/oceans-delight",
+        "authors": "Scouter",
+        "displayName": "Ocean's Delight",
         "ignore": false
     },
     {
@@ -2616,6 +2712,14 @@
         "ignore": false
     },
     {
+        "modid": "subnauticraft",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mofus-subnauticraft",
+        "authors": "W11-PC, MCreator",
+        "displayName": "Subnauticraft",
+        "ignore": false
+    },
+    {
         "modid": "sundries",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/sundries",
@@ -2904,6 +3008,14 @@
         "ignore": false
     },
     {
+        "modid": "u_sea",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/unnamed-sea",
+        "authors": "UnnamedGlitch",
+        "displayName": "Unnamed Sea",
+        "ignore": false
+    },
+    {
         "modid": "untamedwilds",
         "license": "GPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/untamedwilds",
@@ -2917,6 +3029,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "unwrecked_ships_plus",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/unwrecked-ships-forge",
+        "authors": "Wpgradford, WightofShadows",
+        "displayName": "Unwrecked Ships - Plus",
         "ignore": false
     },
     {
@@ -3109,6 +3229,14 @@
         "url": "",
         "authors": "Reascer",
         "displayName": "Weapons of miracle",
+        "ignore": false
+    },
+    {
+        "modid": "wonderoussea",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/wonderous-sea-endlessocean",
+        "authors": "bugga, MCreator",
+        "displayName": "WonderousSea",
         "ignore": false
     },
     {
