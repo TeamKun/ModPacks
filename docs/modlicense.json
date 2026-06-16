@@ -1368,6 +1368,14 @@
         "ignore": false
     },
     {
+        "modid": "hammers",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/hammers-extension",
+        "authors": "Marvvinekk",
+        "displayName": "Hammers Extension!",
+        "ignore": false
+    },
+    {
         "modid": "hatoyoke_fishes",
         "license": "All Rights Reserved",
         "url": "",
