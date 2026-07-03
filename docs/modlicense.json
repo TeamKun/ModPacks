@@ -48,6 +48,14 @@
         "ignore": false
     },
     {
+        "modid": "aiimprovements",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ai-improvements",
+        "authors": "BuiltBrokenModding",
+        "displayName": "AI-Improvements",
+        "ignore": false
+    },
+    {
         "modid": "alexscaves",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/alexs-caves",
@@ -325,6 +333,14 @@
         "url": "",
         "authors": "<author>",
         "displayName": "Boiled One Reimagined",
+        "ignore": false
+    },
+    {
+        "modid": "born_in_chaos_v1",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/born-in-chaos",
+        "authors": "Mongoose_artist, MCreator",
+        "displayName": "Born in Chaos",
         "ignore": false
     },
     {
@@ -1344,6 +1360,14 @@
         "ignore": false
     },
     {
+        "modid": "graveyard",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/the-graveyard-forge",
+        "authors": "Lion",
+        "displayName": "The Graveyard",
+        "ignore": false
+    },
+    {
         "modid": "gravitychanger",
         "license": "CC0-1.0",
         "url": "",
@@ -1653,6 +1677,14 @@
         "url": "",
         "authors": "Kleiders, MCreator",
         "displayName": "Kleiders Custom Renderer",
+        "ignore": false
+    },
+    {
+        "modid": "kubejs",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/kubejs",
+        "authors": "LatvianModder",
+        "displayName": "KubeJS",
         "ignore": false
     },
     {
@@ -2464,6 +2496,14 @@
         "ignore": true
     },
     {
+        "modid": "rhino",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/rhino",
+        "authors": "latvian.dev, Mozilla",
+        "displayName": "Rhino",
+        "ignore": false
+    },
+    {
         "modid": "rojiuramod",
         "license": "All Rights Reserved",
         "url": "",
@@ -2552,6 +2592,14 @@
         "ignore": false
     },
     {
+        "modid": "silence_s_defense_tower",
+        "license": "Academic Free License v3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/silences-defense-tower",
+        "authors": "ASUS, MCreator",
+        "displayName": "Silence's Turrets",
+        "ignore": false
+    },
+    {
         "modid": "simpleplanes",
         "license": "LGPL-3.0",
         "url": "",
@@ -2632,6 +2680,14 @@
         "ignore": false
     },
     {
+        "modid": "sons_of_sins",
+        "license": "Academic Free License v3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sons-of-sins",
+        "authors": "Furti_Two",
+        "displayName": "Sons of Sins",
+        "ignore": false
+    },
+    {
         "modid": "sophisticatedbackpacks",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks",
@@ -2669,6 +2725,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "spawn_egg_information",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/spawn-egg-information",
+        "authors": "Vzling",
+        "displayName": "Spawn Egg Information",
         "ignore": false
     },
     {
