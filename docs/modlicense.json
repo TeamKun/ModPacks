@@ -442,9 +442,9 @@
     {
         "modid": "cgm",
         "license": "GPL3",
-        "url": "",
-        "authors": "",
-        "displayName": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mrcrayfishs-gun-mod",
+        "authors": "MrCrayfish",
+        "displayName": "MrCrayfish's Gun Mod",
         "ignore": false
     },
     {
@@ -1829,6 +1829,14 @@
         "url": "",
         "authors": "Alejandro Coria (MemeSapiens)",
         "displayName": "MapFrontiers",
+        "ignore": false
+    },
+    {
+        "modid": "mcheli",
+        "license": "unknown",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mchce",
+        "authors": "EMB4, Murachiki27, MrNorwood, RagexPrince683, MovBlock",
+        "displayName": "MC Helicopter Community Edition",
         "ignore": false
     },
     {
