@@ -1,0 +1,16 @@
+{
+  "id": "net.eldercodes:thercmod:4.0.1.1@jar",
+  "name": "The RC Mod",
+  "author": "Skerp",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 8484574,
+    "MD5": "658d3740b9827ccddc1714b6ed057061",
+    "url": "",
+    "license": "Not specified",
+    "manual": {
+      "url": "https://www.curseforge.com/minecraft/mc-mods/the-rc-mod/download/2969433",
+      "name": "TheRCMod-v4.0.1.1 [1.14.4].jar"
+    }
+  }
+}

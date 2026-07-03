@@ -2992,6 +2992,14 @@
         "ignore": false
     },
     {
+        "modid": "thercmod",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/the-rc-mod",
+        "authors": "Skerp",
+        "displayName": "The RC Mod",
+        "ignore": false
+    },
+    {
         "modid": "thief",
         "license": "GPLv3",
         "url": "https://www.curseforge.com/minecraft/mc-mods/thief",
