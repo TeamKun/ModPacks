@@ -3336,6 +3336,14 @@
         "ignore": false
     },
     {
+        "modid": "wwii_uniforms_mod",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ww2-uniforms-renewed",
+        "authors": "M4attee",
+        "displayName": "WW2 Uniforms Mod",
+        "ignore": false
+    },
+    {
         "modid": "xaerominimap",
         "license": "All Rights Reserved",
         "url": "",
