@@ -848,6 +848,14 @@
         "ignore": false
     },
     {
+        "modid": "dawnoftimebuilder",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/dawn-of-time",
+        "authors": "Poulpinou & TheGoldenWorld",
+        "displayName": "Dawn Of Time",
+        "ignore": false
+    },
+    {
         "modid": "deeper_oceans",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/deeper-oceans",
@@ -3381,6 +3389,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-api",
         "authors": "YUNGNICKYOUNG",
         "displayName": "YUNG's API",
+        "ignore": false
+    },
+    {
+        "modid": "yuushya",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yuushya-townscape",
+        "authors": "Coco, Xiao2 or XiLaiTL, SQwatermark, XieZai, Hikari, LD_Anvil, Little Panda",
+        "displayName": "Yuushya",
         "ignore": false
     },
     {

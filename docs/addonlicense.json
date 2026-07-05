@@ -178,5 +178,11 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/tacz-gucci-vuitton-attachments",
         "authors": "xjqshm, LesRaisinsStudio, Koei",
         "displayName": "[TACZ] Gucci & Vuitton Attachments"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/texture-packs/yuushya-foliage-addon",
+        "authors": "coco_fish",
+        "displayName": "Yuushya Foliage Addon"
     }
 ]
