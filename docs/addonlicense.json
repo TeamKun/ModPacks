@@ -184,5 +184,11 @@
         "url": "https://www.curseforge.com/minecraft/texture-packs/yuushya-foliage-addon",
         "authors": "coco_fish",
         "displayName": "Yuushya Foliage Addon"
+    },
+    {
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/texture-packs/yuushya-16x",
+        "authors": "coco_fish",
+        "displayName": "Yuushya 16x"
     }
 ]

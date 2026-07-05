@@ -2810,7 +2810,7 @@
     {
         "modid": "sundries",
         "license": "All Rights Reserved",
-        "url": "https://www.curseforge.com/minecraft/mc-mods/sundries",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sundriesanddecor",
         "authors": "Donjey, MCreator",
         "displayName": "Sundries",
         "ignore": false
@@ -3397,6 +3397,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/yuushya-townscape",
         "authors": "Coco, Xiao2 or XiLaiTL, SQwatermark, XieZai, Hikari, LD_Anvil, Little Panda",
         "displayName": "Yuushya",
+        "ignore": false
+    },
+    {
+        "modid": "yuushya_modelling",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yuushya-modelling",
+        "authors": "Coco, Xiao2 or XiLaiTL, SQwatermark, XieZai, Hikari, LD_Anvil, Little Panda, Crystal1921, ZhuRuoLing",
+        "displayName": "Yuushya Modelling",
         "ignore": false
     },
     {
