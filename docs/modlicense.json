@@ -40,6 +40,14 @@
         "ignore": false
     },
     {
+        "modid": "adventurez",
+        "license": "GPLv3",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/adventurez",
+        "authors": "Globox_Z",
+        "displayName": "AdventureZ",
+        "ignore": false
+    },
+    {
         "modid": "aether",
         "license": "All Rights Reserved",
         "url": "",
@@ -248,6 +256,22 @@
         "ignore": false
     },
     {
+        "modid": "balm",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/balm-fabric",
+        "authors": "BlayTheNinth",
+        "displayName": "Balm",
+        "ignore": false
+    },
+    {
+        "modid": "bclib",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/bclib",
+        "authors": "Quiqueck, paulevs, Bulldog83",
+        "displayName": "BCLib",
+        "ignore": false
+    },
+    {
         "modid": "benssharks",
         "license": "LGPL-3.0",
         "url": "",
@@ -277,6 +301,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons",
         "authors": "YUNGNICKYOUNG, Acarii",
         "displayName": "YUNG's Better Dungeons",
+        "ignore": false
+    },
+    {
+        "modid": "betterend",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/betterend",
+        "authors": "Quiqueck (code), paulevs (code & art), Bulldog83 (code & art), Edos (building), Yuki (art), Seaward (art), Firel (music)",
+        "displayName": "Better End",
         "ignore": false
     },
     {
@@ -493,6 +525,14 @@
         "url": "",
         "authors": "pop4959",
         "displayName": "Chunky",
+        "ignore": false
+    },
+    {
+        "modid": "cicada",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cicada",
+        "authors": "enjarai",
+        "displayName": "CICADA",
         "ignore": false
     },
     {
@@ -888,6 +928,14 @@
         "ignore": false
     },
     {
+        "modid": "do_a_barrel_roll",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/do-a-barrel-roll",
+        "authors": "enjarai",
+        "displayName": "Do a Barrel Roll",
+        "ignore": false
+    },
+    {
         "modid": "door_knocker",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/door-knocker-horror",
@@ -1053,6 +1101,22 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge",
         "authors": "KosmX",
         "displayName": "Emotecraft",
+        "ignore": false
+    },
+    {
+        "modid": "endermanoverhaul",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/enderman-overhaul",
+        "authors": "Alex Nijjar, Joosh",
+        "displayName": "Enderman Overhaul",
+        "ignore": false
+    },
+    {
+        "modid": "enderzoology",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ender-zoology",
+        "authors": "Fuzs",
+        "displayName": "Ender Zoology",
         "ignore": false
     },
     {
@@ -1264,11 +1328,27 @@
         "ignore": false
     },
     {
+        "modid": "forgeconfigapiport",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port",
+        "authors": "Fuzs",
+        "displayName": "Forge Config API Port",
+        "ignore": false
+    },
+    {
         "modid": "forgeskyboxes",
         "license": "All Rights Reserved",
         "url": "",
         "authors": "Foopy",
         "displayName": "ForgeSkyboxes",
+        "ignore": false
+    },
+    {
+        "modid": "forgivingvoid",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/forgiving-void",
+        "authors": "BlayTheNinth",
+        "displayName": "Forgiving Void",
         "ignore": false
     },
     {
@@ -1565,6 +1645,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/insanelib",
         "authors": "Insane96MCP",
         "displayName": "InsaneLib",
+        "ignore": false
+    },
+    {
+        "modid": "iris",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/irisshaders",
+        "authors": "coderbot, IMS212, Justsnoopy30, FoundationGames",
+        "displayName": "Iris",
         "ignore": false
     },
     {
@@ -2024,6 +2112,14 @@
         "ignore": false
     },
     {
+        "modid": "mr_true_ending",
+        "license": "LicenseRef-Custom",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/true-ending",
+        "authors": "limesplatus",
+        "displayName": "True Ending: Ender Dragon Overhaul",
+        "ignore": false
+    },
+    {
         "modid": "mru",
         "license": "All Rights Reserved",
         "url": "",
@@ -2125,6 +2221,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/nuit",
         "authors": "FlashyReese",
         "displayName": "Nuit",
+        "ignore": false
+    },
+    {
+        "modid": "nullscape",
+        "license": "Stardust Labs License",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/nullscape",
+        "authors": "Starmute, catter1",
+        "displayName": "Nullscape",
         "ignore": false
     },
     {
@@ -2253,6 +2357,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/petting",
         "authors": "Yigit Guven",
         "displayName": "Petting",
+        "ignore": false
+    },
+    {
+        "modid": "phantasm",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/phantasm",
+        "authors": "Lyof",
+        "displayName": "End's Phantasm",
         "ignore": false
     },
     {
@@ -3093,6 +3205,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/trinkets",
         "authors": "EmilyPloszaj",
         "displayName": "Trinkets",
+        "ignore": false
+    },
+    {
+        "modid": "trmt",
+        "license": "CC BY-NC 4.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/the-roads-more-travelled",
+        "authors": "milkucha",
+        "displayName": "The Roads More Travelled",
         "ignore": false
     },
     {

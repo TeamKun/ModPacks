@@ -190,5 +190,17 @@
         "url": "https://www.curseforge.com/minecraft/texture-packs/yuushya-16x",
         "authors": "coco_fish",
         "displayName": "Yuushya 16x"
+    },
+    {
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/texture-packs/better-ender-dragon",
+        "authors": "Ricy40, Oopster",
+        "displayName": "Better Ender Dragon"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/shaders/bliss-shader",
+        "authors": "Xonk___",
+        "displayName": "Bliss Shaders"
     }
 ]
