@@ -288,6 +288,14 @@
         "ignore": false
     },
     {
+        "modid": "betterclouds",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/better-clouds",
+        "authors": "Qendolin",
+        "displayName": "Better Clouds",
+        "ignore": false
+    },
+    {
         "modid": "bettercombat",
         "license": "GPL-3.0",
         "url": "",
@@ -3381,6 +3389,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/warden-dimensions",
         "authors": "Flan0x",
         "displayName": "warden_dimension",
+        "ignore": false
+    },
+    {
+        "modid": "warfare_wings",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/warfare-wings",
+        "authors": "VellEagle",
+        "displayName": "Warfare Wings",
         "ignore": false
     },
     {
