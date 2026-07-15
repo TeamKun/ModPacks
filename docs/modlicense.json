@@ -104,6 +104,14 @@
         "ignore": false
     },
     {
+        "modid": "apocalypsenow",
+        "license": "Academic Free License v3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/apocalypse-now",
+        "authors": "JPZamps",
+        "displayName": "Apocalypse Now",
+        "ignore": false
+    },
+    {
         "modid": "apotheosis",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/apotheosis",
@@ -1208,6 +1216,14 @@
         "ignore": false
     },
     {
+        "modid": "extra_keybinds",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/extra-keybinds",
+        "authors": "Charonym, MCreator",
+        "displayName": "Extra Keybinds",
+        "ignore": false
+    },
+    {
         "modid": "extraspellattributes",
         "license": "CC0-1.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/extra-spell-attributes",
@@ -1381,6 +1397,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "fungal_hazard",
+        "license": "AGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fungal-hazard",
+        "authors": "Scarasol, lan2418, 阿琦, 古明地觉觉子, 太吾",
+        "displayName": "Fungal Hazard",
         "ignore": false
     },
     {
@@ -2312,6 +2336,14 @@
         "ignore": false
     },
     {
+        "modid": "origins",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/origins-forge",
+        "authors": "Apace",
+        "displayName": "Origins",
+        "ignore": false
+    },
+    {
         "modid": "parcool",
         "license": "GPL-3.0",
         "url": "",
@@ -2808,6 +2840,14 @@
         "ignore": false
     },
     {
+        "modid": "sona",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sona-survival-101",
+        "authors": "Scarasol, Kyoko, ç½ä¹è°·, é¿ç¦, lan2418, è½©å½±LHXQing, Konn_gara",
+        "displayName": "Sona Survival 101",
+        "ignore": false
+    },
+    {
         "modid": "sons_of_sins",
         "license": "Academic Free License v3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/sons-of-sins",
@@ -2957,6 +2997,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "survivorsarsenal",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/survivors-arsenal",
+        "authors": "ogabasferr",
+        "displayName": "Survivor’s Arsenal",
         "ignore": false
     },
     {
