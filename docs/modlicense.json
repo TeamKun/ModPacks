@@ -48,6 +48,22 @@
         "ignore": false
     },
     {
+        "modid": "aero_cam_sync",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/aeronautics-camera-sync",
+        "authors": "<author>",
+        "displayName": "Aeronautics Camera Sync",
+        "ignore": false
+    },
+    {
+        "modid": "aeronautics_bundled",
+        "license": "Read attached LICENSE.md",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-aeronautics",
+        "authors": "Simulated Team",
+        "displayName": "Create Aeronautics",
+        "ignore": false
+    },
+    {
         "modid": "aether",
         "license": "All Rights Reserved",
         "url": "",
@@ -488,6 +504,14 @@
         "ignore": false
     },
     {
+        "modid": "cbcmoreshells",
+        "license": "Custom",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cbcms",
+        "authors": "cainiao1053",
+        "displayName": "Create Big Cannons More Shells",
+        "ignore": false
+    },
+    {
         "modid": "cc_vs",
         "license": "Apache-2.0",
         "url": "",
@@ -578,7 +602,7 @@
     {
         "modid": "cloth_config",
         "license": "LGPL-3.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
         "authors": "shedaniel",
         "displayName": "Cloth Config v10 API",
         "ignore": false
@@ -722,9 +746,9 @@
     {
         "modid": "create_connected",
         "license": "AGPL-3.0",
-        "url": "",
-        "authors": "",
-        "displayName": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-connected",
+        "authors": "Lysine",
+        "displayName": "Create: Connected",
         "ignore": false
     },
     {
@@ -733,6 +757,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "create_pattern_schematics",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-pattern-schematics",
+        "authors": "Cake",
+        "displayName": "Create: Pattern Schematics",
         "ignore": false
     },
     {
@@ -1509,6 +1541,14 @@
         "url": "",
         "authors": "Vinlanx",
         "displayName": "Gunfire Overhaul",
+        "ignore": false
+    },
+    {
+        "modid": "gyro",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-aeronautics-gyroscope-stabilizers",
+        "authors": "raprek",
+        "displayName": "Create Aeronautics: Gyroscope Stabilizers",
         "ignore": false
     },
     {
@@ -2664,6 +2704,14 @@
         "ignore": false
     },
     {
+        "modid": "ritchiesprojectilelib",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ritchies-projectile-library",
+        "authors": "rbasamoyai",
+        "displayName": "Ritchie's Projectile Library",
+        "ignore": false
+    },
+    {
         "modid": "rojiuramod",
         "license": "All Rights Reserved",
         "url": "",
@@ -2706,9 +2754,17 @@
     {
         "modid": "s_a_b",
         "license": "Academic Free License v3.0",
-        "url": "",
-        "authors": "",
-        "displayName": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/steel-armor-blocks",
+        "authors": "minucios",
+        "displayName": "Steel armor blocks",
+        "ignore": false
+    },
+    {
+        "modid": "sable",
+        "license": "PolyForm Shield License 1.0.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sable",
+        "authors": "RyanHCode",
+        "displayName": "Sable",
         "ignore": false
     },
     {
@@ -3109,6 +3165,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/terralith",
         "authors": "Stardust Labs, Cristelknight",
         "displayName": "Terralith",
+        "ignore": false
+    },
+    {
+        "modid": "tfmg",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-industry",
+        "authors": "DrMangoTea, Pepa, Luna",
+        "displayName": "Create: The Factory Must Grow",
         "ignore": false
     },
     {
