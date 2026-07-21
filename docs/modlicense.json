@@ -1608,6 +1608,14 @@
         "ignore": false
     },
     {
+        "modid": "grassier-grass",
+        "license": "All Rights Reserved",
+        "url": "https://modrinth.com/mod/grassier-grass",
+        "authors": "Leo-T22",
+        "displayName": "Grassier Grass",
+        "ignore": false
+    },
+    {
         "modid": "graveyard",
         "license": "CC0-1.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/the-graveyard-forge",
@@ -1621,14 +1629,6 @@
         "url": "",
         "authors": "Tfarcenim",
         "displayName": "GravityChanger",
-        "ignore": false
-    },
-    {
-        "modid": "grassier-grass",
-        "license": "All Rights Reserved",
-        "url": "https://modrinth.com/mod/grassier-grass",
-        "authors": "Leo-T22",
-        "displayName": "Grassier Grass",
         "ignore": false
     },
     {
@@ -2013,6 +2013,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/lazrs-lib",
         "authors": "Lazr Productions",
         "displayName": "Lazr's Lib",
+        "ignore": false
+    },
+    {
+        "modid": "ldlib",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ldlib",
+        "authors": "KilaBash, WarmthDawn",
+        "displayName": "LowDragLib",
         "ignore": false
     },
     {
@@ -2632,6 +2640,14 @@
         "ignore": false
     },
     {
+        "modid": "photon",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/photon",
+        "authors": "KilaBash",
+        "displayName": "Photon",
+        "ignore": false
+    },
+    {
         "modid": "physicsmod",
         "license": "All Rights Reserved",
         "url": "",
@@ -2949,6 +2965,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/sable",
         "authors": "RyanHCode",
         "displayName": "Sable",
+        "ignore": false
+    },
+    {
+        "modid": "saintsdragons",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/saints-dragons",
+        "authors": "Leon Saint",
+        "displayName": "Saint's Dragons",
         "ignore": false
     },
     {
@@ -3768,6 +3792,14 @@
         "ignore": false
     },
     {
+        "modid": "weather2",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/weather-storms-tornadoes",
+        "authors": "Corosus",
+        "displayName": "Weather2",
+        "ignore": false
+    },
+    {
         "modid": "wegotrunnners",
         "license": "Academic Free License v3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/we-got-runners",
@@ -3861,6 +3893,14 @@
         "url": "",
         "authors": "isXander",
         "displayName": "YetAnotherConfigLib",
+        "ignore": false
+    },
+    {
+        "modid": "youtubers_natural_disasters",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/youtuber-natural-disasters",
+        "authors": "JY9146",
+        "displayName": "100 Youtubers VS Natural Disasters",
         "ignore": false
     },
     {
