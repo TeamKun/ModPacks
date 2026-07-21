@@ -328,6 +328,14 @@
         "ignore": false
     },
     {
+        "modid": "betterdeserttemples",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples",
+        "authors": "YUNGNICKYOUNG, Tera",
+        "displayName": "YUNG's Better Desert Temples",
+        "ignore": false
+    },
+    {
         "modid": "betterdungeons",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons",
@@ -352,11 +360,59 @@
         "ignore": false
     },
     {
+        "modid": "betterfortresses",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses",
+        "authors": "YUNGNICKYOUNG, Acarii",
+        "displayName": "YUNG's Better Nether Fortresses",
+        "ignore": false
+    },
+    {
+        "modid": "betterfpsdist",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance",
+        "authors": "Someaddon",
+        "displayName": "betterfpsdist mod",
+        "ignore": false
+    },
+    {
+        "modid": "betterjungletemples",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-jungle-temples",
+        "authors": "YUNGNICKYOUNG, Tera",
+        "displayName": "YUNG's Better Jungle Temples",
+        "ignore": false
+    },
+    {
+        "modid": "bettermineshafts",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge",
+        "authors": "YUNGNICKYOUNG",
+        "displayName": "YUNG's Better Mineshafts",
+        "ignore": false
+    },
+    {
         "modid": "betteroceanmonuments",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments",
         "authors": "YUNGNICKYOUNG, Tera",
         "displayName": "YUNG's Better Ocean Monuments",
+        "ignore": false
+    },
+    {
+        "modid": "betterstrongholds",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds",
+        "authors": "YUNGNICKYOUNG, Acarii",
+        "displayName": "YUNG's Better Strongholds",
+        "ignore": false
+    },
+    {
+        "modid": "betterwitchhuts",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts",
+        "authors": "YUNGNICKYOUNG, Acarii",
+        "displayName": "YUNG's Better Witch Huts",
         "ignore": false
     },
     {
@@ -688,6 +744,14 @@
         "ignore": false
     },
     {
+        "modid": "controlling",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
+        "authors": "Jaredlll08",
+        "displayName": "Controlling",
+        "ignore": false
+    },
+    {
         "modid": "copycats",
         "license": "All Rights Reserved",
         "url": "",
@@ -869,6 +933,14 @@
         "url": "",
         "authors": "CCr4ft3r (this port), isXander (original fabric version)",
         "displayName": "Cull Less Leaves Reforged",
+        "ignore": false
+    },
+    {
+        "modid": "cupboard",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cupboard",
+        "authors": "Someaddon",
+        "displayName": "Cupboard utilities",
         "ignore": false
     },
     {
@@ -1304,11 +1376,27 @@
         "ignore": false
     },
     {
+        "modid": "fallingleaves",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/falling-leaves-forge",
+        "authors": "Cheaterpaul, Fourmisain, BrekiTomasson and RandomMcSomethin",
+        "displayName": "Fallingleaves",
+        "ignore": false
+    },
+    {
         "modid": "familiar_fauna",
         "license": "CC BY-NC-ND 4.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/familiar-fauna",
         "authors": "Forstride",
         "displayName": "Familiar Fauna",
+        "ignore": false
+    },
+    {
+        "modid": "fancymenu",
+        "license": "DSMSLv3 (DON'T SNATCH MA STUFF LICENSE v3)",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fancymenu",
+        "authors": "Keksuccino",
+        "displayName": "FancyMenu",
         "ignore": false
     },
     {
@@ -1341,6 +1429,14 @@
         "url": "",
         "authors": "vectorwing",
         "displayName": "Farmer",
+        "ignore": false
+    },
+    {
+        "modid": "farsight_view",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/farsight",
+        "authors": "Love, Cheese and small house plants",
+        "displayName": "Farsight mod",
         "ignore": false
     },
     {
@@ -1528,6 +1624,14 @@
         "ignore": false
     },
     {
+        "modid": "grassier-grass",
+        "license": "All Rights Reserved",
+        "url": "https://modrinth.com/mod/grassier-grass",
+        "authors": "Leo-T22",
+        "displayName": "Grassier Grass",
+        "ignore": false
+    },
+    {
         "modid": "guardvillagers",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/guard-villagers",
@@ -1688,6 +1792,14 @@
         "ignore": true
     },
     {
+        "modid": "infectionz",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ultimate-zombie-apocalypse",
+        "authors": "Galaxy Study, MCreator",
+        "displayName": "Infection Z",
+        "ignore": false
+    },
+    {
         "modid": "infectious",
         "license": "Academic Free License v3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/infectious-zombie-apocalypse",
@@ -1776,6 +1888,14 @@
         "ignore": false
     },
     {
+        "modid": "jeg",
+        "license": "GNU GPLv3",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/just-enough-guns",
+        "authors": "MigaMi",
+        "displayName": "Just Enough Guns",
+        "ignore": false
+    },
+    {
         "modid": "jei",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/jei",
@@ -1824,6 +1944,14 @@
         "ignore": false
     },
     {
+        "modid": "justzoom",
+        "license": "DSMSLv3 (DON'T SNATCH MA STUFF LICENSE v3)",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/just-zoom",
+        "authors": "Keksuccino",
+        "displayName": "Just Zoom",
+        "ignore": false
+    },
+    {
         "modid": "kimetsunoyaiba",
         "license": "Academic Free License v3.0",
         "url": "",
@@ -1845,6 +1973,22 @@
         "url": "",
         "authors": "Kleiders, MCreator",
         "displayName": "Kleiders Custom Renderer",
+        "ignore": false
+    },
+    {
+        "modid": "knightlib",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/knight-lib",
+        "authors": "Xylonity",
+        "displayName": "Knight Lib",
+        "ignore": false
+    },
+    {
+        "modid": "konkrete",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/konkrete",
+        "authors": "Keksuccino",
+        "displayName": "Konkrete",
         "ignore": false
     },
     {
@@ -1925,6 +2069,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/lodestone",
         "authors": "Lodestar",
         "displayName": "Lodestone",
+        "ignore": false
+    },
+    {
+        "modid": "lostcities",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/the-lost-cities",
+        "authors": "McJty",
+        "displayName": "LostCities",
         "ignore": false
     },
     {
@@ -2053,6 +2205,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/medievalweapons",
         "authors": "Globox_Z",
         "displayName": "Medieval Weapons",
+        "ignore": false
+    },
+    {
+        "modid": "melody",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/melody",
+        "authors": "Keksuccino",
+        "displayName": "Melody",
         "ignore": false
     },
     {
@@ -2248,6 +2408,14 @@
         "ignore": false
     },
     {
+        "modid": "mutantszombies",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mutants-and-zombies",
+        "authors": "Pete MC Mods (mcmods.pete@gmail.com), Nice_Try_Boi (design of the models)",
+        "displayName": "Mutants and Zombies",
+        "ignore": false
+    },
+    {
         "modid": "mythicmounts",
         "license": "All Rights Reserved",
         "url": "",
@@ -2285,6 +2453,22 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "nochatreports",
+        "license": "WTFPL",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/no-chat-reports",
+        "authors": "Aizistral",
+        "displayName": "No Chat Reports",
+        "ignore": false
+    },
+    {
+        "modid": "notenoughanimations",
+        "license": "tr7zw Protective License",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/not-enough-animations",
+        "authors": "tr7zw",
+        "displayName": "NotEnoughAnimations",
         "ignore": false
     },
     {
@@ -2784,6 +2968,14 @@
         "ignore": false
     },
     {
+        "modid": "searchables",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/searchables",
+        "authors": "Jaredlll08",
+        "displayName": "Searchables",
+        "ignore": false
+    },
+    {
         "modid": "securitycraft",
         "license": "MIT",
         "url": "",
@@ -2805,6 +2997,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "shouldersurfing",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/shoulder-surfing-reloaded",
+        "authors": "Exopandora",
+        "displayName": "Shoulder Surfing Reloaded",
         "ignore": false
     },
     {
@@ -2864,11 +3064,27 @@
         "ignore": false
     },
     {
+        "modid": "skinlayers3d",
+        "license": "tr7zw Protective License",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d",
+        "authors": "tr7zw",
+        "displayName": "3d-Skin-Layers",
+        "ignore": false
+    },
+    {
         "modid": "smallships",
         "license": "All Rights Reserved",
         "url": "",
         "authors": "<author>",
         "displayName": "Small Ships",
+        "ignore": false
+    },
+    {
+        "modid": "smartmobs",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/smart-mobs",
+        "authors": "Smart Mobs Dev",
+        "displayName": "Smart Mobs",
         "ignore": false
     },
     {
@@ -3320,6 +3536,14 @@
         "ignore": false
     },
     {
+        "modid": "treechop",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/treechop",
+        "authors": "hammertater",
+        "displayName": "HT's TreeChop",
+        "ignore": false
+    },
+    {
         "modid": "trinkets",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/trinkets",
@@ -3544,6 +3768,14 @@
         "ignore": false
     },
     {
+        "modid": "wegotrunnners",
+        "license": "Academic Free License v3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/we-got-runners",
+        "authors": "admin, MCreator",
+        "displayName": "wegotrunnners",
+        "ignore": false
+    },
+    {
         "modid": "welcometothebackrooms",
         "license": "Academic Free License v3.0",
         "url": "",
@@ -3640,6 +3872,14 @@
         "ignore": false
     },
     {
+        "modid": "yungsbridges",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-bridges",
+        "authors": "YUNGNICKYOUNG",
+        "displayName": "YUNG's Bridges",
+        "ignore": false
+    },
+    {
         "modid": "yuushya",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/yuushya-townscape",
@@ -3653,6 +3893,38 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/yuushya-modelling",
         "authors": "Coco, Xiao2 or XiLaiTL, SQwatermark, XieZai, Hikari, LD_Anvil, Little Panda, Crystal1921, ZhuRuoLing",
         "displayName": "Yuushya Modelling",
+        "ignore": false
+    },
+    {
+        "modid": "zombie_island",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/zombie-island",
+        "authors": "PyroPlay",
+        "displayName": "Zombie_Island",
+        "ignore": false
+    },
+    {
+        "modid": "zombieawareness",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/zombie-awareness",
+        "authors": "Corosus",
+        "displayName": "Zombie Awareness",
+        "ignore": false
+    },
+    {
+        "modid": "zombiehorsespawn",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/zombie-horse-spawn",
+        "authors": "Rick South",
+        "displayName": "Zombie Horse Spawn",
+        "ignore": false
+    },
+    {
+        "modid": "zombies_reworked",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/zombies-reworked-forge",
+        "authors": "ASEStefan",
+        "displayName": "Zombies Reworked",
         "ignore": false
     },
     {
