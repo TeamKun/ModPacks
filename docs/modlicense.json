@@ -1072,6 +1072,14 @@
         "ignore": false
     },
     {
+        "modid": "dragonrise_reforge",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sbw-drr",
+        "authors": "red_abyss_lucia, CJY2, LY01, boy1145141919810, twosomebody, LOL_141, CHINACAT_2025, XingYu",
+        "displayName": "DragonRise:Reforge",
+        "ignore": false
+    },
+    {
         "modid": "dreamcaslib",
         "license": "All Rights Reserved",
         "url": "",
@@ -3341,6 +3349,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
         "authors": "Serene Wave Studio | Timeless Squad",
         "displayName": "Timeless & Classics Guns: Zero",
+        "ignore": false
+    },
+    {
+        "modid": "tacz_attributes",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tacz-attributes",
+        "authors": "<author>",
+        "displayName": "TaCZ_attributes",
         "ignore": false
     },
     {

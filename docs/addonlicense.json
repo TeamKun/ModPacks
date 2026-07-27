@@ -214,5 +214,11 @@
         "url": "https://www.curseforge.com/minecraft/customization/tacz-enlisted-gunpack",
         "authors": "tonier",
         "displayName": "[TaCZ] Enlisted Gunpack WW2"
+    },
+    {
+        "license": "Custom License",
+        "url": "https://www.curseforge.com/minecraft/shaders/hysteria-shaders",
+        "authors": "ElocinDev",
+        "displayName": "Hysteria Shaders"
     }
 ]
