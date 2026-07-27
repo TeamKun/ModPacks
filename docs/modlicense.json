@@ -1240,6 +1240,14 @@
         "ignore": false
     },
     {
+        "modid": "endlessammo",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tacz-endless-ammo",
+        "authors": "maxinablender, barquitotoxico",
+        "displayName": "Endless Ammo Library",
+        "ignore": false
+    },
+    {
         "modid": "enemyexpansion",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/enemy-expansion",
@@ -2189,6 +2197,14 @@
         "url": "",
         "authors": "Alejandro Coria (MemeSapiens)",
         "displayName": "MapFrontiers",
+        "ignore": false
+    },
+    {
+        "modid": "maxstuff",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/maxstuff",
+        "authors": "Maxinablender, Corrinedev",
+        "displayName": "Maxstuff",
         "ignore": false
     },
     {

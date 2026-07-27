@@ -202,5 +202,17 @@
         "url": "https://www.curseforge.com/minecraft/shaders/bliss-shader",
         "authors": "Xonk___",
         "displayName": "Bliss Shaders"
+    },
+    {
+        "license": "Custom License",
+        "url": "https://www.curseforge.com/minecraft/customization/alex-kims-gunpack-tacz-gun-pack",
+        "authors": "Alex_kim_AK",
+        "displayName": "[Alex Kim's Gunpack] TacZ Gun pack Classic Return"
+    },
+    {
+        "license": "CC BY 4.0",
+        "url": "https://www.curseforge.com/minecraft/customization/tacz-enlisted-gunpack",
+        "authors": "tonier",
+        "displayName": "[TaCZ] Enlisted Gunpack WW2"
     }
 ]
