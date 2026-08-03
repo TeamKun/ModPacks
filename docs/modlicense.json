@@ -448,6 +448,14 @@
         "ignore": false
     },
     {
+        "modid": "boids",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/boids-reforged",
+        "authors": "Leclowndu93150",
+        "displayName": "Boids",
+        "ignore": false
+    },
+    {
         "modid": "boiled_reimagined",
         "license": "All Rights Reserved",
         "url": "",
@@ -773,6 +781,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "cosycritters",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cosy-critters",
+        "authors": "pigcart",
+        "displayName": "Cosy Critters & Creepy Crawlies",
         "ignore": false
     },
     {
@@ -1472,6 +1488,14 @@
         "ignore": false
     },
     {
+        "modid": "firstperson",
+        "license": "tr7zw Protective License",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/first-person-model",
+        "authors": "tr7zw",
+        "displayName": "FirstPerson",
+        "ignore": false
+    },
+    {
         "modid": "fishingsizes",
         "license": "Custom License",
         "url": "",
@@ -1520,6 +1544,14 @@
         "ignore": false
     },
     {
+        "modid": "fpm_x_compat",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/first-person-model-compat",
+        "authors": "kaokod",
+        "displayName": "fpm_x_compat",
+        "ignore": false
+    },
+    {
         "modid": "fracturepoint",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/fracture-point",
@@ -1557,6 +1589,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "fzzy_config",
+        "license": "Timefall Development Licence - Modified 1.3",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fzzy-config",
+        "authors": "fzzyhmstrs",
+        "displayName": "Fzzy Config",
         "ignore": false
     },
     {
@@ -1628,6 +1668,14 @@
         "license": "All Rights Reserved",
         "url": "https://modrinth.com/mod/grassier-grass",
         "authors": "Leo-T22",
+        "displayName": "Grassier Grass",
+        "ignore": false
+    },
+    {
+        "modid": "grassiergrass",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/grazzy-er-grass",
+        "authors": "Leonardoinc22",
         "displayName": "Grassier Grass",
         "ignore": false
     },
@@ -1765,6 +1813,14 @@
         "url": "",
         "authors": "qouteall",
         "displayName": "Immersive Portals",
+        "ignore": false
+    },
+    {
+        "modid": "immersiveui",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/immersive-ui",
+        "authors": "OctoStudios",
+        "displayName": "ImmersiveUI",
         "ignore": false
     },
     {
@@ -2568,6 +2624,14 @@
         "ignore": false
     },
     {
+        "modid": "octolib",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/shatterbyte-lib",
+        "authors": "OctoStudios",
+        "displayName": "OctoLib",
+        "ignore": false
+    },
+    {
         "modid": "oculus",
         "license": "LGPL-3.0",
         "url": "",
@@ -3288,6 +3352,14 @@
         "ignore": false
     },
     {
+        "modid": "subtle_effects",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/subtle-effects",
+        "authors": "MincraftEinstein",
+        "displayName": "Subtle Effects",
+        "ignore": false
+    },
+    {
         "modid": "sundries",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/sundriesanddecor",
@@ -3824,6 +3896,14 @@
         "ignore": false
     },
     {
+        "modid": "waves",
+        "license": "BSD 2",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/coastal-waves",
+        "authors": "Verph",
+        "displayName": "Waves",
+        "ignore": false
+    },
+    {
         "modid": "weather2",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/weather-storms-tornadoes",
@@ -3853,6 +3933,14 @@
         "url": "",
         "authors": "WildfireRomeo",
         "displayName": "Wildfire",
+        "ignore": false
+    },
+    {
+        "modid": "wither_spawn_animation",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/wither-spawn-animation",
+        "authors": "bo bo",
+        "displayName": "Wither Spawn Animation",
         "ignore": false
     },
     {
