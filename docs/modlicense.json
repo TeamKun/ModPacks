@@ -488,6 +488,14 @@
         "ignore": false
     },
     {
+        "modid": "brazil_legends",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/brazil-legends",
+        "authors": "darla, MCreator",
+        "displayName": "Brazil Legends",
+        "ignore": false
+    },
+    {
         "modid": "caelus",
         "license": "LGPL-3.0",
         "url": "",
@@ -1648,6 +1656,14 @@
         "ignore": false
     },
     {
+        "modid": "goety",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/goety",
+        "authors": "Polarice3",
+        "displayName": "Goety",
+        "ignore": false
+    },
+    {
         "modid": "golemoverhaul",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/golem-overhaul",
@@ -2512,6 +2528,14 @@
         "ignore": false
     },
     {
+        "modid": "mythsandlegends",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/myths-n-legends",
+        "authors": "oVinter",
+        "displayName": "Myths & Legends",
+        "ignore": false
+    },
+    {
         "modid": "necronomicon",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/necronomicon",
@@ -2917,6 +2941,22 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/rats",
         "authors": "AlexThe666, GizmoTheMoonPig",
         "displayName": "Rats",
+        "ignore": false
+    },
+    {
+        "modid": "realmrpg_demons",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/realm-rpg-imps-demons",
+        "authors": "NoCube",
+        "displayName": "Realm RPG: Imps & Demons",
+        "ignore": false
+    },
+    {
+        "modid": "realmrpg_wyrms",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/realm-rpg-dragon-wyrms",
+        "authors": "NoCube",
+        "displayName": "Realm RPG: Dragon Wyrms",
         "ignore": false
     },
     {
@@ -3861,6 +3901,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/warfare-wings",
         "authors": "VellEagle",
         "displayName": "Warfare Wings",
+        "ignore": false
+    },
+    {
+        "modid": "warlerysturrets",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/warlerys-turrets",
+        "authors": "Warlery's Dev",
+        "displayName": "Warlery's Turrets",
         "ignore": false
     },
     {
