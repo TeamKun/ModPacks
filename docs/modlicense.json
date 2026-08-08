@@ -3136,6 +3136,14 @@
         "ignore": false
     },
     {
+        "modid": "serializer_debug",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/serializerdebug",
+        "authors": "Dairymoose",
+        "displayName": "Serializer Debug",
+        "ignore": false
+    },
+    {
         "modid": "settingslocker",
         "license": "MIT",
         "url": "",
