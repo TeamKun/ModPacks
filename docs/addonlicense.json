@@ -220,5 +220,11 @@
         "url": "https://www.curseforge.com/minecraft/shaders/hysteria-shaders",
         "authors": "ElocinDev",
         "displayName": "Hysteria Shaders"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/texture-packs/better-lanterns",
+        "authors": "Nico4play",
+        "displayName": "Better Lanterns"
     }
 ]
