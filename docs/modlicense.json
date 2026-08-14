@@ -416,6 +416,14 @@
         "ignore": false
     },
     {
+        "modid": "big_cannons_aeronautics_fix",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/big-cannons-aeronautics-fix",
+        "authors": "CatCosYT,FractalInteractive",
+        "displayName": "Big Cannons Aeronautics Fix",
+        "ignore": false
+    },
+    {
         "modid": "biologica",
         "license": "All Rights Reserved",
         "url": "",
@@ -728,6 +736,14 @@
         "ignore": false
     },
     {
+        "modid": "compactflap",
+        "license": "Read attached LICENSE.md",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-compact-flap",
+        "authors": "qwxon",
+        "displayName": "Create Compact Flap",
+        "ignore": false
+    },
+    {
         "modid": "computercraft",
         "license": "ComputerCraft Public License (https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE)",
         "url": "",
@@ -770,7 +786,7 @@
     {
         "modid": "copycats",
         "license": "All Rights Reserved",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/copycats",
         "authors": "<author>",
         "displayName": "Create: Copycats+",
         "ignore": false
@@ -826,7 +842,7 @@
     {
         "modid": "create",
         "license": "MIT",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create",
         "authors": "simibubi",
         "displayName": "Create",
         "ignore": false
@@ -842,9 +858,9 @@
     {
         "modid": "create_dd",
         "license": "MIT",
-        "url": "",
-        "authors": "",
-        "displayName": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-dreams-desires",
+        "authors": "LopyLuna",
+        "displayName": "Create: Dreams & Desires",
         "ignore": false
     },
     {
@@ -856,11 +872,27 @@
         "ignore": false
     },
     {
+        "modid": "create_radar",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-radars",
+        "authors": "Aycer, HappySG, CeoOfGoogle, Kipti, OndatraCZE, Ray(furuochen)",
+        "displayName": "Create: Radars",
+        "ignore": false
+    },
+    {
         "modid": "create_tank_defenses",
         "license": "Academic Free License v3.0",
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "createaddition",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/createaddition",
+        "authors": "MRH0, AlphaMode, StockiesLad",
+        "displayName": "Create Crafts & Additions",
         "ignore": false
     },
     {
@@ -890,9 +922,17 @@
     {
         "modid": "createendertransmission",
         "license": "MIT",
-        "url": "",
-        "authors": "",
-        "displayName": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-ender-transmission",
+        "authors": "Forsteri",
+        "displayName": "Create Ender Transmission",
+        "ignore": false
+    },
+    {
+        "modid": "createpropulsion",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-propulsion-simulated",
+        "authors": "Sergey Feduk, Tronco_78, Bunting_chj, SSnowly, KyivSec",
+        "displayName": "Create Propulsion: Simulated",
         "ignore": false
     },
     {
@@ -970,7 +1010,7 @@
     {
         "modid": "curios",
         "license": "LGPL-3.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/curios",
         "authors": "C4",
         "displayName": "Curios API",
         "ignore": false
@@ -1626,7 +1666,7 @@
     {
         "modid": "geckolib",
         "license": "MIT",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/geckolib",
         "authors": "Gecko, Eliot, AzureDoom, DerToaster, Tslat, Witixin",
         "displayName": "GeckoLib 4",
         "ignore": false
@@ -1776,6 +1816,14 @@
         "ignore": false
     },
     {
+        "modid": "hotstuff",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/hots-aerostuff",
+        "authors": "HotElbows",
+        "displayName": "Hot's Aerostuff",
+        "ignore": false
+    },
+    {
         "modid": "iceandfire",
         "license": "LGPL-3.0",
         "url": "",
@@ -1917,6 +1965,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/insanelib",
         "authors": "Insane96MCP",
         "displayName": "InsaneLib",
+        "ignore": false
+    },
+    {
+        "modid": "interiors",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/interiors",
+        "authors": "sudolev, rdh",
+        "displayName": "Create: Interiors",
         "ignore": false
     },
     {
@@ -2077,6 +2133,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/konkrete",
         "authors": "Keksuccino",
         "displayName": "Konkrete",
+        "ignore": false
+    },
+    {
+        "modid": "kotlinforforge",
+        "license": "LGPL-2.1",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge",
+        "authors": "thedarkcolour",
+        "displayName": "Kotlin for Forge",
         "ignore": false
     },
     {
@@ -2930,7 +2994,7 @@
     {
         "modid": "railways",
         "license": "MIT",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/steam-n-rails-neoforge",
         "authors": "The Railways Team",
         "displayName": "Create: Steam",
         "ignore": false
@@ -3096,6 +3160,14 @@
         "ignore": false
     },
     {
+        "modid": "sable_kardanwelle",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-cardan-shafts",
+        "authors": "ben_r",
+        "displayName": "Create Cardan Shafts",
+        "ignore": false
+    },
+    {
         "modid": "saintsdragons",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/saints-dragons",
@@ -3176,6 +3248,14 @@
         "ignore": false
     },
     {
+        "modid": "sim_copycats",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/aeronautics-simulated-copycats",
+        "authors": "Multyfora",
+        "displayName": "Aeronautics: Simulated Copycats",
+        "ignore": false
+    },
+    {
         "modid": "simpleplanes",
         "license": "LGPL-3.0",
         "url": "",
@@ -3189,6 +3269,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-radio",
         "authors": "CodinGlitch",
         "displayName": "SimpleRadio",
+        "ignore": false
+    },
+    {
+        "modid": "simulatedcoasters",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-coasters-simulated",
+        "authors": "SilverGoId",
+        "displayName": "Create: Coasters Simulated",
         "ignore": false
     },
     {
@@ -3669,6 +3757,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/tough-as-nails",
         "authors": "Adubbz, Forstride",
         "displayName": "ToughAsNails",
+        "ignore": false
+    },
+    {
+        "modid": "tracks",
+        "license": "Read attached LICENSE.md",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-tracks",
+        "authors": "qwxon",
+        "displayName": "Create Tracks",
         "ignore": false
     },
     {
