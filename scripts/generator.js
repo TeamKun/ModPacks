@@ -70,11 +70,13 @@ for (const file of jarFiles) {
   }
   const group = groupEntry.group;
 
-  // mods.toml 読み取り
+  // mods.toml 読み取り (Forge: mods.toml / NeoForge: neoforge.mods.toml)
   const zip = new AdmZip(jarPath);
-  const modsTmlEntry = zip.getEntry("META-INF/mods.toml");
+  const modsTmlEntry =
+    zip.getEntry("META-INF/mods.toml") ||
+    zip.getEntry("META-INF/neoforge.mods.toml");
   if (!modsTmlEntry) {
-    console.error("❌ mods.toml が見つかりません");
+    console.error("❌ mods.toml / neoforge.mods.toml が見つかりません");
     continue;
   }
 
