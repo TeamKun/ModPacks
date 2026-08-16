@@ -16,6 +16,22 @@
         "ignore": false
     },
     {
+        "modid": "accelerateddecay",
+        "license": "GPL3",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/accelerated-decay",
+        "authors": "ErrorMikey",
+        "displayName": "Accelerated Decay",
+        "ignore": false
+    },
+    {
+        "modid": "accessories",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/accessories",
+        "authors": "Blodhgarm, chyzman, Dr.Zeal",
+        "displayName": "Accessories",
+        "ignore": false
+    },
+    {
         "modid": "ad_astra",
         "license": "Terrarium License",
         "url": "https://www.curseforge.com/minecraft/mc-mods/ad-astra/files/6262032",
@@ -37,6 +53,30 @@
         "url": "",
         "authors": "DmitryLovin",
         "displayName": "Advanced Compass",
+        "ignore": false
+    },
+    {
+        "modid": "advancednetherite",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/advanced-netherite-fabric",
+        "authors": "Autovw",
+        "displayName": "Advanced Netherite",
+        "ignore": false
+    },
+    {
+        "modid": "advancementinfo",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/advancementinfo",
+        "authors": "Giselbaer",
+        "displayName": "AdvancementInfo",
+        "ignore": false
+    },
+    {
+        "modid": "advancementplaques",
+        "license": "CC BY-NC-ND 4.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric",
+        "authors": "Grend",
+        "displayName": "Advancement Plaques",
         "ignore": false
     },
     {
@@ -80,6 +120,14 @@
         "ignore": false
     },
     {
+        "modid": "alcocraftplus",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/alcocraft",
+        "authors": "itzme1on",
+        "displayName": "AlcoCraft+",
+        "ignore": false
+    },
+    {
         "modid": "alexscaves",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/alexs-caves",
@@ -96,11 +144,35 @@
         "ignore": false
     },
     {
+        "modid": "almanac",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/almanac-lib",
+        "authors": "frikinjay",
+        "displayName": "Almanac",
+        "ignore": false
+    },
+    {
         "modid": "ambientsounds",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/ambientsounds",
         "authors": "CreativeMD",
         "displayName": "AmbientSounds",
+        "ignore": false
+    },
+    {
+        "modid": "amendments",
+        "license": "Supplementaries Team License v.1.5",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/amendments",
+        "authors": "MehVahdJukaar",
+        "displayName": "Amendments",
+        "ignore": false
+    },
+    {
+        "modid": "animal_feeding_trough",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/animal-feeding-trough",
+        "authors": "Slexom",
+        "displayName": "Animal Feeding Trough",
         "ignore": false
     },
     {
@@ -136,6 +208,14 @@
         "ignore": false
     },
     {
+        "modid": "appleskin",
+        "license": "Unlicense",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
+        "authors": "squeek502",
+        "displayName": "AppleSkin",
+        "ignore": false
+    },
+    {
         "modid": "aquaculture",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/aquaculture",
@@ -162,7 +242,7 @@
     {
         "modid": "architectury",
         "license": "LGPL-3.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
         "authors": "shedaniel",
         "displayName": "Architectury",
         "ignore": false
@@ -173,6 +253,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/ardagrass",
         "authors": "JayemCeekay",
         "displayName": "ArdaGrass",
+        "ignore": false
+    },
+    {
+        "modid": "armorstatues",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/armor-statues",
+        "authors": "Fuzs",
+        "displayName": "Armor Statues",
         "ignore": false
     },
     {
@@ -213,6 +301,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/astemirlib",
         "authors": "Astemir",
         "displayName": "AstemirLib",
+        "ignore": false
+    },
+    {
+        "modid": "athena",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/athena",
+        "authors": "ThatGravyBoat",
+        "displayName": "Athena",
         "ignore": false
     },
     {
@@ -258,7 +354,7 @@
     {
         "modid": "azurelib",
         "license": "MIT",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/azurelib",
         "authors": "AzureDoom, Gecko, Eliot, Chappie, DerToaster, Tslat, Bvanseg",
         "displayName": "AzureLib",
         "ignore": false
@@ -296,11 +392,35 @@
         "ignore": false
     },
     {
+        "modid": "beachparty",
+        "license": "Custom",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-beachparty",
+        "authors": "Satisfy, Jason13Official",
+        "displayName": "[Let's Do] Beachparty",
+        "ignore": false
+    },
+    {
+        "modid": "beautify",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/beautify-refabricated",
+        "authors": "Suel_ki",
+        "displayName": "Beautify",
+        "ignore": false
+    },
+    {
         "modid": "benssharks",
         "license": "LGPL-3.0",
         "url": "",
         "authors": "benndevs",
         "displayName": "Ben",
+        "ignore": false
+    },
+    {
+        "modid": "better_climbing",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/better-climbing",
+        "authors": "artemis",
+        "displayName": "Better Climbing",
         "ignore": false
     },
     {
@@ -352,6 +472,14 @@
         "ignore": false
     },
     {
+        "modid": "betterendisland",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island-fabric",
+        "authors": "YUNGNICKYOUNG, Acarii",
+        "displayName": "YUNG's Better End Island",
+        "ignore": false
+    },
+    {
         "modid": "betterfog",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/better-fog",
@@ -392,6 +520,14 @@
         "ignore": false
     },
     {
+        "modid": "bettermounthud",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/better-mount-hud",
+        "authors": "Lortseam",
+        "displayName": "Better Mount HUD",
+        "ignore": false
+    },
+    {
         "modid": "betteroceanmonuments",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments",
@@ -408,11 +544,27 @@
         "ignore": false
     },
     {
+        "modid": "betterthanmending",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/better-than-mending",
+        "authors": "Legobmw99",
+        "displayName": "BetterThanMending",
+        "ignore": false
+    },
+    {
         "modid": "betterwitchhuts",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts",
         "authors": "YUNGNICKYOUNG, Acarii",
         "displayName": "YUNG's Better Witch Huts",
+        "ignore": false
+    },
+    {
+        "modid": "bhmenu",
+        "license": "All-Rights-Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-fabric",
+        "authors": "BisectHosting",
+        "displayName": "BHMenu-Fabric",
         "ignore": false
     },
     {
@@ -432,11 +584,35 @@
         "ignore": false
     },
     {
+        "modid": "biomeswevegone",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone",
+        "authors": "Joseph T. McQuigg (JT122406), AOCAWOL, YaBoiChips, Corgi Taco",
+        "displayName": "Oh The Biomes We've Gone",
+        "ignore": false
+    },
+    {
+        "modid": "blahaj",
+        "license": "Unlicense",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/blahaj-replushed",
+        "authors": "hibi, infoplayerstart, DaFuqs",
+        "displayName": "Blåhaj",
+        "ignore": false
+    },
+    {
         "modid": "block_factorys_bosses",
         "license": "All Rights Reserved",
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "blockrunner",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/block-runner",
+        "authors": "Fuzs",
+        "displayName": "Block Runner",
         "ignore": false
     },
     {
@@ -456,6 +632,14 @@
         "ignore": false
     },
     {
+        "modid": "boatiview",
+        "license": "https://github.com/50ap5ud5/BoatItemView/blob/1.20.x-fabric/LICENSE",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/boat-item-view",
+        "authors": "50ap5ud5, Treblero",
+        "displayName": "Boat Item View Fabric",
+        "ignore": false
+    },
+    {
         "modid": "boids",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/boids-reforged",
@@ -469,6 +653,14 @@
         "url": "",
         "authors": "<author>",
         "displayName": "Boiled One Reimagined",
+        "ignore": false
+    },
+    {
+        "modid": "bookshelf",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/bookshelf",
+        "authors": "Darkhax",
+        "displayName": "Bookshelf",
         "ignore": false
     },
     {
@@ -504,6 +696,30 @@
         "ignore": false
     },
     {
+        "modid": "brewery",
+        "license": "Custom",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-brewery-farm-charm-compat",
+        "authors": "satisfy",
+        "displayName": "[Let's Do] Brewery",
+        "ignore": false
+    },
+    {
+        "modid": "bridgingmod",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/bridging-mod",
+        "authors": "CG360",
+        "displayName": "Bridging Mod",
+        "ignore": false
+    },
+    {
+        "modid": "c2me",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/c2me",
+        "authors": "RelativityMC, ishland",
+        "displayName": "Concurrent Chunk Management Engine",
+        "ignore": false
+    },
+    {
         "modid": "caelus",
         "license": "LGPL-3.0",
         "url": "",
@@ -528,11 +744,27 @@
         "ignore": false
     },
     {
+        "modid": "camerapture",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/camerapture",
+        "authors": "chrrrs",
+        "displayName": "Camerapture",
+        "ignore": false
+    },
+    {
         "modid": "canary",
         "license": "LGPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "candlelight",
+        "license": "Custom",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-candlelight-farm-charm-compat",
+        "authors": "satisfy",
+        "displayName": "[Let's Do] Candlelight",
         "ignore": false
     },
     {
@@ -544,9 +776,17 @@
         "ignore": false
     },
     {
+        "modid": "carrasconlib",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/carrasconlib",
+        "authors": "ECarrascon",
+        "displayName": "Carrascon Lib",
+        "ignore": false
+    },
+    {
         "modid": "carryon",
         "license": "LGPL-3.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/carry-on",
         "authors": "Tschipp, Purplicious_Cow, cy4n",
         "displayName": "Carry On",
         "ignore": false
@@ -600,6 +840,14 @@
         "ignore": false
     },
     {
+        "modid": "celesteconfig",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sun-and-moon-celestial-configuration",
+        "authors": "Infernal Studios",
+        "displayName": "Celestial Configuration",
+        "ignore": false
+    },
+    {
         "modid": "cerbons_api",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/cerbons-api",
@@ -618,9 +866,25 @@
     {
         "modid": "chat_heads",
         "license": "MPL-2.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/chat-heads",
         "authors": "dzwdz, Fourmisain",
         "displayName": "Chat Heads",
+        "ignore": false
+    },
+    {
+        "modid": "chefsdelight",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/chefs-delight-fabric",
+        "authors": "Redstone Games",
+        "displayName": "Chef's Delight",
+        "ignore": false
+    },
+    {
+        "modid": "chipped",
+        "license": "Terrarium Licence",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/chipped",
+        "authors": "Alex Nijjar, Grimbop, Kekie6, ThatGravyBoat",
+        "displayName": "Chipped",
         "ignore": false
     },
     {
@@ -642,7 +906,7 @@
     {
         "modid": "chunky",
         "license": "GNU GPLv3",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator",
         "authors": "pop4959",
         "displayName": "Chunky",
         "ignore": false
@@ -661,6 +925,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/citadel",
         "authors": "Alexthe666",
         "displayName": "Citadel",
+        "ignore": false
+    },
+    {
+        "modid": "citresewn",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cit-resewn",
+        "authors": "SHsuperCM",
+        "displayName": "CIT Resewn",
         "ignore": false
     },
     {
@@ -696,6 +968,22 @@
         "ignore": false
     },
     {
+        "modid": "clutter",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/clutter",
+        "authors": "EmilSG",
+        "displayName": "Clutter",
+        "ignore": false
+    },
+    {
+        "modid": "cluttered",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cluttered",
+        "authors": "YellowChuJelly, Blake",
+        "displayName": "Cluttered",
+        "ignore": false
+    },
+    {
         "modid": "cocoainput",
         "license": "Minecraft Mod Public License Japanese Transration",
         "url": "",
@@ -715,8 +1003,24 @@
         "modid": "collective",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/collective",
-        "authors": "",
-        "displayName": "",
+        "authors": "Serilum",
+        "displayName": "Collective",
+        "ignore": false
+    },
+    {
+        "modid": "colorwheel",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/colorwheel",
+        "authors": "djefrey",
+        "displayName": "Colorwheel",
+        "ignore": false
+    },
+    {
+        "modid": "colorwheel_patcher",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/colorwheel-patcher",
+        "authors": "djefrey",
+        "displayName": "Colorwheel Patcher",
         "ignore": false
     },
     {
@@ -736,6 +1040,14 @@
         "ignore": false
     },
     {
+        "modid": "comforts",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/comforts",
+        "authors": "Illusive Soulworks",
+        "displayName": "Comforts",
+        "ignore": false
+    },
+    {
         "modid": "compactflap",
         "license": "Read attached LICENSE.md",
         "url": "https://www.curseforge.com/minecraft/mc-mods/create-compact-flap",
@@ -749,6 +1061,30 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "configurable",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/configurable",
+        "authors": "Bawnorton",
+        "displayName": "Configurable",
+        "ignore": false
+    },
+    {
+        "modid": "configured",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/configured",
+        "authors": "MrCrayfish",
+        "displayName": "Configured",
+        "ignore": false
+    },
+    {
+        "modid": "connectiblechains",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/connectiblechains",
+        "authors": "legoatoom",
+        "displayName": "Connectible Chains",
         "ignore": false
     },
     {
@@ -768,6 +1104,14 @@
         "ignore": false
     },
     {
+        "modid": "constructionwand",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/construction-wand-fabric",
+        "authors": "JongWasTaken, Theta-Dev",
+        "displayName": "Construction Wand (Fabric)",
+        "ignore": false
+    },
+    {
         "modid": "continuity",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/continuity",
@@ -784,11 +1128,43 @@
         "ignore": false
     },
     {
+        "modid": "convenientnametags",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/convenient-name-tags",
+        "authors": "Mim1q",
+        "displayName": "Convenient Name Tags",
+        "ignore": false
+    },
+    {
+        "modid": "coolrain",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cool-rain",
+        "authors": "Jaiz, \n, Config Coding Help:, trashoflevillage, \n , NeoForge Port and Coding Help:, Leclowndu93150",
+        "displayName": "CoolRain",
+        "ignore": false
+    },
+    {
+        "modid": "copperagebackport",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/copper-age-backport",
+        "authors": "Smallinger",
+        "displayName": "Copper-Age-Backport",
+        "ignore": false
+    },
+    {
         "modid": "copycats",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/copycats",
-        "authors": "<author>",
+        "authors": "Hlysine",
         "displayName": "Create: Copycats+",
+        "ignore": false
+    },
+    {
+        "modid": "corgilib",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/corgilib",
+        "authors": "Corgi Taco",
+        "displayName": "CorgiLib",
         "ignore": false
     },
     {
@@ -824,11 +1200,43 @@
         "ignore": false
     },
     {
+        "modid": "cozystudioscore",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cozystudios-core",
+        "authors": "Tokimi, CozyStudios",
+        "displayName": "Cozy Studios Core",
+        "ignore": false
+    },
+    {
+        "modid": "craftingpad",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/craftingpad-fabric",
+        "authors": "StrikerRocker, Giselbaer",
+        "displayName": "Crafting Pad",
+        "ignore": false
+    },
+    {
         "modid": "crafttweaker",
         "license": "MIT",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/crafttweaker",
         "authors": "Jaredlll08, Kindlich, StanHebben and TheSilkMiner",
         "displayName": "CraftTweaker",
+        "ignore": false
+    },
+    {
+        "modid": "cratedelight",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/crate-delight-fabric",
+        "authors": "Axperty",
+        "displayName": "Crate Delight",
+        "ignore": false
+    },
+    {
+        "modid": "craterlib",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/craterlib",
+        "authors": "HypherionSA, Zenith",
+        "displayName": "CraterLib",
         "ignore": false
     },
     {
@@ -861,6 +1269,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/create-dreams-desires",
         "authors": "LopyLuna",
         "displayName": "Create: Dreams & Desires",
+        "ignore": false
+    },
+    {
+        "modid": "create_oxidized",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-oxidized",
+        "authors": "Pyzpre",
+        "displayName": "Create: Oxidized",
         "ignore": false
     },
     {
@@ -904,6 +1320,14 @@
         "ignore": false
     },
     {
+        "modid": "createcontraptionterminals",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/create-contraption-terminals",
+        "authors": "tom5454",
+        "displayName": "Create Contraption Terminals",
+        "ignore": false
+    },
+    {
         "modid": "createdeco",
         "license": "Insert License Here",
         "url": "https://www.curseforge.com/minecraft/mc-mods/create-deco/files/5293982",
@@ -938,7 +1362,7 @@
     {
         "modid": "creativecore",
         "license": "LGPL-3.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/creativecore",
         "authors": "CreativeMD",
         "displayName": "CreativeCore",
         "ignore": false
@@ -960,6 +1384,14 @@
         "ignore": false
     },
     {
+        "modid": "crops_love_rain",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/crops-love-rain",
+        "authors": "ThePoultryMan",
+        "displayName": "Crops Love Rain",
+        "ignore": false
+    },
+    {
         "modid": "crust",
         "license": "GPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/crust",
@@ -973,6 +1405,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/warium",
         "authors": "Novum",
         "displayName": "Warium",
+        "ignore": false
+    },
+    {
+        "modid": "cubes_without_borders",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/cubes-without-borders",
+        "authors": "Kir_Antipov",
+        "displayName": "Cubes Without Borders",
         "ignore": false
     },
     {
@@ -1064,6 +1504,30 @@
         "ignore": false
     },
     {
+        "modid": "darkpaintings",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/dark-paintings",
+        "authors": "Darkhax",
+        "displayName": "DarkPaintings",
+        "ignore": false
+    },
+    {
+        "modid": "darksmelting",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/darksmelting",
+        "authors": "GamerPotion",
+        "displayName": "DarkSmelting - Smelt Armor and Tools",
+        "ignore": false
+    },
+    {
+        "modid": "dataanchor",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/data-anchor",
+        "authors": "Corgi Taco",
+        "displayName": "Data Anchor",
+        "ignore": false
+    },
+    {
         "modid": "dawnera",
         "license": "All-Rights-Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/the-dawn-era",
@@ -1080,11 +1544,75 @@
         "ignore": false
     },
     {
+        "modid": "debugify",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/debugify",
+        "authors": "isXander",
+        "displayName": "Debugify",
+        "ignore": false
+    },
+    {
         "modid": "deeper_oceans",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/deeper-oceans",
         "authors": "Apollo",
         "displayName": "Deeper Oceans",
+        "ignore": false
+    },
+    {
+        "modid": "deeperdarker",
+        "license": "AGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/deeperdarker",
+        "authors": "Kyanite Mods",
+        "displayName": "Deeper and Darker",
+        "ignore": false
+    },
+    {
+        "modid": "defaultoptions",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/default-options",
+        "authors": "BlayTheNinth",
+        "displayName": "Default Options",
+        "ignore": false
+    },
+    {
+        "modid": "deimos",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/deimos-fabric-forge-neoforge",
+        "authors": "Mars",
+        "displayName": "Deimos",
+        "ignore": false
+    },
+    {
+        "modid": "deltaboxlib",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/deltaboxlib",
+        "authors": "DanBrown_",
+        "displayName": "Deltabox Lib",
+        "ignore": false
+    },
+    {
+        "modid": "detailab",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/detail-armor-bar",
+        "authors": "RedLime",
+        "displayName": "Detail Armor Bar",
+        "ignore": false
+    },
+    {
+        "modid": "diagonalwalls",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/diagonal-walls",
+        "authors": "Fuzs, XFactHD",
+        "displayName": "Diagonal Walls",
+        "ignore": false
+    },
+    {
+        "modid": "diagonalwindows",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/diagonal-windows",
+        "authors": "Fuzs, XFactHD",
+        "displayName": "Diagonal Windows",
         "ignore": false
     },
     {
@@ -1120,11 +1648,27 @@
         "ignore": false
     },
     {
+        "modid": "doapi",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/do-api",
+        "authors": "Cristelknight, BaumeisterJO",
+        "displayName": "[Let's Do] API",
+        "ignore": false
+    },
+    {
         "modid": "door_knocker",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/door-knocker-horror",
         "authors": "Apelsinpro2009",
         "displayName": "Door Knocker",
+        "ignore": false
+    },
+    {
+        "modid": "doubledoors",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/double-doors",
+        "authors": "Rick South",
+        "displayName": "Double Doors",
         "ignore": false
     },
     {
@@ -1152,11 +1696,27 @@
         "ignore": false
     },
     {
+        "modid": "drippyloadingscreen",
+        "license": "DSMSLv3.1 (DON'T SNATCH MA STUFF LICENSE v3.1)",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/drippy-loading-screen",
+        "authors": "Keksuccino",
+        "displayName": "Drippy Loading Screen",
+        "ignore": false
+    },
+    {
         "modid": "duckling",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/duckling",
         "authors": "Frogipher, ThatGravyBoat",
         "displayName": "Duckling",
+        "ignore": false
+    },
+    {
+        "modid": "dummmmmmy",
+        "license": "Supplementaries Team License v.1.5",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
+        "authors": "MehVahdJukaar, Bonusboni, Plantkillable",
+        "displayName": "MmmMmmMmmMmm",
         "ignore": false
     },
     {
@@ -1181,6 +1741,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/dungeonsenhanced",
         "authors": "Ametrin Studios",
         "displayName": "Dungeons Enhanced",
+        "ignore": false
+    },
+    {
+        "modid": "dustydecorations",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/dusty-decorations",
+        "authors": "Tip Mischiff",
+        "displayName": "Dusty Decorations",
         "ignore": false
     },
     {
@@ -1232,6 +1800,22 @@
         "ignore": false
     },
     {
+        "modid": "easymagic",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/easy-magic",
+        "authors": "Fuzs",
+        "displayName": "Easy Magic",
+        "ignore": false
+    },
+    {
+        "modid": "eatinganimationid",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/eating-animation-fabric",
+        "authors": "theone_ss, spusik_, PinkGoosik, DoctorNight1",
+        "displayName": "Eating Animation",
+        "ignore": false
+    },
+    {
         "modid": "ebb",
         "license": "AGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/elytra-bombing",
@@ -1264,6 +1848,14 @@
         "ignore": false
     },
     {
+        "modid": "elytraslot",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/elytra-slot",
+        "authors": "Illusive Soulworks",
+        "displayName": "Elytra Slot",
+        "ignore": false
+    },
+    {
         "modid": "embeddium",
         "license": "LGPL-3.0",
         "url": "",
@@ -1288,11 +1880,35 @@
         "ignore": false
     },
     {
+        "modid": "emojiful",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/emojiful",
+        "authors": "HRZN",
+        "displayName": "Emojiful",
+        "ignore": false
+    },
+    {
         "modid": "emotecraft",
         "license": "CC-BY-4.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge",
         "authors": "KosmX",
         "displayName": "Emotecraft",
+        "ignore": false
+    },
+    {
+        "modid": "enchanter_fix",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/enchanter-fix",
+        "authors": "UnnamedGlitch",
+        "displayName": "Enchanter Fix",
+        "ignore": false
+    },
+    {
+        "modid": "enchdesc",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions",
+        "authors": "Darkhax",
+        "displayName": "EnchantmentDescriptions",
         "ignore": false
     },
     {
@@ -1320,6 +1936,14 @@
         "ignore": false
     },
     {
+        "modid": "ends_delight",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ends-delight",
+        "authors": "FoggyHillside",
+        "displayName": "End's Delight",
+        "ignore": false
+    },
+    {
         "modid": "enemyexpansion",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/enemy-expansion",
@@ -1333,6 +1957,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/enhanced-ai",
         "authors": "Insane96MCP",
         "displayName": "Enhanced AI",
+        "ignore": false
+    },
+    {
+        "modid": "enhancedblockentities",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities",
+        "authors": "FoundationGames",
+        "displayName": "Enhanced Block Entities",
         "ignore": false
     },
     {
@@ -1362,8 +1994,8 @@
     {
         "modid": "entityculling",
         "license": "tr7zw Protective License",
-        "url": "",
-        "authors": "<author>",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/entityculling",
+        "authors": "tr7zw",
         "displayName": "EntityCulling",
         "ignore": false
     },
@@ -1392,6 +2024,22 @@
         "ignore": false
     },
     {
+        "modid": "euphoria_patcher",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/euphoria-patches",
+        "authors": "SpacEagle17",
+        "displayName": "Euphoria Patcher",
+        "ignore": false
+    },
+    {
+        "modid": "explorerscompass",
+        "license": "CC BY-NC-SA 4.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/explorers-compass",
+        "authors": "ChaosTheDude",
+        "displayName": "Explorer's Compass",
+        "ignore": false
+    },
+    {
         "modid": "explosionoverhaul",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/explosion-overhaul-a-new-level-of-destruction",
@@ -1413,6 +2061,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/extra-spell-attributes",
         "authors": "cleannrooster",
         "displayName": "Extra Spell Attributes (RPG Series Tweaks)",
+        "ignore": false
+    },
+    {
+        "modid": "extremesoundmuffler",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler-fabric-official",
+        "authors": "LeoBeliik",
+        "displayName": "Extreme sound muffler",
         "ignore": false
     },
     {
@@ -1440,6 +2096,22 @@
         "ignore": false
     },
     {
+        "modid": "fabric-api",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fabric-api",
+        "authors": "FabricMC",
+        "displayName": "Fabric API",
+        "ignore": false
+    },
+    {
+        "modid": "fabric-language-kotlin",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin",
+        "authors": "FabricMC",
+        "displayName": "Fabric Language Kotlin",
+        "ignore": false
+    },
+    {
         "modid": "fabric-permissions-api-v0",
         "license": "MIT",
         "url": "https://modrinth.com/mod/fabric-permissions-api",
@@ -1456,6 +2128,22 @@
         "ignore": false
     },
     {
+        "modid": "fadeless",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fadeless",
+        "authors": "UltimateBoomer, DerpDerpling",
+        "displayName": "Fadeless",
+        "ignore": false
+    },
+    {
+        "modid": "fairylights",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fairy-lights-fabric",
+        "authors": "lucalabs-de",
+        "displayName": "Fairy Lights",
+        "ignore": false
+    },
+    {
         "modid": "fallingleaves",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/falling-leaves-forge",
@@ -1464,11 +2152,27 @@
         "ignore": false
     },
     {
+        "modid": "fallingtrees",
+        "license": "GNU GPLv3",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/pandas-falling-trees",
+        "authors": "The Panda Oliver",
+        "displayName": "Panda's Falling Trees",
+        "ignore": false
+    },
+    {
         "modid": "familiar_fauna",
         "license": "CC BY-NC-ND 4.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/familiar-fauna",
         "authors": "Forstride",
         "displayName": "Familiar Fauna",
+        "ignore": false
+    },
+    {
+        "modid": "fancy-beds",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/texture-packs/fancy-beds",
+        "authors": "Agente_511",
+        "displayName": "Fancy Beds",
         "ignore": false
     },
     {
@@ -1504,11 +2208,27 @@
         "ignore": false
     },
     {
+        "modid": "farm_and_charm",
+        "license": "custom",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-farm-charm",
+        "authors": "satisfy, jason13official",
+        "displayName": "[Let's Do] Farm & Charm",
+        "ignore": false
+    },
+    {
         "modid": "farmersdelight",
         "license": "MIT",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric",
         "authors": "vectorwing",
         "displayName": "Farmer",
+        "ignore": false
+    },
+    {
+        "modid": "farmersknives",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/farmers-knives",
+        "authors": "ianm1647",
+        "displayName": "Farmer's Knives",
         "ignore": false
     },
     {
@@ -1520,11 +2240,51 @@
         "ignore": false
     },
     {
+        "modid": "fastboot",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fastboot",
+        "authors": "dnlayu",
+        "displayName": "FastBoot",
+        "ignore": false
+    },
+    {
+        "modid": "faster-random",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/faster-random",
+        "authors": "AnOpenSauceDev",
+        "displayName": "Faster Random",
+        "ignore": false
+    },
+    {
+        "modid": "fastquit",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fastquit",
+        "authors": "KingContaria",
+        "displayName": "FastQuit",
+        "ignore": false
+    },
+    {
+        "modid": "faux-custom-entity-data",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/faux-custom-entity-data",
+        "authors": "Jaredlll08",
+        "displayName": "Faux-Custom-Entity-Data",
+        "ignore": false
+    },
+    {
         "modid": "ferritecore",
         "license": "MIT",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric",
         "authors": "malte0811",
         "displayName": "Ferrite Core",
+        "ignore": false
+    },
+    {
+        "modid": "fetzisasiandeco",
+        "license": "Custom License (https://fetzis-orga.gitbook.io/fetzis-asian-decoration/license)",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fetzis-asian-decoration",
+        "authors": "LordFetzi",
+        "displayName": "Fetzi's Asian Decoration",
         "ignore": false
     },
     {
@@ -1624,6 +2384,94 @@
         "ignore": false
     },
     {
+        "modid": "friendsandfoes",
+        "license": "CC BY-NC-ND 4.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/friends-and-foes",
+        "authors": "Faboslav",
+        "displayName": "Friends&Foes",
+        "ignore": false
+    },
+    {
+        "modid": "friendsforlife",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/friends-for-life",
+        "authors": "TheGoodWizard",
+        "displayName": "Friends For Life",
+        "ignore": false
+    },
+    {
+        "modid": "froglightsreimagined",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/froglightsreimagined",
+        "authors": "Tokimi, CozyStudios",
+        "displayName": "FroglightsReimagined",
+        "ignore": false
+    },
+    {
+        "modid": "frozenlib",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/frozenlib",
+        "authors": "Treetrain1, Luna",
+        "displayName": "FrozenLib",
+        "ignore": false
+    },
+    {
+        "modid": "fsb-interop",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/nuit-interop",
+        "authors": "FlashyReese",
+        "displayName": "FabricSkyBoxes Interop",
+        "ignore": false
+    },
+    {
+        "modid": "ftbessentials",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-essentials",
+        "authors": "FTB Team",
+        "displayName": "FTB Essentials",
+        "ignore": false
+    },
+    {
+        "modid": "ftbfiltersystem",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-filter-system",
+        "authors": "FTB Team",
+        "displayName": "FTB Filter System",
+        "ignore": false
+    },
+    {
+        "modid": "ftblibrary",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric",
+        "authors": "FTB Team",
+        "displayName": "FTB Library",
+        "ignore": false
+    },
+    {
+        "modid": "ftbquests",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric",
+        "authors": "FTB Team",
+        "displayName": "FTB Quests",
+        "ignore": false
+    },
+    {
+        "modid": "ftbteams",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric",
+        "authors": "FTB Team",
+        "displayName": "FTB Teams",
+        "ignore": false
+    },
+    {
+        "modid": "ftbxmodcompat",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat",
+        "authors": "FTB Team",
+        "displayName": "FTB XMod Compat",
+        "ignore": false
+    },
+    {
         "modid": "fungal_hazard",
         "license": "AGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/fungal-hazard",
@@ -1664,6 +2512,14 @@
         "ignore": false
     },
     {
+        "modid": "geckoanimfix",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/geckoanimfix",
+        "authors": "ElocinDev",
+        "displayName": "GeckoLibIrisCompat",
+        "ignore": false
+    },
+    {
         "modid": "geckolib",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/geckolib",
@@ -1680,11 +2536,27 @@
         "ignore": false
     },
     {
+        "modid": "geophilic",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/geophilic",
+        "authors": "bebebea_loste",
+        "displayName": "Geophilic",
+        "ignore": false
+    },
+    {
         "modid": "glitchcore",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/glitchcore",
         "authors": "Adubbz",
         "displayName": "GlitchCore",
+        "ignore": false
+    },
+    {
+        "modid": "go-fish",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/go-fish",
+        "authors": "Draylar",
+        "displayName": "Go Fish",
         "ignore": false
     },
     {
@@ -1736,6 +2608,14 @@
         "ignore": false
     },
     {
+        "modid": "grassseeds",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/grass-seeds",
+        "authors": "Rick South",
+        "displayName": "Grass Seeds",
+        "ignore": false
+    },
+    {
         "modid": "graveyard",
         "license": "CC0-1.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/the-graveyard-forge",
@@ -1749,6 +2629,14 @@
         "url": "",
         "authors": "Tfarcenim",
         "displayName": "GravityChanger",
+        "ignore": false
+    },
+    {
+        "modid": "grindenchantments",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/grind-enchantments",
+        "authors": "mschae23",
+        "displayName": "Grind Enchantments",
         "ignore": false
     },
     {
@@ -1784,6 +2672,14 @@
         "ignore": false
     },
     {
+        "modid": "handcrafted",
+        "license": "Terrarium Licence",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/handcrafted",
+        "authors": "Alex Nijjar, Kekie6",
+        "displayName": "Handcrafted",
+        "ignore": false
+    },
+    {
         "modid": "hatoyoke_fishes",
         "license": "All Rights Reserved",
         "url": "",
@@ -1805,6 +2701,30 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/healing-campfire",
         "authors": "Rick South",
         "displayName": "Healing Campfire",
+        "ignore": false
+    },
+    {
+        "modid": "hearth_and_home",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/hearth-and-home",
+        "authors": "Starfish Studios",
+        "displayName": "Hearth & Home",
+        "ignore": false
+    },
+    {
+        "modid": "herbalbrews",
+        "license": "Custom",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-herbal-brews",
+        "authors": "satisfy",
+        "displayName": "[Let's Do] HerbalBrews",
+        "ignore": false
+    },
+    {
+        "modid": "hexalia",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/hexalia",
+        "authors": "Astralya Studios",
+        "displayName": "Hexalia",
         "ignore": false
     },
     {
@@ -1832,11 +2752,27 @@
         "ignore": false
     },
     {
+        "modid": "iceberg",
+        "license": "CC BY-NC-ND 4.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/iceberg-fabric",
+        "authors": "Grend",
+        "displayName": "Iceberg",
+        "ignore": false
+    },
+    {
         "modid": "ichunutil",
         "license": "LGPL-3.0",
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "icterine",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/icterine",
+        "authors": "Mephodio",
+        "displayName": "Icterine",
         "ignore": false
     },
     {
@@ -1858,7 +2794,7 @@
     {
         "modid": "immediatelyfast",
         "license": "LGPL-3.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/immediatelyfast",
         "authors": "RK_01",
         "displayName": "ImmediatelyFast",
         "ignore": false
@@ -1869,6 +2805,14 @@
         "url": "",
         "authors": "Luke100000",
         "displayName": "Immersive Aircraft",
+        "ignore": false
+    },
+    {
+        "modid": "immersive_furniture",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/immersive-furniture",
+        "authors": "Luke100000",
+        "displayName": "Immersive Furniture",
         "ignore": false
     },
     {
@@ -1907,8 +2851,8 @@
         "modid": "incendium",
         "license": "Stardust Labs License",
         "url": "https://www.curseforge.com/minecraft/mc-mods/incendium",
-        "authors": "",
-        "displayName": "",
+        "authors": "Starmute",
+        "displayName": "Incendium",
         "ignore": false
     },
     {
@@ -1917,6 +2861,14 @@
         "url": "",
         "authors": "McJty",
         "displayName": "InControl",
+        "ignore": false
+    },
+    {
+        "modid": "indium",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/indium",
+        "authors": "comp500",
+        "displayName": "Indium",
         "ignore": false
     },
     {
@@ -1976,11 +2928,43 @@
         "ignore": false
     },
     {
+        "modid": "inventoryhud",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge",
+        "authors": "DmitryLovin",
+        "displayName": "Inventory HUD+",
+        "ignore": false
+    },
+    {
+        "modid": "inventorytotem",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-totem",
+        "authors": "Rick South",
+        "displayName": "Inventory Totem",
+        "ignore": false
+    },
+    {
+        "modid": "invisibleframes",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/rounds-invisible-frames",
+        "authors": "Roundaround",
+        "displayName": "Invisible Frames",
+        "ignore": false
+    },
+    {
         "modid": "iris",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/irisshaders",
         "authors": "coderbot, IMS212, Justsnoopy30, FoundationGames",
         "displayName": "Iris",
+        "ignore": false
+    },
+    {
+        "modid": "ironchests",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ironchests",
+        "authors": "Dev and Upgrade Textures - ThatGravyBoat, All Other Textures - Kekie",
+        "displayName": "Iron Chests: Restocked",
         "ignore": false
     },
     {
@@ -2024,11 +3008,43 @@
         "ignore": false
     },
     {
+        "modid": "item_obliterator",
+        "license": "AGNYA License",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/item-obliterator",
+        "authors": "ElocinDev",
+        "displayName": "Item Obliterator",
+        "ignore": false
+    },
+    {
         "modid": "itemproductionlib",
         "license": "GPL-3.0",
         "url": "",
         "authors": "Daripher",
         "displayName": "Item Production Lib",
+        "ignore": false
+    },
+    {
+        "modid": "jade",
+        "license": "CC BY-NC-SA 4.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jade",
+        "authors": "Snownee",
+        "displayName": "Jade",
+        "ignore": false
+    },
+    {
+        "modid": "jadeaddons",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jade-addons-fabric",
+        "authors": "Snownee",
+        "displayName": "Jade Addons",
+        "ignore": false
+    },
+    {
+        "modid": "jamlib",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jamlib",
+        "authors": "Jamalam",
+        "displayName": "JamLib",
         "ignore": false
     },
     {
@@ -2064,6 +3080,14 @@
         "ignore": false
     },
     {
+        "modid": "jumpoverfences",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jump-over-fences-forge",
+        "authors": "kreezxil, Eleksploded",
+        "displayName": "Jump Over Fences",
+        "ignore": false
+    },
+    {
         "modid": "jurassicreborn",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/jurassic-reborn",
@@ -2080,11 +3104,27 @@
         "ignore": false
     },
     {
+        "modid": "justenoughbreeding",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/justenoughbreeding",
+        "authors": "Christofmeg",
+        "displayName": "Just Enough Breeding",
+        "ignore": false
+    },
+    {
         "modid": "justhammers",
         "license": "GPL3",
         "url": "https://www.curseforge.com/minecraft/mc-mods/justhammers",
         "authors": "ErrorMikey",
         "displayName": "Just Hammers",
+        "ignore": false
+    },
+    {
+        "modid": "justoutdoorstuffs",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/just-outdoor-stuffs",
+        "authors": "ImJustSeiyin, ringpro",
+        "displayName": "Just Outdoor Stuffs",
         "ignore": false
     },
     {
@@ -2106,7 +3146,7 @@
     {
         "modid": "kiwi",
         "license": "MIT",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/kiwi-fabric",
         "authors": "Snownee",
         "displayName": "Kiwi Library",
         "ignore": false
@@ -2144,11 +3184,27 @@
         "ignore": false
     },
     {
+        "modid": "ksyxis",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ksyxis",
+        "authors": "VidTu",
+        "displayName": "Ksyxis",
+        "ignore": false
+    },
+    {
         "modid": "kubejs",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/kubejs",
         "authors": "LatvianModder",
         "displayName": "KubeJS",
+        "ignore": false
+    },
+    {
+        "modid": "labels",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/labels",
+        "authors": "MehVahdJukaar",
+        "displayName": "Labels",
         "ignore": false
     },
     {
@@ -2160,11 +3216,27 @@
         "ignore": false
     },
     {
+        "modid": "lavender",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lavender-api",
+        "authors": "glisco",
+        "displayName": "Lavender",
+        "ignore": false
+    },
+    {
         "modid": "lazrslib",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/lazrs-lib",
         "authors": "Lazr Productions",
         "displayName": "Lazr's Lib",
+        "ignore": false
+    },
+    {
+        "modid": "lazydfu",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lazydfu",
+        "authors": "tuxed",
+        "displayName": "LazyDFU",
         "ignore": false
     },
     {
@@ -2192,11 +3264,43 @@
         "ignore": false
     },
     {
+        "modid": "letmedespawn",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/let-me-despawn",
+        "authors": "frikinjay",
+        "displayName": "Let Me Despawn",
+        "ignore": false
+    },
+    {
+        "modid": "letsdoaddon-structures",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-addon-structures",
+        "authors": "Ninjdai_",
+        "displayName": "[Let's Do Addon] Structures",
+        "ignore": false
+    },
+    {
+        "modid": "letsdocompat",
+        "license": "GPLv3",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-addon-compat",
+        "authors": "Ninjdai",
+        "displayName": "[Let's Do Addon] Compat",
+        "ignore": false
+    },
+    {
         "modid": "lexiconfig",
         "license": "GNU GPLv3",
         "url": "https://www.curseforge.com/minecraft/mc-mods/lexiconfig",
         "authors": "CodinGlitch",
         "displayName": "Lexiconfig",
+        "ignore": false
+    },
+    {
+        "modid": "libraryferret",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/library-ferret-fabric",
+        "authors": "JTorLeon Studios",
+        "displayName": "Library ferret",
         "ignore": false
     },
     {
@@ -2208,11 +3312,27 @@
         "ignore": false
     },
     {
+        "modid": "lithium",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lithium",
+        "authors": "JellySquid, 2No2Name",
+        "displayName": "Lithium",
+        "ignore": false
+    },
+    {
         "modid": "lithostitched",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/lithostitched",
         "authors": "Apollo",
         "displayName": "Lithostitched",
+        "ignore": false
+    },
+    {
+        "modid": "lmft",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lmft",
+        "authors": "Blodhgarm",
+        "displayName": "Load My F***ing Tags",
         "ignore": false
     },
     {
@@ -2229,6 +3349,30 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/lodestone",
         "authors": "Lodestar",
         "displayName": "Lodestone",
+        "ignore": false
+    },
+    {
+        "modid": "logbegone",
+        "license": "GPLv3",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/log-begone",
+        "authors": "AzureDoomC, Bravarly",
+        "displayName": "Log Begone",
+        "ignore": false
+    },
+    {
+        "modid": "logcleaner",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/log-cleaner",
+        "authors": "altrisi",
+        "displayName": "Log Cleaner",
+        "ignore": false
+    },
+    {
+        "modid": "lootr",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lootr-fabric",
+        "authors": "Noobanidus, ZestyBlaze, embeddedt",
+        "displayName": "Lootr",
         "ignore": false
     },
     {
@@ -2320,6 +3464,22 @@
         "ignore": false
     },
     {
+        "modid": "makeup-ultra-fast-shader",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/shaders/makeup-ultra-fast-shader",
+        "authors": "xavierfst",
+        "displayName": "MakeUp - Ultra Fast Shaders",
+        "ignore": false
+    },
+    {
+        "modid": "malilib",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/malilib",
+        "authors": "masa",
+        "displayName": "MaLiLib",
+        "ignore": false
+    },
+    {
         "modid": "man_from_the_shadow",
         "license": "Academic Free License v3.0",
         "url": "",
@@ -2344,6 +3504,22 @@
         "ignore": false
     },
     {
+        "modid": "mavapi",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mavapi",
+        "authors": "AkashiiKun, KxmischesDomi",
+        "displayName": "More Axolotl Variants API",
+        "ignore": false
+    },
+    {
+        "modid": "mavm",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mavm",
+        "authors": "AkashiiKun",
+        "displayName": "More Axolotl Variants Mod",
+        "ignore": false
+    },
+    {
         "modid": "maxstuff",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/maxstuff",
@@ -2360,11 +3536,51 @@
         "ignore": false
     },
     {
+        "modid": "mcpitanlib",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mcpitanlibarch",
+        "authors": "Pitan",
+        "displayName": "MCPitanLib",
+        "ignore": false
+    },
+    {
+        "modid": "mcwholidays",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-holidays",
+        "authors": "Sketch Macaw & Peachy Macaw",
+        "displayName": "Macaw's Holidays",
+        "ignore": false
+    },
+    {
+        "modid": "mcwpaintings",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-paintings",
+        "authors": "Art made by Peachy, coded by Sketch Macaw",
+        "displayName": "Macaw's Paintings",
+        "ignore": false
+    },
+    {
+        "modid": "mcwpaths",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings",
+        "authors": "Sketch Macaw, Peachy Macaw",
+        "displayName": "Macaw's Paths and Pavings",
+        "ignore": false
+    },
+    {
         "modid": "mcwwindows",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-windows",
         "authors": "Sketch Macaw & Peachy Macaw",
         "displayName": "Macaw's Windows",
+        "ignore": false
+    },
+    {
+        "modid": "meadow",
+        "license": "Custom",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-meadow",
+        "authors": "satisfy, Jason13",
+        "displayName": "[Let's Do] Meadow",
         "ignore": false
     },
     {
@@ -2397,6 +3613,14 @@
         "url": "",
         "authors": "kotishe666",
         "displayName": "Midnight Madness",
+        "ignore": false
+    },
+    {
+        "modid": "midnightlib",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/midnightlib",
+        "authors": "Motschen",
+        "displayName": "MidnightLib",
         "ignore": false
     },
     {
@@ -2440,6 +3664,30 @@
         "ignore": true
     },
     {
+        "modid": "mixin-conflict-helper",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mixin-conflict-helper",
+        "authors": "isXander",
+        "displayName": "Mixin Conflict Helper",
+        "ignore": false
+    },
+    {
+        "modid": "mixintrace",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mixintrace",
+        "authors": "comp500",
+        "displayName": "MixinTrace",
+        "ignore": false
+    },
+    {
+        "modid": "mo_glass",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mo-glass",
+        "authors": "Alexander01998",
+        "displayName": "Mo Glass",
+        "ignore": false
+    },
+    {
         "modid": "mobbattle",
         "license": "All Rights Reserved",
         "url": "",
@@ -2474,9 +3722,33 @@
     {
         "modid": "modernfix",
         "license": "LGPL-3.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/modernfix",
         "authors": "embeddedt",
         "displayName": "ModernFix",
+        "ignore": false
+    },
+    {
+        "modid": "modernworldcreation",
+        "license": "DSMSLv3 (DON'T SNATCH MA STUFF LICENSE v3)",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/modernworldcreation",
+        "authors": "Keksuccino",
+        "displayName": "Modern World Creation",
+        "ignore": false
+    },
+    {
+        "modid": "modmenu",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/modmenu",
+        "authors": "Prospector, haykam821, TerraformersMC",
+        "displayName": "Mod Menu",
+        "ignore": false
+    },
+    {
+        "modid": "modmenu-badges-lib",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/modmenu-badges-lib",
+        "authors": "Syorito Hatsuki",
+        "displayName": "ModMenu Badges Lib",
         "ignore": false
     },
     {
@@ -2490,9 +3762,33 @@
     {
         "modid": "moonlight",
         "license": "gplv3",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/selene",
         "authors": "MehVahdJukaar",
         "displayName": "Moonlight Library",
+        "ignore": false
+    },
+    {
+        "modid": "more_enchantment_info_container",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/more-enchantment-info",
+        "authors": "settingdust",
+        "displayName": "more_enchantment_info_container",
+        "ignore": false
+    },
+    {
+        "modid": "morechathistory",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/morechathistory",
+        "authors": "JackFred",
+        "displayName": "More Chat History",
+        "ignore": false
+    },
+    {
+        "modid": "moreculling",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/moreculling",
+        "authors": "FX - PR0CESS",
+        "displayName": "More Culling",
         "ignore": false
     },
     {
@@ -2504,11 +3800,43 @@
         "ignore": false
     },
     {
+        "modid": "mousetweaks",
+        "license": "BSD-3-Clause",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+        "authors": "Ivan Molodetskikh (YaLTeR)",
+        "displayName": "Mouse Tweaks",
+        "ignore": false
+    },
+    {
+        "modid": "mousewheelie",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mouse-wheelie",
+        "authors": "Siphalor",
+        "displayName": "Mouse Wheelie",
+        "ignore": false
+    },
+    {
         "modid": "mowziesmobs",
         "license": "Custom License",
         "url": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs",
         "authors": "BobMowzie, Wadoo, Vakypanda, Noonyez, pau101",
         "displayName": "Mowzie's Mobs",
+        "ignore": false
+    },
+    {
+        "modid": "mr_flower_tweaks",
+        "license": "LicenseRef-All-Rights-Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/flower-tweaks-mod",
+        "authors": "aurum",
+        "displayName": "Flower Tweaks",
+        "ignore": false
+    },
+    {
+        "modid": "mr_tidal_towns",
+        "license": "LicenseRef-All-Rights-Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tidal-towns",
+        "authors": "joshieman",
+        "displayName": "Tidal Towns",
         "ignore": false
     },
     {
@@ -2592,6 +3920,14 @@
         "ignore": false
     },
     {
+        "modid": "mythicupgrades",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mythic-upgrades",
+        "authors": "TriQue",
+        "displayName": "Mythic Upgrades",
+        "ignore": false
+    },
+    {
         "modid": "mythsandlegends",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/myths-n-legends",
@@ -2600,11 +3936,67 @@
         "ignore": false
     },
     {
+        "modid": "natures_delight",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/natures-delight",
+        "authors": "Team Hibiscus",
+        "displayName": "Nature's Delight",
+        "ignore": false
+    },
+    {
+        "modid": "natures_spirit",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/natures-spirit",
+        "authors": "Team Hibiscus",
+        "displayName": "Nature's Spirit",
+        "ignore": false
+    },
+    {
+        "modid": "naturescompass",
+        "license": "CC BY-NC-SA 4.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass",
+        "authors": "ChaosTheDude",
+        "displayName": "Nature's Compass",
+        "ignore": false
+    },
+    {
         "modid": "necronomicon",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/necronomicon",
         "authors": "ElocinDev",
         "displayName": "Necronomicon",
+        "ignore": false
+    },
+    {
+        "modid": "nerb",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/notenoughrecipebook",
+        "authors": "OctoStudios",
+        "displayName": "Not Enough Recipe Book",
+        "ignore": false
+    },
+    {
+        "modid": "neruina",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/neruina",
+        "authors": "Bawnorton",
+        "displayName": "Neruina",
+        "ignore": false
+    },
+    {
+        "modid": "nethersdelight",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/nethers-delight-refabricated",
+        "authors": "RaymondBlaze",
+        "displayName": "Nether's Delight Refabricated",
+        "ignore": false
+    },
+    {
+        "modid": "niftycarts",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/niftycarts",
+        "authors": "MennoMax, paul101, jmb19905",
+        "displayName": "NiftyCarts",
         "ignore": false
     },
     {
@@ -2632,6 +4024,22 @@
         "ignore": false
     },
     {
+        "modid": "no-resource-pack-warnings",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/no-resource-pack-warnings",
+        "authors": "Space Walker",
+        "displayName": "No Resource Pack Warnings",
+        "ignore": false
+    },
+    {
+        "modid": "noanimaltemptdelay",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/no-animal-tempt-delay",
+        "authors": "Rick South",
+        "displayName": "No Animal Tempt Delay",
+        "ignore": false
+    },
+    {
         "modid": "nochatreports",
         "license": "WTFPL",
         "url": "https://www.curseforge.com/minecraft/mc-mods/no-chat-reports",
@@ -2640,11 +4048,27 @@
         "ignore": false
     },
     {
+        "modid": "nostalgia-shader",
+        "license": "Custom License",
+        "url": "https://www.curseforge.com/minecraft/shaders/nostalgia-shader",
+        "authors": "RRe36",
+        "displayName": "Nostalgia Shader",
+        "ignore": false
+    },
+    {
         "modid": "notenoughanimations",
         "license": "tr7zw Protective License",
         "url": "https://www.curseforge.com/minecraft/mc-mods/not-enough-animations",
         "authors": "tr7zw",
         "displayName": "NotEnoughAnimations",
+        "ignore": false
+    },
+    {
+        "modid": "notenoughcrashes",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes",
+        "authors": "Fudge, Runemoro",
+        "displayName": "Not Enough Crashes",
         "ignore": false
     },
     {
@@ -2696,6 +4120,14 @@
         "ignore": false
     },
     {
+        "modid": "obsidianequipmentrework",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/obsidian-equipment-reworked",
+        "authors": "Tokimi, CozyStudios",
+        "displayName": "Obsidian Equipment Reworked",
+        "ignore": false
+    },
+    {
         "modid": "oceanicrealms",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/oceanic-realms",
@@ -2728,6 +4160,38 @@
         "ignore": false
     },
     {
+        "modid": "ohthetreesyoullgrow",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow",
+        "authors": "Corgi Taco",
+        "displayName": "Oh The Trees You'll Grow",
+        "ignore": false
+    },
+    {
+        "modid": "omnilib",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/omnilib",
+        "authors": "Dooji",
+        "displayName": "Omnilib",
+        "ignore": false
+    },
+    {
+        "modid": "openloader",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/open-loader",
+        "authors": "Darkhax",
+        "displayName": "OpenLoader",
+        "ignore": false
+    },
+    {
+        "modid": "openpartiesandclaims",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims",
+        "authors": "Xaero96 and other contributors",
+        "displayName": "Open Parties and Claims",
+        "ignore": false
+    },
+    {
         "modid": "optifine",
         "license": "All Rights Reserved",
         "url": "",
@@ -2752,6 +4216,30 @@
         "ignore": false
     },
     {
+        "modid": "owo",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/owo-lib",
+        "authors": "glisco, BasiqueEvangelist, Noaaan",
+        "displayName": "oωo",
+        "ignore": false
+    },
+    {
+        "modid": "packetfixer",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/packet-fixer",
+        "authors": "TonimatasDEV",
+        "displayName": "PacketFixer",
+        "ignore": false
+    },
+    {
+        "modid": "pandalib",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/pandalib",
+        "authors": "The Panda Oliver",
+        "displayName": "PandaLib",
+        "ignore": false
+    },
+    {
         "modid": "parcool",
         "license": "GPL-3.0",
         "url": "",
@@ -2765,6 +4253,14 @@
         "url": "",
         "authors": "",
         "displayName": "ParCool+ / Compatibility Addon",
+        "ignore": false
+    },
+    {
+        "modid": "particlerain",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/particle-rain",
+        "authors": "pigcart",
+        "displayName": "Particle Rain",
         "ignore": false
     },
     {
@@ -2792,11 +4288,27 @@
         "ignore": false
     },
     {
+        "modid": "peaceful_hunger",
+        "license": "Unlicense",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/peaceful-hunger",
+        "authors": "Jason13",
+        "displayName": "Peaceful Hunger",
+        "ignore": false
+    },
+    {
         "modid": "pehkui",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/pehkui",
         "authors": "Virtuoel",
         "displayName": "Pehkui",
+        "ignore": false
+    },
+    {
+        "modid": "perfectplushies",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/perfect-plushies",
+        "authors": "SirJain and Nyfaria",
+        "displayName": "Perfect Plushies",
         "ignore": false
     },
     {
@@ -2813,6 +4325,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/phantasm",
         "authors": "Lyof",
         "displayName": "End's Phantasm",
+        "ignore": false
+    },
+    {
+        "modid": "phomesteadplushies",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/perfect-homestead-plushies",
+        "authors": "Nyfaria",
+        "displayName": "Perfect Homestead Plushies",
         "ignore": false
     },
     {
@@ -2840,6 +4360,14 @@
         "ignore": false
     },
     {
+        "modid": "platform",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/platform",
+        "authors": "ItsBlackGear",
+        "displayName": "Platform",
+        "ignore": false
+    },
+    {
         "modid": "playeranimator",
         "license": "MIT",
         "url": "",
@@ -2861,6 +4389,22 @@
         "url": "",
         "authors": "",
         "displayName": "PlayerStaminaMod",
+        "ignore": false
+    },
+    {
+        "modid": "polymorph",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/polymorph",
+        "authors": "Illusive Soulworks",
+        "displayName": "Polymorph",
+        "ignore": false
+    },
+    {
+        "modid": "polymorphic_tom",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/polymorphic-tom",
+        "authors": "kltyton",
+        "displayName": "Polymorphic Tom",
         "ignore": false
     },
     {
@@ -2912,6 +4456,14 @@
         "ignore": false
     },
     {
+        "modid": "potato-shaders",
+        "license": "Custom License",
+        "url": "https://www.curseforge.com/minecraft/shaders/potato-shaders",
+        "authors": "RRe36",
+        "displayName": "Potato Shader",
+        "ignore": false
+    },
+    {
         "modid": "powered_flashlight",
         "license": "LGPL-3.0",
         "url": "",
@@ -2930,9 +4482,9 @@
     {
         "modid": "presencefootsteps",
         "license": "MIT",
-        "url": "",
-        "authors": "",
-        "displayName": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/presence-footsteps",
+        "authors": "Hurricaaane (Ha3), Sollace",
+        "displayName": "Presence Footsteps",
         "ignore": false
     },
     {
@@ -2952,6 +4504,14 @@
         "ignore": false
     },
     {
+        "modid": "prism",
+        "license": "CC BY-NC-ND 4.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/prism-fabric",
+        "authors": "Grend",
+        "displayName": "Prism",
+        "ignore": false
+    },
+    {
         "modid": "props",
         "license": "All Rights Reserved",
         "url": "",
@@ -2960,9 +4520,17 @@
         "ignore": true
     },
     {
+        "modid": "puzzle",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/puzzle",
+        "authors": "PuzzleMC, Motschen",
+        "displayName": "Puzzle",
+        "ignore": false
+    },
+    {
         "modid": "puzzleslib",
         "license": "MPL-2.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/puzzles-lib",
         "authors": "Fuzs",
         "displayName": "Puzzles Lib",
         "ignore": false
@@ -2976,11 +4544,27 @@
         "ignore": false
     },
     {
+        "modid": "questsadditions",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/quests-additions-fabric",
+        "authors": "Naturaspell",
+        "displayName": "Quests Additions",
+        "ignore": false
+    },
+    {
         "modid": "raccompat",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/rac-compat",
         "authors": "SSKirillSS",
         "displayName": "RAC-Compat",
+        "ignore": false
+    },
+    {
+        "modid": "radiantgear",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/radiant-gear",
+        "authors": "Illusive Soulworks",
+        "displayName": "Radiant Gear",
         "ignore": false
     },
     {
@@ -3008,6 +4592,14 @@
         "ignore": false
     },
     {
+        "modid": "realisticbees",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/realistic-bees",
+        "authors": "Rick South",
+        "displayName": "Realistic Bees",
+        "ignore": false
+    },
+    {
         "modid": "realmrpg_demons",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/realm-rpg-imps-demons",
@@ -3024,11 +4616,27 @@
         "ignore": false
     },
     {
+        "modid": "rebind_narrator",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/rebind-narrator",
+        "authors": "quaternary",
+        "displayName": "Rebind Narrator",
+        "ignore": false
+    },
+    {
         "modid": "rechiseled",
         "license": "All Rights Reserved",
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "reeses-sodium-options",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options",
+        "authors": "FlashyReese",
+        "displayName": "Reese's Sodium Options",
         "ignore": false
     },
     {
@@ -3058,16 +4666,16 @@
     {
         "modid": "repurposed_structures",
         "license": "LGPL-3.0",
-        "url": "",
-        "authors": "",
-        "displayName": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/repurposed-structures-fabric",
+        "authors": "TelepathicGrunt",
+        "displayName": "Repurposed Structures",
         "ignore": false
     },
     {
         "modid": "resourcefulconfig",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/resourceful-config",
-        "authors": "",
+        "authors": "ThatGravyBoat",
         "displayName": "Resourcefulconfig",
         "ignore": false
     },
@@ -3077,6 +4685,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/resourceful-lib",
         "authors": "ThatGravyBoat, Epic_Oreo",
         "displayName": "Resourceful Lib",
+        "ignore": false
+    },
+    {
+        "modid": "respectmytrims",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/respect-my-trims",
+        "authors": "N (tnoctua)",
+        "displayName": "Respect My Trims",
         "ignore": false
     },
     {
@@ -3093,6 +4709,22 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/rhino",
         "authors": "latvian.dev, Mozilla",
         "displayName": "Rhino",
+        "ignore": false
+    },
+    {
+        "modid": "ribbits",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ribbits",
+        "authors": "Joosh, YUNGNICKYOUNG, HellionGames, Refresh Studios",
+        "displayName": "Ribbits",
+        "ignore": false
+    },
+    {
+        "modid": "rightclickharvest",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/rightclickharvest",
+        "authors": "Jamalam",
+        "displayName": "Right Click Harvest",
         "ignore": false
     },
     {
@@ -3125,6 +4757,14 @@
         "url": "",
         "authors": "Raelzaryn",
         "displayName": "RPG-HUD",
+        "ignore": false
+    },
+    {
+        "modid": "rrls",
+        "license": "OSL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/rrls",
+        "authors": "dima_dencep",
+        "displayName": "Remove Reloading Screen",
         "ignore": false
     },
     {
@@ -3192,6 +4832,30 @@
         "ignore": false
     },
     {
+        "modid": "sawmill",
+        "license": "Supplementaries Team License v1.1",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sawmill",
+        "authors": "MehVahdJukaar",
+        "displayName": "Universal Sawmill",
+        "ignore": false
+    },
+    {
+        "modid": "screenshot_viewer",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/screenshot-viewer",
+        "authors": "LGatodu47",
+        "displayName": "Screenshot Viewer",
+        "ignore": false
+    },
+    {
+        "modid": "screenshottoclipboard",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/screenshottoclipboard",
+        "authors": "zibasan / MisoPy",
+        "displayName": "ScreenshotToClipboard",
+        "ignore": false
+    },
+    {
         "modid": "searchables",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/searchables",
@@ -3200,11 +4864,27 @@
         "ignore": false
     },
     {
+        "modid": "securecrops",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/secure-crops",
+        "authors": "zekk051",
+        "displayName": "Secure Crops",
+        "ignore": false
+    },
+    {
         "modid": "securitycraft",
         "license": "MIT",
         "url": "",
         "authors": "Geforce132, bl4ckscor3, Redstone_Dubstep",
         "displayName": "SecurityCraft",
+        "ignore": false
+    },
+    {
+        "modid": "serene_shrubbery",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/serene-shrubbery-fabric",
+        "authors": "Tyler Lukes, CozyStudios",
+        "displayName": "Serene Shrubbery",
         "ignore": false
     },
     {
@@ -3240,6 +4920,22 @@
         "ignore": false
     },
     {
+        "modid": "showmeyourskin",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/show-me-your-skin",
+        "authors": "enjarai",
+        "displayName": "Show Me Your Skin!",
+        "ignore": false
+    },
+    {
+        "modid": "shulkerdropstwo",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/shulker-drops-two",
+        "authors": "Rick South",
+        "displayName": "Shulker Drops Two",
+        "ignore": false
+    },
+    {
         "modid": "silence_s_defense_tower",
         "license": "Academic Free License v3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/silences-defense-tower",
@@ -3253,6 +4949,22 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/aeronautics-simulated-copycats",
         "authors": "Multyfora",
         "displayName": "Aeronautics: Simulated Copycats",
+        "ignore": false
+    },
+    {
+        "modid": "simple_copper_pipes",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/simple-copper-pipes",
+        "authors": "Luna, Treetrain1",
+        "displayName": "Simple Copper Pipes",
+        "ignore": false
+    },
+    {
+        "modid": "simplehats",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/simplehats",
+        "authors": "fonnymunkey",
+        "displayName": "SimpleHats",
         "ignore": false
     },
     {
@@ -3296,6 +5008,14 @@
         "ignore": false
     },
     {
+        "modid": "sit",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sit-fabric",
+        "authors": "bl4ckscor3",
+        "displayName": "Sit",
+        "ignore": false
+    },
+    {
         "modid": "skilltree",
         "license": "GPL-3.0",
         "url": "",
@@ -3320,11 +5040,27 @@
         "ignore": false
     },
     {
+        "modid": "sliceanddice",
+        "license": "https://github.com/PssbleTrngle/SliceAndDice/blob/main/fabric/1.20.x/LICENSE.md",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/slice-and-dice",
+        "authors": "possible_triangle",
+        "displayName": "Create Slice & Dice",
+        "ignore": false
+    },
+    {
         "modid": "smallships",
         "license": "All Rights Reserved",
         "url": "",
         "authors": "<author>",
         "displayName": "Small Ships",
+        "ignore": false
+    },
+    {
+        "modid": "smarterfarmers",
+        "license": "Supplementaries Team License v1.2",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/smarter-farmers-farmers-replant",
+        "authors": "MehVahdJukaar",
+        "displayName": "Smarter Farmers",
         "ignore": false
     },
     {
@@ -3336,6 +5072,30 @@
         "ignore": false
     },
     {
+        "modid": "smwyg",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/show-me-what-you-got",
+        "authors": "Apace",
+        "displayName": "Show Me What You Got",
+        "ignore": false
+    },
+    {
+        "modid": "sodium",
+        "license": "Polyform-Shield-1.0.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sodium",
+        "authors": "JellySquid (jellysquid3)",
+        "displayName": "Sodium",
+        "ignore": false
+    },
+    {
+        "modid": "sodium-extra",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sodium-extra",
+        "authors": "FlashyReese",
+        "displayName": "Sodium Extra",
+        "ignore": false
+    },
+    {
         "modid": "sodiumdynamiclights",
         "license": "MIT",
         "url": "",
@@ -3344,11 +5104,27 @@
         "ignore": false
     },
     {
+        "modid": "sodiumextras",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/magnesium-extras",
+        "authors": "toni",
+        "displayName": "Sodium Extras",
+        "ignore": false
+    },
+    {
         "modid": "sodiumoptionsapi",
         "license": "LGPL-3.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sodium-options-api",
         "authors": "toni",
         "displayName": "Sodium Options API",
+        "ignore": false
+    },
+    {
+        "modid": "sodiumoptionsmodcompat",
+        "license": "Toni's MMC License",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sodium-embeddium-options-mod-compat",
+        "authors": "Toni, DeeChael",
+        "displayName": "Sodium Options Mod Compat",
         "ignore": false
     },
     {
@@ -3376,6 +5152,14 @@
         "ignore": false
     },
     {
+        "modid": "sootychimneys",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sooty-chimneys",
+        "authors": "mortuusars",
+        "displayName": "Sooty Chimneys",
+        "ignore": false
+    },
+    {
         "modid": "sophisticatedbackpacks",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks",
@@ -3389,6 +5173,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-core",
         "authors": "P3pp3rF1y",
         "displayName": "Sophisticated Core",
+        "ignore": false
+    },
+    {
+        "modid": "sophisticatedstorage",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-unofficial-fabric-port",
+        "authors": "P3pp3rF1y, Ridanisaurus, Salandora",
+        "displayName": "Sophisticated Storage",
         "ignore": false
     },
     {
@@ -3410,9 +5202,25 @@
     {
         "modid": "spark",
         "license": "GPLv3",
-        "url": "",
-        "authors": "",
-        "displayName": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/spark",
+        "authors": "Luck",
+        "displayName": "spark",
+        "ignore": false
+    },
+    {
+        "modid": "sparsestructures",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sparse-structures",
+        "authors": "MaxenceDC",
+        "displayName": "SparseStructures",
+        "ignore": false
+    },
+    {
+        "modid": "spawn",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/spawn-mod",
+        "authors": "Ninni",
+        "displayName": "Spawn",
         "ignore": false
     },
     {
@@ -3448,11 +5256,43 @@
         "ignore": false
     },
     {
+        "modid": "spelunkery",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/spelunkery",
+        "authors": "Ordana, Keybounce",
+        "displayName": "Spelunkery",
+        "ignore": false
+    },
+    {
         "modid": "splatcraft",
         "license": "https://github.com/splatcraft/splatcraft-forge/blob/HEAD/LICENSE",
         "url": "",
         "authors": "Cibernet, Octol1ttle",
         "displayName": "Splatcraft",
+        "ignore": false
+    },
+    {
+        "modid": "squish",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/squish",
+        "authors": "Tokimi, CozyStudios",
+        "displayName": "Squish",
+        "ignore": false
+    },
+    {
+        "modid": "stackdeobfuscator",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/stackdeobf",
+        "authors": "booky10",
+        "displayName": "StackDeobfuscator",
+        "ignore": false
+    },
+    {
+        "modid": "stackrefill",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/stack-refill",
+        "authors": "Rick South",
+        "displayName": "Stack Refill",
         "ignore": false
     },
     {
@@ -3464,11 +5304,43 @@
         "ignore": false
     },
     {
+        "modid": "starterkit",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/starter-kit",
+        "authors": "Rick South",
+        "displayName": "Starter Kit",
+        "ignore": false
+    },
+    {
+        "modid": "stay-true",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/texture-packs/stay-true",
+        "authors": "haimcyfly",
+        "displayName": "Stay True",
+        "ignore": false
+    },
+    {
         "modid": "structure_gel",
         "license": "GPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/structure-gel-api",
         "authors": "Silver_David, KingPhygieBoo, Jonathing",
         "displayName": "Structure Gel API",
+        "ignore": false
+    },
+    {
+        "modid": "structure_layout_optimizer",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/structure-layout-optimizer",
+        "authors": "TelepathicGrunt",
+        "displayName": "Structure Layout Optimizer",
+        "ignore": false
+    },
+    {
+        "modid": "stutterfix",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/stutterfix",
+        "authors": "Wisecase2",
+        "displayName": "StutterFix",
         "ignore": false
     },
     {
@@ -3504,6 +5376,14 @@
         "ignore": false
     },
     {
+        "modid": "super-duper-vanilla-shaders",
+        "license": "Custom License",
+        "url": "https://www.curseforge.com/minecraft/shaders/super-duper-vanilla-shaders",
+        "authors": "Eldeston",
+        "displayName": "Super Duper Vanilla Shaders",
+        "ignore": false
+    },
+    {
         "modid": "superbwarfare",
         "license": "GPL-3.0",
         "url": "",
@@ -3522,9 +5402,25 @@
     {
         "modid": "supermartijn642corelib",
         "license": "All Rights Reserved",
-        "url": "",
-        "authors": "",
-        "displayName": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib",
+        "authors": "SuperMartijn642",
+        "displayName": "SuperMartijn642's Core Lib",
+        "ignore": false
+    },
+    {
+        "modid": "supplementaries",
+        "license": "Supplementaries Team License v.1.4",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/supplementaries",
+        "authors": "MehVahdJukaar, Plantkillable",
+        "displayName": "Supplementaries",
+        "ignore": false
+    },
+    {
+        "modid": "suppsquared",
+        "license": "Supplementaries Team License v1.1",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared",
+        "authors": "Mehvahdjukaar, Plantkillable",
+        "displayName": "Supplementaries Squared",
         "ignore": false
     },
     {
@@ -3589,6 +5485,22 @@
         "url": "",
         "authors": "qarsan",
         "displayName": "TakKit",
+        "ignore": false
+    },
+    {
+        "modid": "tameableminisheep",
+        "license": "All-Rights-Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tameableminisheep",
+        "authors": "Toekimi",
+        "displayName": "TameableMinisheep",
+        "ignore": false
+    },
+    {
+        "modid": "tameablemossbloom",
+        "license": "All-Rights-Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tameablemossbloom",
+        "authors": "Toekimi",
+        "displayName": "TameableMossbloom",
         "ignore": false
     },
     {
@@ -3720,11 +5632,27 @@
         "ignore": false
     },
     {
+        "modid": "thiccpackets",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/extra-thicc-packets",
+        "authors": "Tfarecnim",
+        "displayName": "Extra Thicc Packets",
+        "ignore": false
+    },
+    {
         "modid": "thief",
         "license": "GPLv3",
         "url": "https://www.curseforge.com/minecraft/mc-mods/thief",
         "authors": "mortuusars",
         "displayName": "Thief",
+        "ignore": false
+    },
+    {
+        "modid": "things",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/things-fabric",
+        "authors": "glisco",
+        "displayName": "Things",
         "ignore": false
     },
     {
@@ -3744,11 +5672,43 @@
         "ignore": false
     },
     {
+        "modid": "tokimistoolshed",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tokimistoolshed",
+        "authors": "Tokimi, CozyStudios",
+        "displayName": "Tokimi's Toolshed",
+        "ignore": false
+    },
+    {
         "modid": "tomfoolery",
         "license": "GPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/tomfoolery",
         "authors": "Sarinsa",
         "displayName": "Tomfoolery",
+        "ignore": false
+    },
+    {
+        "modid": "toms_storage",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/toms-storage-fabric",
+        "authors": "tom5454",
+        "displayName": "Tom's Simple Storage Mod",
+        "ignore": false
+    },
+    {
+        "modid": "toolstats",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tool-stats",
+        "authors": "Darkhax",
+        "displayName": "ToolStats",
+        "ignore": false
+    },
+    {
+        "modid": "tooltipoverhaul",
+        "license": "GNU GPLv3",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tooltip-overhaul",
+        "authors": "Xylonity, ModderG",
+        "displayName": "Tooltip Overhaul",
         "ignore": false
     },
     {
@@ -3776,6 +5736,14 @@
         "ignore": false
     },
     {
+        "modid": "trade_cycling",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/trade-cycling",
+        "authors": "Max Henkel",
+        "displayName": "Trade Cycling",
+        "ignore": false
+    },
+    {
         "modid": "trajanscore",
         "license": "MIT",
         "url": "",
@@ -3792,11 +5760,35 @@
         "ignore": false
     },
     {
+        "modid": "trashcans",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/trash-cans",
+        "authors": "SuperMartijn642",
+        "displayName": "Trash Cans",
+        "ignore": false
+    },
+    {
+        "modid": "trashslot",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/trashslot",
+        "authors": "BlayTheNinth",
+        "displayName": "TrashSlot",
+        "ignore": false
+    },
+    {
         "modid": "travelerslib",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-lib",
         "authors": "Collinvht",
         "displayName": "Travelers Lib",
+        "ignore": false
+    },
+    {
+        "modid": "travelerstitles",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/travelers-titles-fabric",
+        "authors": "YUNGNICKYOUNG",
+        "displayName": "Traveler's Titles",
         "ignore": false
     },
     {
@@ -3832,6 +5824,14 @@
         "ignore": false
     },
     {
+        "modid": "twigs",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/twigs",
+        "authors": "Ninni",
+        "displayName": "Twigs",
+        "ignore": false
+    },
+    {
         "modid": "twilightforest",
         "license": "Custom License",
         "url": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest",
@@ -3840,11 +5840,35 @@
         "ignore": false
     },
     {
+        "modid": "txnilib",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/txnilib",
+        "authors": "Toni",
+        "displayName": "TxniLib",
+        "ignore": false
+    },
+    {
         "modid": "u_sea",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/unnamed-sea",
         "authors": "UnnamedGlitch",
         "displayName": "Unnamed Sea",
+        "ignore": false
+    },
+    {
+        "modid": "universal-graves",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/universal-graves",
+        "authors": "Patbox",
+        "displayName": "Universal Graves",
+        "ignore": false
+    },
+    {
+        "modid": "universalbonemeal",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/universal-bone-meal",
+        "authors": "Fuzs",
+        "displayName": "Universal Bone Meal",
         "ignore": false
     },
     {
@@ -3904,9 +5928,17 @@
         "ignore": false
     },
     {
+        "modid": "vanillabackport",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/vanillabackport",
+        "authors": "BlackGear",
+        "displayName": "VanillaBackport",
+        "ignore": false
+    },
+    {
         "modid": "vc_gliders",
         "license": "GPL-3.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/gliders",
         "authors": "Jeryn99, TommyBricks, Lucraft",
         "displayName": "Gliders",
         "ignore": false
@@ -3917,6 +5949,22 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/mrcrayfishs-vehicle-mod-unofficial-player-port",
         "authors": "MrCrayfish, ItsUniqueGamer",
         "displayName": "MrCrayfish's Vehicle Mod",
+        "ignore": false
+    },
+    {
+        "modid": "veinmining",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/vein-mining",
+        "authors": "Illusive Soulworks",
+        "displayName": "Vein Mining",
+        "ignore": false
+    },
+    {
+        "modid": "via_romana",
+        "license": "RSL-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/via-romana",
+        "authors": "Rasa Novum",
+        "displayName": "Via Romana",
         "ignore": false
     },
     {
@@ -3933,6 +5981,38 @@
         "url": "",
         "authors": "<author>",
         "displayName": "VillageShop",
+        "ignore": false
+    },
+    {
+        "modid": "villagersplus",
+        "license": "CC0-1.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/villagersplus",
+        "authors": "Finallion",
+        "displayName": "Villagers Plus",
+        "ignore": false
+    },
+    {
+        "modid": "villagesandpillages",
+        "license": "CC BY-NC-ND 4.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/villages-and-pillages",
+        "authors": "Faboslav",
+        "displayName": "Villages & Pillages",
+        "ignore": false
+    },
+    {
+        "modid": "vinery",
+        "license": "Custom",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-vinery",
+        "authors": "Jason13Official, Satisfy",
+        "displayName": "[Let's Do] Vinery",
+        "ignore": false
+    },
+    {
+        "modid": "visuality",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/visuality",
+        "authors": "PinkGoosik",
+        "displayName": "Visuality",
         "ignore": false
     },
     {
@@ -4072,6 +6152,14 @@
         "ignore": false
     },
     {
+        "modid": "welcomescreen",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/welcome-screen",
+        "authors": "ElocinDev",
+        "displayName": "Welcome Screen",
+        "ignore": false
+    },
+    {
         "modid": "welcometothebackrooms",
         "license": "Academic Free License v3.0",
         "url": "",
@@ -4080,11 +6168,27 @@
         "ignore": false
     },
     {
+        "modid": "wildernature",
+        "license": "Custom",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-wildernature",
+        "authors": "satisfy, jason13",
+        "displayName": "[Let's Do] WilderNature",
+        "ignore": false
+    },
+    {
         "modid": "wildfire_gender",
         "license": "LGPL-3.0",
         "url": "",
         "authors": "WildfireRomeo",
         "displayName": "Wildfire",
+        "ignore": false
+    },
+    {
+        "modid": "wirelessredstone",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/wirelessredstone",
+        "authors": "Razzokk",
+        "displayName": "Wireless Redstone",
         "ignore": false
     },
     {
@@ -4146,7 +6250,7 @@
     {
         "modid": "xaerominimap",
         "license": "All Rights Reserved",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap",
         "authors": "xaero96",
         "displayName": "Xaero",
         "ignore": false
@@ -4154,7 +6258,7 @@
     {
         "modid": "xaeroworldmap",
         "license": "All Rights Reserved",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map",
         "authors": "xaero96",
         "displayName": "Xaero",
         "ignore": false
@@ -4162,9 +6266,17 @@
     {
         "modid": "yet_another_config_lib_v3",
         "license": "LGPL-3.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yacl",
         "authors": "isXander",
         "displayName": "YetAnotherConfigLib",
+        "ignore": false
+    },
+    {
+        "modid": "yosbr",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yosbr",
+        "authors": "shedaniel",
+        "displayName": "YOSBR",
         "ignore": false
     },
     {
@@ -4173,6 +6285,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/youtuber-natural-disasters",
         "authors": "JY9146",
         "displayName": "100 Youtubers VS Natural Disasters",
+        "ignore": false
+    },
+    {
+        "modid": "ysns",
+        "license": "AGNYA License",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/you-shall-not-spawn",
+        "authors": "ElocinDev",
+        "displayName": "You Shall Not Spawn",
         "ignore": false
     },
     {
@@ -4189,6 +6309,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-bridges",
         "authors": "YUNGNICKYOUNG",
         "displayName": "YUNG's Bridges",
+        "ignore": false
+    },
+    {
+        "modid": "yungsextras",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-extras-fabric",
+        "authors": "YUNGNICKYOUNG, Acarii",
+        "displayName": "YUNG's Extras",
         "ignore": false
     },
     {
@@ -4245,6 +6373,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/zoniex",
         "authors": "vllax",
         "displayName": "Zombie Nightmare Expansions",
+        "ignore": false
+    },
+    {
+        "modid": "zoomify",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/zoomify",
+        "authors": "isXander",
+        "displayName": "Zoomify",
         "ignore": false
     }
 ]

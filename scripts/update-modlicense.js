@@ -7,7 +7,12 @@ const path = require("path");
 
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const DL_RESULT = path.resolve(__dirname, "dl-result.json");
-const CHECK_RESULT = "D:/Users/Owner/Downloads/check-result.json";
+// リポジトリ内の scripts/check-result.json を優先し、無ければ従来のパスを使う
+const CHECK_RESULT_LOCAL = path.resolve(__dirname, "check-result.json");
+const CHECK_RESULT_LEGACY = "D:/Users/Owner/Downloads/check-result.json";
+const CHECK_RESULT = fs.existsSync(CHECK_RESULT_LOCAL)
+  ? CHECK_RESULT_LOCAL
+  : CHECK_RESULT_LEGACY;
 const MODLICENSE = path.resolve(__dirname, "..", "docs", "modlicense.json");
 
 // ライセンス正規化

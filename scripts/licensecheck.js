@@ -107,6 +107,74 @@ function extractFromModsToml(text) {
   return { licenses, modids, displayName, authors };
 }
 
+// fabric.mod.json は description 等に生の改行を含むことがあり厳密なJSONとして不正な場合がある。
+// Fabric ローダー自体は許容するため、文字列内の制御文字をエスケープしてから読む。
+function parseLenientJson(text) {
+  try {
+    return JSON.parse(text);
+  } catch {
+    let out = "";
+    let inString = false;
+    let escaped = false;
+    for (const ch of text) {
+      if (escaped) { out += ch; escaped = false; continue; }
+      if (ch === "\\") { out += ch; escaped = true; continue; }
+      if (ch === '"') { inString = !inString; out += ch; continue; }
+      if (inString && ch < " ") {
+        if (ch === "\n") out += "\\n";
+        else if (ch === "\r") out += "\\r";
+        else if (ch === "\t") out += "\\t";
+        else out += "\\u" + ch.charCodeAt(0).toString(16).padStart(4, "0");
+        continue;
+      }
+      out += ch;
+    }
+    return JSON.parse(out);
+  }
+}
+
+// fabric.mod.json / quilt.mod.json からライセンス等を抽出する
+function extractFromFabricModJson(text) {
+  const licenses = [];
+  const modids = [];
+  let displayName = "";
+  let authors = "";
+
+  let j;
+  try {
+    j = parseLenientJson(text);
+  } catch {
+    return { licenses, modids, displayName, authors };
+  }
+
+  // quilt.mod.json は quilt_loader 配下に同等の情報を持つ
+  const meta = j.quilt_loader || j;
+  const md = meta.metadata || {};
+
+  if (meta.id) modids.push(String(meta.id).trim());
+
+  const rawLicense = meta.license || md.license;
+  if (rawLicense) {
+    for (const l of Array.isArray(rawLicense) ? rawLicense : [rawLicense]) {
+      const s = typeof l === "string" ? l : String(l && (l.id || l.name) ? l.id || l.name : "");
+      if (s.trim()) licenses.push(s.trim());
+    }
+  }
+
+  displayName = String(meta.name || md.name || "").trim();
+
+  const rawAuthors = meta.authors || md.contributors;
+  if (rawAuthors) {
+    const arr = Array.isArray(rawAuthors) ? rawAuthors : Object.keys(rawAuthors);
+    authors = arr
+      .map((a) => (typeof a === "string" ? a : String(a && a.name ? a.name : "")))
+      .filter(Boolean)
+      .join(", ");
+  }
+
+  return { licenses, modids, displayName, authors };
+}
+
 async function extractModsTomlFromJar(
   jarPath,
   maxBytes = 1024 * 1024,
@@ -144,7 +212,13 @@ async function extractModsTomlFromJar(
 
       const out = [];
       for (const f of dir.files) {
-        if (path.basename(f.path).toLowerCase() !== "mods.toml") continue;
+        const base = path.basename(f.path).toLowerCase();
+        const isToml = base === "mods.toml" || base === "neoforge.mods.toml";
+        // fabric.mod.json / quilt.mod.json はJARルート直下のみ有効
+        const isFabric =
+          f.path.toLowerCase() === "fabric.mod.json" ||
+          f.path.toLowerCase() === "quilt.mod.json";
+        if (!isToml && !isFabric) continue;
         try {
           const s = await f.stream();
           const acc = await new Promise((resolve) => {
@@ -346,10 +420,13 @@ async function main() {
     for (const jar of jars) {
       console.log(`\n[JAR] ${jar}`);
       const items = await extractModsTomlFromJar(jar);
-      if (items.length === 0) { console.log("  -> mods.toml が見つかりませんでした"); continue; }
+      if (items.length === 0) { console.log("  -> mods.toml / fabric.mod.json が見つかりませんでした"); continue; }
 
       for (const it of items) {
-        const parsed = extractFromModsToml(it.text);
+        const isFabricMeta = /(^|\/)(fabric|quilt)\.mod\.json$/i.test(it.name);
+        const parsed = isFabricMeta
+          ? extractFromFabricModJson(it.text)
+          : extractFromModsToml(it.text);
         const k = normId(parsed.modids[0] || "");
         const detectedLicense = normalizeLicense((parsed.licenses[0] || "").trim());
         const hasDetected = detectedLicense && detectedLicense.toLowerCase() !== "not specified";
