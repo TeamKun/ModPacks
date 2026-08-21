@@ -1272,6 +1272,14 @@
         "ignore": false
     },
     {
+        "modid": "craftedcore",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/crafted-core",
+        "authors": "To_Craft",
+        "displayName": "CraftedCore",
+        "ignore": false
+    },
+    {
         "modid": "craftingpad",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/craftingpad-fabric",
@@ -4960,6 +4968,14 @@
         "ignore": false
     },
     {
+        "modid": "remorphed",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/remorphed",
+        "authors": "To_Craft",
+        "displayName": "ReMorphed",
+        "ignore": false
+    },
+    {
         "modid": "repurposed_structures",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/repurposed-structures-fabric",
@@ -6421,6 +6437,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/sbw-vintage-vehicle-pack",
         "authors": "Team VVP, ROIF, FL",
         "displayName": "Vintage Vehicle Pack",
+        "ignore": false
+    },
+    {
+        "modid": "walkers",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/woodwalkers",
+        "authors": "To_Craft",
+        "displayName": "Walkers",
         "ignore": false
     },
     {
