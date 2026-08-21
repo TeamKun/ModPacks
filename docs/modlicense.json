@@ -1714,8 +1714,8 @@
     {
         "modid": "distanthorizons",
         "license": "LGPL-3.0",
-        "url": "",
-        "authors": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/distant-horizons",
+        "authors": "James Seibel,Leonardo Amato,Cola,coolGi,Ran,Leetom,pshsh",
         "displayName": "Distant Horizons",
         "ignore": false
     },
@@ -5589,6 +5589,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/squish",
         "authors": "Tokimi, CozyStudios",
         "displayName": "Squish",
+        "ignore": false
+    },
+    {
+        "modid": "ssrd",
+        "license": "All Rights Reserved",
+        "url": "https://modrinth.com/mod/ssrd",
+        "authors": "Ranold",
+        "displayName": "Separate Sable Render Distance",
         "ignore": false
     },
     {
