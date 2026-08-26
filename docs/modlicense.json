@@ -5720,6 +5720,14 @@
         "ignore": false
     },
     {
+        "modid": "super_tnt",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/super-tnt-port",
+        "authors": "Awesome Domi, Veraster",
+        "displayName": "Super TNT",
+        "ignore": false
+    },
+    {
         "modid": "super-duper-vanilla-shaders",
         "license": "Custom License",
         "url": "https://www.curseforge.com/minecraft/shaders/super-duper-vanilla-shaders",
@@ -6037,6 +6045,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/tickrate-api",
         "authors": "min01",
         "displayName": "Tickrate API",
+        "ignore": false
+    },
+    {
+        "modid": "tnt_ultra",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tnt-ultra",
+        "authors": "VegaOrionis",
+        "displayName": "TNT_Ultra",
         "ignore": false
     },
     {
