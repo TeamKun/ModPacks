@@ -112,6 +112,14 @@
         "ignore": false
     },
     {
+        "modid": "aieaustraps",
+        "license": "AFL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/aieaus-traps",
+        "authors": "Aieau",
+        "displayName": "Aieau's traps",
+        "ignore": false
+    },
+    {
         "modid": "aiimprovements",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/ai-improvements",
@@ -3336,6 +3344,14 @@
         "ignore": false
     },
     {
+        "modid": "k_turrets",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/k-turrets",
+        "authors": "Krosenut",
+        "displayName": "K-Turrets",
+        "ignore": false
+    },
+    {
         "modid": "kappa-shader-by-rre36",
         "license": "Custom License",
         "url": "https://www.curseforge.com/minecraft/shaders/kappa-shader-by-rre36",
@@ -3829,6 +3845,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-meadow",
         "authors": "satisfy, Jason13",
         "displayName": "[Let's Do] Meadow",
+        "ignore": false
+    },
+    {
+        "modid": "mebsmines",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mebs-mines-landmine-mod",
+        "authors": "meburningslimes",
+        "displayName": "Mebs Mines (Landmines)",
         "ignore": false
     },
     {
@@ -5120,6 +5144,14 @@
         "ignore": false
     },
     {
+        "modid": "safezone_blocks",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/safezone-blocks",
+        "authors": "saltshaker",
+        "displayName": "Safezone Blocks",
+        "ignore": false
+    },
+    {
         "modid": "saintsdragons",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/saints-dragons",
@@ -5141,6 +5173,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/desert-behemoths-sandworms",
         "authors": "JellyCarbonara",
         "displayName": "Desert Behemoths: Sandworms!",
+        "ignore": false
+    },
+    {
+        "modid": "satako",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/satako-library",
+        "authors": "Krosenut",
+        "displayName": "Satako library",
         "ignore": false
     },
     {
