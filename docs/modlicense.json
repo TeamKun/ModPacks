@@ -3632,6 +3632,14 @@
         "ignore": false
     },
     {
+        "modid": "lradd",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-guns-lesraisins-append-pack",
+        "authors": "LesRaisins Studio",
+        "displayName": "LesRaisinsAddon",
+        "ignore": false
+    },
+    {
         "modid": "lrarmor",
         "license": "All-Rights-Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/lesraisins-armor",
@@ -5640,6 +5648,14 @@
         "ignore": false
     },
     {
+        "modid": "spore",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fungal-infection-spore",
+        "authors": "Harbinger",
+        "displayName": "Spore",
+        "ignore": false
+    },
+    {
         "modid": "squish",
         "license": "CC0-1.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/squish",
@@ -6245,6 +6261,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/the-roads-more-travelled",
         "authors": "milkucha",
         "displayName": "The Roads More Travelled",
+        "ignore": false
+    },
+    {
+        "modid": "turrettacz",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/turret-tacz-addon",
+        "authors": "Markus-Otto",
+        "displayName": "Turret TaCZ",
         "ignore": false
     },
     {
