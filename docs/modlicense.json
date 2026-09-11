@@ -5872,6 +5872,22 @@
         "ignore": false
     },
     {
+        "modid": "tacz_fallout",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tacz-fallout-gunpack",
+        "authors": "LesRaisins Studio",
+        "displayName": "Fallout Gunpack",
+        "ignore": false
+    },
+    {
+        "modid": "tacz-ra1ks-gunpack",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-addons/tacz-ra1ks-gunpack",
+        "authors": "Ra1k",
+        "displayName": "Ra1k's Gunpack (TACZ content pack)",
+        "ignore": false
+    },
+    {
         "modid": "taczadditions",
         "license": "MIT",
         "url": "",
