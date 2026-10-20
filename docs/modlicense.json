@@ -1448,6 +1448,14 @@
         "ignore": false
     },
     {
+        "modid": "creepydecorations",
+        "license": "MIT",
+        "url": "https://modrinth.com/mod/creepy-decorations",
+        "authors": "JustErikSK, Satorisek, With Rage Studios",
+        "displayName": "Creepy Decorations",
+        "ignore": false
+    },
+    {
         "modid": "cristellib",
         "license": "CC BY-NC-ND 4.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/cristel-lib",
