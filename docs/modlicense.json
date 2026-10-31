@@ -305,9 +305,9 @@
     },
     {
         "modid": "ashvehicle",
-        "license": "Custom License",
-        "url": "https://www.curseforge.com/minecraft/mc-mods/ashvehicle",
-        "authors": "<author>",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ashvehicles",
+        "authors": "Arusan",
         "displayName": "ashvehicle",
         "ignore": false
     },
@@ -381,6 +381,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "awcapi",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/advanced-wall-climber-api",
+        "authors": "Nyfaria",
+        "displayName": "Advanced Wall Climber API",
         "ignore": false
     },
     {
@@ -656,11 +664,27 @@
         "ignore": false
     },
     {
+        "modid": "bloodnparticles",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/blood-n-particles-mod",
+        "authors": "RenovatedStudios",
+        "displayName": "Blood N' Particles Mod",
+        "ignore": false
+    },
+    {
         "modid": "blueprint",
         "license": "https://github.com/team-abnormals/blueprint/blob/main/LICENSE.txt",
         "url": "https://www.curseforge.com/minecraft/mc-mods/blueprint/files/5292242",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "boardgames",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/board-games",
+        "authors": "Kaan",
+        "displayName": "Board Games",
         "ignore": false
     },
     {
@@ -1592,6 +1616,14 @@
         "ignore": false
     },
     {
+        "modid": "customnpcs-unofficial",
+        "license": "CC BY-NC",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/customnpcs-unofficial",
+        "authors": "Noppes, Goodbird",
+        "displayName": "CustomNPCs-Unofficial",
+        "ignore": false
+    },
+    {
         "modid": "damageindicator",
         "license": "All Rights Reserved",
         "url": "",
@@ -1773,6 +1805,22 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/double-doors",
         "authors": "Rick South",
         "displayName": "Double Doors",
+        "ignore": false
+    },
+    {
+        "modid": "doxcore",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/doxcore",
+        "authors": "Doxa97",
+        "displayName": "DoxCore",
+        "ignore": false
+    },
+    {
+        "modid": "doxlean",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/doxleaning",
+        "authors": "Doxa97",
+        "displayName": "DoxLean",
         "ignore": false
     },
     {
@@ -2330,7 +2378,7 @@
     {
         "modid": "farmersdelight",
         "license": "MIT",
-        "url": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight",
         "authors": "vectorwing",
         "displayName": "Farmer",
         "ignore": false
@@ -2402,7 +2450,7 @@
     {
         "modid": "ferritecore",
         "license": "MIT",
-        "url": "https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ferritecore",
         "authors": "malte0811",
         "displayName": "Ferrite Core",
         "ignore": false
@@ -2549,6 +2597,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/frozenlib",
         "authors": "Treetrain1, Luna",
         "displayName": "FrozenLib",
+        "ignore": false
+    },
+    {
+        "modid": "fsang",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fsang18s-heropack",
+        "authors": "FSang18",
+        "displayName": "FSang18's Heroes",
         "ignore": false
     },
     {
@@ -2912,6 +2968,14 @@
         "ignore": false
     },
     {
+        "modid": "helldivers",
+        "license": "CC-BY-4.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/helldivers-crafted-democracy",
+        "authors": "Infinite1274, silver20632, XeO3",
+        "displayName": "Helldivers: Crafted Democracy",
+        "ignore": false
+    },
+    {
         "modid": "herbalbrews",
         "license": "Custom",
         "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-herbal-brews",
@@ -3117,6 +3181,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "infinity_unlocked_superheroes",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/unlocked-superheroes",
+        "authors": "InfinityMC",
+        "displayName": "Unlocked Superheroes",
         "ignore": false
     },
     {
@@ -3333,6 +3405,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/justhammers",
         "authors": "ErrorMikey",
         "displayName": "Just Hammers",
+        "ignore": false
+    },
+    {
+        "modid": "justifylasers",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/justify-lasers",
+        "authors": "Mr.Askick",
+        "displayName": "Justify Lasers",
         "ignore": false
     },
     {
@@ -3573,6 +3653,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/lithostitched",
         "authors": "Apollo",
         "displayName": "Lithostitched",
+        "ignore": false
+    },
+    {
+        "modid": "livingwind",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/living-wind",
+        "authors": "MacatMovie",
+        "displayName": "Living Wind",
         "ignore": false
     },
     {
@@ -3824,6 +3912,14 @@
         "ignore": false
     },
     {
+        "modid": "mcsp",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mcsp-military-vehicle",
+        "authors": "v2rayz, Tornqvista, MrMulle",
+        "displayName": "MCSP",
+        "ignore": false
+    },
+    {
         "modid": "mcwholidays",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-holidays",
@@ -3981,6 +4077,14 @@
         "url": "",
         "authors": "<author>",
         "displayName": "Mob Battle Mod",
+        "ignore": false
+    },
+    {
+        "modid": "mobcontrol",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ohaydens-mob-control",
+        "authors": "Ohayden",
+        "displayName": "Mob Control",
         "ignore": false
     },
     {
@@ -4352,6 +4456,14 @@
         "ignore": false
     },
     {
+        "modid": "nohurtflash",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/no-hurt-flash-reforged",
+        "authors": "Raiiiden",
+        "displayName": "No Hurt Flash (Reforged)",
+        "ignore": false
+    },
+    {
         "modid": "nostalgia-shader",
         "license": "Custom License",
         "url": "https://www.curseforge.com/minecraft/shaders/nostalgia-shader",
@@ -4480,6 +4592,14 @@
         "ignore": false
     },
     {
+        "modid": "omtreborn",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/open-modular-turrets-reborn",
+        "authors": "ShapeShifterDev",
+        "displayName": "Open Modular Turrets Reborn",
+        "ignore": false
+    },
+    {
         "modid": "openloader",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/open-loader",
@@ -4536,11 +4656,27 @@
         "ignore": false
     },
     {
+        "modid": "palladium",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/threetag-palladium",
+        "authors": "Lucraft",
+        "displayName": "Palladium",
+        "ignore": false
+    },
+    {
         "modid": "pandalib",
         "license": "LGPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/pandalib",
         "authors": "The Panda Oliver",
         "displayName": "PandaLib",
+        "ignore": false
+    },
+    {
+        "modid": "pantheonsent",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/pantheonsent",
+        "authors": "Lucraft",
+        "displayName": "PantheonSent",
         "ignore": false
     },
     {
@@ -4565,6 +4701,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/particle-rain",
         "authors": "pigcart",
         "displayName": "Particle Rain",
+        "ignore": false
+    },
+    {
+        "modid": "particular",
+        "license": "LGPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/particular-reforged",
+        "authors": "Leclowndu93150",
+        "displayName": "Particular Reforged",
         "ignore": false
     },
     {
@@ -4792,6 +4936,14 @@
         "ignore": false
     },
     {
+        "modid": "powerborne",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/powerborne-heroes",
+        "authors": "RunnyHero, ATROX",
+        "displayName": "Powerborne Heroes",
+        "ignore": false
+    },
+    {
         "modid": "powered_flashlight",
         "license": "LGPL-3.0",
         "url": "",
@@ -4816,11 +4968,27 @@
         "ignore": false
     },
     {
+        "modid": "presence-footsteps-forge",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/presence-footsteps-forge",
+        "authors": "Hurricaaane, Sollace, Paint_Ninja",
+        "displayName": "Presence Footsteps (Forge)",
+        "ignore": false
+    },
+    {
         "modid": "presencefootsteps",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/presence-footsteps",
         "authors": "Hurricaaane (Ha3), Sollace",
         "displayName": "Presence Footsteps",
+        "ignore": false
+    },
+    {
+        "modid": "pretty-rain",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/pretty-rain",
+        "authors": "Leclowndu93150, PigCart",
+        "displayName": "Pretty Rain",
         "ignore": false
     },
     {
@@ -5144,6 +5312,22 @@
         "ignore": false
     },
     {
+        "modid": "sa_combat",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sa-essentials",
+        "authors": "ogaba, titammods",
+        "displayName": "Survivors Arsenal: Essentials",
+        "ignore": false
+    },
+    {
+        "modid": "sa_core",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/sa-library",
+        "authors": "ogaba, titammods",
+        "displayName": "Survivor's Arsenal: Lib",
+        "ignore": false
+    },
+    {
         "modid": "sable",
         "license": "PolyForm Shield License 1.0.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/sable",
@@ -5456,6 +5640,14 @@
         "ignore": false
     },
     {
+        "modid": "smooththirdpersoncamera",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/smooth-third-person-camera",
+        "authors": "yoima",
+        "displayName": "Smooth Third Person Camera (STPC)",
+        "ignore": false
+    },
+    {
         "modid": "smwyg",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/show-me-what-you-got",
@@ -5728,6 +5920,14 @@
         "ignore": false
     },
     {
+        "modid": "streamsreflowing",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/streams-reflowing",
+        "authors": "nicejohn",
+        "displayName": "StreamsReflowing",
+        "ignore": false
+    },
+    {
         "modid": "structure_gel",
         "license": "GPL-3.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/structure-gel-api",
@@ -5805,6 +6005,22 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/superb-warfare",
         "authors": "Atsuishio, Roki27, Light_Quanta",
         "displayName": "Superb Warfare",
+        "ignore": false
+    },
+    {
+        "modid": "superhero",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/superhero-plus",
+        "authors": "Kostina",
+        "displayName": "Superhero+",
+        "ignore": false
+    },
+    {
+        "modid": "superman",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/superman-son-of-krypton",
+        "authors": "Dotty",
+        "displayName": "Superman",
         "ignore": false
     },
     {
@@ -5941,6 +6157,14 @@
         "url": "",
         "authors": "",
         "displayName": "Team Journey Map",
+        "ignore": false
+    },
+    {
+        "modid": "tech_components",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tech-components",
+        "authors": "InfinityMC",
+        "displayName": "Tech Components",
         "ignore": false
     },
     {
@@ -6544,6 +6768,14 @@
         "ignore": false
     },
     {
+        "modid": "wakes",
+        "license": "GPL-3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/wakes-reforged",
+        "authors": "Leclowndu93150",
+        "displayName": "Wakes",
+        "ignore": false
+    },
+    {
         "modid": "walkers",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/woodwalkers",
@@ -6653,6 +6885,14 @@
         "url": "",
         "authors": "bugga, MCreator",
         "displayName": "WelcomeToTheBackrooms",
+        "ignore": false
+    },
+    {
+        "modid": "whisps_stuff_and_things",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/whisps-stuff-and-things",
+        "authors": "WhispDerg",
+        "displayName": "Whisp's stuff and things",
         "ignore": false
     },
     {
