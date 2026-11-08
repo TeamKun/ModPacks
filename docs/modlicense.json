@@ -2856,6 +2856,14 @@
         "ignore": false
     },
     {
+        "modid": "gtbcs_spell_lib",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/gtbcs-spelllib",
+        "authors": "GameTechBC",
+        "displayName": "GTBC's SpellLib",
+        "ignore": false
+    },
+    {
         "modid": "guardvillagers",
         "license": "MIT",
         "url": "https://www.curseforge.com/minecraft/mc-mods/guard-villagers",
