@@ -226,5 +226,11 @@
         "url": "https://www.curseforge.com/minecraft/texture-packs/better-lanterns",
         "authors": "Nico4play",
         "displayName": "Better Lanterns"
+    },
+    {
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/texture-packs/nebula-sky",
+        "authors": "Sodvic",
+        "displayName": "Nebula Sky (Java Edition) - Custom Sky"
     }
 ]

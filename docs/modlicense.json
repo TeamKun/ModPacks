@@ -5145,7 +5145,7 @@
     },
     {
         "modid": "quantified",
-        "license": "BRSSLA V1.5",
+        "license": "BRSSLA",
         "url": "https://www.curseforge.com/minecraft/mc-mods/quantified-api",
         "authors": "Admany",
         "displayName": "Quantified API",
@@ -5201,7 +5201,7 @@
     },
     {
         "modid": "razor_tyrant",
-        "license": "Not specified",
+        "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/razor-tyrant-one-who-massacres",
         "authors": "CrimsonSteve, MCreator",
         "displayName": "Razor Tyrant",
@@ -6241,7 +6241,7 @@
     },
     {
         "modid": "taczaccelerated",
-        "license": "BRSSLA | BlackRift Studios",
+        "license": "BRSSLA",
         "url": "https://www.curseforge.com/minecraft/mc-mods/tacza",
         "authors": "Admany",
         "displayName": "TaCZ:Accel",

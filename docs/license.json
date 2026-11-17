@@ -518,5 +518,10 @@
     "name": "https://rojiuramod.cloudfree.jp/download",
     "canSecondaryDistribution": false,
     "shouldRightsNotation": true
+  },
+  {
+    "name": "BRSSLA",
+    "canSecondaryDistribution": true,
+    "shouldRightsNotation": false
   }
 ]
