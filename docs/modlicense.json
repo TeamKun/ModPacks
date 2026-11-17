@@ -40,6 +40,14 @@
         "ignore": false
     },
     {
+        "modid": "ad_astra_more_structures",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ad-astra-more-structures",
+        "authors": "Veydiz",
+        "displayName": "Ad Astra: More Structures",
+        "ignore": false
+    },
+    {
         "modid": "advanced_runtime_resource_pack",
         "license": "MPL-2.0",
         "url": "https://www.curseforge.com/minecraft/mc-mods/arrp",
@@ -384,6 +392,30 @@
         "ignore": false
     },
     {
+        "modid": "avp_alien",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/aliens-vs-predator-resurrection-aliens",
+        "authors": "AzureDoom",
+        "displayName": "AVP (Alien)",
+        "ignore": false
+    },
+    {
+        "modid": "avp_human",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/aliens-vs-predator-resurrection-human",
+        "authors": "Stargazer Studios",
+        "displayName": "AVP (Human)",
+        "ignore": false
+    },
+    {
+        "modid": "avp_predator",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/aliens-vs-predator-resurrection-predators",
+        "authors": "Stargazer Studios",
+        "displayName": "AVP (Predator)",
+        "ignore": false
+    },
+    {
         "modid": "awcapi",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/advanced-wall-climber-api",
@@ -637,6 +669,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/blahaj-replushed",
         "authors": "hibi, infoplayerstart, DaFuqs",
         "displayName": "Blåhaj",
+        "ignore": false
+    },
+    {
+        "modid": "blib",
+        "license": "All Rights Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/blib-resurrection",
+        "authors": "Stargazer Studios",
+        "displayName": "BLib",
         "ignore": false
     },
     {
@@ -992,6 +1032,14 @@
         "ignore": false
     },
     {
+        "modid": "chronofall",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/chronofall",
+        "authors": "NightBeam Studio",
+        "displayName": "Chronofall",
+        "ignore": false
+    },
+    {
         "modid": "chunky",
         "license": "GNU GPLv3",
         "url": "https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator",
@@ -1133,6 +1181,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/comforts",
         "authors": "Illusive Soulworks",
         "displayName": "Comforts",
+        "ignore": false
+    },
+    {
+        "modid": "common_storage_lib",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/common-storage-lib",
+        "authors": "CodexAdrian",
+        "displayName": "Common Storage Lib: Core",
         "ignore": false
     },
     {
@@ -2674,7 +2730,7 @@
     {
         "modid": "fusion",
         "license": "All Rights Reserved",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures",
         "authors": "",
         "displayName": "",
         "ignore": false
@@ -2837,6 +2893,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/the-graveyard-forge",
         "authors": "Lion",
         "displayName": "The Graveyard",
+        "ignore": false
+    },
+    {
+        "modid": "gravityapi",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/vs-gravity",
+        "authors": "min01",
+        "displayName": "VS Gravity",
         "ignore": false
     },
     {
@@ -3018,7 +3082,7 @@
     {
         "modid": "iceandfire",
         "license": "LGPL-3.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons",
         "authors": "Alexthe666, TheBv",
         "displayName": "Ice and Fire",
         "ignore": false
@@ -3282,7 +3346,7 @@
     {
         "modid": "irons_spellbooks",
         "license": "All Rights Reserved",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks",
         "authors": "Iron431, Lab3",
         "displayName": "Iron",
         "ignore": false
@@ -3341,6 +3405,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/jamlib",
         "authors": "Jamalam",
         "displayName": "JamLib",
+        "ignore": false
+    },
+    {
+        "modid": "jauml",
+        "license": "Apache-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jauml",
+        "authors": "NAIZO",
+        "displayName": "Jauml",
         "ignore": false
     },
     {
@@ -3544,6 +3616,14 @@
         "ignore": false
     },
     {
+        "modid": "laboratoryblocks",
+        "license": "MIT",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/artemis-laboratory-blocks",
+        "authors": "DoomedArtemis",
+        "displayName": "Artemis' Laboratory Blocks",
+        "ignore": false
+    },
+    {
         "modid": "lava_monster",
         "license": "https://moddinglegacy.com/ML-Lesser-Terms/",
         "url": "https://www.curseforge.com/minecraft/mc-mods/lava-monsters",
@@ -3642,7 +3722,7 @@
     {
         "modid": "lionfishapi",
         "license": "LGPL-3.0",
-        "url": "",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/lionfish-api",
         "authors": "",
         "displayName": "LionfishAPI",
         "ignore": false
@@ -4021,6 +4101,14 @@
         "url": "",
         "authors": "M1klos",
         "displayName": "Miklos_military_Armor",
+        "ignore": false
+    },
+    {
+        "modid": "mimic",
+        "license": "Academic Free License v3.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/mimics-mod",
+        "authors": "dylan, MCreator",
+        "displayName": "Mimic",
         "ignore": false
     },
     {
@@ -5056,6 +5144,14 @@
         "ignore": false
     },
     {
+        "modid": "quantified",
+        "license": "BRSSLA V1.5",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/quantified-api",
+        "authors": "Admany",
+        "displayName": "Quantified API",
+        "ignore": false
+    },
+    {
         "modid": "questsadditions",
         "license": "All Rights Reserved",
         "url": "https://www.curseforge.com/minecraft/mc-mods/quests-additions-fabric",
@@ -5101,6 +5197,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/rats",
         "authors": "AlexThe666, GizmoTheMoonPig",
         "displayName": "Rats",
+        "ignore": false
+    },
+    {
+        "modid": "razor_tyrant",
+        "license": "Not specified",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/razor-tyrant-one-who-massacres",
+        "authors": "CrimsonSteve, MCreator",
+        "displayName": "Razor Tyrant",
         "ignore": false
     },
     {
@@ -5253,6 +5357,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-mods/rightclickharvest",
         "authors": "Jamalam",
         "displayName": "Right Click Harvest",
+        "ignore": false
+    },
+    {
+        "modid": "ringworld",
+        "license": "MPL-2.0",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ringworld",
+        "authors": "Delaser",
+        "displayName": "RingWorld",
         "ignore": false
     },
     {
@@ -5477,6 +5589,14 @@
         "url": "",
         "authors": "",
         "displayName": "",
+        "ignore": false
+    },
+    {
+        "modid": "shooting_star_demo_multi",
+        "license": "All-Rights-Reserved",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/the-shooting-star-demo",
+        "authors": "rimuru.dev",
+        "displayName": "The Shooting Star (Demo)",
         "ignore": false
     },
     {
@@ -6117,6 +6237,14 @@
         "url": "https://www.curseforge.com/minecraft/mc-addons/tacz-ra1ks-gunpack",
         "authors": "Ra1k",
         "displayName": "Ra1k's Gunpack (TACZ content pack)",
+        "ignore": false
+    },
+    {
+        "modid": "taczaccelerated",
+        "license": "BRSSLA | BlackRift Studios",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tacza",
+        "authors": "Admany",
+        "displayName": "TaCZ:Accel",
         "ignore": false
     },
     {
